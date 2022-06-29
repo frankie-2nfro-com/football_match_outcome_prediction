@@ -147,7 +147,7 @@ For each year, does the trend of the number of home wins change:
 After scanning the data, some obvious problems could be located like encoding problem, format problem and NaN. It may need to solve if the data is useful. Another big problem I found is that "Result" field in the result_pd actually is not suitable to be stored like that. It is in a string format and the data itself is aggregated with some important data. So I will break down this field into some new fields i.e. Home_Score, Away_Score, Home_Win, Away_Win and Draw.
 
 ### Prelimilary direction
-With the data I have, what features I consider to be more important for predicting the outcome of the match? In my view, I think the recent performance of a team is one of the key to predict the team's outcome. The question is how to get recent performance? In the data, I could decompose result field into Home_Score and Away_Score, so I can get the goal difference. If I get latest n matches goal difference as the team recent performance, I can use this to predict which team have better performance. Apart from this, Home_Yellow, Home_Red, Away_Yellow and Away_Red in match_pd may be kind of implication of the team performance. 
+Actually, the data I have is quite simple and limited. Before enhancing the source information, what features I consider to be more important for predicting the outcome of the match? In my view, I think the recent performance of a team is one of the key to predict the team's outcome. The question is how to get recent performance? In the data, I could decompose result field into Home_Score and Away_Score, so I can get the goal difference. If I get latest n matches goal difference as the team recent performance, I can use this to predict which team have better performance. Apart from this, Home_Yellow, Home_Red, Away_Yellow and Away_Red in match_pd may be kind of implication of the team performance. 
 
 ### Data cleaning and refine
 Firstly, I will try to decompose result field into Home_Score, Away_Score, Home_Win, Away_Win and Draw. Definition is as follows:
@@ -221,14 +221,20 @@ pyplot.show()
 ![hist chart](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/result_pd_hist_chart.png)
 
 ### Hypothesis Testing
+After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions.
+
 #### Test 1
 I guess the data to represent the team recent performance should be able to predict the result:
 
 Recent performance Definition: (e.g. goal diffence for latest 3 games)
 
 Hypothesis Testing:
+
 H0: Team which latest 3 games with better goal difference wins the game
+
 H1: Team which latest 3 games with better goal difference cannot win the game
+
+Significance level: 5% (quite hard)
 
 #### Test 2 
 I guess the data to represent the team recent game control should be able to predict the result:
@@ -236,7 +242,9 @@ I guess the data to represent the team recent game control should be able to pre
 Recent Game Control Definition: (e.g. yellow card total for latest 3 games, 1 red card = 2 yellow card)
 
 Hypothesis Testing:
+
 H0: Team which latest 3 games with less yellow cards wins the game
+
 H1: Team which latest 3 games with less yellow cards cannot win the game
 
-
+Significance level: 5% (quite hard)
