@@ -57,11 +57,95 @@ Match first 20 records:
 Team first 20 records:
 ![Team first 20 records](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Team_records_20.png)
 
-### Problem found at the data
+Structure and summary of data:
 
-### Data cleaning and refine
+result_pd.info()
+```
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 146641 entries, 0 to 379
+Data columns (total 7 columns):
+ #   Column     Non-Null Count   Dtype 
+---  ------     --------------   ----- 
+ 0   Home_Team  146641 non-null  object
+ 1   Away_Team  146641 non-null  object
+ 2   Result     146641 non-null  object
+ 3   Link       146641 non-null  object
+ 4   Season     146641 non-null  object
+ 5   Round      146641 non-null  object
+ 6   League     146641 non-null  object
+dtypes: object(7)
+memory usage: 9.0+ MB
+```
+
+match_pd.info()
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 143348 entries, 0 to 143347
+Data columns (total 7 columns):
+ #   Column       Non-Null Count   Dtype  
+---  ------       --------------   -----  
+ 0   Link         143348 non-null  object 
+ 1   Date_New     143348 non-null  object 
+ 2   Referee      143348 non-null  object 
+ 3   Home_Yellow  122798 non-null  float64
+ 4   Home_Red     122798 non-null  float64
+ 5   Away_Yellow  122798 non-null  float64
+ 6   Away_Red     122798 non-null  float64
+dtypes: float64(4), object(3)
+memory usage: 7.7+ MB
+```
+
+team_pd.info()
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 544 entries, 0 to 543
+Data columns (total 6 columns):
+ #   Column    Non-Null Count  Dtype 
+---  ------    --------------  ----- 
+ 0   Team      544 non-null    object
+ 1   City      544 non-null    object
+ 2   Country   544 non-null    object
+ 3   Stadium   447 non-null    object
+ 4   Capacity  544 non-null    object
+ 5   Pitch     447 non-null    object
+dtypes: object(6)
+memory usage: 25.6+ KB
+```
+
+To find out some relationships amongst the data, I create some functions to filter result_pd:
+```python
+def getLeagueDataFrame(data, league):
+    return data[data["League"]==league]
+
+def getLeagueSeasonDataFrame(data, league, season):
+    return data[(data["League"]==league) & (data["Season"]==season)]
+     
+def getLeagueSeasonTeamDataFrame(data, league, season, team):
+    return data[(data["League"]==league) & ((data["Home_Team"]==team) | (data["Away_Team"]==team)) & (data["Season"]==season)]
+
+def getLeagueTeamCount(data, league, season):
+    league_season_df = getLeagueSeasonDataFrame(data, league, season)
+    return len(league_season_df["Home_Team"].sort_values().unique())
+    
+...
+```
+
+Some high level relationships amongst the variables, e.g. for each league, how many teams in a particular season:
+```python
+leagues = result_pd["League"].sort_values().unique()
+for league in leagues:
+    league_pd = getLeagueDataFrame(result_pd, league)
+    seasons = league_pd["Season"].sort_values().unique()
+    for season in seasons:
+        print(league, season, getLeagueTeamCount(result_pd, league, season))
+```
+
+### Problem found at the data
+Just scanning the above data, some obvious problems could be located like encoding problem, format problem and NaN. It may need to solve if the data is useful. Another big problem I found is that "Result" field in the result_pd actually is not suitable to be stored like that. It is in a string format and the data itself is aggregated with some important data. So I will break down this field into some new fields i.e. Home_Score, Away_Score, Home_Win, Away_Win and Draw.
 
 ### Prelimilary direction
+
+### Data cleaning and refine
 
 ### Hypothesis Testing
 
