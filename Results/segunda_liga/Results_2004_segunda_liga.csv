@@ -1,0 +1,306 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,Estoril,SP. Covilhã,1-0,https://www.besoccer.com/match/estoril/sporting-covilha/200410429,2004,1,segunda_liga
+1,Ovarense,Varzim,4-1,https://www.besoccer.com/match/ovarense/varzim/200410430,2004,1,segunda_liga
+2,Leixões,Chaves,1-1,https://www.besoccer.com/match/leixoes/chaves/200410431,2004,1,segunda_liga
+3,FC Marco,Penafiel,1-3,https://www.besoccer.com/match/fc-marco/penafiel/200410432,2004,1,segunda_liga
+4,Vitória Setúbal,Portimonense,2-0,https://www.besoccer.com/match/vitoria-setubal/portimonense/200410433,2004,1,segunda_liga
+5,FC Maia,Feirense,2-2,https://www.besoccer.com/match/fc-maia/feirense/200410434,2004,1,segunda_liga
+6,CD Santa Clara,União Madeira,0-0,https://www.besoccer.com/match/santa-clara/uniao-madeira/200410435,2004,1,segunda_liga
+7,FC Felgueiras,SC Salgueiros,0-1,https://www.besoccer.com/match/fc-felgueiras/salgueiros/200410427,2004,1,segunda_liga
+8,Desportivo Aves,Naval,2-0,https://www.besoccer.com/match/desportivo-aves/naval/200410428,2004,1,segunda_liga
+9,Feirense,Desportivo Aves,2-1,https://www.besoccer.com/match/feirense/desportivo-aves/200410426,2004,2,segunda_liga
+10,União Madeira,Leixões,0-0,https://www.besoccer.com/match/uniao-madeira/leixoes/200410418,2004,2,segunda_liga
+11,Penafiel,Vitória Setúbal,3-3,https://www.besoccer.com/match/penafiel/vitoria-setubal/200410419,2004,2,segunda_liga
+12,Portimonense,FC Maia,3-1,https://www.besoccer.com/match/portimonense/fc-maia/200410420,2004,2,segunda_liga
+13,Naval,Estoril,3-1,https://www.besoccer.com/match/naval/estoril/200410421,2004,2,segunda_liga
+14,SP. Covilhã,FC Felgueiras,0-1,https://www.besoccer.com/match/sporting-covilha/fc-felgueiras/200410422,2004,2,segunda_liga
+15,SC Salgueiros,CD Santa Clara,2-2,https://www.besoccer.com/match/salgueiros/santa-clara/200410423,2004,2,segunda_liga
+16,Chaves,Ovarense,1-1,https://www.besoccer.com/match/chaves/ovarense/200410424,2004,2,segunda_liga
+17,Varzim,FC Marco,1-0,https://www.besoccer.com/match/varzim/fc-marco/200410425,2004,2,segunda_liga
+18,FC Marco,Chaves,1-0,https://www.besoccer.com/match/fc-marco/chaves/200410416,2004,3,segunda_liga
+19,Vitória Setúbal,Varzim,2-1,https://www.besoccer.com/match/vitoria-setubal/varzim/200410417,2004,3,segunda_liga
+20,CD Santa Clara,Leixões,1-0,https://www.besoccer.com/match/santa-clara/leixoes/200410409,2004,3,segunda_liga
+21,Ovarense,União Madeira,1-0,https://www.besoccer.com/match/ovarense/uniao-madeira/200410410,2004,3,segunda_liga
+22,FC Maia,Penafiel,2-2,https://www.besoccer.com/match/fc-maia/penafiel/200410411,2004,3,segunda_liga
+23,Desportivo Aves,Portimonense,2-0,https://www.besoccer.com/match/desportivo-aves/portimonense/200410412,2004,3,segunda_liga
+24,Estoril,Feirense,2-1,https://www.besoccer.com/match/estoril/feirense/200410413,2004,3,segunda_liga
+25,FC Felgueiras,Naval,1-1,https://www.besoccer.com/match/fc-felgueiras/naval/200410414,2004,3,segunda_liga
+26,SC Salgueiros,SP. Covilhã,2-1,https://www.besoccer.com/match/salgueiros/sporting-covilha/200410415,2004,3,segunda_liga
+27,Feirense,FC Felgueiras,2-1,https://www.besoccer.com/match/feirense/fc-felgueiras/200410408,2004,4,segunda_liga
+28,Portimonense,Estoril,0-1,https://www.besoccer.com/match/portimonense/estoril/200410400,2004,4,segunda_liga
+29,Varzim,FC Maia,3-1,https://www.besoccer.com/match/varzim/fc-maia/200410401,2004,4,segunda_liga
+30,Penafiel,Desportivo Aves,4-4,https://www.besoccer.com/match/penafiel/desportivo-aves/200410402,2004,4,segunda_liga
+31,Naval,SC Salgueiros,2-0,https://www.besoccer.com/match/naval/salgueiros/200410403,2004,4,segunda_liga
+32,SP. Covilhã,CD Santa Clara,0-2,https://www.besoccer.com/match/sporting-covilha/santa-clara/200410404,2004,4,segunda_liga
+33,Leixões,Ovarense,2-1,https://www.besoccer.com/match/leixoes/ovarense/200410405,2004,4,segunda_liga
+34,União Madeira,FC Marco,3-1,https://www.besoccer.com/match/uniao-madeira/fc-marco/200410406,2004,4,segunda_liga
+35,Chaves,Vitória Setúbal,3-2,https://www.besoccer.com/match/chaves/vitoria-setubal/200410407,2004,4,segunda_liga
+36,FC Marco,Leixões,0-1,https://www.besoccer.com/match/fc-marco/leixoes/200410399,2004,5,segunda_liga
+37,CD Santa Clara,Ovarense,0-2,https://www.besoccer.com/match/santa-clara/ovarense/200410391,2004,5,segunda_liga
+38,Vitória Setúbal,União Madeira,0-0,https://www.besoccer.com/match/vitoria-setubal/uniao-madeira/200410392,2004,5,segunda_liga
+39,FC Maia,Chaves,0-0,https://www.besoccer.com/match/fc-maia/chaves/200410393,2004,5,segunda_liga
+40,Desportivo Aves,Varzim,0-3,https://www.besoccer.com/match/desportivo-aves/varzim/200410394,2004,5,segunda_liga
+41,Estoril,Penafiel,2-0,https://www.besoccer.com/match/estoril/penafiel/200410395,2004,5,segunda_liga
+42,FC Felgueiras,Portimonense,1-3,https://www.besoccer.com/match/fc-felgueiras/portimonense/200410396,2004,5,segunda_liga
+43,SC Salgueiros,Feirense,0-1,https://www.besoccer.com/match/salgueiros/feirense/200410397,2004,5,segunda_liga
+44,SP. Covilhã,Naval,0-2,https://www.besoccer.com/match/sporting-covilha/naval/200410398,2004,5,segunda_liga
+45,Feirense,SP. Covilhã,3-1,https://www.besoccer.com/match/feirense/sporting-covilha/200410390,2004,6,segunda_liga
+46,Penafiel,FC Felgueiras,2-0,https://www.besoccer.com/match/penafiel/fc-felgueiras/200410382,2004,6,segunda_liga
+47,Ovarense,FC Marco,1-1,https://www.besoccer.com/match/ovarense/fc-marco/200410383,2004,6,segunda_liga
+48,Leixões,Vitória Setúbal,1-1,https://www.besoccer.com/match/leixoes/vitoria-setubal/200410384,2004,6,segunda_liga
+49,União Madeira,FC Maia,3-2,https://www.besoccer.com/match/uniao-madeira/fc-maia/200410385,2004,6,segunda_liga
+50,Chaves,Desportivo Aves,3-2,https://www.besoccer.com/match/chaves/desportivo-aves/200410386,2004,6,segunda_liga
+51,Varzim,Estoril,1-0,https://www.besoccer.com/match/varzim/estoril/200410387,2004,6,segunda_liga
+52,Portimonense,SC Salgueiros,2-3,https://www.besoccer.com/match/portimonense/salgueiros/200410388,2004,6,segunda_liga
+53,Naval,CD Santa Clara,2-2,https://www.besoccer.com/match/naval/santa-clara/200410389,2004,6,segunda_liga
+54,Vitória Setúbal,Ovarense,2-1,https://www.besoccer.com/match/vitoria-setubal/ovarense/200410381,2004,7,segunda_liga
+55,CD Santa Clara,FC Marco,1-1,https://www.besoccer.com/match/santa-clara/fc-marco/200410373,2004,7,segunda_liga
+56,FC Maia,Leixões,2-1,https://www.besoccer.com/match/fc-maia/leixoes/200410374,2004,7,segunda_liga
+57,Naval,Feirense,3-0,https://www.besoccer.com/match/naval/feirense/200410375,2004,7,segunda_liga
+58,Desportivo Aves,União Madeira,3-1,https://www.besoccer.com/match/desportivo-aves/uniao-madeira/200410376,2004,7,segunda_liga
+59,Estoril,Chaves,2-1,https://www.besoccer.com/match/estoril/chaves/200410377,2004,7,segunda_liga
+60,FC Felgueiras,Varzim,1-0,https://www.besoccer.com/match/fc-felgueiras/varzim/200410378,2004,7,segunda_liga
+61,SC Salgueiros,Penafiel,3-1,https://www.besoccer.com/match/salgueiros/penafiel/200410379,2004,7,segunda_liga
+62,SP. Covilhã,Portimonense,1-2,https://www.besoccer.com/match/sporting-covilha/portimonense/200410380,2004,7,segunda_liga
+63,FC Marco,Vitória Setúbal,3-1,https://www.besoccer.com/match/fc-marco/vitoria-setubal/200410372,2004,8,segunda_liga
+64,Portimonense,Naval,1-1,https://www.besoccer.com/match/portimonense/naval/200410364,2004,8,segunda_liga
+65,Feirense,CD Santa Clara,0-0,https://www.besoccer.com/match/feirense/santa-clara/200410365,2004,8,segunda_liga
+66,Leixões,Desportivo Aves,3-1,https://www.besoccer.com/match/leixoes/desportivo-aves/200410366,2004,8,segunda_liga
+67,União Madeira,Estoril,1-3,https://www.besoccer.com/match/uniao-madeira/estoril/200410367,2004,8,segunda_liga
+68,Varzim,SC Salgueiros,2-1,https://www.besoccer.com/match/varzim/salgueiros/200410368,2004,8,segunda_liga
+69,Penafiel,SP. Covilhã,3-0,https://www.besoccer.com/match/penafiel/sporting-covilha/200410369,2004,8,segunda_liga
+70,Ovarense,FC Maia,1-0,https://www.besoccer.com/match/ovarense/fc-maia/200410370,2004,8,segunda_liga
+71,Chaves,FC Felgueiras,1-0,https://www.besoccer.com/match/chaves/fc-felgueiras/200410371,2004,8,segunda_liga
+72,CD Santa Clara,Vitória Setúbal,2-2,https://www.besoccer.com/match/santa-clara/vitoria-setubal/200410363,2004,9,segunda_liga
+73,Feirense,Portimonense,1-1,https://www.besoccer.com/match/feirense/portimonense/200410362,2004,9,segunda_liga
+74,Naval,Penafiel,1-0,https://www.besoccer.com/match/naval/penafiel/200410355,2004,9,segunda_liga
+75,FC Maia,FC Marco,2-0,https://www.besoccer.com/match/fc-maia/fc-marco/200410356,2004,9,segunda_liga
+76,Estoril,Leixões,3-0,https://www.besoccer.com/match/estoril/leixoes/200410357,2004,9,segunda_liga
+77,FC Felgueiras,União Madeira,2-0,https://www.besoccer.com/match/fc-felgueiras/uniao-madeira/200410358,2004,9,segunda_liga
+78,SC Salgueiros,Chaves,3-3,https://www.besoccer.com/match/salgueiros/chaves/200410359,2004,9,segunda_liga
+79,SP. Covilhã,Varzim,0-1,https://www.besoccer.com/match/sporting-covilha/varzim/200410360,2004,9,segunda_liga
+80,Desportivo Aves,Ovarense,1-1,https://www.besoccer.com/match/desportivo-aves/ovarense/200410361,2004,9,segunda_liga
+81,Vitória Setúbal,FC Maia,3-1,https://www.besoccer.com/match/vitoria-setubal/fc-maia/200410354,2004,10,segunda_liga
+82,União Madeira,SC Salgueiros,1-2,https://www.besoccer.com/match/uniao-madeira/salgueiros/200410346,2004,10,segunda_liga
+83,Portimonense,CD Santa Clara,3-0,https://www.besoccer.com/match/portimonense/santa-clara/200410347,2004,10,segunda_liga
+84,FC Marco,Desportivo Aves,1-0,https://www.besoccer.com/match/fc-marco/desportivo-aves/200410348,2004,10,segunda_liga
+85,Leixões,FC Felgueiras,0-0,https://www.besoccer.com/match/leixoes/fc-felgueiras/200410349,2004,10,segunda_liga
+86,Penafiel,Feirense,1-0,https://www.besoccer.com/match/penafiel/feirense/200410350,2004,10,segunda_liga
+87,Chaves,SP. Covilhã,0-0,https://www.besoccer.com/match/chaves/sporting-covilha/200410351,2004,10,segunda_liga
+88,Varzim,Naval,1-0,https://www.besoccer.com/match/varzim/naval/200410352,2004,10,segunda_liga
+89,Ovarense,Estoril,1-1,https://www.besoccer.com/match/ovarense/estoril/200410353,2004,10,segunda_liga
+90,CD Santa Clara,FC Maia,4-2,https://www.besoccer.com/match/santa-clara/fc-maia/200410345,2004,11,segunda_liga
+91,Desportivo Aves,Vitória Setúbal,1-3,https://www.besoccer.com/match/desportivo-aves/vitoria-setubal/200410343,2004,11,segunda_liga
+92,FC Felgueiras,Ovarense,4-1,https://www.besoccer.com/match/fc-felgueiras/ovarense/200410344,2004,11,segunda_liga
+93,Estoril,FC Marco,3-0,https://www.besoccer.com/match/estoril/fc-marco/200410337,2004,11,segunda_liga
+94,Naval,Chaves,1-0,https://www.besoccer.com/match/naval/chaves/200410338,2004,11,segunda_liga
+95,Feirense,Varzim,0-1,https://www.besoccer.com/match/feirense/varzim/200410339,2004,11,segunda_liga
+96,Portimonense,Penafiel,1-0,https://www.besoccer.com/match/portimonense/penafiel/200410340,2004,11,segunda_liga
+97,SC Salgueiros,Leixões,3-1,https://www.besoccer.com/match/salgueiros/leixoes/200410341,2004,11,segunda_liga
+98,SP. Covilhã,União Madeira,3-1,https://www.besoccer.com/match/sporting-covilha/uniao-madeira/200410342,2004,11,segunda_liga
+99,FC Maia,Desportivo Aves,4-0,https://www.besoccer.com/match/fc-maia/desportivo-aves/200410328,2004,12,segunda_liga
+100,União Madeira,Naval,2-2,https://www.besoccer.com/match/uniao-madeira/naval/200410329,2004,12,segunda_liga
+101,FC Marco,FC Felgueiras,0-1,https://www.besoccer.com/match/fc-marco/fc-felgueiras/200410330,2004,12,segunda_liga
+102,Ovarense,SC Salgueiros,1-2,https://www.besoccer.com/match/ovarense/salgueiros/200410331,2004,12,segunda_liga
+103,Leixões,SP. Covilhã,1-1,https://www.besoccer.com/match/leixoes/sporting-covilha/200410332,2004,12,segunda_liga
+104,Chaves,Feirense,1-0,https://www.besoccer.com/match/chaves/feirense/200410333,2004,12,segunda_liga
+105,Varzim,Portimonense,1-1,https://www.besoccer.com/match/varzim/portimonense/200410334,2004,12,segunda_liga
+106,Penafiel,CD Santa Clara,1-0,https://www.besoccer.com/match/penafiel/santa-clara/200410335,2004,12,segunda_liga
+107,Vitória Setúbal,Estoril,2-2,https://www.besoccer.com/match/vitoria-setubal/estoril/200410336,2004,12,segunda_liga
+108,CD Santa Clara,Desportivo Aves,1-0,https://www.besoccer.com/match/santa-clara/desportivo-aves/200410327,2004,13,segunda_liga
+109,Estoril,FC Maia,0-3,https://www.besoccer.com/match/estoril/fc-maia/200410319,2004,13,segunda_liga
+110,Naval,Leixões,5-0,https://www.besoccer.com/match/naval/leixoes/200410320,2004,13,segunda_liga
+111,Portimonense,Chaves,0-1,https://www.besoccer.com/match/portimonense/chaves/200410321,2004,13,segunda_liga
+112,Penafiel,Varzim,2-0,https://www.besoccer.com/match/penafiel/varzim/200410322,2004,13,segunda_liga
+113,FC Felgueiras,Vitória Setúbal,0-3,https://www.besoccer.com/match/fc-felgueiras/vitoria-setubal/200410323,2004,13,segunda_liga
+114,SC Salgueiros,FC Marco,3-0,https://www.besoccer.com/match/salgueiros/fc-marco/200410324,2004,13,segunda_liga
+115,SP. Covilhã,Ovarense,1-2,https://www.besoccer.com/match/sporting-covilha/ovarense/200410325,2004,13,segunda_liga
+116,Feirense,União Madeira,3-3,https://www.besoccer.com/match/feirense/uniao-madeira/200410326,2004,13,segunda_liga
+117,FC Maia,FC Felgueiras,2-0,https://www.besoccer.com/match/fc-maia/fc-felgueiras/200410317,2004,14,segunda_liga
+118,Vitória Setúbal,SC Salgueiros,3-2,https://www.besoccer.com/match/vitoria-setubal/salgueiros/200410318,2004,14,segunda_liga
+119,União Madeira,Portimonense,1-1,https://www.besoccer.com/match/uniao-madeira/portimonense/200410310,2004,14,segunda_liga
+120,Chaves,Penafiel,0-1,https://www.besoccer.com/match/chaves/penafiel/200410311,2004,14,segunda_liga
+121,Varzim,CD Santa Clara,3-2,https://www.besoccer.com/match/varzim/santa-clara/200410312,2004,14,segunda_liga
+122,Desportivo Aves,Estoril,2-1,https://www.besoccer.com/match/desportivo-aves/estoril/200410313,2004,14,segunda_liga
+123,FC Marco,SP. Covilhã,3-1,https://www.besoccer.com/match/fc-marco/sporting-covilha/200410314,2004,14,segunda_liga
+124,Ovarense,Naval,1-2,https://www.besoccer.com/match/ovarense/naval/200410315,2004,14,segunda_liga
+125,Leixões,Feirense,2-2,https://www.besoccer.com/match/leixoes/feirense/200410316,2004,14,segunda_liga
+126,Feirense,Ovarense,2-1,https://www.besoccer.com/match/feirense/ovarense/200410309,2004,15,segunda_liga
+127,CD Santa Clara,Estoril,0-3,https://www.besoccer.com/match/santa-clara/estoril/200410301,2004,15,segunda_liga
+128,Naval,FC Marco,1-1,https://www.besoccer.com/match/naval/fc-marco/200410302,2004,15,segunda_liga
+129,Portimonense,Leixões,1-2,https://www.besoccer.com/match/portimonense/leixoes/200410303,2004,15,segunda_liga
+130,Penafiel,União Madeira,2-1,https://www.besoccer.com/match/penafiel/uniao-madeira/200410304,2004,15,segunda_liga
+131,Varzim,Chaves,0-0,https://www.besoccer.com/match/varzim/chaves/200410305,2004,15,segunda_liga
+132,FC Felgueiras,Desportivo Aves,1-1,https://www.besoccer.com/match/fc-felgueiras/desportivo-aves/200410306,2004,15,segunda_liga
+133,SC Salgueiros,FC Maia,1-1,https://www.besoccer.com/match/salgueiros/fc-maia/200410307,2004,15,segunda_liga
+134,SP. Covilhã,Vitória Setúbal,2-0,https://www.besoccer.com/match/sporting-covilha/vitoria-setubal/200410308,2004,15,segunda_liga
+135,Vitória Setúbal,Naval,3-0,https://www.besoccer.com/match/vitoria-setubal/naval/200410293,2004,16,segunda_liga
+136,União Madeira,Varzim,0-1,https://www.besoccer.com/match/uniao-madeira/varzim/200410294,2004,16,segunda_liga
+137,Estoril,FC Felgueiras,2-0,https://www.besoccer.com/match/estoril/fc-felgueiras/200410295,2004,16,segunda_liga
+138,FC Maia,SP. Covilhã,3-1,https://www.besoccer.com/match/fc-maia/sporting-covilha/200410296,2004,16,segunda_liga
+139,FC Marco,Feirense,2-2,https://www.besoccer.com/match/fc-marco/feirense/200410297,2004,16,segunda_liga
+140,Ovarense,Portimonense,1-1,https://www.besoccer.com/match/ovarense/portimonense/200410298,2004,16,segunda_liga
+141,Leixões,Penafiel,1-1,https://www.besoccer.com/match/leixoes/penafiel/200410299,2004,16,segunda_liga
+142,Desportivo Aves,SC Salgueiros,2-0,https://www.besoccer.com/match/desportivo-aves/salgueiros/200410300,2004,16,segunda_liga
+143,FC Felgueiras,CD Santa Clara,2-0,https://www.besoccer.com/match/fc-felgueiras/santa-clara/200410289,2004,17,segunda_liga
+144,Feirense,Vitória Setúbal,0-0,https://www.besoccer.com/match/feirense/vitoria-setubal/200410290,2004,17,segunda_liga
+145,Portimonense,FC Marco,2-0,https://www.besoccer.com/match/portimonense/fc-marco/200410291,2004,17,segunda_liga
+146,SC Salgueiros,Estoril,1-2,https://www.besoccer.com/match/salgueiros/estoril/200410292,2004,17,segunda_liga
+147,Naval,FC Maia,5-0,https://www.besoccer.com/match/naval/fc-maia/200410284,2004,17,segunda_liga
+148,Penafiel,Ovarense,3-1,https://www.besoccer.com/match/penafiel/ovarense/200410285,2004,17,segunda_liga
+149,SP. Covilhã,Desportivo Aves,4-0,https://www.besoccer.com/match/sporting-covilha/desportivo-aves/200410286,2004,17,segunda_liga
+150,Varzim,Leixões,1-1,https://www.besoccer.com/match/varzim/leixoes/200410287,2004,17,segunda_liga
+151,Chaves,União Madeira,2-1,https://www.besoccer.com/match/chaves/uniao-madeira/200410288,2004,17,segunda_liga
+152,Naval,Desportivo Aves,0-1,https://www.besoccer.com/match/naval/desportivo-aves/200410275,2004,18,segunda_liga
+153,União Madeira,CD Santa Clara,1-1,https://www.besoccer.com/match/uniao-madeira/santa-clara/200410276,2004,18,segunda_liga
+154,Penafiel,FC Marco,0-1,https://www.besoccer.com/match/penafiel/fc-marco/200410277,2004,18,segunda_liga
+155,Portimonense,Vitória Setúbal,3-3,https://www.besoccer.com/match/portimonense/vitoria-setubal/200410278,2004,18,segunda_liga
+156,Varzim,Ovarense,5-2,https://www.besoccer.com/match/varzim/ovarense/200410279,2004,18,segunda_liga
+157,SC Salgueiros,FC Felgueiras,1-1,https://www.besoccer.com/match/salgueiros/fc-felgueiras/200410280,2004,18,segunda_liga
+158,Chaves,Leixões,1-4,https://www.besoccer.com/match/chaves/leixoes/200410281,2004,18,segunda_liga
+159,Feirense,FC Maia,6-1,https://www.besoccer.com/match/feirense/fc-maia/200410282,2004,18,segunda_liga
+160,SP. Covilhã,Estoril,0-1,https://www.besoccer.com/match/sporting-covilha/estoril/200410283,2004,18,segunda_liga
+161,CD Santa Clara,SC Salgueiros,1-0,https://www.besoccer.com/match/santa-clara/salgueiros/200410274,2004,19,segunda_liga
+162,FC Felgueiras,SP. Covilhã,3-1,https://www.besoccer.com/match/fc-felgueiras/sporting-covilha/200410273,2004,19,segunda_liga
+163,FC Marco,Varzim,1-2,https://www.besoccer.com/match/fc-marco/varzim/200410266,2004,19,segunda_liga
+164,FC Maia,Portimonense,1-0,https://www.besoccer.com/match/fc-maia/portimonense/200410267,2004,19,segunda_liga
+165,Estoril,Naval,4-0,https://www.besoccer.com/match/estoril/naval/200410268,2004,19,segunda_liga
+166,Leixões,União Madeira,1-1,https://www.besoccer.com/match/leixoes/uniao-madeira/200410269,2004,19,segunda_liga
+167,Ovarense,Chaves,1-1,https://www.besoccer.com/match/ovarense/chaves/200410270,2004,19,segunda_liga
+168,Vitória Setúbal,Penafiel,0-0,https://www.besoccer.com/match/vitoria-setubal/penafiel/200410271,2004,19,segunda_liga
+169,Desportivo Aves,Feirense,2-1,https://www.besoccer.com/match/desportivo-aves/feirense/200410272,2004,19,segunda_liga
+170,Naval,FC Felgueiras,3-3,https://www.besoccer.com/match/naval/fc-felgueiras/200410258,2004,20,segunda_liga
+171,União Madeira,Ovarense,2-2,https://www.besoccer.com/match/uniao-madeira/ovarense/200410259,2004,20,segunda_liga
+172,Feirense,Estoril,3-3,https://www.besoccer.com/match/feirense/estoril/200410260,2004,20,segunda_liga
+173,Penafiel,FC Maia,1-1,https://www.besoccer.com/match/penafiel/fc-maia/200410261,2004,20,segunda_liga
+174,Portimonense,Desportivo Aves,1-4,https://www.besoccer.com/match/portimonense/desportivo-aves/200410262,2004,20,segunda_liga
+175,Leixões,CD Santa Clara,1-2,https://www.besoccer.com/match/leixoes/santa-clara/200410263,2004,20,segunda_liga
+176,Chaves,FC Marco,2-1,https://www.besoccer.com/match/chaves/fc-marco/200410264,2004,20,segunda_liga
+177,Varzim,Vitória Setúbal,1-2,https://www.besoccer.com/match/varzim/vitoria-setubal/200410265,2004,20,segunda_liga
+178,SP. Covilhã,SC Salgueiros,3-2,https://www.besoccer.com/match/sporting-covilha/salgueiros/200410257,2004,20,segunda_liga
+179,FC Felgueiras,Feirense,0-1,https://www.besoccer.com/match/fc-felgueiras/feirense/200410254,2004,21,segunda_liga
+180,Estoril,Portimonense,0-0,https://www.besoccer.com/match/estoril/portimonense/200410255,2004,21,segunda_liga
+181,SC Salgueiros,Naval,2-0,https://www.besoccer.com/match/salgueiros/naval/200410256,2004,21,segunda_liga
+182,CD Santa Clara,SP. Covilhã,0-1,https://www.besoccer.com/match/santa-clara/sporting-covilha/200410248,2004,21,segunda_liga
+183,Vitória Setúbal,Chaves,3-3,https://www.besoccer.com/match/vitoria-setubal/chaves/200410249,2004,21,segunda_liga
+184,FC Maia,Varzim,1-2,https://www.besoccer.com/match/fc-maia/varzim/200410250,2004,21,segunda_liga
+185,Ovarense,Leixões,2-2,https://www.besoccer.com/match/ovarense/leixoes/200410251,2004,21,segunda_liga
+186,FC Marco,União Madeira,2-2,https://www.besoccer.com/match/fc-marco/uniao-madeira/200410252,2004,21,segunda_liga
+187,Desportivo Aves,Penafiel,1-0,https://www.besoccer.com/match/desportivo-aves/penafiel/200410253,2004,21,segunda_liga
+188,Feirense,SC Salgueiros,0-1,https://www.besoccer.com/match/feirense/salgueiros/200410239,2004,22,segunda_liga
+189,Naval,SP. Covilhã,2-1,https://www.besoccer.com/match/naval/sporting-covilha/200410240,2004,22,segunda_liga
+190,União Madeira,Vitória Setúbal,1-1,https://www.besoccer.com/match/uniao-madeira/vitoria-setubal/200410241,2004,22,segunda_liga
+191,Penafiel,Estoril,3-1,https://www.besoccer.com/match/penafiel/estoril/200410242,2004,22,segunda_liga
+192,Portimonense,FC Felgueiras,0-0,https://www.besoccer.com/match/portimonense/fc-felgueiras/200410243,2004,22,segunda_liga
+193,Varzim,Desportivo Aves,1-1,https://www.besoccer.com/match/varzim/desportivo-aves/200410244,2004,22,segunda_liga
+194,Ovarense,CD Santa Clara,3-1,https://www.besoccer.com/match/ovarense/santa-clara/200410245,2004,22,segunda_liga
+195,Leixões,FC Marco,2-0,https://www.besoccer.com/match/leixoes/fc-marco/200410246,2004,22,segunda_liga
+196,Chaves,FC Maia,0-1,https://www.besoccer.com/match/chaves/fc-maia/200410247,2004,22,segunda_liga
+197,CD Santa Clara,Naval,1-0,https://www.besoccer.com/match/santa-clara/naval/200410238,2004,23,segunda_liga
+198,FC Maia,União Madeira,1-0,https://www.besoccer.com/match/fc-maia/uniao-madeira/200410231,2004,23,segunda_liga
+199,Estoril,Varzim,3-3,https://www.besoccer.com/match/estoril/varzim/200410232,2004,23,segunda_liga
+200,Vitória Setúbal,Leixões,3-1,https://www.besoccer.com/match/vitoria-setubal/leixoes/200410233,2004,23,segunda_liga
+201,FC Felgueiras,Penafiel,2-3,https://www.besoccer.com/match/fc-felgueiras/penafiel/200410234,2004,23,segunda_liga
+202,Desportivo Aves,Chaves,1-0,https://www.besoccer.com/match/desportivo-aves/chaves/200410235,2004,23,segunda_liga
+203,SC Salgueiros,Portimonense,1-0,https://www.besoccer.com/match/salgueiros/portimonense/200410236,2004,23,segunda_liga
+204,FC Marco,Ovarense,3-1,https://www.besoccer.com/match/fc-marco/ovarense/200410237,2004,23,segunda_liga
+205,SP. Covilhã,Feirense,1-1,https://www.besoccer.com/match/sporting-covilha/feirense/200410230,2004,23,segunda_liga
+206,União Madeira,Desportivo Aves,3-0,https://www.besoccer.com/match/uniao-madeira/desportivo-aves/200410221,2004,24,segunda_liga
+207,Penafiel,SC Salgueiros,1-0,https://www.besoccer.com/match/penafiel/salgueiros/200410222,2004,24,segunda_liga
+208,Feirense,Naval,0-1,https://www.besoccer.com/match/feirense/naval/200410223,2004,24,segunda_liga
+209,Portimonense,SP. Covilhã,1-0,https://www.besoccer.com/match/portimonense/sporting-covilha/200410224,2004,24,segunda_liga
+210,FC Marco,CD Santa Clara,1-1,https://www.besoccer.com/match/fc-marco/santa-clara/200410225,2004,24,segunda_liga
+211,Ovarense,Vitória Setúbal,2-1,https://www.besoccer.com/match/ovarense/vitoria-setubal/200410226,2004,24,segunda_liga
+212,Leixões,FC Maia,3-0,https://www.besoccer.com/match/leixoes/fc-maia/200410227,2004,24,segunda_liga
+213,Chaves,Estoril,2-2,https://www.besoccer.com/match/chaves/estoril/200410228,2004,24,segunda_liga
+214,Varzim,FC Felgueiras,1-0,https://www.besoccer.com/match/varzim/fc-felgueiras/200410229,2004,24,segunda_liga
+215,FC Felgueiras,Chaves,3-0,https://www.besoccer.com/match/fc-felgueiras/chaves/200410219,2004,25,segunda_liga
+216,CD Santa Clara,Feirense,2-2,https://www.besoccer.com/match/santa-clara/feirense/200410220,2004,25,segunda_liga
+217,Vitória Setúbal,FC Marco,3-0,https://www.besoccer.com/match/vitoria-setubal/fc-marco/200410213,2004,25,segunda_liga
+218,FC Maia,Ovarense,2-0,https://www.besoccer.com/match/fc-maia/ovarense/200410214,2004,25,segunda_liga
+219,Desportivo Aves,Leixões,1-1,https://www.besoccer.com/match/desportivo-aves/leixoes/200410215,2004,25,segunda_liga
+220,SC Salgueiros,Varzim,2-0,https://www.besoccer.com/match/salgueiros/varzim/200410216,2004,25,segunda_liga
+221,Naval,Portimonense,0-0,https://www.besoccer.com/match/naval/portimonense/200410217,2004,25,segunda_liga
+222,SP. Covilhã,Penafiel,0-2,https://www.besoccer.com/match/sporting-covilha/penafiel/200410218,2004,25,segunda_liga
+223,Estoril,União Madeira,2-1,https://www.besoccer.com/match/estoril/uniao-madeira/200410212,2004,25,segunda_liga
+224,Portimonense,Feirense,1-1,https://www.besoccer.com/match/portimonense/feirense/200410203,2004,26,segunda_liga
+225,Vitória Setúbal,CD Santa Clara,1-0,https://www.besoccer.com/match/vitoria-setubal/santa-clara/200410204,2004,26,segunda_liga
+226,Leixões,Estoril,0-3,https://www.besoccer.com/match/leixoes/estoril/200410205,2004,26,segunda_liga
+227,União Madeira,FC Felgueiras,1-0,https://www.besoccer.com/match/uniao-madeira/fc-felgueiras/200410206,2004,26,segunda_liga
+228,Penafiel,Naval,2-2,https://www.besoccer.com/match/penafiel/naval/200410207,2004,26,segunda_liga
+229,FC Marco,FC Maia,2-0,https://www.besoccer.com/match/fc-marco/fc-maia/200410208,2004,26,segunda_liga
+230,Ovarense,Desportivo Aves,3-0,https://www.besoccer.com/match/ovarense/desportivo-aves/200410209,2004,26,segunda_liga
+231,Chaves,SC Salgueiros,2-0,https://www.besoccer.com/match/chaves/salgueiros/200410210,2004,26,segunda_liga
+232,Varzim,SP. Covilhã,1-1,https://www.besoccer.com/match/varzim/sporting-covilha/200410211,2004,26,segunda_liga
+233,CD Santa Clara,Portimonense,1-0,https://www.besoccer.com/match/santa-clara/portimonense/200410194,2004,27,segunda_liga
+234,Naval,Varzim,1-1,https://www.besoccer.com/match/naval/varzim/200410195,2004,27,segunda_liga
+235,Feirense,Penafiel,2-0,https://www.besoccer.com/match/feirense/penafiel/200410196,2004,27,segunda_liga
+236,FC Maia,Vitória Setúbal,2-1,https://www.besoccer.com/match/fc-maia/vitoria-setubal/200410197,2004,27,segunda_liga
+237,Desportivo Aves,FC Marco,2-3,https://www.besoccer.com/match/desportivo-aves/fc-marco/200410198,2004,27,segunda_liga
+238,Estoril,Ovarense,5-3,https://www.besoccer.com/match/estoril/ovarense/200410199,2004,27,segunda_liga
+239,SC Salgueiros,União Madeira,1-1,https://www.besoccer.com/match/salgueiros/uniao-madeira/200410200,2004,27,segunda_liga
+240,FC Felgueiras,Leixões,1-0,https://www.besoccer.com/match/fc-felgueiras/leixoes/200410201,2004,27,segunda_liga
+241,SP. Covilhã,Chaves,3-2,https://www.besoccer.com/match/sporting-covilha/chaves/200410202,2004,27,segunda_liga
+242,Leixões,SC Salgueiros,1-1,https://www.besoccer.com/match/leixoes/salgueiros/200410185,2004,28,segunda_liga
+243,União Madeira,SP. Covilhã,3-3,https://www.besoccer.com/match/uniao-madeira/sporting-covilha/200410186,2004,28,segunda_liga
+244,Chaves,Naval,1-0,https://www.besoccer.com/match/chaves/naval/200410187,2004,28,segunda_liga
+245,Penafiel,Portimonense,3-0,https://www.besoccer.com/match/penafiel/portimonense/200410188,2004,28,segunda_liga
+246,FC Maia,CD Santa Clara,2-4,https://www.besoccer.com/match/fc-maia/santa-clara/200410189,2004,28,segunda_liga
+247,Vitória Setúbal,Desportivo Aves,1-3,https://www.besoccer.com/match/vitoria-setubal/desportivo-aves/200410190,2004,28,segunda_liga
+248,Varzim,Feirense,1-2,https://www.besoccer.com/match/varzim/feirense/200410191,2004,28,segunda_liga
+249,FC Marco,Estoril,2-3,https://www.besoccer.com/match/fc-marco/estoril/200410192,2004,28,segunda_liga
+250,Ovarense,FC Felgueiras,2-1,https://www.besoccer.com/match/ovarense/fc-felgueiras/200410193,2004,28,segunda_liga
+251,CD Santa Clara,Penafiel,0-2,https://www.besoccer.com/match/santa-clara/penafiel/200410176,2004,29,segunda_liga
+252,SC Salgueiros,Ovarense,2-0,https://www.besoccer.com/match/salgueiros/ovarense/200410177,2004,29,segunda_liga
+253,SP. Covilhã,Leixões,3-4,https://www.besoccer.com/match/sporting-covilha/leixoes/200410178,2004,29,segunda_liga
+254,Naval,União Madeira,2-2,https://www.besoccer.com/match/naval/uniao-madeira/200410179,2004,29,segunda_liga
+255,Feirense,Chaves,0-1,https://www.besoccer.com/match/feirense/chaves/200410180,2004,29,segunda_liga
+256,Portimonense,Varzim,1-1,https://www.besoccer.com/match/portimonense/varzim/200410181,2004,29,segunda_liga
+257,Desportivo Aves,FC Maia,1-2,https://www.besoccer.com/match/desportivo-aves/fc-maia/200410182,2004,29,segunda_liga
+258,Estoril,Vitória Setúbal,1-2,https://www.besoccer.com/match/estoril/vitoria-setubal/200410183,2004,29,segunda_liga
+259,FC Felgueiras,FC Marco,3-0,https://www.besoccer.com/match/fc-felgueiras/fc-marco/200410184,2004,29,segunda_liga
+260,FC Maia,Estoril,2-2,https://www.besoccer.com/match/fc-maia/estoril/200410167,2004,30,segunda_liga
+261,Vitória Setúbal,FC Felgueiras,5-1,https://www.besoccer.com/match/vitoria-setubal/fc-felgueiras/200410168,2004,30,segunda_liga
+262,FC Marco,SC Salgueiros,1-1,https://www.besoccer.com/match/fc-marco/salgueiros/200410169,2004,30,segunda_liga
+263,Ovarense,SP. Covilhã,2-0,https://www.besoccer.com/match/ovarense/sporting-covilha/200410170,2004,30,segunda_liga
+264,Leixões,Naval,0-1,https://www.besoccer.com/match/leixoes/naval/200410171,2004,30,segunda_liga
+265,União Madeira,Feirense,1-2,https://www.besoccer.com/match/uniao-madeira/feirense/200410172,2004,30,segunda_liga
+266,Chaves,Portimonense,0-0,https://www.besoccer.com/match/chaves/portimonense/200410173,2004,30,segunda_liga
+267,Desportivo Aves,CD Santa Clara,1-0,https://www.besoccer.com/match/desportivo-aves/santa-clara/200410174,2004,30,segunda_liga
+268,Varzim,Penafiel,1-1,https://www.besoccer.com/match/varzim/penafiel/200410175,2004,30,segunda_liga
+269,FC Felgueiras,FC Maia,2-3,https://www.besoccer.com/match/fc-felgueiras/fc-maia/200410166,2004,31,segunda_liga
+270,CD Santa Clara,Varzim,2-0,https://www.besoccer.com/match/santa-clara/varzim/200410158,2004,31,segunda_liga
+271,Estoril,Desportivo Aves,1-0,https://www.besoccer.com/match/estoril/desportivo-aves/200410159,2004,31,segunda_liga
+272,SC Salgueiros,Vitória Setúbal,0-4,https://www.besoccer.com/match/salgueiros/vitoria-setubal/200410160,2004,31,segunda_liga
+273,SP. Covilhã,FC Marco,1-2,https://www.besoccer.com/match/sporting-covilha/fc-marco/200410161,2004,31,segunda_liga
+274,Naval,Ovarense,1-2,https://www.besoccer.com/match/naval/ovarense/200410162,2004,31,segunda_liga
+275,Feirense,Leixões,1-3,https://www.besoccer.com/match/feirense/leixoes/200410163,2004,31,segunda_liga
+276,Portimonense,União Madeira,3-1,https://www.besoccer.com/match/portimonense/uniao-madeira/200410164,2004,31,segunda_liga
+277,Penafiel,Chaves,3-2,https://www.besoccer.com/match/penafiel/chaves/200410165,2004,31,segunda_liga
+278,Chaves,Varzim,0-1,https://www.besoccer.com/match/chaves/varzim/200410149,2004,32,segunda_liga
+279,Estoril,CD Santa Clara,1-0,https://www.besoccer.com/match/estoril/santa-clara/200410150,2004,32,segunda_liga
+280,Desportivo Aves,FC Felgueiras,1-0,https://www.besoccer.com/match/desportivo-aves/fc-felgueiras/200410151,2004,32,segunda_liga
+281,FC Maia,SC Salgueiros,3-2,https://www.besoccer.com/match/fc-maia/salgueiros/200410152,2004,32,segunda_liga
+282,Vitória Setúbal,SP. Covilhã,2-1,https://www.besoccer.com/match/vitoria-setubal/sporting-covilha/200410153,2004,32,segunda_liga
+283,FC Marco,Naval,4-2,https://www.besoccer.com/match/fc-marco/naval/200410154,2004,32,segunda_liga
+284,Ovarense,Feirense,2-2,https://www.besoccer.com/match/ovarense/feirense/200410155,2004,32,segunda_liga
+285,Leixões,Portimonense,2-2,https://www.besoccer.com/match/leixoes/portimonense/200410156,2004,32,segunda_liga
+286,União Madeira,Penafiel,1-3,https://www.besoccer.com/match/uniao-madeira/penafiel/200410157,2004,32,segunda_liga
+287,Varzim,União Madeira,1-0,https://www.besoccer.com/match/varzim/uniao-madeira/200410140,2004,33,segunda_liga
+288,Chaves,CD Santa Clara,3-1,https://www.besoccer.com/match/chaves/santa-clara/200410141,2004,33,segunda_liga
+289,FC Felgueiras,Estoril,2-0,https://www.besoccer.com/match/fc-felgueiras/estoril/200410142,2004,33,segunda_liga
+290,SC Salgueiros,Desportivo Aves,1-1,https://www.besoccer.com/match/salgueiros/desportivo-aves/200410143,2004,33,segunda_liga
+291,SP. Covilhã,FC Maia,1-0,https://www.besoccer.com/match/sporting-covilha/fc-maia/200410144,2004,33,segunda_liga
+292,Naval,Vitória Setúbal,0-1,https://www.besoccer.com/match/naval/vitoria-setubal/200410145,2004,33,segunda_liga
+293,Feirense,FC Marco,2-3,https://www.besoccer.com/match/feirense/fc-marco/200410146,2004,33,segunda_liga
+294,Portimonense,Ovarense,2-2,https://www.besoccer.com/match/portimonense/ovarense/200410147,2004,33,segunda_liga
+295,Penafiel,Leixões,1-1,https://www.besoccer.com/match/penafiel/leixoes/200410148,2004,33,segunda_liga
+296,FC Marco,Portimonense,0-0,https://www.besoccer.com/match/fc-marco/portimonense/200410131,2004,34,segunda_liga
+297,Ovarense,Penafiel,1-1,https://www.besoccer.com/match/ovarense/penafiel/200410132,2004,34,segunda_liga
+298,Leixões,Varzim,1-1,https://www.besoccer.com/match/leixoes/varzim/200410133,2004,34,segunda_liga
+299,União Madeira,Chaves,0-0,https://www.besoccer.com/match/uniao-madeira/chaves/200410134,2004,34,segunda_liga
+300,CD Santa Clara,FC Felgueiras,1-2,https://www.besoccer.com/match/santa-clara/fc-felgueiras/200410135,2004,34,segunda_liga
+301,Estoril,SC Salgueiros,2-1,https://www.besoccer.com/match/estoril/salgueiros/200410136,2004,34,segunda_liga
+302,Desportivo Aves,SP. Covilhã,0-3,https://www.besoccer.com/match/desportivo-aves/sporting-covilha/200410137,2004,34,segunda_liga
+303,FC Maia,Naval,2-0,https://www.besoccer.com/match/fc-maia/naval/200410138,2004,34,segunda_liga
+304,Vitória Setúbal,Feirense,1-0,https://www.besoccer.com/match/vitoria-setubal/feirense/200410139,2004,34,segunda_liga

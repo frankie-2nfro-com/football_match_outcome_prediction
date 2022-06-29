@@ -1,0 +1,463 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,Olhanense,Académica,1-2,https://www.besoccer.com/match/sc-olhanense/academica/2017100739,2017,1,segunda_liga
+1,Academico Viseu,Vizela,0-1,https://www.besoccer.com/match/academico-viseu/vizela/2017100738,2017,1,segunda_liga
+2,Sporting CP II,Portimonense,1-2,https://www.besoccer.com/match/sporting-cp-ii/portimonense/2017100742,2017,1,segunda_liga
+3,CD Santa Clara,Vitória,2-1,https://www.besoccer.com/match/santa-clara/vitoria-guimar/2017100732,2017,1,segunda_liga
+4,Sporting Braga II,Fafe,1-1,https://www.besoccer.com/match/sporting-braga-ii/fafe/2017100735,2017,1,segunda_liga
+5,SC Freamunde,União Madeira,0-1,https://www.besoccer.com/match/sc-freamunde/uniao-madeira/2017100736,2017,1,segunda_liga
+6,Penafiel,SP. Covilhã,1-0,https://www.besoccer.com/match/penafiel/sporting-covilha/2017100740,2017,1,segunda_liga
+7,Leixões,Famalicão,0-0,https://www.besoccer.com/match/leixoes/famalicao/2017100741,2017,1,segunda_liga
+8,Benfica II,Cova Piedade,1-1,https://www.besoccer.com/match/benfica-ii/cova-piedade/2017100734,2017,1,segunda_liga
+9,Gil Vicente,Varzim,1-0,https://www.besoccer.com/match/gil-vicente/varzim/2017100737,2017,1,segunda_liga
+10,Desportivo Aves,Porto II,2-1,https://www.besoccer.com/match/desportivo-aves/porto-ii/2017100733,2017,1,segunda_liga
+11,Vitória,Desportivo Aves,1-1,https://www.besoccer.com/match/vitoria-guimar/desportivo-aves/2017100748,2017,2,segunda_liga
+12,Varzim,Benfica II,2-0,https://www.besoccer.com/match/varzim/benfica-ii/2017100749,2017,2,segunda_liga
+13,União Madeira,Sporting Braga II,1-1,https://www.besoccer.com/match/uniao-madeira/sporting-braga-ii/2017100750,2017,2,segunda_liga
+14,Vizela,Gil Vicente,2-2,https://www.besoccer.com/match/vizela/gil-vicente/2017100751,2017,2,segunda_liga
+15,Famalicão,Olhanense,4-2,https://www.besoccer.com/match/famalicao/sc-olhanense/2017100746,2017,2,segunda_liga
+16,SP. Covilhã,Sporting CP II,1-2,https://www.besoccer.com/match/sporting-covilha/sporting-cp-ii/2017100744,2017,2,segunda_liga
+17,Académica,CD Santa Clara,0-1,https://www.besoccer.com/match/academica/santa-clara/2017100743,2017,2,segunda_liga
+18,Fafe,SC Freamunde,2-2,https://www.besoccer.com/match/fafe/sc-freamunde/2017100745,2017,2,segunda_liga
+19,Porto II,Academico Viseu,1-0,https://www.besoccer.com/match/porto-ii/academico-viseu/2017100747,2017,2,segunda_liga
+20,Cova Piedade,Leixões,1-0,https://www.besoccer.com/match/cova-piedade/leixoes/2017100752,2017,2,segunda_liga
+21,Portimonense,Penafiel,3-2,https://www.besoccer.com/match/portimonense/penafiel/2017100753,2017,2,segunda_liga
+22,Benfica II,Gil Vicente,1-1,https://www.besoccer.com/match/benfica-ii/gil-vicente/2017100756,2017,3,segunda_liga
+23,Portimonense,União Madeira,2-0,https://www.besoccer.com/match/portimonense/uniao-madeira/2017100760,2017,3,segunda_liga
+24,Olhanense,SP. Covilhã,0-0,https://www.besoccer.com/match/sc-olhanense/sporting-covilha/2017100762,2017,3,segunda_liga
+25,Sporting CP II,Fafe,2-4,https://www.besoccer.com/match/sporting-cp-ii/fafe/2017100763,2017,3,segunda_liga
+26,CD Santa Clara,Famalicão,2-1,https://www.besoccer.com/match/santa-clara/famalicao/2017100754,2017,3,segunda_liga
+27,Desportivo Aves,Vizela,2-2,https://www.besoccer.com/match/desportivo-aves/vizela/2017100755,2017,3,segunda_liga
+28,Sporting Braga II,Cova Piedade,0-1,https://www.besoccer.com/match/sporting-braga-ii/cova-piedade/2017100757,2017,3,segunda_liga
+29,SC Freamunde,Vitória,0-1,https://www.besoccer.com/match/sc-freamunde/vitoria-guimar/2017100758,2017,3,segunda_liga
+30,Leixões,Porto II,1-2,https://www.besoccer.com/match/leixoes/porto-ii/2017100759,2017,3,segunda_liga
+31,Academico Viseu,Varzim,2-2,https://www.besoccer.com/match/academico-viseu/varzim/2017100764,2017,3,segunda_liga
+32,Penafiel,Académica,1-0,https://www.besoccer.com/match/penafiel/academica/2017100761,2017,3,segunda_liga
+33,União Madeira,Penafiel,0-0,https://www.besoccer.com/match/uniao-madeira/penafiel/2017100775,2017,4,segunda_liga
+34,Académica,Portimonense,0-0,https://www.besoccer.com/match/academica/portimonense/2017100765,2017,4,segunda_liga
+35,Gil Vicente,Academico Viseu,0-0,https://www.besoccer.com/match/gil-vicente/academico-viseu/2017100768,2017,4,segunda_liga
+36,Vizela,Benfica II,1-2,https://www.besoccer.com/match/vizela/benfica-ii/2017100771,2017,4,segunda_liga
+37,Porto II,Olhanense,2-1,https://www.besoccer.com/match/porto-ii/sc-olhanense/2017100774,2017,4,segunda_liga
+38,SP. Covilhã,Sporting Braga II,1-3,https://www.besoccer.com/match/sporting-covilha/sporting-braga-ii/2017100772,2017,4,segunda_liga
+39,Famalicão,Sporting CP II,1-1,https://www.besoccer.com/match/famalicao/sporting-cp-ii/2017100767,2017,4,segunda_liga
+40,Cova Piedade,SC Freamunde,1-0,https://www.besoccer.com/match/cova-piedade/sc-freamunde/2017100773,2017,4,segunda_liga
+41,Fafe,CD Santa Clara,0-2,https://www.besoccer.com/match/fafe/santa-clara/2017100766,2017,4,segunda_liga
+42,Vitória,Leixões,2-1,https://www.besoccer.com/match/vitoria-guimar/leixoes/2017100769,2017,4,segunda_liga
+43,Varzim,Desportivo Aves,0-2,https://www.besoccer.com/match/varzim/desportivo-aves/2017100770,2017,4,segunda_liga
+44,Desportivo Aves,Benfica II,1-2,https://www.besoccer.com/match/desportivo-aves/benfica-ii/2017100778,2017,5,segunda_liga
+45,Académica,União Madeira,1-0,https://www.besoccer.com/match/academica/uniao-madeira/2017100777,2017,5,segunda_liga
+46,SC Freamunde,Porto II,3-1,https://www.besoccer.com/match/sc-freamunde/porto-ii/2017100780,2017,5,segunda_liga
+47,Portimonense,SP. Covilhã,2-1,https://www.besoccer.com/match/portimonense/sporting-covilha/2017100784,2017,5,segunda_liga
+48,Olhanense,Fafe,2-3,https://www.besoccer.com/match/sc-olhanense/fafe/2017100785,2017,5,segunda_liga
+49,Academico Viseu,Vitória,2-1,https://www.besoccer.com/match/academico-viseu/vitoria-guimar/2017100786,2017,5,segunda_liga
+50,Sporting Braga II,Famalicão,3-0,https://www.besoccer.com/match/sporting-braga-ii/famalicao/2017100779,2017,5,segunda_liga
+51,Leixões,Varzim,3-0,https://www.besoccer.com/match/leixoes/varzim/2017100781,2017,5,segunda_liga
+52,Penafiel,Cova Piedade,2-1,https://www.besoccer.com/match/penafiel/cova-piedade/2017100782,2017,5,segunda_liga
+53,CD Santa Clara,Gil Vicente,1-0,https://www.besoccer.com/match/santa-clara/gil-vicente/2017100776,2017,5,segunda_liga
+54,Sporting CP II,Vizela,1-2,https://www.besoccer.com/match/sporting-cp-ii/vizela/2017100783,2017,5,segunda_liga
+55,Famalicão,SC Freamunde,3-2,https://www.besoccer.com/match/famalicao/sc-freamunde/2017100789,2017,6,segunda_liga
+56,Vizela,Sporting Braga II,0-0,https://www.besoccer.com/match/vizela/sporting-braga-ii/2017100794,2017,6,segunda_liga
+57,União Madeira,Olhanense,3-2,https://www.besoccer.com/match/uniao-madeira/sc-olhanense/2017100795,2017,6,segunda_liga
+58,Fafe,Leixões,0-0,https://www.besoccer.com/match/fafe/leixoes/2017100788,2017,6,segunda_liga
+59,Vitória,Portimonense,1-5,https://www.besoccer.com/match/vitoria-guimar/portimonense/2017100790,2017,6,segunda_liga
+60,Cova Piedade,CD Santa Clara,1-1,https://www.besoccer.com/match/cova-piedade/santa-clara/2017100791,2017,6,segunda_liga
+61,Gil Vicente,Desportivo Aves,0-0,https://www.besoccer.com/match/gil-vicente/desportivo-aves/2017100793,2017,6,segunda_liga
+62,Varzim,Sporting CP II,3-0,https://www.besoccer.com/match/varzim/sporting-cp-ii/2017100797,2017,6,segunda_liga
+63,Benfica II,Academico Viseu,2-1,https://www.besoccer.com/match/benfica-ii/academico-viseu/2017100787,2017,6,segunda_liga
+64,Porto II,Penafiel,2-2,https://www.besoccer.com/match/porto-ii/penafiel/2017100796,2017,6,segunda_liga
+65,SP. Covilhã,Académica,0-0,https://www.besoccer.com/match/sporting-covilha/academica/2017100792,2017,6,segunda_liga
+66,Académica,Famalicão,3-0,https://www.besoccer.com/match/academica/famalicao/2017100799,2017,7,segunda_liga
+67,SC Freamunde,Benfica II,0-0,https://www.besoccer.com/match/sc-freamunde/benfica-ii/2017100804,2017,7,segunda_liga
+68,Desportivo Aves,Academico Viseu,3-2,https://www.besoccer.com/match/desportivo-aves/academico-viseu/2017100800,2017,7,segunda_liga
+69,Sporting Braga II,Varzim,1-1,https://www.besoccer.com/match/sporting-braga-ii/varzim/2017100801,2017,7,segunda_liga
+70,SP. Covilhã,União Madeira,1-1,https://www.besoccer.com/match/sporting-covilha/uniao-madeira/2017100802,2017,7,segunda_liga
+71,Leixões,Vizela,0-0,https://www.besoccer.com/match/leixoes/vizela/2017100803,2017,7,segunda_liga
+72,Penafiel,Fafe,1-1,https://www.besoccer.com/match/penafiel/fafe/2017100805,2017,7,segunda_liga
+73,Sporting CP II,Gil Vicente,2-2,https://www.besoccer.com/match/sporting-cp-ii/gil-vicente/2017100806,2017,7,segunda_liga
+74,Portimonense,Cova Piedade,1-1,https://www.besoccer.com/match/portimonense/cova-piedade/2017100808,2017,7,segunda_liga
+75,CD Santa Clara,Porto II,2-0,https://www.besoccer.com/match/santa-clara/porto-ii/2017100798,2017,7,segunda_liga
+76,Olhanense,Vitória,0-3,https://www.besoccer.com/match/sc-olhanense/vitoria-guimar/2017100807,2017,7,segunda_liga
+77,Fafe,Portimonense,0-2,https://www.besoccer.com/match/fafe/portimonense/2017100811,2017,8,segunda_liga
+78,Vitória,União Madeira,0-2,https://www.besoccer.com/match/vitoria-guimar/uniao-madeira/2017100813,2017,8,segunda_liga
+79,Cova Piedade,Académica,1-1,https://www.besoccer.com/match/cova-piedade/academica/2017100814,2017,8,segunda_liga
+80,Gil Vicente,SC Freamunde,0-0,https://www.besoccer.com/match/gil-vicente/sc-freamunde/2017100817,2017,8,segunda_liga
+81,Varzim,Olhanense,1-0,https://www.besoccer.com/match/varzim/sc-olhanense/2017100818,2017,8,segunda_liga
+82,Academico Viseu,Sporting Braga II,1-1,https://www.besoccer.com/match/academico-viseu/sporting-braga-ii/2017100815,2017,8,segunda_liga
+83,Porto II,SP. Covilhã,1-0,https://www.besoccer.com/match/porto-ii/sporting-covilha/2017100816,2017,8,segunda_liga
+84,Benfica II,Leixões,1-0,https://www.besoccer.com/match/benfica-ii/leixoes/2017100810,2017,8,segunda_liga
+85,Famalicão,Penafiel,0-0,https://www.besoccer.com/match/famalicao/penafiel/2017100812,2017,8,segunda_liga
+86,Desportivo Aves,Sporting CP II,2-0,https://www.besoccer.com/match/desportivo-aves/sporting-cp-ii/2017100809,2017,8,segunda_liga
+87,Vizela,CD Santa Clara,0-0,https://www.besoccer.com/match/vizela/santa-clara/2017100819,2017,8,segunda_liga
+88,Académica,Vizela,0-1,https://www.besoccer.com/match/academica/vizela/2017100821,2017,9,segunda_liga
+89,Olhanense,Benfica II,1-2,https://www.besoccer.com/match/sc-olhanense/benfica-ii/2017100825,2017,9,segunda_liga
+90,União Madeira,Fafe,0-0,https://www.besoccer.com/match/uniao-madeira/fafe/2017100826,2017,9,segunda_liga
+91,Leixões,Gil Vicente,0-0,https://www.besoccer.com/match/leixoes/gil-vicente/2017100827,2017,9,segunda_liga
+92,Sporting CP II,Cova Piedade,5-1,https://www.besoccer.com/match/sporting-cp-ii/cova-piedade/2017100829,2017,9,segunda_liga
+93,CD Santa Clara,Varzim,2-1,https://www.besoccer.com/match/santa-clara/varzim/2017100820,2017,9,segunda_liga
+94,Sporting Braga II,Desportivo Aves,2-2,https://www.besoccer.com/match/sporting-braga-ii/desportivo-aves/2017100824,2017,9,segunda_liga
+95,Penafiel,Vitória,1-0,https://www.besoccer.com/match/penafiel/vitoria-guimar/2017100828,2017,9,segunda_liga
+96,Portimonense,Porto II,3-0,https://www.besoccer.com/match/portimonense/porto-ii/2017100830,2017,9,segunda_liga
+97,SC Freamunde,Academico Viseu,1-1,https://www.besoccer.com/match/sc-freamunde/academico-viseu/2017100823,2017,9,segunda_liga
+98,SP. Covilhã,Famalicão,2-1,https://www.besoccer.com/match/sporting-covilha/famalicao/2017100822,2017,9,segunda_liga
+99,Benfica II,CD Santa Clara,3-1,https://www.besoccer.com/match/benfica-ii/santa-clara/2017100832,2017,10,segunda_liga
+100,Famalicão,Portimonense,2-3,https://www.besoccer.com/match/famalicao/portimonense/2017100833,2017,10,segunda_liga
+101,Fafe,Académica,1-2,https://www.besoccer.com/match/fafe/academica/2017100835,2017,10,segunda_liga
+102,Desportivo Aves,Leixões,1-1,https://www.besoccer.com/match/desportivo-aves/leixoes/2017100831,2017,10,segunda_liga
+103,Gil Vicente,Sporting Braga II,2-1,https://www.besoccer.com/match/gil-vicente/sporting-braga-ii/2017100836,2017,10,segunda_liga
+104,Vitória,SP. Covilhã,1-2,https://www.besoccer.com/match/vitoria-guimar/sporting-covilha/2017100837,2017,10,segunda_liga
+105,Varzim,SC Freamunde,0-0,https://www.besoccer.com/match/varzim/sc-freamunde/2017100838,2017,10,segunda_liga
+106,Cova Piedade,Olhanense,3-2,https://www.besoccer.com/match/cova-piedade/sc-olhanense/2017100839,2017,10,segunda_liga
+107,Vizela,Penafiel,1-0,https://www.besoccer.com/match/vizela/penafiel/2017100840,2017,10,segunda_liga
+108,Academico Viseu,Sporting CP II,0-1,https://www.besoccer.com/match/academico-viseu/sporting-cp-ii/2017100841,2017,10,segunda_liga
+109,Porto II,União Madeira,0-0,https://www.besoccer.com/match/porto-ii/uniao-madeira/2017100834,2017,10,segunda_liga
+110,União Madeira,Cova Piedade,0-1,https://www.besoccer.com/match/uniao-madeira/cova-piedade/2017100852,2017,11,segunda_liga
+111,Académica,Varzim,3-2,https://www.besoccer.com/match/academica/varzim/2017100843,2017,11,segunda_liga
+112,SP. Covilhã,Vizela,1-1,https://www.besoccer.com/match/sporting-covilha/vizela/2017100844,2017,11,segunda_liga
+113,SC Freamunde,Sporting CP II,2-3,https://www.besoccer.com/match/sc-freamunde/sporting-cp-ii/2017100845,2017,11,segunda_liga
+114,Olhanense,Desportivo Aves,1-2,https://www.besoccer.com/match/sc-olhanense/desportivo-aves/2017100846,2017,11,segunda_liga
+115,Portimonense,Benfica II,3-0,https://www.besoccer.com/match/portimonense/benfica-ii/2017100847,2017,11,segunda_liga
+116,Leixões,Sporting Braga II,2-2,https://www.besoccer.com/match/leixoes/sporting-braga-ii/2017100848,2017,11,segunda_liga
+117,Vitória,Fafe,1-3,https://www.besoccer.com/match/vitoria-guimar/fafe/2017100849,2017,11,segunda_liga
+118,Porto II,Famalicão,1-1,https://www.besoccer.com/match/porto-ii/famalicao/2017100850,2017,11,segunda_liga
+119,Penafiel,Gil Vicente,1-0,https://www.besoccer.com/match/penafiel/gil-vicente/2017100851,2017,11,segunda_liga
+120,CD Santa Clara,Academico Viseu,1-2,https://www.besoccer.com/match/santa-clara/academico-viseu/2017100842,2017,11,segunda_liga
+121,Gil Vicente,Olhanense,2-1,https://www.besoccer.com/match/gil-vicente/sc-olhanense/2017100857,2017,12,segunda_liga
+122,Varzim,Portimonense,2-2,https://www.besoccer.com/match/varzim/portimonense/201779241,2017,12,segunda_liga
+123,Vizela,Porto II,1-1,https://www.besoccer.com/match/vizela/porto-ii/2017100862,2017,12,segunda_liga
+124,Desportivo Aves,SC Freamunde,2-1,https://www.besoccer.com/match/desportivo-aves/sc-freamunde/2017100853,2017,12,segunda_liga
+125,Benfica II,Penafiel,2-0,https://www.besoccer.com/match/benfica-ii/penafiel/2017100854,2017,12,segunda_liga
+126,Sporting Braga II,CD Santa Clara,1-2,https://www.besoccer.com/match/sporting-braga-ii/santa-clara/2017100855,2017,12,segunda_liga
+127,Famalicão,União Madeira,2-0,https://www.besoccer.com/match/famalicao/uniao-madeira/2017100856,2017,12,segunda_liga
+128,Academico Viseu,Académica,0-0,https://www.besoccer.com/match/academico-viseu/academica/201777511,2017,12,segunda_liga
+129,Fafe,SP. Covilhã,1-1,https://www.besoccer.com/match/fafe/sporting-covilha/2017100859,2017,12,segunda_liga
+130,Cova Piedade,Vitória,2-0,https://www.besoccer.com/match/cova-piedade/vitoria-guimar/2017100860,2017,12,segunda_liga
+131,Sporting CP II,Leixões,2-1,https://www.besoccer.com/match/sporting-cp-ii/leixoes/2017100861,2017,12,segunda_liga
+132,Porto II,Fafe,4-0,https://www.besoccer.com/match/porto-ii/fafe/2017100873,2017,13,segunda_liga
+133,Olhanense,Sporting CP II,2-2,https://www.besoccer.com/match/sc-olhanense/sporting-cp-ii/2017100868,2017,13,segunda_liga
+134,Vitória,Famalicão,1-0,https://www.besoccer.com/match/vitoria-guimar/famalicao/2017100874,2017,13,segunda_liga
+135,SC Freamunde,Sporting Braga II,0-0,https://www.besoccer.com/match/sc-freamunde/sporting-braga-ii/2017100872,2017,13,segunda_liga
+136,União Madeira,Benfica II,1-0,https://www.besoccer.com/match/uniao-madeira/benfica-ii/2017100871,2017,13,segunda_liga
+137,Académica,Gil Vicente,0-0,https://www.besoccer.com/match/academica/gil-vicente/2017100865,2017,13,segunda_liga
+138,SP. Covilhã,Cova Piedade,1-0,https://www.besoccer.com/match/sporting-covilha/cova-piedade/2017100866,2017,13,segunda_liga
+139,Leixões,Academico Viseu,0-1,https://www.besoccer.com/match/leixoes/academico-viseu/2017100867,2017,13,segunda_liga
+140,CD Santa Clara,Desportivo Aves,0-2,https://www.besoccer.com/match/santa-clara/desportivo-aves/2017100864,2017,13,segunda_liga
+141,Penafiel,Varzim,2-1,https://www.besoccer.com/match/penafiel/varzim/2017100869,2017,13,segunda_liga
+142,Portimonense,Vizela,2-1,https://www.besoccer.com/match/portimonense/vizela/2017100870,2017,13,segunda_liga
+143,Desportivo Aves,Académica,2-0,https://www.besoccer.com/match/desportivo-aves/academica/2017100880,2017,14,segunda_liga
+144,Sporting Braga II,Penafiel,2-1,https://www.besoccer.com/match/sporting-braga-ii/penafiel/2017100876,2017,14,segunda_liga
+145,Sporting CP II,CD Santa Clara,3-1,https://www.besoccer.com/match/sporting-cp-ii/santa-clara/2017100884,2017,14,segunda_liga
+146,Benfica II,SP. Covilhã,2-2,https://www.besoccer.com/match/benfica-ii/sporting-covilha/2017100875,2017,14,segunda_liga
+147,Gil Vicente,Portimonense,0-1,https://www.besoccer.com/match/gil-vicente/portimonense/2017100878,2017,14,segunda_liga
+148,Cova Piedade,Porto II,1-0,https://www.besoccer.com/match/cova-piedade/porto-ii/2017100879,2017,14,segunda_liga
+149,SC Freamunde,Leixões,0-1,https://www.besoccer.com/match/sc-freamunde/leixoes/2017100877,2017,14,segunda_liga
+150,Famalicão,Fafe,3-1,https://www.besoccer.com/match/famalicao/fafe/2017100881,2017,14,segunda_liga
+151,Vizela,Vitória,1-1,https://www.besoccer.com/match/vizela/vitoria-guimar/2017100882,2017,14,segunda_liga
+152,Academico Viseu,Olhanense,0-1,https://www.besoccer.com/match/academico-viseu/sc-olhanense/2017100883,2017,14,segunda_liga
+153,Varzim,União Madeira,2-1,https://www.besoccer.com/match/varzim/uniao-madeira/2017100885,2017,14,segunda_liga
+154,CD Santa Clara,SC Freamunde,0-0,https://www.besoccer.com/match/santa-clara/sc-freamunde/2017100886,2017,15,segunda_liga
+155,Académica,Leixões,1-0,https://www.besoccer.com/match/academica/leixoes/2017100887,2017,15,segunda_liga
+156,Fafe,Cova Piedade,1-3,https://www.besoccer.com/match/fafe/cova-piedade/2017100888,2017,15,segunda_liga
+157,Olhanense,Vizela,1-0,https://www.besoccer.com/match/sc-olhanense/vizela/2017100889,2017,15,segunda_liga
+158,Portimonense,Sporting Braga II,1-0,https://www.besoccer.com/match/portimonense/sporting-braga-ii/2017100894,2017,15,segunda_liga
+159,Porto II,Varzim,1-1,https://www.besoccer.com/match/porto-ii/varzim/2017100891,2017,15,segunda_liga
+160,SP. Covilhã,Desportivo Aves,0-2,https://www.besoccer.com/match/sporting-covilha/desportivo-aves/2017100892,2017,15,segunda_liga
+161,Famalicão,Benfica II,0-0,https://www.besoccer.com/match/famalicao/benfica-ii/2017100893,2017,15,segunda_liga
+162,Vitória,Gil Vicente,2-0,https://www.besoccer.com/match/vitoria-guimar/gil-vicente/2017100895,2017,15,segunda_liga
+163,União Madeira,Sporting CP II,0-1,https://www.besoccer.com/match/uniao-madeira/sporting-cp-ii/2017100896,2017,15,segunda_liga
+164,Penafiel,Academico Viseu,2-1,https://www.besoccer.com/match/penafiel/academico-viseu/2017100890,2017,15,segunda_liga
+165,Desportivo Aves,Portimonense,1-0,https://www.besoccer.com/match/desportivo-aves/portimonense/2017100897,2017,16,segunda_liga
+166,Sporting Braga II,Olhanense,2-2,https://www.besoccer.com/match/sporting-braga-ii/sc-olhanense/2017100899,2017,16,segunda_liga
+167,Gil Vicente,Porto II,1-0,https://www.besoccer.com/match/gil-vicente/porto-ii/2017100900,2017,16,segunda_liga
+168,Leixões,CD Santa Clara,1-1,https://www.besoccer.com/match/leixoes/santa-clara/2017100901,2017,16,segunda_liga
+169,SC Freamunde,Académica,0-0,https://www.besoccer.com/match/sc-freamunde/academica/2017100902,2017,16,segunda_liga
+170,Academico Viseu,SP. Covilhã,0-1,https://www.besoccer.com/match/academico-viseu/sporting-covilha/2017100903,2017,16,segunda_liga
+171,Cova Piedade,Famalicão,1-2,https://www.besoccer.com/match/cova-piedade/famalicao/2017100904,2017,16,segunda_liga
+172,Varzim,Vitória,1-1,https://www.besoccer.com/match/varzim/vitoria-guimar/2017100905,2017,16,segunda_liga
+173,Sporting CP II,Penafiel,1-2,https://www.besoccer.com/match/sporting-cp-ii/penafiel/2017100906,2017,16,segunda_liga
+174,Vizela,União Madeira,1-1,https://www.besoccer.com/match/vizela/uniao-madeira/2017100907,2017,16,segunda_liga
+175,Benfica II,Fafe,0-1,https://www.besoccer.com/match/benfica-ii/fafe/2017100898,2017,16,segunda_liga
+176,Portimonense,Academico Viseu,3-0,https://www.besoccer.com/match/portimonense/academico-viseu/2017100912,2017,17,segunda_liga
+177,Famalicão,Desportivo Aves,0-0,https://www.besoccer.com/match/famalicao/desportivo-aves/2017100913,2017,17,segunda_liga
+178,Académica,Sporting Braga II,1-0,https://www.besoccer.com/match/academica/sporting-braga-ii/2017100908,2017,17,segunda_liga
+179,SP. Covilhã,Varzim,2-0,https://www.besoccer.com/match/sporting-covilha/varzim/2017100909,2017,17,segunda_liga
+180,Penafiel,SC Freamunde,0-2,https://www.besoccer.com/match/penafiel/sc-freamunde/2017100915,2017,17,segunda_liga
+181,Cova Piedade,Gil Vicente,1-0,https://www.besoccer.com/match/cova-piedade/gil-vicente/2017100916,2017,17,segunda_liga
+182,Olhanense,Leixões,3-1,https://www.besoccer.com/match/sc-olhanense/leixoes/2017100917,2017,17,segunda_liga
+183,União Madeira,CD Santa Clara,1-0,https://www.besoccer.com/match/uniao-madeira/santa-clara/2017100918,2017,17,segunda_liga
+184,Porto II,Benfica II,1-1,https://www.besoccer.com/match/porto-ii/benfica-ii/2017100914,2017,17,segunda_liga
+185,Vitória,Sporting CP II,2-0,https://www.besoccer.com/match/vitoria-guimar/sporting-cp-ii/2017100911,2017,17,segunda_liga
+186,Fafe,Vizela,1-1,https://www.besoccer.com/match/fafe/vizela/2017100910,2017,17,segunda_liga
+187,Desportivo Aves,União Madeira,3-1,https://www.besoccer.com/match/desportivo-aves/uniao-madeira/2017100921,2017,18,segunda_liga
+188,Sporting Braga II,Vitória,2-0,https://www.besoccer.com/match/sporting-braga-ii/vitoria-guimar/2017100922,2017,18,segunda_liga
+189,SC Freamunde,Olhanense,1-1,https://www.besoccer.com/match/sc-freamunde/sc-olhanense/2017100923,2017,18,segunda_liga
+190,Gil Vicente,SP. Covilhã,0-0,https://www.besoccer.com/match/gil-vicente/sporting-covilha/2017100925,2017,18,segunda_liga
+191,Academico Viseu,Fafe,1-0,https://www.besoccer.com/match/academico-viseu/fafe/2017100926,2017,18,segunda_liga
+192,Sporting CP II,Porto II,1-2,https://www.besoccer.com/match/sporting-cp-ii/porto-ii/2017100929,2017,18,segunda_liga
+193,Académica,Benfica II,2-1,https://www.besoccer.com/match/academica/benfica-ii/2017100920,2017,18,segunda_liga
+194,Varzim,Cova Piedade,2-1,https://www.besoccer.com/match/varzim/cova-piedade/2017100928,2017,18,segunda_liga
+195,CD Santa Clara,Penafiel,2-1,https://www.besoccer.com/match/santa-clara/penafiel/2017100919,2017,18,segunda_liga
+196,Leixões,Portimonense,0-0,https://www.besoccer.com/match/leixoes/portimonense/2017100924,2017,18,segunda_liga
+197,Vizela,Famalicão,3-2,https://www.besoccer.com/match/vizela/famalicao/2017100927,2017,18,segunda_liga
+198,União Madeira,Academico Viseu,2-2,https://www.besoccer.com/match/uniao-madeira/academico-viseu/2017100936,2017,19,segunda_liga
+199,Benfica II,Sporting CP II,0-0,https://www.besoccer.com/match/benfica-ii/sporting-cp-ii/2017100930,2017,19,segunda_liga
+200,Portimonense,SC Freamunde,3-0,https://www.besoccer.com/match/portimonense/sc-freamunde/2017100940,2017,19,segunda_liga
+201,Cova Piedade,Vizela,0-0,https://www.besoccer.com/match/cova-piedade/vizela/2017100935,2017,19,segunda_liga
+202,Famalicão,Varzim,0-2,https://www.besoccer.com/match/famalicao/varzim/2017100933,2017,19,segunda_liga
+203,Porto II,Sporting Braga II,1-3,https://www.besoccer.com/match/porto-ii/sporting-braga-ii/201797195,2017,19,segunda_liga
+204,Olhanense,CD Santa Clara,1-2,https://www.besoccer.com/match/sc-olhanense/santa-clara/2017100934,2017,19,segunda_liga
+205,SP. Covilhã,Leixões,1-0,https://www.besoccer.com/match/sporting-covilha/leixoes/2017100931,2017,19,segunda_liga
+206,Fafe,Gil Vicente,2-1,https://www.besoccer.com/match/fafe/gil-vicente/2017100932,2017,19,segunda_liga
+207,Penafiel,Desportivo Aves,1-3,https://www.besoccer.com/match/penafiel/desportivo-aves/2017100938,2017,19,segunda_liga
+208,Vitória,Académica,2-1,https://www.besoccer.com/match/vitoria-guimar/academica/2017100937,2017,19,segunda_liga
+209,Desportivo Aves,Cova Piedade,1-0,https://www.besoccer.com/match/desportivo-aves/cova-piedade/2017100943,2017,20,segunda_liga
+210,Gil Vicente,União Madeira,2-1,https://www.besoccer.com/match/gil-vicente/uniao-madeira/2017100945,2017,20,segunda_liga
+211,Leixões,Penafiel,2-1,https://www.besoccer.com/match/leixoes/penafiel/2017100947,2017,20,segunda_liga
+212,Sporting Braga II,Benfica II,2-1,https://www.besoccer.com/match/sporting-braga-ii/benfica-ii/2017100949,2017,20,segunda_liga
+213,Varzim,Fafe,2-1,https://www.besoccer.com/match/varzim/fafe/2017100950,2017,20,segunda_liga
+214,Academico Viseu,Famalicão,1-1,https://www.besoccer.com/match/academico-viseu/famalicao/2017100951,2017,20,segunda_liga
+215,CD Santa Clara,SP. Covilhã,1-1,https://www.besoccer.com/match/santa-clara/sporting-covilha/2017100941,2017,20,segunda_liga
+216,Olhanense,Portimonense,0-1,https://www.besoccer.com/match/sc-olhanense/portimonense/2017100948,2017,20,segunda_liga
+217,Vitória,Porto II,3-0,https://www.besoccer.com/match/vitoria-guimar/porto-ii/2017100946,2017,20,segunda_liga
+218,SC Freamunde,Vizela,1-0,https://www.besoccer.com/match/sc-freamunde/vizela/2017100944,2017,20,segunda_liga
+219,Académica,Sporting CP II,1-0,https://www.besoccer.com/match/academica/sporting-cp-ii/2017100942,2017,20,segunda_liga
+220,SP. Covilhã,SC Freamunde,1-1,https://www.besoccer.com/match/sporting-covilha/sc-freamunde/2017100953,2017,21,segunda_liga
+221,Sporting CP II,Sporting Braga II,1-2,https://www.besoccer.com/match/sporting-cp-ii/sporting-braga-ii/2017100959,2017,21,segunda_liga
+222,Penafiel,Olhanense,4-0,https://www.besoccer.com/match/penafiel/sc-olhanense/2017100961,2017,21,segunda_liga
+223,Vizela,Varzim,1-2,https://www.besoccer.com/match/vizela/varzim/2017100962,2017,21,segunda_liga
+224,Portimonense,CD Santa Clara,1-0,https://www.besoccer.com/match/portimonense/santa-clara/2017100956,2017,21,segunda_liga
+225,Cova Piedade,Academico Viseu,1-2,https://www.besoccer.com/match/cova-piedade/academico-viseu/2017100955,2017,21,segunda_liga
+226,Porto II,Académica,2-1,https://www.besoccer.com/match/porto-ii/academica/2017100957,2017,21,segunda_liga
+227,Fafe,Desportivo Aves,1-2,https://www.besoccer.com/match/fafe/desportivo-aves/2017100958,2017,21,segunda_liga
+228,União Madeira,Leixões,2-0,https://www.besoccer.com/match/uniao-madeira/leixoes/2017100960,2017,21,segunda_liga
+229,Benfica II,Vitória,3-2,https://www.besoccer.com/match/benfica-ii/vitoria-guimar/2017100952,2017,21,segunda_liga
+230,Famalicão,Gil Vicente,1-0,https://www.besoccer.com/match/famalicao/gil-vicente/2017100954,2017,21,segunda_liga
+231,Académica,Olhanense,2-0,https://www.besoccer.com/match/academica/sc-olhanense/2017100969,2017,22,segunda_liga
+232,Cova Piedade,Benfica II,1-2,https://www.besoccer.com/match/cova-piedade/benfica-ii/2017100964,2017,22,segunda_liga
+233,SP. Covilhã,Penafiel,2-3,https://www.besoccer.com/match/sporting-covilha/penafiel/2017100970,2017,22,segunda_liga
+234,Porto II,Desportivo Aves,0-0,https://www.besoccer.com/match/porto-ii/desportivo-aves/2017100963,2017,22,segunda_liga
+235,União Madeira,SC Freamunde,2-1,https://www.besoccer.com/match/uniao-madeira/sc-freamunde/2017100966,2017,22,segunda_liga
+236,Vizela,Academico Viseu,1-1,https://www.besoccer.com/match/vizela/academico-viseu/2017100968,2017,22,segunda_liga
+237,Famalicão,Leixões,0-2,https://www.besoccer.com/match/famalicao/leixoes/2017100971,2017,22,segunda_liga
+238,Portimonense,Sporting CP II,4-0,https://www.besoccer.com/match/portimonense/sporting-cp-ii/2017100973,2017,22,segunda_liga
+239,Fafe,Sporting Braga II,4-1,https://www.besoccer.com/match/fafe/sporting-braga-ii/2017100965,2017,22,segunda_liga
+240,Varzim,Gil Vicente,1-1,https://www.besoccer.com/match/varzim/gil-vicente/2017100967,2017,22,segunda_liga
+241,Vitória,CD Santa Clara,5-0,https://www.besoccer.com/match/vitoria-guimar/santa-clara/2017100972,2017,22,segunda_liga
+242,Penafiel,Portimonense,2-2,https://www.besoccer.com/match/penafiel/portimonense/2017100984,2017,23,segunda_liga
+243,Sporting Braga II,União Madeira,3-1,https://www.besoccer.com/match/sporting-braga-ii/uniao-madeira/2017100981,2017,23,segunda_liga
+244,Academico Viseu,Porto II,2-1,https://www.besoccer.com/match/academico-viseu/porto-ii/2017100978,2017,23,segunda_liga
+245,SC Freamunde,Fafe,1-0,https://www.besoccer.com/match/sc-freamunde/fafe/2017100976,2017,23,segunda_liga
+246,Olhanense,Famalicão,0-1,https://www.besoccer.com/match/sc-olhanense/famalicao/2017100977,2017,23,segunda_liga
+247,Desportivo Aves,Vitória,1-0,https://www.besoccer.com/match/desportivo-aves/vitoria-guimar/2017100979,2017,23,segunda_liga
+248,Gil Vicente,Vizela,1-0,https://www.besoccer.com/match/gil-vicente/vizela/2017100982,2017,23,segunda_liga
+249,Leixões,Cova Piedade,4-0,https://www.besoccer.com/match/leixoes/cova-piedade/2017100983,2017,23,segunda_liga
+250,CD Santa Clara,Académica,1-1,https://www.besoccer.com/match/santa-clara/academica/2017100974,2017,23,segunda_liga
+251,Sporting CP II,SP. Covilhã,1-1,https://www.besoccer.com/match/sporting-cp-ii/sporting-covilha/2017100975,2017,23,segunda_liga
+252,Benfica II,Varzim,1-2,https://www.besoccer.com/match/benfica-ii/varzim/2017100980,2017,23,segunda_liga
+253,Vizela,Desportivo Aves,3-1,https://www.besoccer.com/match/vizela/desportivo-aves/2017100985,2017,24,segunda_liga
+254,Gil Vicente,Benfica II,1-1,https://www.besoccer.com/match/gil-vicente/benfica-ii/2017100986,2017,24,segunda_liga
+255,Cova Piedade,Sporting Braga II,1-1,https://www.besoccer.com/match/cova-piedade/sporting-braga-ii/2017100987,2017,24,segunda_liga
+256,Porto II,Leixões,1-2,https://www.besoccer.com/match/porto-ii/leixoes/2017100989,2017,24,segunda_liga
+257,União Madeira,Portimonense,3-1,https://www.besoccer.com/match/uniao-madeira/portimonense/2017100990,2017,24,segunda_liga
+258,Académica,Penafiel,3-2,https://www.besoccer.com/match/academica/penafiel/2017100991,2017,24,segunda_liga
+259,SP. Covilhã,Olhanense,3-0,https://www.besoccer.com/match/sporting-covilha/sc-olhanense/2017100992,2017,24,segunda_liga
+260,Fafe,Sporting CP II,2-0,https://www.besoccer.com/match/fafe/sporting-cp-ii/2017100993,2017,24,segunda_liga
+261,Famalicão,CD Santa Clara,0-1,https://www.besoccer.com/match/famalicao/santa-clara/2017100994,2017,24,segunda_liga
+262,Varzim,Academico Viseu,1-1,https://www.besoccer.com/match/varzim/academico-viseu/2017100995,2017,24,segunda_liga
+263,Vitória,SC Freamunde,2-1,https://www.besoccer.com/match/vitoria-guimar/sc-freamunde/2017100988,2017,24,segunda_liga
+264,Benfica II,Vizela,2-1,https://www.besoccer.com/match/benfica-ii/vizela/2017101002,2017,25,segunda_liga
+265,Portimonense,Académica,0-0,https://www.besoccer.com/match/portimonense/academica/2017100997,2017,25,segunda_liga
+266,Sporting Braga II,SP. Covilhã,0-1,https://www.besoccer.com/match/sporting-braga-ii/sporting-covilha/2017101003,2017,25,segunda_liga
+267,CD Santa Clara,Fafe,1-3,https://www.besoccer.com/match/santa-clara/fafe/201795758,2017,25,segunda_liga
+268,Olhanense,Porto II,2-2,https://www.besoccer.com/match/sc-olhanense/porto-ii/2017101005,2017,25,segunda_liga
+269,Sporting CP II,Famalicão,1-1,https://www.besoccer.com/match/sporting-cp-ii/famalicao/2017100998,2017,25,segunda_liga
+270,Academico Viseu,Gil Vicente,1-2,https://www.besoccer.com/match/academico-viseu/gil-vicente/2017100999,2017,25,segunda_liga
+271,Leixões,Vitória,2-1,https://www.besoccer.com/match/leixoes/vitoria-guimar/2017101000,2017,25,segunda_liga
+272,Desportivo Aves,Varzim,1-2,https://www.besoccer.com/match/desportivo-aves/varzim/2017101001,2017,25,segunda_liga
+273,SC Freamunde,Cova Piedade,3-1,https://www.besoccer.com/match/sc-freamunde/cova-piedade/2017101004,2017,25,segunda_liga
+274,Penafiel,União Madeira,3-1,https://www.besoccer.com/match/penafiel/uniao-madeira/2017101006,2017,25,segunda_liga
+275,Vizela,Sporting CP II,2-1,https://www.besoccer.com/match/vizela/sporting-cp-ii/2017101013,2017,26,segunda_liga
+276,União Madeira,Académica,2-1,https://www.besoccer.com/match/uniao-madeira/academica/2017101007,2017,26,segunda_liga
+277,Famalicão,Sporting Braga II,2-0,https://www.besoccer.com/match/famalicao/sporting-braga-ii/2017101009,2017,26,segunda_liga
+278,Porto II,SC Freamunde,0-1,https://www.besoccer.com/match/porto-ii/sc-freamunde/201788817,2017,26,segunda_liga
+279,Cova Piedade,Penafiel,1-1,https://www.besoccer.com/match/cova-piedade/penafiel/2017101012,2017,26,segunda_liga
+280,Fafe,Olhanense,1-2,https://www.besoccer.com/match/fafe/sc-olhanense/2017101015,2017,26,segunda_liga
+281,Benfica II,Desportivo Aves,4-2,https://www.besoccer.com/match/benfica-ii/desportivo-aves/2017101008,2017,26,segunda_liga
+282,Varzim,Leixões,1-0,https://www.besoccer.com/match/varzim/leixoes/2017101011,2017,26,segunda_liga
+283,Gil Vicente,CD Santa Clara,2-1,https://www.besoccer.com/match/gil-vicente/santa-clara/2017101016,2017,26,segunda_liga
+284,Vitória,Academico Viseu,0-0,https://www.besoccer.com/match/vitoria-guimar/academico-viseu/2017101017,2017,26,segunda_liga
+285,SP. Covilhã,Portimonense,1-0,https://www.besoccer.com/match/sporting-covilha/portimonense/2017101014,2017,26,segunda_liga
+286,Academico Viseu,Benfica II,2-1,https://www.besoccer.com/match/academico-viseu/benfica-ii/2017101019,2017,27,segunda_liga
+287,Leixões,Fafe,1-1,https://www.besoccer.com/match/leixoes/fafe/201788857,2017,27,segunda_liga
+288,SC Freamunde,Famalicão,1-0,https://www.besoccer.com/match/sc-freamunde/famalicao/2017101021,2017,27,segunda_liga
+289,Portimonense,Vitória,1-0,https://www.besoccer.com/match/portimonense/vitoria-guimar/2017101022,2017,27,segunda_liga
+290,Desportivo Aves,Gil Vicente,1-1,https://www.besoccer.com/match/desportivo-aves/gil-vicente/2017101024,2017,27,segunda_liga
+291,Sporting Braga II,Vizela,5-0,https://www.besoccer.com/match/sporting-braga-ii/vizela/2017101025,2017,27,segunda_liga
+292,Olhanense,União Madeira,1-1,https://www.besoccer.com/match/sc-olhanense/uniao-madeira/2017101026,2017,27,segunda_liga
+293,Penafiel,Porto II,0-2,https://www.besoccer.com/match/penafiel/porto-ii/2017101027,2017,27,segunda_liga
+294,Sporting CP II,Varzim,1-2,https://www.besoccer.com/match/sporting-cp-ii/varzim/2017101028,2017,27,segunda_liga
+295,CD Santa Clara,Cova Piedade,2-0,https://www.besoccer.com/match/santa-clara/cova-piedade/2017101018,2017,27,segunda_liga
+296,Académica,SP. Covilhã,2-0,https://www.besoccer.com/match/academica/sporting-covilha/2017101023,2017,27,segunda_liga
+297,Cova Piedade,Portimonense,1-1,https://www.besoccer.com/match/cova-piedade/portimonense/2017101038,2017,28,segunda_liga
+298,Famalicão,Académica,2-1,https://www.besoccer.com/match/famalicao/academica/2017101029,2017,28,segunda_liga
+299,Academico Viseu,Desportivo Aves,1-0,https://www.besoccer.com/match/academico-viseu/desportivo-aves/2017101030,2017,28,segunda_liga
+300,Varzim,Sporting Braga II,0-1,https://www.besoccer.com/match/varzim/sporting-braga-ii/2017101031,2017,28,segunda_liga
+301,União Madeira,SP. Covilhã,1-1,https://www.besoccer.com/match/uniao-madeira/sporting-covilha/2017101032,2017,28,segunda_liga
+302,Vizela,Leixões,1-1,https://www.besoccer.com/match/vizela/leixoes/2017101033,2017,28,segunda_liga
+303,Fafe,Penafiel,3-3,https://www.besoccer.com/match/fafe/penafiel/2017101035,2017,28,segunda_liga
+304,Gil Vicente,Sporting CP II,2-2,https://www.besoccer.com/match/gil-vicente/sporting-cp-ii/2017101036,2017,28,segunda_liga
+305,Porto II,CD Santa Clara,0-0,https://www.besoccer.com/match/porto-ii/santa-clara/2017101039,2017,28,segunda_liga
+306,Benfica II,SC Freamunde,2-1,https://www.besoccer.com/match/benfica-ii/sc-freamunde/2017101034,2017,28,segunda_liga
+307,Vitória,Olhanense,3-1,https://www.besoccer.com/match/vitoria-guimar/sc-olhanense/2017101037,2017,28,segunda_liga
+308,Académica,Cova Piedade,1-2,https://www.besoccer.com/match/academica/cova-piedade/2017101046,2017,29,segunda_liga
+309,Sporting Braga II,Academico Viseu,2-2,https://www.besoccer.com/match/sporting-braga-ii/academico-viseu/2017101047,2017,29,segunda_liga
+310,Leixões,Benfica II,1-2,https://www.besoccer.com/match/leixoes/benfica-ii/2017101042,2017,29,segunda_liga
+311,CD Santa Clara,Vizela,0-0,https://www.besoccer.com/match/santa-clara/vizela/2017101040,2017,29,segunda_liga
+312,Sporting CP II,Desportivo Aves,2-1,https://www.besoccer.com/match/sporting-cp-ii/desportivo-aves/2017101041,2017,29,segunda_liga
+313,Portimonense,Fafe,1-0,https://www.besoccer.com/match/portimonense/fafe/2017101043,2017,29,segunda_liga
+314,Penafiel,Famalicão,0-2,https://www.besoccer.com/match/penafiel/famalicao/2017101044,2017,29,segunda_liga
+315,União Madeira,Vitória,1-0,https://www.besoccer.com/match/uniao-madeira/vitoria-guimar/2017101045,2017,29,segunda_liga
+316,SP. Covilhã,Porto II,1-1,https://www.besoccer.com/match/sporting-covilha/porto-ii/2017101048,2017,29,segunda_liga
+317,SC Freamunde,Gil Vicente,2-2,https://www.besoccer.com/match/sc-freamunde/gil-vicente/2017101049,2017,29,segunda_liga
+318,Olhanense,Varzim,0-1,https://www.besoccer.com/match/sc-olhanense/varzim/2017101050,2017,29,segunda_liga
+319,Desportivo Aves,Sporting Braga II,1-1,https://www.besoccer.com/match/desportivo-aves/sporting-braga-ii/2017101055,2017,30,segunda_liga
+320,Benfica II,Olhanense,2-1,https://www.besoccer.com/match/benfica-ii/sc-olhanense/2017101056,2017,30,segunda_liga
+321,Cova Piedade,Sporting CP II,0-2,https://www.besoccer.com/match/cova-piedade/sporting-cp-ii/2017101060,2017,30,segunda_liga
+322,Vizela,Académica,0-1,https://www.besoccer.com/match/vizela/academica/2017101051,2017,30,segunda_liga
+323,Academico Viseu,SC Freamunde,1-2,https://www.besoccer.com/match/academico-viseu/sc-freamunde/2017101053,2017,30,segunda_liga
+324,Varzim,CD Santa Clara,0-0,https://www.besoccer.com/match/varzim/santa-clara/2017101054,2017,30,segunda_liga
+325,Fafe,União Madeira,1-2,https://www.besoccer.com/match/fafe/uniao-madeira/2017101057,2017,30,segunda_liga
+326,Gil Vicente,Leixões,2-2,https://www.besoccer.com/match/gil-vicente/leixoes/2017101058,2017,30,segunda_liga
+327,Vitória,Penafiel,2-0,https://www.besoccer.com/match/vitoria-guimar/penafiel/201788814,2017,30,segunda_liga
+328,Famalicão,SP. Covilhã,2-2,https://www.besoccer.com/match/famalicao/sporting-covilha/2017101052,2017,30,segunda_liga
+329,Porto II,Portimonense,1-0,https://www.besoccer.com/match/porto-ii/portimonense/2017101061,2017,30,segunda_liga
+330,Portimonense,Famalicão,2-1,https://www.besoccer.com/match/portimonense/famalicao/2017101064,2017,31,segunda_liga
+331,Sporting Braga II,Gil Vicente,2-1,https://www.besoccer.com/match/sporting-braga-ii/gil-vicente/2017101067,2017,31,segunda_liga
+332,União Madeira,Porto II,1-0,https://www.besoccer.com/match/uniao-madeira/porto-ii/2017101065,2017,31,segunda_liga
+333,Académica,Fafe,0-0,https://www.besoccer.com/match/academica/fafe/2017101066,2017,31,segunda_liga
+334,SP. Covilhã,Vitória,2-2,https://www.besoccer.com/match/sporting-covilha/vitoria-guimar/2017101068,2017,31,segunda_liga
+335,SC Freamunde,Varzim,1-3,https://www.besoccer.com/match/sc-freamunde/varzim/2017101069,2017,31,segunda_liga
+336,Olhanense,Cova Piedade,2-1,https://www.besoccer.com/match/sc-olhanense/cova-piedade/2017101070,2017,31,segunda_liga
+337,Penafiel,Vizela,3-0,https://www.besoccer.com/match/penafiel/vizela/2017101071,2017,31,segunda_liga
+338,Sporting CP II,Academico Viseu,3-1,https://www.besoccer.com/match/sporting-cp-ii/academico-viseu/2017101072,2017,31,segunda_liga
+339,CD Santa Clara,Benfica II,2-1,https://www.besoccer.com/match/santa-clara/benfica-ii/2017101062,2017,31,segunda_liga
+340,Leixões,Desportivo Aves,1-1,https://www.besoccer.com/match/leixoes/desportivo-aves/2017101063,2017,31,segunda_liga
+341,Vizela,SP. Covilhã,1-1,https://www.besoccer.com/match/vizela/sporting-covilha/2017101074,2017,32,segunda_liga
+342,Sporting CP II,SC Freamunde,2-0,https://www.besoccer.com/match/sporting-cp-ii/sc-freamunde/2017101075,2017,32,segunda_liga
+343,Desportivo Aves,Olhanense,1-0,https://www.besoccer.com/match/desportivo-aves/sc-olhanense/2017101077,2017,32,segunda_liga
+344,Sporting Braga II,Leixões,1-1,https://www.besoccer.com/match/sporting-braga-ii/leixoes/2017101079,2017,32,segunda_liga
+345,Fafe,Vitória,2-4,https://www.besoccer.com/match/fafe/vitoria-guimar/2017101080,2017,32,segunda_liga
+346,Famalicão,Porto II,1-3,https://www.besoccer.com/match/famalicao/porto-ii/2017101081,2017,32,segunda_liga
+347,Gil Vicente,Penafiel,3-1,https://www.besoccer.com/match/gil-vicente/penafiel/2017101082,2017,32,segunda_liga
+348,Cova Piedade,União Madeira,1-1,https://www.besoccer.com/match/cova-piedade/uniao-madeira/2017101083,2017,32,segunda_liga
+349,Benfica II,Portimonense,2-3,https://www.besoccer.com/match/benfica-ii/portimonense/2017101078,2017,32,segunda_liga
+350,Varzim,Académica,0-2,https://www.besoccer.com/match/varzim/academica/2017101073,2017,32,segunda_liga
+351,Academico Viseu,CD Santa Clara,2-1,https://www.besoccer.com/match/academico-viseu/santa-clara/2017101076,2017,32,segunda_liga
+352,Penafiel,Benfica II,2-1,https://www.besoccer.com/match/penafiel/benfica-ii/2017101086,2017,33,segunda_liga
+353,Porto II,Vizela,0-0,https://www.besoccer.com/match/porto-ii/vizela/2017101093,2017,33,segunda_liga
+354,CD Santa Clara,Sporting Braga II,2-0,https://www.besoccer.com/match/santa-clara/sporting-braga-ii/2017101084,2017,33,segunda_liga
+355,SC Freamunde,Desportivo Aves,0-1,https://www.besoccer.com/match/sc-freamunde/desportivo-aves/2017101085,2017,33,segunda_liga
+356,Olhanense,Gil Vicente,1-3,https://www.besoccer.com/match/sc-olhanense/gil-vicente/2017101088,2017,33,segunda_liga
+357,SP. Covilhã,Fafe,1-1,https://www.besoccer.com/match/sporting-covilha/fafe/2017101090,2017,33,segunda_liga
+358,Leixões,Sporting CP II,1-2,https://www.besoccer.com/match/leixoes/sporting-cp-ii/2017101092,2017,33,segunda_liga
+359,Portimonense,Varzim,0-1,https://www.besoccer.com/match/portimonense/varzim/2017101094,2017,33,segunda_liga
+360,União Madeira,Famalicão,2-1,https://www.besoccer.com/match/uniao-madeira/famalicao/2017101087,2017,33,segunda_liga
+361,Académica,Academico Viseu,1-2,https://www.besoccer.com/match/academica/academico-viseu/2017101089,2017,33,segunda_liga
+362,Vitória,Cova Piedade,1-0,https://www.besoccer.com/match/vitoria-guimar/cova-piedade/2017101091,2017,33,segunda_liga
+363,Desportivo Aves,CD Santa Clara,1-0,https://www.besoccer.com/match/desportivo-aves/santa-clara/201783582,2017,34,segunda_liga
+364,Sporting Braga II,SC Freamunde,4-2,https://www.besoccer.com/match/sporting-braga-ii/sc-freamunde/2017101103,2017,34,segunda_liga
+365,Gil Vicente,Académica,1-0,https://www.besoccer.com/match/gil-vicente/academica/2017101095,2017,34,segunda_liga
+366,Cova Piedade,SP. Covilhã,1-0,https://www.besoccer.com/match/cova-piedade/sporting-covilha/2017101096,2017,34,segunda_liga
+367,Academico Viseu,Leixões,2-2,https://www.besoccer.com/match/academico-viseu/leixoes/2017101097,2017,34,segunda_liga
+368,Sporting CP II,Olhanense,5-1,https://www.besoccer.com/match/sporting-cp-ii/sc-olhanense/2017101098,2017,34,segunda_liga
+369,Varzim,Penafiel,1-1,https://www.besoccer.com/match/varzim/penafiel/2017101099,2017,34,segunda_liga
+370,Vizela,Portimonense,2-1,https://www.besoccer.com/match/vizela/portimonense/2017101100,2017,34,segunda_liga
+371,Benfica II,União Madeira,0-4,https://www.besoccer.com/match/benfica-ii/uniao-madeira/2017101102,2017,34,segunda_liga
+372,Famalicão,Vitória,0-0,https://www.besoccer.com/match/famalicao/vitoria-guimar/2017101105,2017,34,segunda_liga
+373,Fafe,Porto II,1-2,https://www.besoccer.com/match/fafe/porto-ii/2017101104,2017,34,segunda_liga
+374,Académica,Desportivo Aves,0-0,https://www.besoccer.com/match/academica/desportivo-aves/2017101112,2017,35,segunda_liga
+375,SP. Covilhã,Benfica II,2-0,https://www.besoccer.com/match/sporting-covilha/benfica-ii/2017101107,2017,35,segunda_liga
+376,Portimonense,Gil Vicente,1-2,https://www.besoccer.com/match/portimonense/gil-vicente/2017101110,2017,35,segunda_liga
+377,Porto II,Cova Piedade,4-0,https://www.besoccer.com/match/porto-ii/cova-piedade/2017101111,2017,35,segunda_liga
+378,Penafiel,Sporting Braga II,1-0,https://www.besoccer.com/match/penafiel/sporting-braga-ii/2017101108,2017,35,segunda_liga
+379,Leixões,SC Freamunde,1-0,https://www.besoccer.com/match/leixoes/sc-freamunde/2017101109,2017,35,segunda_liga
+380,Fafe,Famalicão,1-1,https://www.besoccer.com/match/fafe/famalicao/2017101113,2017,35,segunda_liga
+381,Olhanense,Academico Viseu,1-2,https://www.besoccer.com/match/sc-olhanense/academico-viseu/2017101115,2017,35,segunda_liga
+382,União Madeira,Varzim,0-1,https://www.besoccer.com/match/uniao-madeira/varzim/2017101116,2017,35,segunda_liga
+383,CD Santa Clara,Sporting CP II,1-1,https://www.besoccer.com/match/santa-clara/sporting-cp-ii/2017101106,2017,35,segunda_liga
+384,Vitória,Vizela,2-0,https://www.besoccer.com/match/vitoria-guimar/vizela/2017101114,2017,35,segunda_liga
+385,Leixões,Académica,2-1,https://www.besoccer.com/match/leixoes/academica/2017101117,2017,36,segunda_liga
+386,Varzim,Porto II,0-1,https://www.besoccer.com/match/varzim/porto-ii/2017101121,2017,36,segunda_liga
+387,Cova Piedade,Fafe,3-1,https://www.besoccer.com/match/cova-piedade/fafe/2017101118,2017,36,segunda_liga
+388,Vizela,Olhanense,1-1,https://www.besoccer.com/match/vizela/sc-olhanense/2017101119,2017,36,segunda_liga
+389,Academico Viseu,Penafiel,1-2,https://www.besoccer.com/match/academico-viseu/penafiel/2017101120,2017,36,segunda_liga
+390,Desportivo Aves,SP. Covilhã,2-1,https://www.besoccer.com/match/desportivo-aves/sporting-covilha/2017101122,2017,36,segunda_liga
+391,Benfica II,Famalicão,2-0,https://www.besoccer.com/match/benfica-ii/famalicao/2017101123,2017,36,segunda_liga
+392,Sporting Braga II,Portimonense,2-1,https://www.besoccer.com/match/sporting-braga-ii/portimonense/2017101124,2017,36,segunda_liga
+393,SC Freamunde,CD Santa Clara,1-0,https://www.besoccer.com/match/sc-freamunde/santa-clara/2017101125,2017,36,segunda_liga
+394,Gil Vicente,Vitória,2-0,https://www.besoccer.com/match/gil-vicente/vitoria-guimar/2017101126,2017,36,segunda_liga
+395,Sporting CP II,União Madeira,2-0,https://www.besoccer.com/match/sporting-cp-ii/uniao-madeira/2017101127,2017,36,segunda_liga
+396,União Madeira,Vizela,1-1,https://www.besoccer.com/match/uniao-madeira/vizela/2017101138,2017,37,segunda_liga
+397,Porto II,Gil Vicente,2-2,https://www.besoccer.com/match/porto-ii/gil-vicente/2017101132,2017,37,segunda_liga
+398,Portimonense,Desportivo Aves,2-1,https://www.besoccer.com/match/portimonense/desportivo-aves/2017101129,2017,37,segunda_liga
+399,Olhanense,Sporting Braga II,1-3,https://www.besoccer.com/match/sc-olhanense/sporting-braga-ii/2017101131,2017,37,segunda_liga
+400,SP. Covilhã,Academico Viseu,2-1,https://www.besoccer.com/match/sporting-covilha/academico-viseu/2017101134,2017,37,segunda_liga
+401,Famalicão,Cova Piedade,3-0,https://www.besoccer.com/match/famalicao/cova-piedade/2017101135,2017,37,segunda_liga
+402,Vitória,Varzim,1-0,https://www.besoccer.com/match/vitoria-guimar/varzim/2017101136,2017,37,segunda_liga
+403,Penafiel,Sporting CP II,2-1,https://www.besoccer.com/match/penafiel/sporting-cp-ii/2017101137,2017,37,segunda_liga
+404,Fafe,Benfica II,0-1,https://www.besoccer.com/match/fafe/benfica-ii/2017101130,2017,37,segunda_liga
+405,CD Santa Clara,Leixões,3-0,https://www.besoccer.com/match/santa-clara/leixoes/2017101128,2017,37,segunda_liga
+406,Académica,SC Freamunde,2-2,https://www.besoccer.com/match/academica/sc-freamunde/2017101133,2017,37,segunda_liga
+407,Academico Viseu,Portimonense,1-0,https://www.besoccer.com/match/academico-viseu/portimonense/2017101144,2017,38,segunda_liga
+408,Varzim,SP. Covilhã,0-4,https://www.besoccer.com/match/varzim/sporting-covilha/2017101141,2017,38,segunda_liga
+409,Vizela,Fafe,0-1,https://www.besoccer.com/match/vizela/fafe/2017101142,2017,38,segunda_liga
+410,Sporting CP II,Vitória,3-0,https://www.besoccer.com/match/sporting-cp-ii/vitoria-guimar/2017101143,2017,38,segunda_liga
+411,Desportivo Aves,Famalicão,2-0,https://www.besoccer.com/match/desportivo-aves/famalicao/2017101145,2017,38,segunda_liga
+412,Benfica II,Porto II,2-1,https://www.besoccer.com/match/benfica-ii/porto-ii/2017101146,2017,38,segunda_liga
+413,SC Freamunde,Penafiel,1-2,https://www.besoccer.com/match/sc-freamunde/penafiel/2017101147,2017,38,segunda_liga
+414,Gil Vicente,Cova Piedade,2-2,https://www.besoccer.com/match/gil-vicente/cova-piedade/2017101148,2017,38,segunda_liga
+415,Leixões,Olhanense,3-0,https://www.besoccer.com/match/leixoes/sc-olhanense/2017101149,2017,38,segunda_liga
+416,CD Santa Clara,União Madeira,0-0,https://www.besoccer.com/match/santa-clara/uniao-madeira/2017101139,2017,38,segunda_liga
+417,Sporting Braga II,Académica,1-0,https://www.besoccer.com/match/sporting-braga-ii/academica/2017101140,2017,38,segunda_liga
+418,Portimonense,Leixões,3-3,https://www.besoccer.com/match/portimonense/leixoes/2017101154,2017,39,segunda_liga
+419,Vitória,Sporting Braga II,2-1,https://www.besoccer.com/match/vitoria-guimar/sporting-braga-ii/2017101152,2017,39,segunda_liga
+420,União Madeira,Desportivo Aves,2-2,https://www.besoccer.com/match/uniao-madeira/desportivo-aves/2017101151,2017,39,segunda_liga
+421,Porto II,Sporting CP II,3-2,https://www.besoccer.com/match/porto-ii/sporting-cp-ii/2017101160,2017,39,segunda_liga
+422,Benfica II,Académica,1-0,https://www.besoccer.com/match/benfica-ii/academica/2017101150,2017,39,segunda_liga
+423,Olhanense,SC Freamunde,2-1,https://www.besoccer.com/match/sc-olhanense/sc-freamunde/2017101153,2017,39,segunda_liga
+424,SP. Covilhã,Gil Vicente,2-1,https://www.besoccer.com/match/sporting-covilha/gil-vicente/2017101155,2017,39,segunda_liga
+425,Fafe,Academico Viseu,1-3,https://www.besoccer.com/match/fafe/academico-viseu/2017101156,2017,39,segunda_liga
+426,Famalicão,Vizela,2-0,https://www.besoccer.com/match/famalicao/vizela/2017101157,2017,39,segunda_liga
+427,Penafiel,CD Santa Clara,1-0,https://www.besoccer.com/match/penafiel/santa-clara/2017101158,2017,39,segunda_liga
+428,Cova Piedade,Varzim,1-0,https://www.besoccer.com/match/cova-piedade/varzim/2017101159,2017,39,segunda_liga
+429,Sporting CP II,Benfica II,2-2,https://www.besoccer.com/match/sporting-cp-ii/benfica-ii/2017101162,2017,40,segunda_liga
+430,Académica,Vitória,1-0,https://www.besoccer.com/match/academica/vitoria-guimar/2017101168,2017,40,segunda_liga
+431,SC Freamunde,Portimonense,1-2,https://www.besoccer.com/match/sc-freamunde/portimonense/2017101171,2017,40,segunda_liga
+432,Leixões,SP. Covilhã,1-3,https://www.besoccer.com/match/leixoes/sporting-covilha/2017101163,2017,40,segunda_liga
+433,Gil Vicente,Fafe,1-3,https://www.besoccer.com/match/gil-vicente/fafe/2017101164,2017,40,segunda_liga
+434,Varzim,Famalicão,1-0,https://www.besoccer.com/match/varzim/famalicao/2017101165,2017,40,segunda_liga
+435,Vizela,Cova Piedade,2-3,https://www.besoccer.com/match/vizela/cova-piedade/2017101166,2017,40,segunda_liga
+436,Academico Viseu,União Madeira,1-2,https://www.besoccer.com/match/academico-viseu/uniao-madeira/2017101167,2017,40,segunda_liga
+437,Desportivo Aves,Penafiel,2-1,https://www.besoccer.com/match/desportivo-aves/penafiel/2017101169,2017,40,segunda_liga
+438,Sporting Braga II,Porto II,2-3,https://www.besoccer.com/match/sporting-braga-ii/porto-ii/2017101170,2017,40,segunda_liga
+439,CD Santa Clara,Olhanense,3-0,https://www.besoccer.com/match/santa-clara/sc-olhanense/2017101161,2017,40,segunda_liga
+440,Porto II,Vitória,1-0,https://www.besoccer.com/match/porto-ii/vitoria-guimar/2017101176,2017,41,segunda_liga
+441,Cova Piedade,Desportivo Aves,1-2,https://www.besoccer.com/match/cova-piedade/desportivo-aves/2017101173,2017,41,segunda_liga
+442,Portimonense,Olhanense,3-2,https://www.besoccer.com/match/portimonense/sc-olhanense/2017101178,2017,41,segunda_liga
+443,SP. Covilhã,CD Santa Clara,1-1,https://www.besoccer.com/match/sporting-covilha/santa-clara/2017101180,2017,41,segunda_liga
+444,Sporting CP II,Académica,1-2,https://www.besoccer.com/match/sporting-cp-ii/academica/2017101172,2017,41,segunda_liga
+445,Vizela,SC Freamunde,1-1,https://www.besoccer.com/match/vizela/sc-freamunde/2017101174,2017,41,segunda_liga
+446,União Madeira,Gil Vicente,5-1,https://www.besoccer.com/match/uniao-madeira/gil-vicente/2017101175,2017,41,segunda_liga
+447,Penafiel,Leixões,0-0,https://www.besoccer.com/match/penafiel/leixoes/2017101177,2017,41,segunda_liga
+448,Benfica II,Sporting Braga II,1-4,https://www.besoccer.com/match/benfica-ii/sporting-braga-ii/2017101179,2017,41,segunda_liga
+449,Fafe,Varzim,2-1,https://www.besoccer.com/match/fafe/varzim/2017101181,2017,41,segunda_liga
+450,Famalicão,Academico Viseu,2-1,https://www.besoccer.com/match/famalicao/academico-viseu/2017101182,2017,41,segunda_liga
+451,SC Freamunde,SP. Covilhã,0-1,https://www.besoccer.com/match/sc-freamunde/sporting-covilha/2017100712,2017,42,segunda_liga
+452,CD Santa Clara,Portimonense,1-2,https://www.besoccer.com/match/santa-clara/portimonense/2017100710,2017,42,segunda_liga
+453,Desportivo Aves,Fafe,3-0,https://www.besoccer.com/match/desportivo-aves/fafe/2017100716,2017,42,segunda_liga
+454,Leixões,União Madeira,0-2,https://www.besoccer.com/match/leixoes/uniao-madeira/2017100718,2017,42,segunda_liga
+455,Vitória,Benfica II,3-2,https://www.besoccer.com/match/vitoria-guimar/benfica-ii/2017100711,2017,42,segunda_liga
+456,Gil Vicente,Famalicão,0-2,https://www.besoccer.com/match/gil-vicente/famalicao/2017100713,2017,42,segunda_liga
+457,Academico Viseu,Cova Piedade,2-2,https://www.besoccer.com/match/academico-viseu/cova-piedade/2017100714,2017,42,segunda_liga
+458,Académica,Porto II,2-1,https://www.besoccer.com/match/academica/porto-ii/2017100715,2017,42,segunda_liga
+459,Sporting Braga II,Sporting CP II,1-1,https://www.besoccer.com/match/sporting-braga-ii/sporting-cp-ii/2017100717,2017,42,segunda_liga
+460,Olhanense,Penafiel,3-1,https://www.besoccer.com/match/sc-olhanense/penafiel/2017100719,2017,42,segunda_liga
+461,Varzim,Vizela,0-3,https://www.besoccer.com/match/varzim/vizela/2017100720,2017,42,segunda_liga

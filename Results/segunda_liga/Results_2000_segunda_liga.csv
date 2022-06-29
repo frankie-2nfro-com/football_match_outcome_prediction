@@ -1,0 +1,307 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,SC Freamunde,Imortal,5-0,https://www.besoccer.com/match/sc-freamunde/imortal/20007793,2000,1,segunda_liga
+1,SP. Covilhã,Varzim,0-1,https://www.besoccer.com/match/sporting-covilha/varzim/20007794,2000,1,segunda_liga
+2,FC Felgueiras,Penafiel,0-2,https://www.besoccer.com/match/fc-felgueiras/penafiel/20007795,2000,1,segunda_liga
+3,Desportivo Aves,Beira Mar SC,1-0,https://www.besoccer.com/match/desportivo-aves/beira-mar/20007796,2000,1,segunda_liga
+4,Espinho,Moreirense,3-0,https://www.besoccer.com/match/espinho/moreirense-fc/20007797,2000,1,segunda_liga
+5,Leça FC,Chaves,2-2,https://www.besoccer.com/match/leca/chaves/20007798,2000,1,segunda_liga
+6,Uniao Lamas,Paços Ferreira,4-1,https://www.besoccer.com/match/uniao-lamas/pacos-ferreira/20007799,2000,1,segunda_liga
+7,FC Maia,Esposende,1-0,https://www.besoccer.com/match/fc-maia/esposende/20007800,2000,1,segunda_liga
+8,Naval,Académica,1-3,https://www.besoccer.com/match/naval/academica/20007801,2000,1,segunda_liga
+9,Académica,SC Freamunde,2-2,https://www.besoccer.com/match/academica/sc-freamunde/20007792,2000,2,segunda_liga
+10,Esposende,Naval,0-3,https://www.besoccer.com/match/esposende/naval/20007784,2000,2,segunda_liga
+11,Imortal,SP. Covilhã,0-1,https://www.besoccer.com/match/imortal/sporting-covilha/20007785,2000,2,segunda_liga
+12,Varzim,FC Felgueiras,1-2,https://www.besoccer.com/match/varzim/fc-felgueiras/20007786,2000,2,segunda_liga
+13,Penafiel,Desportivo Aves,0-0,https://www.besoccer.com/match/penafiel/desportivo-aves/20007787,2000,2,segunda_liga
+14,Beira Mar SC,Espinho,2-0,https://www.besoccer.com/match/beira-mar/espinho/20007788,2000,2,segunda_liga
+15,Moreirense,Leça FC,0-0,https://www.besoccer.com/match/moreirense-fc/leca/20007789,2000,2,segunda_liga
+16,Chaves,Uniao Lamas,2-1,https://www.besoccer.com/match/chaves/uniao-lamas/20007790,2000,2,segunda_liga
+17,Paços Ferreira,FC Maia,3-2,https://www.besoccer.com/match/pacos-ferreira/fc-maia/20007791,2000,2,segunda_liga
+18,Leça FC,Uniao Lamas,0-1,https://www.besoccer.com/match/leca/uniao-lamas/20007775,2000,3,segunda_liga
+19,FC Maia,Chaves,3-0,https://www.besoccer.com/match/fc-maia/chaves/20007776,2000,3,segunda_liga
+20,Naval,Paços Ferreira,1-1,https://www.besoccer.com/match/naval/pacos-ferreira/20007777,2000,3,segunda_liga
+21,SC Freamunde,Esposende,2-2,https://www.besoccer.com/match/sc-freamunde/esposende/20007778,2000,3,segunda_liga
+22,SP. Covilhã,Académica,1-1,https://www.besoccer.com/match/sporting-covilha/academica/20007779,2000,3,segunda_liga
+23,FC Felgueiras,Imortal,1-1,https://www.besoccer.com/match/fc-felgueiras/imortal/20007780,2000,3,segunda_liga
+24,Desportivo Aves,Varzim,0-0,https://www.besoccer.com/match/desportivo-aves/varzim/20007781,2000,3,segunda_liga
+25,Espinho,Penafiel,0-1,https://www.besoccer.com/match/espinho/penafiel/20007782,2000,3,segunda_liga
+26,Moreirense,Beira Mar SC,0-2,https://www.besoccer.com/match/moreirense-fc/beira-mar/20007783,2000,3,segunda_liga
+27,Uniao Lamas,FC Maia,1-0,https://www.besoccer.com/match/uniao-lamas/fc-maia/20007767,2000,4,segunda_liga
+28,Chaves,Naval,2-1,https://www.besoccer.com/match/chaves/naval/20007768,2000,4,segunda_liga
+29,Paços Ferreira,SC Freamunde,1-1,https://www.besoccer.com/match/pacos-ferreira/sc-freamunde/20007769,2000,4,segunda_liga
+30,Esposende,SP. Covilhã,2-0,https://www.besoccer.com/match/esposende/sporting-covilha/20007770,2000,4,segunda_liga
+31,Académica,FC Felgueiras,0-1,https://www.besoccer.com/match/academica/fc-felgueiras/20007771,2000,4,segunda_liga
+32,Imortal,Desportivo Aves,1-1,https://www.besoccer.com/match/imortal/desportivo-aves/20007772,2000,4,segunda_liga
+33,Varzim,Espinho,2-1,https://www.besoccer.com/match/varzim/espinho/20007773,2000,4,segunda_liga
+34,Penafiel,Moreirense,4-0,https://www.besoccer.com/match/penafiel/moreirense-fc/20007774,2000,4,segunda_liga
+35,Beira Mar SC,Leça FC,3-0,https://www.besoccer.com/match/beira-mar/leca/20007766,2000,4,segunda_liga
+36,Beira Mar SC,Penafiel,0-0,https://www.besoccer.com/match/beira-mar/penafiel/20007757,2000,5,segunda_liga
+37,Leça FC,FC Maia,3-0,https://www.besoccer.com/match/leca/fc-maia/20007758,2000,5,segunda_liga
+38,Naval,Uniao Lamas,1-1,https://www.besoccer.com/match/naval/uniao-lamas/20007759,2000,5,segunda_liga
+39,SC Freamunde,Chaves,2-1,https://www.besoccer.com/match/sc-freamunde/chaves/20007760,2000,5,segunda_liga
+40,SP. Covilhã,Paços Ferreira,1-1,https://www.besoccer.com/match/sporting-covilha/pacos-ferreira/20007761,2000,5,segunda_liga
+41,FC Felgueiras,Esposende,1-0,https://www.besoccer.com/match/fc-felgueiras/esposende/20007762,2000,5,segunda_liga
+42,Desportivo Aves,Académica,1-0,https://www.besoccer.com/match/desportivo-aves/academica/20007763,2000,5,segunda_liga
+43,Espinho,Imortal,2-1,https://www.besoccer.com/match/espinho/imortal/20007764,2000,5,segunda_liga
+44,Moreirense,Varzim,0-1,https://www.besoccer.com/match/moreirense-fc/varzim/20007765,2000,5,segunda_liga
+45,Académica,Espinho,2-1,https://www.besoccer.com/match/academica/espinho/20007749,2000,6,segunda_liga
+46,Imortal,Moreirense,1-2,https://www.besoccer.com/match/imortal/moreirense-fc/20007750,2000,6,segunda_liga
+47,Penafiel,Leça FC,2-2,https://www.besoccer.com/match/penafiel/leca/20007751,2000,6,segunda_liga
+48,FC Maia,Naval,2-4,https://www.besoccer.com/match/fc-maia/naval/20007752,2000,6,segunda_liga
+49,Uniao Lamas,SC Freamunde,1-0,https://www.besoccer.com/match/uniao-lamas/sc-freamunde/20007753,2000,6,segunda_liga
+50,Chaves,SP. Covilhã,2-0,https://www.besoccer.com/match/chaves/sporting-covilha/20007754,2000,6,segunda_liga
+51,Paços Ferreira,FC Felgueiras,1-0,https://www.besoccer.com/match/pacos-ferreira/fc-felgueiras/20007755,2000,6,segunda_liga
+52,Esposende,Desportivo Aves,0-0,https://www.besoccer.com/match/esposende/desportivo-aves/20007756,2000,6,segunda_liga
+53,Varzim,Beira Mar SC,2-2,https://www.besoccer.com/match/varzim/beira-mar/20007748,2000,6,segunda_liga
+54,Desportivo Aves,Paços Ferreira,0-1,https://www.besoccer.com/match/desportivo-aves/pacos-ferreira/20007739,2000,7,segunda_liga
+55,Espinho,Esposende,2-1,https://www.besoccer.com/match/espinho/esposende/20007740,2000,7,segunda_liga
+56,Moreirense,Académica,1-2,https://www.besoccer.com/match/moreirense-fc/academica/20007741,2000,7,segunda_liga
+57,Beira Mar SC,Imortal,1-1,https://www.besoccer.com/match/beira-mar/imortal/20007742,2000,7,segunda_liga
+58,Penafiel,Varzim,0-2,https://www.besoccer.com/match/penafiel/varzim/20007743,2000,7,segunda_liga
+59,Leça FC,Naval,3-2,https://www.besoccer.com/match/leca/naval/20007744,2000,7,segunda_liga
+60,SC Freamunde,FC Maia,0-0,https://www.besoccer.com/match/sc-freamunde/fc-maia/20007745,2000,7,segunda_liga
+61,SP. Covilhã,Uniao Lamas,1-1,https://www.besoccer.com/match/sporting-covilha/uniao-lamas/20007746,2000,7,segunda_liga
+62,FC Felgueiras,Chaves,0-5,https://www.besoccer.com/match/fc-felgueiras/chaves/20007747,2000,7,segunda_liga
+63,Chaves,Desportivo Aves,0-1,https://www.besoccer.com/match/chaves/desportivo-aves/20007730,2000,8,segunda_liga
+64,Paços Ferreira,Espinho,0-1,https://www.besoccer.com/match/pacos-ferreira/espinho/20007731,2000,8,segunda_liga
+65,Esposende,Moreirense,1-3,https://www.besoccer.com/match/esposende/moreirense-fc/20007732,2000,8,segunda_liga
+66,Académica,Beira Mar SC,0-0,https://www.besoccer.com/match/academica/beira-mar/20007733,2000,8,segunda_liga
+67,Imortal,Penafiel,0-2,https://www.besoccer.com/match/imortal/penafiel/20007734,2000,8,segunda_liga
+68,Varzim,Leça FC,1-1,https://www.besoccer.com/match/varzim/leca/20007735,2000,8,segunda_liga
+69,Naval,SC Freamunde,0-0,https://www.besoccer.com/match/naval/sc-freamunde/20007736,2000,8,segunda_liga
+70,FC Maia,SP. Covilhã,1-0,https://www.besoccer.com/match/fc-maia/sporting-covilha/20007737,2000,8,segunda_liga
+71,Uniao Lamas,FC Felgueiras,0-1,https://www.besoccer.com/match/uniao-lamas/fc-felgueiras/20007738,2000,8,segunda_liga
+72,SP. Covilhã,Naval,1-1,https://www.besoccer.com/match/sporting-covilha/naval/20007721,2000,9,segunda_liga
+73,FC Felgueiras,FC Maia,0-0,https://www.besoccer.com/match/fc-felgueiras/fc-maia/20007722,2000,9,segunda_liga
+74,Desportivo Aves,Uniao Lamas,1-0,https://www.besoccer.com/match/desportivo-aves/uniao-lamas/20007723,2000,9,segunda_liga
+75,Espinho,Chaves,0-0,https://www.besoccer.com/match/espinho/chaves/20007724,2000,9,segunda_liga
+76,Moreirense,Paços Ferreira,2-2,https://www.besoccer.com/match/moreirense-fc/pacos-ferreira/20007725,2000,9,segunda_liga
+77,Beira Mar SC,Esposende,2-1,https://www.besoccer.com/match/beira-mar/esposende/20007726,2000,9,segunda_liga
+78,Penafiel,Académica,1-1,https://www.besoccer.com/match/penafiel/academica/20007727,2000,9,segunda_liga
+79,Varzim,Imortal,1-0,https://www.besoccer.com/match/varzim/imortal/20007728,2000,9,segunda_liga
+80,Leça FC,SC Freamunde,1-0,https://www.besoccer.com/match/leca/sc-freamunde/20007729,2000,9,segunda_liga
+81,SC Freamunde,SP. Covilhã,0-2,https://www.besoccer.com/match/sc-freamunde/sporting-covilha/20007712,2000,10,segunda_liga
+82,Naval,FC Felgueiras,1-1,https://www.besoccer.com/match/naval/fc-felgueiras/20007713,2000,10,segunda_liga
+83,FC Maia,Desportivo Aves,1-2,https://www.besoccer.com/match/fc-maia/desportivo-aves/20007714,2000,10,segunda_liga
+84,Uniao Lamas,Espinho,4-1,https://www.besoccer.com/match/uniao-lamas/espinho/20007715,2000,10,segunda_liga
+85,Chaves,Moreirense,1-0,https://www.besoccer.com/match/chaves/moreirense-fc/20007716,2000,10,segunda_liga
+86,Paços Ferreira,Beira Mar SC,2-3,https://www.besoccer.com/match/pacos-ferreira/beira-mar/20007717,2000,10,segunda_liga
+87,Esposende,Penafiel,1-2,https://www.besoccer.com/match/esposende/penafiel/20007718,2000,10,segunda_liga
+88,Académica,Varzim,3-0,https://www.besoccer.com/match/academica/varzim/20007719,2000,10,segunda_liga
+89,Imortal,Leça FC,2-3,https://www.besoccer.com/match/imortal/leca/20007720,2000,10,segunda_liga
+90,Imortal,Académica,3-0,https://www.besoccer.com/match/imortal/academica/20007703,2000,11,segunda_liga
+91,Leça FC,SP. Covilhã,0-1,https://www.besoccer.com/match/leca/sporting-covilha/20007704,2000,11,segunda_liga
+92,FC Felgueiras,SC Freamunde,0-0,https://www.besoccer.com/match/fc-felgueiras/sc-freamunde/20007705,2000,11,segunda_liga
+93,Desportivo Aves,Naval,1-0,https://www.besoccer.com/match/desportivo-aves/naval/20007706,2000,11,segunda_liga
+94,Espinho,FC Maia,2-0,https://www.besoccer.com/match/espinho/fc-maia/20007707,2000,11,segunda_liga
+95,Moreirense,Uniao Lamas,3-1,https://www.besoccer.com/match/moreirense-fc/uniao-lamas/20007708,2000,11,segunda_liga
+96,Beira Mar SC,Chaves,0-0,https://www.besoccer.com/match/beira-mar/chaves/20007709,2000,11,segunda_liga
+97,Penafiel,Paços Ferreira,1-1,https://www.besoccer.com/match/penafiel/pacos-ferreira/20007710,2000,11,segunda_liga
+98,Varzim,Esposende,5-0,https://www.besoccer.com/match/varzim/esposende/20007711,2000,11,segunda_liga
+99,Esposende,Imortal,2-4,https://www.besoccer.com/match/esposende/imortal/20007694,2000,12,segunda_liga
+100,Académica,Leça FC,2-0,https://www.besoccer.com/match/academica/leca/20007695,2000,12,segunda_liga
+101,SP. Covilhã,FC Felgueiras,0-1,https://www.besoccer.com/match/sporting-covilha/fc-felgueiras/20007696,2000,12,segunda_liga
+102,SC Freamunde,Desportivo Aves,0-0,https://www.besoccer.com/match/sc-freamunde/desportivo-aves/20007697,2000,12,segunda_liga
+103,Naval,Espinho,2-2,https://www.besoccer.com/match/naval/espinho/20007698,2000,12,segunda_liga
+104,FC Maia,Moreirense,4-2,https://www.besoccer.com/match/fc-maia/moreirense-fc/20007699,2000,12,segunda_liga
+105,Uniao Lamas,Beira Mar SC,3-2,https://www.besoccer.com/match/uniao-lamas/beira-mar/20007700,2000,12,segunda_liga
+106,Chaves,Penafiel,2-2,https://www.besoccer.com/match/chaves/penafiel/20007701,2000,12,segunda_liga
+107,Paços Ferreira,Varzim,0-1,https://www.besoccer.com/match/pacos-ferreira/varzim/20007702,2000,12,segunda_liga
+108,Penafiel,Uniao Lamas,2-0,https://www.besoccer.com/match/penafiel/uniao-lamas/20007685,2000,13,segunda_liga
+109,Varzim,Chaves,0-0,https://www.besoccer.com/match/varzim/chaves/20007686,2000,13,segunda_liga
+110,Imortal,Paços Ferreira,1-3,https://www.besoccer.com/match/imortal/pacos-ferreira/20007687,2000,13,segunda_liga
+111,Académica,Esposende,3-1,https://www.besoccer.com/match/academica/esposende/20007688,2000,13,segunda_liga
+112,Leça FC,FC Felgueiras,2-1,https://www.besoccer.com/match/leca/fc-felgueiras/20007689,2000,13,segunda_liga
+113,Desportivo Aves,SP. Covilhã,3-0,https://www.besoccer.com/match/desportivo-aves/sporting-covilha/20007690,2000,13,segunda_liga
+114,Espinho,SC Freamunde,4-1,https://www.besoccer.com/match/espinho/sc-freamunde/20007691,2000,13,segunda_liga
+115,Moreirense,Naval,1-1,https://www.besoccer.com/match/moreirense-fc/naval/20007692,2000,13,segunda_liga
+116,Beira Mar SC,FC Maia,1-1,https://www.besoccer.com/match/beira-mar/fc-maia/20007693,2000,13,segunda_liga
+117,Naval,Beira Mar SC,1-2,https://www.besoccer.com/match/naval/beira-mar/20007676,2000,14,segunda_liga
+118,FC Maia,Penafiel,3-2,https://www.besoccer.com/match/fc-maia/penafiel/20007677,2000,14,segunda_liga
+119,Uniao Lamas,Varzim,1-0,https://www.besoccer.com/match/uniao-lamas/varzim/20007678,2000,14,segunda_liga
+120,Chaves,Imortal,5-1,https://www.besoccer.com/match/chaves/imortal/20007679,2000,14,segunda_liga
+121,Paços Ferreira,Académica,0-1,https://www.besoccer.com/match/pacos-ferreira/academica/20007680,2000,14,segunda_liga
+122,Esposende,Leça FC,1-2,https://www.besoccer.com/match/esposende/leca/20007681,2000,14,segunda_liga
+123,FC Felgueiras,Desportivo Aves,2-0,https://www.besoccer.com/match/fc-felgueiras/desportivo-aves/20007682,2000,14,segunda_liga
+124,SP. Covilhã,Espinho,2-3,https://www.besoccer.com/match/sporting-covilha/espinho/20007683,2000,14,segunda_liga
+125,SC Freamunde,Moreirense,1-0,https://www.besoccer.com/match/sc-freamunde/moreirense-fc/20007684,2000,14,segunda_liga
+126,Académica,Chaves,1-0,https://www.besoccer.com/match/academica/chaves/20007675,2000,15,segunda_liga
+127,Moreirense,SP. Covilhã,1-0,https://www.besoccer.com/match/moreirense-fc/sporting-covilha/20007667,2000,15,segunda_liga
+128,Beira Mar SC,SC Freamunde,1-0,https://www.besoccer.com/match/beira-mar/sc-freamunde/20007668,2000,15,segunda_liga
+129,Penafiel,Naval,2-1,https://www.besoccer.com/match/penafiel/naval/20007669,2000,15,segunda_liga
+130,Varzim,FC Maia,1-1,https://www.besoccer.com/match/varzim/fc-maia/20007670,2000,15,segunda_liga
+131,Imortal,Uniao Lamas,3-1,https://www.besoccer.com/match/imortal/uniao-lamas/20007671,2000,15,segunda_liga
+132,Esposende,Paços Ferreira,1-4,https://www.besoccer.com/match/esposende/pacos-ferreira/20007672,2000,15,segunda_liga
+133,Leça FC,Desportivo Aves,0-1,https://www.besoccer.com/match/leca/desportivo-aves/20007673,2000,15,segunda_liga
+134,Espinho,FC Felgueiras,1-0,https://www.besoccer.com/match/espinho/fc-felgueiras/20007674,2000,15,segunda_liga
+135,Desportivo Aves,Espinho,1-0,https://www.besoccer.com/match/desportivo-aves/espinho/20007658,2000,16,segunda_liga
+136,FC Felgueiras,Moreirense,1-0,https://www.besoccer.com/match/fc-felgueiras/moreirense-fc/20007659,2000,16,segunda_liga
+137,SP. Covilhã,Beira Mar SC,1-1,https://www.besoccer.com/match/sporting-covilha/beira-mar/20007660,2000,16,segunda_liga
+138,SC Freamunde,Penafiel,1-0,https://www.besoccer.com/match/sc-freamunde/penafiel/20007661,2000,16,segunda_liga
+139,Naval,Varzim,1-2,https://www.besoccer.com/match/naval/varzim/20007662,2000,16,segunda_liga
+140,FC Maia,Imortal,0-2,https://www.besoccer.com/match/fc-maia/imortal/20007663,2000,16,segunda_liga
+141,Uniao Lamas,Académica,1-0,https://www.besoccer.com/match/uniao-lamas/academica/20007664,2000,16,segunda_liga
+142,Chaves,Esposende,2-0,https://www.besoccer.com/match/chaves/esposende/20007665,2000,16,segunda_liga
+143,Leça FC,Paços Ferreira,1-2,https://www.besoccer.com/match/leca/pacos-ferreira/20007666,2000,16,segunda_liga
+144,Espinho,Leça FC,2-0,https://www.besoccer.com/match/espinho/leca/20007649,2000,17,segunda_liga
+145,Moreirense,Desportivo Aves,1-2,https://www.besoccer.com/match/moreirense-fc/desportivo-aves/20007650,2000,17,segunda_liga
+146,Beira Mar SC,FC Felgueiras,3-0,https://www.besoccer.com/match/beira-mar/fc-felgueiras/20007651,2000,17,segunda_liga
+147,Penafiel,SP. Covilhã,2-0,https://www.besoccer.com/match/penafiel/sporting-covilha/20007652,2000,17,segunda_liga
+148,Varzim,SC Freamunde,3-0,https://www.besoccer.com/match/varzim/sc-freamunde/20007653,2000,17,segunda_liga
+149,Imortal,Naval,3-2,https://www.besoccer.com/match/imortal/naval/20007654,2000,17,segunda_liga
+150,Académica,FC Maia,4-1,https://www.besoccer.com/match/academica/fc-maia/20007655,2000,17,segunda_liga
+151,Esposende,Uniao Lamas,2-1,https://www.besoccer.com/match/esposende/uniao-lamas/20007656,2000,17,segunda_liga
+152,Paços Ferreira,Chaves,4-0,https://www.besoccer.com/match/pacos-ferreira/chaves/20007657,2000,17,segunda_liga
+153,Beira Mar SC,Desportivo Aves,4-1,https://www.besoccer.com/match/beira-mar/desportivo-aves/20007640,2000,18,segunda_liga
+154,Moreirense,Espinho,0-0,https://www.besoccer.com/match/moreirense-fc/espinho/20007641,2000,18,segunda_liga
+155,Chaves,Leça FC,1-1,https://www.besoccer.com/match/chaves/leca/20007642,2000,18,segunda_liga
+156,Paços Ferreira,Uniao Lamas,0-1,https://www.besoccer.com/match/pacos-ferreira/uniao-lamas/20007643,2000,18,segunda_liga
+157,Esposende,FC Maia,2-1,https://www.besoccer.com/match/esposende/fc-maia/20007644,2000,18,segunda_liga
+158,Académica,Naval,5-0,https://www.besoccer.com/match/academica/naval/20007645,2000,18,segunda_liga
+159,Imortal,SC Freamunde,1-1,https://www.besoccer.com/match/imortal/sc-freamunde/20007646,2000,18,segunda_liga
+160,Varzim,SP. Covilhã,0-0,https://www.besoccer.com/match/varzim/sporting-covilha/20007647,2000,18,segunda_liga
+161,Penafiel,FC Felgueiras,4-1,https://www.besoccer.com/match/penafiel/fc-felgueiras/20007648,2000,18,segunda_liga
+162,Desportivo Aves,Penafiel,3-0,https://www.besoccer.com/match/desportivo-aves/penafiel/20007631,2000,19,segunda_liga
+163,Espinho,Beira Mar SC,1-2,https://www.besoccer.com/match/espinho/beira-mar/20007632,2000,19,segunda_liga
+164,Leça FC,Moreirense,1-0,https://www.besoccer.com/match/leca/moreirense-fc/20007633,2000,19,segunda_liga
+165,Uniao Lamas,Chaves,2-1,https://www.besoccer.com/match/uniao-lamas/chaves/20007634,2000,19,segunda_liga
+166,FC Maia,Paços Ferreira,2-1,https://www.besoccer.com/match/fc-maia/pacos-ferreira/20007635,2000,19,segunda_liga
+167,Naval,Esposende,4-1,https://www.besoccer.com/match/naval/esposende/20007636,2000,19,segunda_liga
+168,SC Freamunde,Académica,1-2,https://www.besoccer.com/match/sc-freamunde/academica/20007637,2000,19,segunda_liga
+169,SP. Covilhã,Imortal,1-1,https://www.besoccer.com/match/sporting-covilha/imortal/20007638,2000,19,segunda_liga
+170,FC Felgueiras,Varzim,2-1,https://www.besoccer.com/match/fc-felgueiras/varzim/20007639,2000,19,segunda_liga
+171,Académica,SP. Covilhã,1-1,https://www.besoccer.com/match/academica/sporting-covilha/20007622,2000,20,segunda_liga
+172,Imortal,FC Felgueiras,1-0,https://www.besoccer.com/match/imortal/fc-felgueiras/20007623,2000,20,segunda_liga
+173,Varzim,Desportivo Aves,0-1,https://www.besoccer.com/match/varzim/desportivo-aves/20007624,2000,20,segunda_liga
+174,Penafiel,Espinho,2-2,https://www.besoccer.com/match/penafiel/espinho/20007625,2000,20,segunda_liga
+175,Beira Mar SC,Moreirense,3-2,https://www.besoccer.com/match/beira-mar/moreirense-fc/20007626,2000,20,segunda_liga
+176,Uniao Lamas,Leça FC,0-3,https://www.besoccer.com/match/uniao-lamas/leca/20007627,2000,20,segunda_liga
+177,Chaves,FC Maia,1-1,https://www.besoccer.com/match/chaves/fc-maia/20007628,2000,20,segunda_liga
+178,Paços Ferreira,Naval,0-0,https://www.besoccer.com/match/pacos-ferreira/naval/20007629,2000,20,segunda_liga
+179,Esposende,SC Freamunde,0-1,https://www.besoccer.com/match/esposende/sc-freamunde/20007630,2000,20,segunda_liga
+180,SC Freamunde,Paços Ferreira,0-1,https://www.besoccer.com/match/sc-freamunde/pacos-ferreira/20007613,2000,21,segunda_liga
+181,SP. Covilhã,Esposende,0-1,https://www.besoccer.com/match/sporting-covilha/esposende/20007614,2000,21,segunda_liga
+182,FC Felgueiras,Académica,6-0,https://www.besoccer.com/match/fc-felgueiras/academica/20007615,2000,21,segunda_liga
+183,Desportivo Aves,Imortal,3-2,https://www.besoccer.com/match/desportivo-aves/imortal/20007616,2000,21,segunda_liga
+184,Espinho,Varzim,1-4,https://www.besoccer.com/match/espinho/varzim/20007617,2000,21,segunda_liga
+185,Moreirense,Penafiel,0-0,https://www.besoccer.com/match/moreirense-fc/penafiel/20007618,2000,21,segunda_liga
+186,Leça FC,Beira Mar SC,1-0,https://www.besoccer.com/match/leca/beira-mar/20007619,2000,21,segunda_liga
+187,FC Maia,Uniao Lamas,1-0,https://www.besoccer.com/match/fc-maia/uniao-lamas/20007620,2000,21,segunda_liga
+188,Naval,Chaves,2-0,https://www.besoccer.com/match/naval/chaves/20007621,2000,21,segunda_liga
+189,Uniao Lamas,Naval,2-0,https://www.besoccer.com/match/uniao-lamas/naval/20007604,2000,22,segunda_liga
+190,Chaves,SC Freamunde,2-2,https://www.besoccer.com/match/chaves/sc-freamunde/20007605,2000,22,segunda_liga
+191,Paços Ferreira,SP. Covilhã,2-1,https://www.besoccer.com/match/pacos-ferreira/sporting-covilha/20007606,2000,22,segunda_liga
+192,Esposende,FC Felgueiras,0-0,https://www.besoccer.com/match/esposende/fc-felgueiras/20007607,2000,22,segunda_liga
+193,Académica,Desportivo Aves,0-0,https://www.besoccer.com/match/academica/desportivo-aves/20007608,2000,22,segunda_liga
+194,Imortal,Espinho,2-4,https://www.besoccer.com/match/imortal/espinho/20007609,2000,22,segunda_liga
+195,Varzim,Moreirense,3-0,https://www.besoccer.com/match/varzim/moreirense-fc/20007610,2000,22,segunda_liga
+196,Penafiel,Beira Mar SC,0-1,https://www.besoccer.com/match/penafiel/beira-mar/20007611,2000,22,segunda_liga
+197,FC Maia,Leça FC,2-1,https://www.besoccer.com/match/fc-maia/leca/20007612,2000,22,segunda_liga
+198,Naval,FC Maia,1-0,https://www.besoccer.com/match/naval/fc-maia/20007595,2000,23,segunda_liga
+199,SC Freamunde,Uniao Lamas,2-1,https://www.besoccer.com/match/sc-freamunde/uniao-lamas/20007596,2000,23,segunda_liga
+200,SP. Covilhã,Chaves,2-4,https://www.besoccer.com/match/sporting-covilha/chaves/20007597,2000,23,segunda_liga
+201,FC Felgueiras,Paços Ferreira,1-2,https://www.besoccer.com/match/fc-felgueiras/pacos-ferreira/20007598,2000,23,segunda_liga
+202,Desportivo Aves,Esposende,1-0,https://www.besoccer.com/match/desportivo-aves/esposende/20007599,2000,23,segunda_liga
+203,Espinho,Académica,0-0,https://www.besoccer.com/match/espinho/academica/20007600,2000,23,segunda_liga
+204,Moreirense,Imortal,1-1,https://www.besoccer.com/match/moreirense-fc/imortal/20007601,2000,23,segunda_liga
+205,Beira Mar SC,Varzim,1-1,https://www.besoccer.com/match/beira-mar/varzim/20007602,2000,23,segunda_liga
+206,Leça FC,Penafiel,1-1,https://www.besoccer.com/match/leca/penafiel/20007603,2000,23,segunda_liga
+207,Imortal,Beira Mar SC,2-2,https://www.besoccer.com/match/imortal/beira-mar/20007587,2000,24,segunda_liga
+208,Naval,Leça FC,1-0,https://www.besoccer.com/match/naval/leca/20007588,2000,24,segunda_liga
+209,FC Maia,SC Freamunde,0-0,https://www.besoccer.com/match/fc-maia/sc-freamunde/20007589,2000,24,segunda_liga
+210,Uniao Lamas,SP. Covilhã,0-0,https://www.besoccer.com/match/uniao-lamas/sporting-covilha/20007590,2000,24,segunda_liga
+211,Chaves,FC Felgueiras,0-2,https://www.besoccer.com/match/chaves/fc-felgueiras/20007591,2000,24,segunda_liga
+212,Paços Ferreira,Desportivo Aves,3-0,https://www.besoccer.com/match/pacos-ferreira/desportivo-aves/20007592,2000,24,segunda_liga
+213,Esposende,Espinho,2-2,https://www.besoccer.com/match/esposende/espinho/20007593,2000,24,segunda_liga
+214,Académica,Moreirense,3-0,https://www.besoccer.com/match/academica/moreirense-fc/20007594,2000,24,segunda_liga
+215,Varzim,Penafiel,1-2,https://www.besoccer.com/match/varzim/penafiel/20007586,2000,24,segunda_liga
+216,Beira Mar SC,Académica,2-1,https://www.besoccer.com/match/beira-mar/academica/20007577,2000,25,segunda_liga
+217,Penafiel,Imortal,1-1,https://www.besoccer.com/match/penafiel/imortal/20007578,2000,25,segunda_liga
+218,Leça FC,Varzim,2-3,https://www.besoccer.com/match/leca/varzim/20007579,2000,25,segunda_liga
+219,SC Freamunde,Naval,3-0,https://www.besoccer.com/match/sc-freamunde/naval/20007580,2000,25,segunda_liga
+220,SP. Covilhã,FC Maia,0-2,https://www.besoccer.com/match/sporting-covilha/fc-maia/20007581,2000,25,segunda_liga
+221,FC Felgueiras,Uniao Lamas,1-2,https://www.besoccer.com/match/fc-felgueiras/uniao-lamas/20007582,2000,25,segunda_liga
+222,Desportivo Aves,Chaves,1-0,https://www.besoccer.com/match/desportivo-aves/chaves/20007583,2000,25,segunda_liga
+223,Espinho,Paços Ferreira,1-2,https://www.besoccer.com/match/espinho/pacos-ferreira/20007584,2000,25,segunda_liga
+224,Moreirense,Esposende,0-1,https://www.besoccer.com/match/moreirense-fc/esposende/20007585,2000,25,segunda_liga
+225,Paços Ferreira,Moreirense,1-1,https://www.besoccer.com/match/pacos-ferreira/moreirense-fc/20007568,2000,26,segunda_liga
+226,Esposende,Beira Mar SC,0-1,https://www.besoccer.com/match/esposende/beira-mar/20007569,2000,26,segunda_liga
+227,Académica,Penafiel,0-0,https://www.besoccer.com/match/academica/penafiel/20007570,2000,26,segunda_liga
+228,Imortal,Varzim,0-1,https://www.besoccer.com/match/imortal/varzim/20007571,2000,26,segunda_liga
+229,SC Freamunde,Leça FC,5-0,https://www.besoccer.com/match/sc-freamunde/leca/20007572,2000,26,segunda_liga
+230,Naval,SP. Covilhã,5-0,https://www.besoccer.com/match/naval/sporting-covilha/20007573,2000,26,segunda_liga
+231,FC Maia,FC Felgueiras,0-2,https://www.besoccer.com/match/fc-maia/fc-felgueiras/20007574,2000,26,segunda_liga
+232,Uniao Lamas,Desportivo Aves,2-1,https://www.besoccer.com/match/uniao-lamas/desportivo-aves/20007575,2000,26,segunda_liga
+233,Chaves,Espinho,2-1,https://www.besoccer.com/match/chaves/espinho/20007576,2000,26,segunda_liga
+234,Espinho,Uniao Lamas,5-0,https://www.besoccer.com/match/espinho/uniao-lamas/20007559,2000,27,segunda_liga
+235,Moreirense,Chaves,1-2,https://www.besoccer.com/match/moreirense-fc/chaves/20007560,2000,27,segunda_liga
+236,Beira Mar SC,Paços Ferreira,0-2,https://www.besoccer.com/match/beira-mar/pacos-ferreira/20007561,2000,27,segunda_liga
+237,Penafiel,Esposende,4-0,https://www.besoccer.com/match/penafiel/esposende/20007562,2000,27,segunda_liga
+238,Varzim,Académica,1-2,https://www.besoccer.com/match/varzim/academica/20007563,2000,27,segunda_liga
+239,Leça FC,Imortal,3-1,https://www.besoccer.com/match/leca/imortal/20007564,2000,27,segunda_liga
+240,SP. Covilhã,SC Freamunde,2-1,https://www.besoccer.com/match/sporting-covilha/sc-freamunde/20007565,2000,27,segunda_liga
+241,FC Felgueiras,Naval,4-0,https://www.besoccer.com/match/fc-felgueiras/naval/20007566,2000,27,segunda_liga
+242,Desportivo Aves,FC Maia,0-1,https://www.besoccer.com/match/desportivo-aves/fc-maia/20007567,2000,27,segunda_liga
+243,SC Freamunde,FC Felgueiras,3-3,https://www.besoccer.com/match/sc-freamunde/fc-felgueiras/20007550,2000,28,segunda_liga
+244,Naval,Desportivo Aves,1-0,https://www.besoccer.com/match/naval/desportivo-aves/20007551,2000,28,segunda_liga
+245,FC Maia,Espinho,3-1,https://www.besoccer.com/match/fc-maia/espinho/20007552,2000,28,segunda_liga
+246,Uniao Lamas,Moreirense,1-1,https://www.besoccer.com/match/uniao-lamas/moreirense-fc/20007553,2000,28,segunda_liga
+247,Chaves,Beira Mar SC,1-1,https://www.besoccer.com/match/chaves/beira-mar/20007554,2000,28,segunda_liga
+248,Paços Ferreira,Penafiel,1-0,https://www.besoccer.com/match/pacos-ferreira/penafiel/20007555,2000,28,segunda_liga
+249,Esposende,Varzim,0-2,https://www.besoccer.com/match/esposende/varzim/20007556,2000,28,segunda_liga
+250,Académica,Imortal,5-0,https://www.besoccer.com/match/academica/imortal/20007557,2000,28,segunda_liga
+251,SP. Covilhã,Leça FC,1-2,https://www.besoccer.com/match/sporting-covilha/leca/20007558,2000,28,segunda_liga
+252,Moreirense,FC Maia,0-0,https://www.besoccer.com/match/moreirense-fc/fc-maia/20007549,2000,29,segunda_liga
+253,FC Felgueiras,SP. Covilhã,1-1,https://www.besoccer.com/match/fc-felgueiras/sporting-covilha/20007541,2000,29,segunda_liga
+254,Desportivo Aves,SC Freamunde,2-0,https://www.besoccer.com/match/desportivo-aves/sc-freamunde/20007542,2000,29,segunda_liga
+255,Espinho,Naval,2-3,https://www.besoccer.com/match/espinho/naval/20007543,2000,29,segunda_liga
+256,Beira Mar SC,Uniao Lamas,5-0,https://www.besoccer.com/match/beira-mar/uniao-lamas/20007544,2000,29,segunda_liga
+257,Penafiel,Chaves,2-2,https://www.besoccer.com/match/penafiel/chaves/20007545,2000,29,segunda_liga
+258,Varzim,Paços Ferreira,1-1,https://www.besoccer.com/match/varzim/pacos-ferreira/20007546,2000,29,segunda_liga
+259,Imortal,Esposende,3-1,https://www.besoccer.com/match/imortal/esposende/20007547,2000,29,segunda_liga
+260,Leça FC,Académica,1-3,https://www.besoccer.com/match/leca/academica/20007548,2000,29,segunda_liga
+261,FC Felgueiras,Leça FC,1-0,https://www.besoccer.com/match/fc-felgueiras/leca/20007532,2000,30,segunda_liga
+262,SP. Covilhã,Desportivo Aves,1-0,https://www.besoccer.com/match/sporting-covilha/desportivo-aves/20007533,2000,30,segunda_liga
+263,SC Freamunde,Espinho,2-1,https://www.besoccer.com/match/sc-freamunde/espinho/20007534,2000,30,segunda_liga
+264,Naval,Moreirense,3-2,https://www.besoccer.com/match/naval/moreirense-fc/20007535,2000,30,segunda_liga
+265,FC Maia,Beira Mar SC,0-1,https://www.besoccer.com/match/fc-maia/beira-mar/20007536,2000,30,segunda_liga
+266,Uniao Lamas,Penafiel,0-2,https://www.besoccer.com/match/uniao-lamas/penafiel/20007537,2000,30,segunda_liga
+267,Chaves,Varzim,2-2,https://www.besoccer.com/match/chaves/varzim/20007538,2000,30,segunda_liga
+268,Paços Ferreira,Imortal,1-0,https://www.besoccer.com/match/pacos-ferreira/imortal/20007539,2000,30,segunda_liga
+269,Esposende,Académica,3-1,https://www.besoccer.com/match/esposende/academica/20007540,2000,30,segunda_liga
+270,Académica,Paços Ferreira,2-3,https://www.besoccer.com/match/academica/pacos-ferreira/20007523,2000,31,segunda_liga
+271,Leça FC,Esposende,2-0,https://www.besoccer.com/match/leca/esposende/20007524,2000,31,segunda_liga
+272,Desportivo Aves,FC Felgueiras,1-0,https://www.besoccer.com/match/desportivo-aves/fc-felgueiras/20007525,2000,31,segunda_liga
+273,Espinho,SP. Covilhã,2-0,https://www.besoccer.com/match/espinho/sporting-covilha/20007526,2000,31,segunda_liga
+274,Moreirense,SC Freamunde,1-0,https://www.besoccer.com/match/moreirense-fc/sc-freamunde/20007527,2000,31,segunda_liga
+275,Beira Mar SC,Naval,2-1,https://www.besoccer.com/match/beira-mar/naval/20007528,2000,31,segunda_liga
+276,Penafiel,FC Maia,2-0,https://www.besoccer.com/match/penafiel/fc-maia/20007529,2000,31,segunda_liga
+277,Varzim,Uniao Lamas,2-1,https://www.besoccer.com/match/varzim/uniao-lamas/20007530,2000,31,segunda_liga
+278,Imortal,Chaves,3-1,https://www.besoccer.com/match/imortal/chaves/20007531,2000,31,segunda_liga
+279,FC Maia,Varzim,0-3,https://www.besoccer.com/match/fc-maia/varzim/20007514,2000,32,segunda_liga
+280,Uniao Lamas,Imortal,4-1,https://www.besoccer.com/match/uniao-lamas/imortal/20007515,2000,32,segunda_liga
+281,Chaves,Académica,2-1,https://www.besoccer.com/match/chaves/academica/20007516,2000,32,segunda_liga
+282,Paços Ferreira,Esposende,4-0,https://www.besoccer.com/match/pacos-ferreira/esposende/20007517,2000,32,segunda_liga
+283,Desportivo Aves,Leça FC,2-1,https://www.besoccer.com/match/desportivo-aves/leca/20007518,2000,32,segunda_liga
+284,FC Felgueiras,Espinho,3-1,https://www.besoccer.com/match/fc-felgueiras/espinho/20007519,2000,32,segunda_liga
+285,SP. Covilhã,Moreirense,0-1,https://www.besoccer.com/match/sporting-covilha/moreirense-fc/20007520,2000,32,segunda_liga
+286,SC Freamunde,Beira Mar SC,2-1,https://www.besoccer.com/match/sc-freamunde/beira-mar/20007521,2000,32,segunda_liga
+287,Naval,Penafiel,3-3,https://www.besoccer.com/match/naval/penafiel/20007522,2000,32,segunda_liga
+288,Varzim,Naval,4-3,https://www.besoccer.com/match/varzim/naval/20007505,2000,33,segunda_liga
+289,Imortal,FC Maia,0-0,https://www.besoccer.com/match/imortal/fc-maia/20007506,2000,33,segunda_liga
+290,Académica,Uniao Lamas,2-0,https://www.besoccer.com/match/academica/uniao-lamas/20007507,2000,33,segunda_liga
+291,Esposende,Chaves,2-1,https://www.besoccer.com/match/esposende/chaves/20007508,2000,33,segunda_liga
+292,Paços Ferreira,Leça FC,4-0,https://www.besoccer.com/match/pacos-ferreira/leca/20007509,2000,33,segunda_liga
+293,Espinho,Desportivo Aves,1-0,https://www.besoccer.com/match/espinho/desportivo-aves/20007510,2000,33,segunda_liga
+294,Moreirense,FC Felgueiras,1-1,https://www.besoccer.com/match/moreirense-fc/fc-felgueiras/20007511,2000,33,segunda_liga
+295,Beira Mar SC,SP. Covilhã,1-0,https://www.besoccer.com/match/beira-mar/sporting-covilha/20007512,2000,33,segunda_liga
+296,Penafiel,SC Freamunde,1-1,https://www.besoccer.com/match/penafiel/sc-freamunde/20007513,2000,33,segunda_liga
+297,FC Felgueiras,Beira Mar SC,2-2,https://www.besoccer.com/match/fc-felgueiras/beira-mar/20007496,2000,34,segunda_liga
+298,SP. Covilhã,Penafiel,2-3,https://www.besoccer.com/match/sporting-covilha/penafiel/20007497,2000,34,segunda_liga
+299,SC Freamunde,Varzim,3-1,https://www.besoccer.com/match/sc-freamunde/varzim/20007498,2000,34,segunda_liga
+300,Naval,Imortal,3-0,https://www.besoccer.com/match/naval/imortal/20007499,2000,34,segunda_liga
+301,FC Maia,Académica,2-2,https://www.besoccer.com/match/fc-maia/academica/20007500,2000,34,segunda_liga
+302,Uniao Lamas,Esposende,1-3,https://www.besoccer.com/match/uniao-lamas/esposende/20007501,2000,34,segunda_liga
+303,Chaves,Paços Ferreira,0-1,https://www.besoccer.com/match/chaves/pacos-ferreira/20007502,2000,34,segunda_liga
+304,Leça FC,Espinho,2-1,https://www.besoccer.com/match/leca/espinho/20007503,2000,34,segunda_liga
+305,Desportivo Aves,Moreirense,2-2,https://www.besoccer.com/match/desportivo-aves/moreirense-fc/20007504,2000,34,segunda_liga
