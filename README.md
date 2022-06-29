@@ -1,4 +1,4 @@
-# AiCore Project - Football Match Outcome Prediction
+# AiCore Project #3 - Football Match Outcome Prediction
 AiCore Project 3 - Football Match Outcome Prediction
 
 ## Milestone 1 - EDA and Data Cleaning
