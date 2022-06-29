@@ -43,10 +43,10 @@ Because of a single csv file, I just read the data to a single dataframe as foll
 team_pd = pd.read_csv("./Matches/Match_Info.csv")
 ```
 
-So, I have three dataframe namely result_pd, match_pd and team_pd.
+So, I have three dataframes namely result_pd, match_pd and team_pd.
 
 ### Peek at the data
-
+In the very begining, there is no substitute for looking at the raw data. Here is the first 20 records of those dataframe:
 
 ### Problem found at the data
 
