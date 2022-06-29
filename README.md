@@ -221,9 +221,8 @@ pyplot.show()
 ![hist chart](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/result_pd_hist_chart.png)
 
 ### Hypothesis Testing
-After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions.
+After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions. One of the test is as follows:
 
-#### Test 1
 I guess the data to represent the team recent performance should be able to predict the result:
 
 Recent performance Definition: (e.g. goal diffence for latest 3 games)
@@ -236,15 +235,3 @@ H1: Team which latest 3 games with better goal difference cannot win the game
 
 Significance level: 5% (quite hard)
 
-#### Test 2 
-I guess the data to represent the team recent game control should be able to predict the result:
-
-Recent Game Control Definition: (e.g. yellow card total for latest 3 games, 1 red card = 2 yellow card)
-
-Hypothesis Testing:
-
-H0: Team which latest 3 games with less yellow cards wins the game
-
-H1: Team which latest 3 games with less yellow cards cannot win the game
-
-Significance level: 5% (quite hard)
