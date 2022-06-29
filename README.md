@@ -199,6 +199,20 @@ result_pd.insert(loc=7, column="Draw", value=d_array)
 After running, the result_df becomes:
 ![Decompose result_df](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_decompose.png)
 
+To find the NaN or Null value in the new result_df:
+```python 
+result_null_pd = result_pd[result_pd.isna().any(axis=1)]
+```
+![null value](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_decompose_null.png)
+
+Let's have some brief information about the new numeric fields:
+```python
+result_pd.describe()
+```
+![describe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_decompose_null.png)
+
+
+
 ### Hypothesis Testing
 
 
