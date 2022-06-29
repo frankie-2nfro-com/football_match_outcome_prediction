@@ -223,6 +223,7 @@ pyplot.show()
 ### Hypothesis Testing
 #### Test 1
 I guess the data to represent the team recent performance should be able to predict the result:
+
 Recent performance Definition: (e.g. goal diffence for latest 3 games)
 
 Hypothesis Testing:
@@ -231,6 +232,7 @@ H1: Team which latest 3 games with better goal difference cannot win the game
 
 #### Test 2 
 I guess the data to represent the team recent game control should be able to predict the result:
+
 Recent Game Control Definition: (e.g. yellow card total for latest 3 games, 1 red card = 2 yellow card)
 
 Hypothesis Testing:
