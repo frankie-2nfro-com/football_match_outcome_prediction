@@ -204,6 +204,7 @@ To find the NaN or Null value in the new result_df:
 result_null_pd = result_pd[result_pd.isna().any(axis=1)]
 ```
 ![null value](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_decompose_null.png)
+There is 96 records with NaN. I need to find a way to filling the missing data. Best way is getting correct information from other data source. If not possible, could i just remove the record with missing data? Or I need to fill data by some imputing approaches such as by average, mean, median, KNNImputer, Time Series Imputation or else.
 
 Let's have some brief information about the new numeric fields:
 ```python
@@ -211,7 +212,13 @@ result_pd.describe()
 ```
 ![describe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/score_describe.png)
 
-
+To visualize the distribution:
+```python
+from matplotlib import pyplot
+result_pd.hist()
+pyplot.show()
+```
+![hist chart](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/result_pd_hist_chart.png)
 
 ### Hypothesis Testing
 
