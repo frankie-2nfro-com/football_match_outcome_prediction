@@ -46,7 +46,16 @@ team_pd = pd.read_csv("./Matches/Match_Info.csv")
 So, I have three dataframes namely result_pd, match_pd and team_pd.
 
 ### Peek at the data
-In the very begining, there is no substitute for looking at the raw data. Here is the first 20 records of those dataframe:
+In the very begining, there is no substitute for looking at the raw data. Here is the first 20 records of those dataframes.
+
+Result first 20 records:
+![Result first 20 records](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_records_20.png)
+
+Match first 20 records:
+![Match first 20 records](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Match_records_20.png)
+
+Team first 20 records:
+![Team first 20 records](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Team_records_20.png)
 
 ### Problem found at the data
 
