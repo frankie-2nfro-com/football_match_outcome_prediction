@@ -29,9 +29,21 @@ for league in leagues:
 In this csv file, it contains fields as follows: 
 [Link], [Date_New], [Referee], [Home_Yellow], [Home_Red], [Away_Yellow], and [Away_Red]
 
+Because of a single csv file, I just read the data to a single dataframe as follows:
+```python
+match_pd = pd.read_csv("./Matches/Match_Info.csv")
+```
+
 #### 3) Team_Info.csv
 In this csv file, it contains fields as follows: 
 [Team], [City], [Country], [Stadium], [Capacity], [Pitch]
+
+Because of a single csv file, I just read the data to a single dataframe as follows:
+```python
+team_pd = pd.read_csv("./Matches/Match_Info.csv")
+```
+
+So, I have three dataframe namely result_pd, match_pd and team_pd.
 
 ### Peek at the data
 
