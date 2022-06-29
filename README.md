@@ -12,16 +12,17 @@ The file includes all result information for several leagues. After unzipping th
 To better explore the data, I will combine all result csv files into a single pandas dataframe as follows:
 ```python
 # load all directory as league name list
-self.leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
+dir = "./Results"
+leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
 
 # loop to open csv
-whole_list_df = pd.DataFrame()
-for league in self.leagues:
+result_pd = pd.DataFrame()
+for league in leagues:
     league_folder = os.path.join(dir, league)
     csv_file_for_league = [os.path.join(league_folder, name) for name in os.listdir(league_folder) if name.endswith('.csv')]
     league_pds = [pd.read_csv(csv_filename, skiprows=[0], names=["Home_Team", "Away_Team", "Result", "Link", "Season", "Round", "League"]) for csv_filename in csv_file_for_league]
     whole_list_df = pd.concat(league_pds)
-    self.data = pd.concat([self.data, whole_list_df])
+    result_pd = pd.concat([result_pd, whole_list_df])
 ```
 
 #### 2) Match_Info.csv
