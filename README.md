@@ -209,7 +209,7 @@ Let's have some brief information about the new numeric fields:
 ```python
 result_pd.describe()
 ```
-![describe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_decompose_null.png)
+![describe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/score_describe.png)
 
 
 
