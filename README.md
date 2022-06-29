@@ -9,7 +9,7 @@ The file includes all result information for several leagues. After unzipping th
 [Home_Team], [Away_Team], [Result], [Link], [Season], [Round] and [League]
 
 ##### Combine the data into dataframe
-To better explore the data, I will create a python class for accessing the data. In the class, I will combine all result csv files into a single pandas dataframe as follows:
+To better explore the data, I will combine all result csv files into a single pandas dataframe as follows:
 ```python
 # load all directory as league name list
 self.leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
@@ -23,7 +23,6 @@ for league in self.leagues:
     whole_list_df = pd.concat(league_pds)
     self.data = pd.concat([self.data, whole_list_df])
 ```
-For details of the class, please see football_result.py.
 
 #### 2) Match_Info.csv
 In this csv file, it contains fields as follows: 
