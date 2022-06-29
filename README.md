@@ -147,9 +147,57 @@ For each year, does the trend of the number of home wins change:
 After scanning the data, some obvious problems could be located like encoding problem, format problem and NaN. It may need to solve if the data is useful. Another big problem I found is that "Result" field in the result_pd actually is not suitable to be stored like that. It is in a string format and the data itself is aggregated with some important data. So I will break down this field into some new fields i.e. Home_Score, Away_Score, Home_Win, Away_Win and Draw.
 
 ### Prelimilary direction
-With the data I have, what features I consider to be more important for predicting the outcome of the match? In my view, I think the recent performance of a team is one of the key to predict the team's outcome. The question is how to get recent performance? In the data, I could decompose result field into Home_Score and Away_Score, so I can get the goal difference. If I get latest n matches goal difference as the team recent performance, I can use this to predict which team have better performance. 
+With the data I have, what features I consider to be more important for predicting the outcome of the match? In my view, I think the recent performance of a team is one of the key to predict the team's outcome. The question is how to get recent performance? In the data, I could decompose result field into Home_Score and Away_Score, so I can get the goal difference. If I get latest n matches goal difference as the team recent performance, I can use this to predict which team have better performance. Apart from this, Home_Yellow, Home_Red, Away_Yellow and Away_Red in match_pd may be kind of implication of the team performance. 
 
 ### Data cleaning and refine
+Firstly, I will try to decompose result field into Home_Score, Away_Score, Home_Win, Away_Win and Draw. Definition is as follows:
+Home_Score (Integer): Home team goals
+Away_Score (Integer): Away team goals
+Home_Win (Boolean): Is home team win
+Away_Win (Boolean): Is away team win
+Draw (Boolean): Is draw
+
+The format of Result is (Home team goal)-(Away team goal). So I will try to extract home team goal and away team goal by regular expression. Code is as follows:
+```python
+# Divide result into home_score and away_score
+df_score =  result_pd['Result'].str.extract(r'(\d)-(\d)')
+result_pd.insert(loc=3, column="Home_Score", value=df_score[0].astype('Int64'))     # use Int64 as it support NaN
+result_pd.insert(loc=4, column="Away_Score", value=df_score[1].astype('Int64')) 
+
+# calculate score difference
+df_h_a = result_pd["Home_Score"] - result_pd["Away_Score"]
+df_h_a.isna().sum()
+
+# add home_win, away_win and draw column
+hw_array = []
+aw_array = []
+d_array = []
+for minus_score in df_h_a:
+    if pd.isna(minus_score):
+        hw_array.append(pd.NA)
+        aw_array.append(pd.NA)
+        d_array.append(pd.NA)
+    else:
+        if minus_score>0:
+            hw_array.append(True)
+            aw_array.append(False)
+            d_array.append(False)
+        elif minus_score<0:
+            hw_array.append(False)
+            aw_array.append(True)
+            d_array.append(False)
+        else:
+            hw_array.append(False)
+            aw_array.append(False)
+            d_array.append(True)
+
+result_pd.insert(loc=5, column="Home_Win", value=hw_array) 
+result_pd.insert(loc=6, column="Away_Win", value=aw_array) 
+result_pd.insert(loc=7, column="Draw", value=d_array)
+```
+
+After running, the result_df becomes:
+![Decompose result_df](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Results_decompose.png)
 
 ### Hypothesis Testing
 
