@@ -355,7 +355,7 @@ Output:
 (58.82352941176471, 50.0)
 ```
 
-Just see the sample result, it actually improve the win rate. But is it can fulfill the hypothesis test. It need to prove after calculate the testing statistic in next step
+Just see the sample result, it actually improve the win rate. But can it fulfill the hypothesis test? It needs to prove after calculate the testing statistic in next step
 
 #### Step 3 - Calculate Test Statistic
 
