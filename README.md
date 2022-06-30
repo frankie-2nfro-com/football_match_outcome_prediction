@@ -221,17 +221,92 @@ pyplot.show()
 ![hist chart](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/result_pd_hist_chart.png)
 
 ### Hypothesis Testing
-After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions. One of the test is as follows:
+Like software engineering, we need to perform testing to make sure the software performs as expected. In data field, we also need testings to make sure the prepared data can produce finding as out assumptions. This can be done by Hypothesis Testing. After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions. Here is an example:
 
-I guess the data to represent the team recent performance should help to improve the prediction
+Problem: For betting, lower or equal to 50% win rate is hard to make profit. Can we use the data above to find out some kind of prediction with more than 50% win rate? 
+
+Assumption: I guess the data to represent the team recent performance should help to improve the prediction
 
 Recent performance Definition: (e.g. goal difference for latest 6 games)
 
-Hypothesis Testing:
+#### Step 1 - Define null and alternative hypothesis
 
 H0: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL >= 60%
 
 H1: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL < 60%
 
-Significance level: 5% 
+Significance level: 5%
+
+#### Step 2 - Examine data, check assumptions
+In this step, the result data was filtered to records in different league and season. And then I need to calculate the recent performance and add to the dataframe. 
+
+```python
+def findRecentPreviousRounds(currentRound, limit):
+    if currentRound<=limit:
+        return None
+    else:
+        r = []
+        for l in range(limit):
+            r.append(currentRound - (limit-l))
+        return r
+
+
+def findLeagueSeasonTeamRecentPreviousRounds(data, league, season, team, round):
+    rounds = findRecentPreviousRounds(round, 6)
+    if rounds is None:
+        return None
+
+    previous_matches_pd =  data[(data["League"]==league) & ((data["Home_Team"]==team) | (data["Away_Team"]==team)) & (data["Season"]==season) & ((data["Round"]==rounds[0]) | (data["Round"]==rounds[1]) | (data["Round"]==rounds[2]))]
+    recent_perf = 0
+    for index, row in previous_matches_pd.iterrows():
+        hteam = row['Home_Team']
+        ateam = row['Away_Team']
+        if hteam==team:
+            recent_perf = recent_perf + (row['Home_Score']-row['Away_Score'])
+            #print('HOME', row['Home_Score']-row['Away_Score'])
+        else:
+            recent_perf = recent_perf + (row['Away_Score']-row['Home_Score'])
+            #print('AWAY', row['Away_Score']-row['Home_Score'])
+
+    return recent_perf
+
+
+def addRecentPerfToLeagueSeason(data, league, season):
+    league_season_pd = getLeagueSeasonDataFrame(data, league, season)
+
+    hperf_list = []
+    aperf_list = []
+    for index, row in league_season_pd.iterrows():
+        hteam = row['Home_Team']
+        ateam = row['Away_Team']
+        round = row["Round"]
+
+        htperf = findLeagueSeasonTeamRecentPreviousRounds(league_season_pd, league, season, hteam, round)
+        atperf = findLeagueSeasonTeamRecentPreviousRounds(league_season_pd, league, season, ateam, round)
+        hperf_list.append(htperf)
+        aperf_list.append(atperf)
+
+    league_season_pd.insert(loc=2, column="Home_Recent", value=hperf_list) 
+    league_season_pd.insert(loc=3, column="Away_Recent", value=aperf_list) 
+    return league_season_pd
+```
+
+So I can get different league and season data frame by:
+
+```python
+result_premier_league_2021_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2021)
+result_premier_league_2020_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2020)
+result_premier_league_2019_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2019)
+result_premier_league_2018_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2018)
+result_premier_league_2017_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2017)
+```
+
+#### Step 3 - Calculate Test Statistic
+
+
+#### Step 4 - Determine the corresponding p-value
+
+##### Step 5 - make a decision about the null hypothesis
+
+ 
 
