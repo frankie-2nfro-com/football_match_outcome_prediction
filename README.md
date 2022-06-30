@@ -1,7 +1,7 @@
 # AiCore Project #3 - Football Match Outcome Prediction
 
 ## Milestone 1 - EDA and Data Cleaning
-In this project, I start with three data source files namely Result csv for several football leagues, Matches information csv and Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures.
+In this project, I start with three data source files namely Result csv for several football leagues, Matches information csv and Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures. Although the data in this stage is not rich enough, it could be a very good starting for learning the process of understanding data in order to get a best results. I will try to understand the Data with some descriptive statistics.
 
 ### Data source files
 #### 1) Football.zip
