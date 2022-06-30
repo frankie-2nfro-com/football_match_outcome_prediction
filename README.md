@@ -355,8 +355,9 @@ Output:
 (58.82352941176471, 50.0)
 ```
 
-#### Step 3 - Calculate Test Statistic
+Just see the sample result, it actually improve the win rate. But is it can fulfill the hypothesis test. It need to prove after calculate the testing statistic in next step
 
+#### Step 3 - Calculate Test Statistic
 
 #### Step 4 - Determine the corresponding p-value
 
