@@ -377,9 +377,41 @@ win_rate_pd = pd.DataFrame(win_rate_table, columns=["League", "Season", "Pref_Ho
 To find out some statistic:
 
 ```python
-win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]].describe()
+win_rate_pd["General_Home_Win_Rate"].describe()
+
+count    404.000000
+mean      46.543962
+std        3.627231
+min       34.615385
+25%       44.270833
+50%       46.428571
+75%       48.989899
+max       61.419753
+Name: General_Home_Win_Rate, dtype: float64
 ```
-![Win Rate Increase Statistic](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/win_rate_increase_statistic.png)
+So statistic of home team winning rate for different league and season could be found in the above output. The mean is 46.543962. The std is 3.627231.
+
+Now we need to extract the sample records to prove our test. I randomly filter records by:
+
+```python
+test_sample_win_rate_pd = win_rate_pd.sample(frac=0.5)
+```
+To find out the statistic:
+
+```python
+test_sample_win_rate_pd["Pref_Home_Win_Rate"].describe()
+
+count    202.000000
+mean      52.569771
+std        5.574470
+min       37.391304
+25%       48.418576
+50%       52.563087
+75%       56.044560
+max       70.072993
+Name: Pref_Home_Win_Rate, dtype: float64
+```
+
 
 ```python
 win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]].plot(kind='density', subplots=True, layout=(3,1), sharex=False) 
