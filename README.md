@@ -305,7 +305,58 @@ Here is the sample of result_premier_league_2021_pd:
 
 ![Recent performance data sample](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Recent_perf_sample.png)
 
+To calculate the final win rate, code as follows:
 
+```python
+def getLeagueSeasonHomeTeamWinRate(data):
+    TT = 0
+    FF = 0
+    HW = 0
+    NHW = 0
+    C = 0
+    for index, row in data.iterrows():
+        hperf = row["Home_Recent"]
+        aperf = row["Away_Recent"]
+        hwin = row["Home_Win"]
+        if pd.isna(hperf): 
+            continue
+        if pd.isna(aperf):
+            continue
+        if pd.isna(hwin):
+            continue
+
+        C = C + 1
+        if hwin:
+            HW = HW + 1
+            if hperf>=aperf:
+                TT = TT + 1
+            else:
+                FF = FF + 1
+        else:
+            NHW = NHW + 1
+
+    return (TT/HW * 100), (HW/C * 100)
+```
+
+To see the win rate for the H0 situation and general home win rate comparison:
+
+```python
+print(getLeagueSeasonHomeTeamWinRate(result_premier_league_2021_pd))
+print(getLeagueSeasonHomeTeamWinRate(result_premier_league_2020_pd))
+print(getLeagueSeasonHomeTeamWinRate(result_premier_league_2019_pd))
+print(getLeagueSeasonHomeTeamWinRate(result_premier_league_2018_pd))
+print(getLeagueSeasonHomeTeamWinRate(result_premier_league_2017_pd))
+```
+
+Output:
+
+```python
+(66.66666666666666, 38.429752066115704)
+(65.3061224489796, 45.9375)
+(70.51282051282051, 48.75)
+(62.16216216216216, 46.25)
+(62.5, 50.0)
+```
 
 #### Step 3 - Calculate Test Statistic
 
