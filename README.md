@@ -437,3 +437,8 @@ In hypothesis testing, we need to judge whether it is a one-tailed or a two-tail
 in the question. A single tailed test looks for "increase" or "decrease" in the hypothesis. (Two-tailed test usually look for "change" which could be increase or decrease) 
 
 So in this case, only 4.85% records of win rate of home team with better or equal recent performance decreased. So it is smaller than the significance level. And H0 will be rejected. 
+
+
+
+
+## Milestone 2 - Feature Engineering
