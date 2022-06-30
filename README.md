@@ -225,15 +225,13 @@ Like software engineering, we need to perform testing to make sure the software 
 
 Problem: Is there any way to use data on hand to imporve the guessing of home team win? 
 
-Assumption: I guess the data to represent the team recent performance should help to improve the prediction
-
-Recent performance Definition: (e.g. goal difference for latest 6 games)
+Assumption: I guess the data to represent the team recent performance should help to improve the prediction (Definition of recent performance is defined as goal difference for last 6 games)
 
 #### Step 1 - Define null and alternative hypothesis
 
-H0: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL INCREASE
+H0: HOME TEAM WITH BETTER OR EQUAL RECENT PERFORMANCE, WIN RATE WILL INCREASE
 
-H1: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL NOT INCREASE
+H1: HOME TEAM WITH BETTER OR EQUAL RECENT PERFORMANCE, WIN RATE WILL NOT INCREASE
 
 Significance level: 5%
 
