@@ -412,24 +412,28 @@ max       70.072993
 Name: Pref_Home_Win_Rate, dtype: float64
 ```
 
-
-```python
-win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]].plot(kind='density', subplots=True, layout=(3,1), sharex=False) 
-pyplot.show()
-```
-![win rate histogram comparison](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/histogram_comparison.png)
-
-There are two types of errors that may occur in our hypothesis testing:
-
-Type I error: We reject the null hypothesis when it is true. That is we accept the variant B when it is not performing better than A
-Type II error: We failed to reject the null hypothesis when it is false. It means we conclude variant B is not good when it performs better than A
-
-
 #### Step 3 - Calculate Test Statistic
+First of all, I try to find out Z value. 
+
+Z = (Mean of home win with better recent performance) - (Mean of home win) / (standard deviation of normal home win)
+
+Z = (52.569771 - 46.543962) / 3.627231
+
+Z = 1.66
+
+Base on the table, z value will be 0.9515. 
 
 #### Step 4 - Determine the corresponding p-value
 
+P = 1 - z value
+P = 1 − 0.9515 
+P = 0.0485
+
+So, we have a 4.85% chance of finding home team winning rate is not increase when recent performance is better or equal the away team. 
+
 #### Step 5 - make a decision about the null hypothesis
 
- 
+In hypothesis testing, we need to judge whether it is a one-tailed or a two-tailed test. Generally speaking, it depends on the original claim
+in the question. A single tailed test looks for "increase" or "decrease" in the hypothesis. (Two-tailed test usually look for "change" which could be increase or decrease) 
 
+So in this case, only 4.85% records of win rate of home team with better or equal recent performance decreased. So it is smaller than the significance level. And H0 will be rejected. 
