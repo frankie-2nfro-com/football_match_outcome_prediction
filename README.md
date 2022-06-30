@@ -361,7 +361,7 @@ Just see the sample result, it actually improve the win rate. But can it fulfill
 
 #### Step 4 - Determine the corresponding p-value
 
-##### Step 5 - make a decision about the null hypothesis
+#### Step 5 - make a decision about the null hypothesis
 
  
 
