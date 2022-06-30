@@ -225,7 +225,7 @@ After EDA, a data analysis report with data assumption will be produced. And the
 
 I guess the data to represent the team recent performance should help to improve the prediction
 
-Recent performance Definition: (e.g. goal diffence for latest 6 games)
+Recent performance Definition: (e.g. goal difference for latest 6 games)
 
 Hypothesis Testing:
 
