@@ -374,14 +374,6 @@ win_rate_pd = pd.DataFrame(win_rate_table, columns=["League", "Season", "Pref_Ho
 
 ![Win rate increase sample](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/win_rate_sample_data.png)
 
-To find out the histogram of win rate increase:
-
-```python
-win_rate_pd["Win_Rate_Increase"].plot(kind='density', subplots=True, layout=(1,1), sharex=False) 
-pyplot.show()
-```
-![Win Rate Increase Histogram](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/hypothesis_test_histogram.png)
-
 To find out some statistic:
 
 ```python
