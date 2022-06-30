@@ -355,7 +355,31 @@ Output:
 (58.82352941176471, 50.0)
 ```
 
-Just see the sample result, it actually improve the win rate. But can it fulfill the hypothesis test? It needs to prove after calculate the testing statistic in next step
+Just see the sample result, it actually improve the win rate. But can it fulfill the hypothesis test? It needs to prove after calculate the testing statistic in next step. Before that, I need to prepare the dataframe by follow code:
+
+```python
+win_rate_table = []
+leagues = result_pd["League"].sort_values().unique()
+for league in leagues:
+    league_pd = getLeagueDataFrame(result_pd, league)
+    seasons = league_pd["Season"].sort_values().unique()
+    for season in seasons:
+        result_with_perf_pd = addRecentPerfToLeagueSeason(result_pd, league, season)
+        perf_home_win_rate, general_home_win_rate = getLeagueSeasonHomeTeamWinRate(result_with_perf_pd)
+        increase = perf_home_win_rate - general_home_win_rate
+        win_rate_table.append([league, season, perf_home_win_rate, general_home_win_rate, increase])
+        
+win_rate_pd = pd.DataFrame(win_rate_table, columns=["League", "Season", "Pref_Home_Win_Rate", "General_Home_Win_Rate", "Win_Rate_Increase"])
+```
+
+To find out the histogram of win rate increase:
+
+```python
+win_rate_pd["Win_Rate_Increase"].plot(kind='density', subplots=True, layout=(1,1), sharex=False) 
+pyplot.show()
+```
+![Win Rate Increase Histogram](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/hypothesis_test_histogram.png)
+
 
 #### Step 3 - Calculate Test Statistic
 
