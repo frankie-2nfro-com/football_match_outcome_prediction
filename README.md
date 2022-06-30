@@ -229,11 +229,13 @@ Assumption: I guess the data to represent the team recent performance should hel
 
 #### Step 1 - Define null and alternative hypothesis
 
-H0: HOME TEAM WITH BETTER OR EQUAL RECENT PERFORMANCE, WIN RATE WILL INCREASE
+H0: There is no difference in win rate in home team with better or equal recent performance
 
-H1: HOME TEAM WITH BETTER OR EQUAL RECENT PERFORMANCE, WIN RATE WILL NOT INCREASE
+H1: There is increase in win rate in home team with better or equal recent performance
 
-Significance level: 5%
+Significance level: 5% (alpha level)
+
+We have to collect enough evidence through our tests to reject the null hypothesis H0.
 
 #### Step 2 - Examine data, check assumptions
 In this step, the result data was filtered to records in different league and season. And then I need to calculate the recent performance and add to the dataframe. 
@@ -392,6 +394,11 @@ win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]
 pyplot.show()
 ```
 ![win rate histogram comparison](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/histogram_comparison.png)
+
+There are two types of errors that may occur in our hypothesis testing:
+
+Type I error: We reject the null hypothesis when it is true. That is we accept the variant B when it is not performing better than A
+Type II error: We failed to reject the null hypothesis when it is false. It means we conclude variant B is not good when it performs better than A
 
 
 #### Step 3 - Calculate Test Statistic
