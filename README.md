@@ -252,7 +252,7 @@ def findRecentPreviousRounds(currentRound, limit):
 
 
 def findLeagueSeasonTeamRecentPreviousRounds(data, league, season, team, round):
-    rounds = findRecentPreviousRounds(round, 6)
+    rounds = findRecentPreviousRounds(round, 6)     # by definition is 6, can change for optimization
     if rounds is None:
         return None
 
@@ -300,6 +300,12 @@ result_premier_league_2019_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_
 result_premier_league_2018_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2018)
 result_premier_league_2017_pd = addRecentPerfToLeagueSeason(result_pd, 'premier_league', 2017)
 ```
+
+Here is the sample of result_premier_league_2021_pd:
+
+![Recent performance data sample](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/Recent_perf_sample.png)
+
+
 
 #### Step 3 - Calculate Test Statistic
 
