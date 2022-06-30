@@ -383,17 +383,9 @@ pyplot.show()
 To find out some statistic:
 
 ```python
-win_rate_pd["Win_Rate_Increase"].describe()
-count    404.000000
-mean       5.415251
-std        3.989249
-min       -3.613569
-25%        2.466069
-50%        4.962456
-75%        8.212242
-max       17.295215
-Name: Win_Rate_Increase, dtype: float64
+win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]].describe()
 ```
+![Win Rate Increase Statistic](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/win_rate_increase_statistic.png)
 
 
 #### Step 3 - Calculate Test Statistic
