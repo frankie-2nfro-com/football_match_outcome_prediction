@@ -387,6 +387,12 @@ win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]
 ```
 ![Win Rate Increase Statistic](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/win_rate_increase_statistic.png)
 
+```python
+win_rate_pd[["General_Home_Win_Rate", "Pref_Home_Win_Rate", "Win_Rate_Increase"]].plot(kind='density', subplots=True, layout=(3,1), sharex=False) 
+pyplot.show()
+```
+![win rate histogram comparison](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/histogram_comparison.png)
+
 
 #### Step 3 - Calculate Test Statistic
 
