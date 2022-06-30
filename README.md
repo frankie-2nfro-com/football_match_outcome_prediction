@@ -223,7 +223,7 @@ pyplot.show()
 ### Hypothesis Testing
 Like software engineering, we need to perform testing to make sure the software performs as expected. In data field, we also need testings to make sure the prepared data can produce finding as our assumption. This can be done by Hypothesis Testing. After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions. Here is an example:
 
-Problem: For betting, lower or equal to 50% win rate is hard to make profit. Can we use the data above to find out some kind of prediction with more than 50% win rate? 
+Problem: Is there any way to use data on hand to imporve the guessing of home team win? 
 
 Assumption: I guess the data to represent the team recent performance should help to improve the prediction
 
@@ -231,9 +231,9 @@ Recent performance Definition: (e.g. goal difference for latest 6 games)
 
 #### Step 1 - Define null and alternative hypothesis
 
-H0: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL >= 50%
+H0: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL INCREASE
 
-H1: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL < 50%
+H1: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL NOT INCREASE
 
 Significance level: 5%
 
