@@ -415,7 +415,7 @@ Name: Pref_Home_Win_Rate, dtype: float64
 #### Step 3 - Calculate Test Statistic
 First of all, I try to find out Z value. 
 
-Z = (Mean of home win with better recent performance) - (Mean of home win) / (standard deviation of normal home win)
+Z = (Mean of home win rate with better recent performance) - (Mean of normal home win rate) / (standard deviation of normal home win rate)
 
 Z = (52.569771 - 46.543962) / 3.627231
 
