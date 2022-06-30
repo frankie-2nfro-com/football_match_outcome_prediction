@@ -223,15 +223,15 @@ pyplot.show()
 ### Hypothesis Testing
 After EDA, a data analysis report with data assumption will be produced. And there are some hypothesis testings to prove the assumptions. One of the test is as follows:
 
-I guess the data to represent the team recent performance should be able to predict the result:
+I guess the data to represent the team recent performance should help to improve the prediction
 
-Recent performance Definition: (e.g. goal diffence for latest 3 games)
+Recent performance Definition: (e.g. goal diffence for latest 6 games)
 
 Hypothesis Testing:
 
-H0: Team which latest 3 games with better goal difference wins the game
+H0: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL >= 60%
 
-H1: Team which latest 3 games with better goal difference cannot win the game
+H1: HOME TEAM IF RECENT PERFORMANCE NOT WORSE THAN AWAY TEAM, WIN RATE WILL < 60%
 
-Significance level: 5% (quite hard)
+Significance level: 5% 
 
