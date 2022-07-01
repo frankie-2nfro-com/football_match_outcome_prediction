@@ -426,7 +426,9 @@ Base on the table, z value will be 0.9515.
 #### Step 4 - Determine the corresponding p-value
 
 P = 1 - z value
+
 P = 1 − 0.9515 
+
 P = 0.0485
 
 So, we have a 4.85% chance of finding home team winning rate is not increase when recent performance is better or equal the away team. 
