@@ -444,3 +444,5 @@ So in this case, only 4.85% records of win rate of home team with better or equa
 
 
 ## Milestone 2 - Feature Engineering
+Apart from the new features I created in milestone 1, I have few more new features created in this milestone namely ELO_HOME, ELO_AWAY, HOME_TOTAL_GOAL_SO_FAR and AWAY_TOTAL_GOAL_SO_FAR. As the heavy nested looping, it is not able to create a big list before creating the new features. So I will calculate the total goal feature league by league. Also, I will try to make use pandas internal loop for better performance. So the apply() function for dataframe will used for each of the csv dataframe.
+
