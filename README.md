@@ -444,5 +444,35 @@ So in this case, only 4.85% records of win rate of home team with better or equa
 
 
 ## Milestone 2 - Feature Engineering
-Apart from the new features I created in milestone 1, I have few more new features created in this milestone namely ELO_HOME, ELO_AWAY, HOME_TOTAL_GOAL_SO_FAR and AWAY_TOTAL_GOAL_SO_FAR. As the heavy nested looping, it is not able to create a big list before creating the new features. So I will calculate the total goal feature league by league. Also, I will try to make use pandas internal loop for better performance. So the apply() function for dataframe will used for each of the csv dataframe.
+Apart from the new features I created in milestone 1, I have few more new features created in this milestone namely ELO_HOME, ELO_AWAY, HOME_TOTAL_GOAL_SO_FAR and AWAY_TOTAL_GOAL_SO_FAR. As the heavy nested looping, it is not able to create a big list before creating the new features. So I will calculate the total goal feature league by league. Also, I will try to make use pandas internal loop for better performance. So the apply() function for dataframes will be called to handle each row of the league data. 
+
+To pipeline the whole process, I created a notebook file as pipeline.ipynb. So that I can be easier to check result step by step. When the process has been proved well running, I can put all logic to a python file and run as a whole. 
+
+For adding ELO features, I need to load the pickle database first: 
+```python 
+d = pickle.load(open('./ELO/elo_dict.pkl', 'rb'))
+```
+
+To map the field 'Link' in the pickle database, I create this function:
+```python
+def fillWithELO(link):
+    if link not in d:
+        return [pd.NA, pd.NA]
+    else:
+        return [d[link]['Elo_home'], d[link]['Elo_away']]
+```
+
+So for adding the ELO_HOME and ELO_AWAY features:
+```python
+# merge with ELO
+result_elo_pd = current_league_season_pd['Link'].apply(fillWithELO)   
+elo_list = np.array(result_elo_pd.values.tolist())
+elo_df = pd.DataFrame(elo_list, columns=["ELO_HOME", "ELO_AWAY"])
+current_league_season_pd.insert(loc=8, column="ELO_HOME", value=elo_df["ELO_HOME"]) 
+current_league_season_pd.insert(loc=9, column="ELO_AWAY", value=elo_df["ELO_AWAY"]) 
+```
+
+For each records in the dataframe, it will call fillWithELO(link) function with the link value. And the function will get Elo_home and Elo_away from pickle database. The list of Elo_home, Elo_away will be returns. After that, I will insert the features to the dataframe. 
+
+
 
