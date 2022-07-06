@@ -448,6 +448,8 @@ Apart from the new features I created in milestone 1, I have few more new featur
 
 To pipeline the whole process, I created a notebook file as pipeline.ipynb. So that I can be easier to check result step by step. When the process has been proved well running, I can put all logic to a python file and run as a whole. 
 
+### ELO
+
 For adding ELO features, I need to load the pickle database first: 
 ```python 
 d = pickle.load(open('./ELO/elo_dict.pkl', 'rb'))
@@ -474,5 +476,109 @@ current_league_season_pd.insert(loc=9, column="ELO_AWAY", value=elo_df["ELO_AWAY
 
 For each records in the dataframe, it will call fillWithELO(link) function with the link value. And the function will get Elo_home and Elo_away from pickle database. The list of Elo_home, Elo_away will be returns. After that, I will insert the features to the dataframe. 
 
+### Total Goals So Far
+
+For adding total goals so far for both home and away team, I create the following functions:
+```python
+def getLeagueSeasonTeamBeforeRoundTotalGoal(data, league, season, team, round):
+    # determine home or away and get the score 
+    # get home game of the team
+    home_pd = data[(data["League"]==league) & (data["Home_Team"]==team) & (data["Season"]==season) & (data["Round"]<round)]
+    df_home_score_sofar =  home_pd['Result'].str.extract(r'(\d)-\d')
+    home_total_score = df_home_score_sofar[0].astype('Int64').sum()
+
+    # get away game of the team
+    away_pd = data[(data["League"]==league) & (data["Away_Team"]==team) & (data["Season"]==season) & (data["Round"]<round)]
+    df_away_score_sofar =  away_pd['Result'].str.extract(r'\d-(\d)')
+    away_total_score = df_away_score_sofar[0].astype('Int64').sum()
+
+    # calculate total goals
+    return (home_total_score + away_total_score)
 
 
+def fillWithTotalGoalSoFar(record):
+    # get home team and away team and round
+    league = record['League']
+    season = record['Season']
+    round = record['Round']
+    hteam = record['Home_Team']
+    ateam = record['Away_Team']
+    
+    home_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(current_league_season_pd, league, season, hteam, round)
+    away_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(current_league_season_pd, league, season, ateam, round)
+
+    return [home_goal_so_far, away_goal_so_far]
+```
+
+Also, I will call apply() for the dataframe. So each record will be looped to calculate the total goals:
+
+```python
+# get home team and away team total goal so far
+home_away_total_goal_sofar = current_league_season_pd.apply(fillWithTotalGoalSoFar, axis=1)
+goal_so_far_list = np.array(home_away_total_goal_sofar.values.tolist())         # convert to list
+home_away_total_goal_sofar_pd = pd.DataFrame(goal_so_far_list, columns=["HOME_GOAL_SO_FAR", "AWAY_GOAL_SO_FAR"])    # convert to dataframe
+current_league_season_pd.insert(loc=5, column="HOME_TOTAL_GOAL_SO_FAR", value=home_away_total_goal_sofar_pd["HOME_GOAL_SO_FAR"]) 
+current_league_season_pd.insert(loc=6, column="AWAY_TOTAL_GOAL_SO_FAR", value=home_away_total_goal_sofar_pd["AWAY_GOAL_SO_FAR"])   
+```
+
+### Recent performance
+
+For adding recent goal difference (last 6 games) for both home and away team, I create the following functions:
+
+```python
+def findRecentPreviousRounds(currentRound, limit):
+    if currentRound<=limit:
+        return None
+    else:
+        r = []
+        for l in range(limit):
+            r.append(currentRound - (limit-l))
+        return r
+
+
+def findLeagueSeasonTeamRecentPreviousRounds(data, league, season, team, round):
+    rounds = findRecentPreviousRounds(round, 6)         # by definition is 6, can change for optimization
+    if rounds is None:
+        return None
+
+    previous_matches_pd =  data[(data["League"]==league) & ((data["Home_Team"]==team) | (data["Away_Team"]==team)) & (data["Season"]==season) & (data["Round"].isin(rounds))]
+    recent_perf = 0
+    for index, row in previous_matches_pd.iterrows():
+        hteam = row['Home_Team']
+        ateam = row['Away_Team']
+        if hteam==team:
+            recent_perf = recent_perf + (row['Home_Score']-row['Away_Score'])
+        else:
+            recent_perf = recent_perf + (row['Away_Score']-row['Home_Score'])
+
+    return recent_perf
+
+
+def fillWithRecentPerformance(record):
+    # get home team and away team and round
+    league = record['League']
+    season = record['Season']
+    round = record['Round']
+    hteam = record['Home_Team']
+    ateam = record['Away_Team']
+    
+    home_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(current_league_season_pd, league, season, hteam, round)
+    away_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(current_league_season_pd, league, season, ateam, round)
+
+    return [home_team_goal_diff, away_team_goal_diff]
+```
+
+Similarly, I make use apply() to loop all the record in dataframe:
+
+```python
+# get recent performance
+home_away_recent_perf = current_league_season_pd.apply(fillWithRecentPerformance, axis=1)
+perf_list = np.array(home_away_recent_perf.values.tolist())
+home_away_perf_pd = pd.DataFrame(perf_list, columns=["HOME_LAST_6_GOAL_DIFF", "AWAY_LAST_6_GOAL_DIFF"])
+current_league_season_pd.insert(loc=7, column="HOME_LAST_6_GOAL_DIFF", value=home_away_perf_pd["HOME_LAST_6_GOAL_DIFF"]) 
+current_league_season_pd.insert(loc=8, column="AWAY_LAST_6_GOAL_DIFF", value=home_away_perf_pd["AWAY_LAST_6_GOAL_DIFF"]) 
+```
+
+After creating the new dataframe with new features, the data is as follows:
+
+![New features data](https://raw.githubusercontent.com/frankie-2nfro-com/football_match_outcome_prediction/main/Screens/Milestone2_new_features.png)
