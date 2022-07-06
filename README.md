@@ -632,3 +632,7 @@ for league in leagues:
 # export to csv
 result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
 ```
+
+## Milestone 3 - Upload the data to the database
+
+...
