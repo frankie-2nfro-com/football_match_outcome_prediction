@@ -582,3 +582,53 @@ current_league_season_pd.insert(loc=8, column="AWAY_LAST_6_GOAL_DIFF", value=hom
 After creating the new dataframe with new features, the data is as follows:
 
 ![New features data](https://raw.githubusercontent.com/frankie-2nfro-com/football_match_outcome_prediction/main/Screens/Milestone2_new_features.png)
+
+The whole logic to handle all csv files is as follows:
+
+```python
+# load all directory as league name list
+dir = "./Results"
+leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
+
+# loop to open csv
+result_with_goal_sofar_pd = pd.DataFrame()
+for league in leagues:
+    print("process league: " + league + "...")
+    league_folder = os.path.join(dir, league)
+    csv_file_for_league = [os.path.join(league_folder, name) for name in os.listdir(league_folder) if name.endswith('.csv')]
+    
+    for csv_filename in csv_file_for_league:
+        current_league_season_pd = pd.read_csv(csv_filename, skiprows=[0], names=["Home_Team", "Away_Team", "Result", "Link", "Season", "Round", "League"])
+
+        # Divide result into home_score and away_score
+        df_score =  current_league_season_pd['Result'].str.extract(r'(\d)-(\d)')
+        current_league_season_pd.insert(loc=3, column="Home_Score", value=df_score[0].astype('Int64'))     # use Int64 as it support NaN
+        current_league_season_pd.insert(loc=4, column="Away_Score", value=df_score[1].astype('Int64')) 
+
+        if len(current_league_season_pd)>0:
+            # get home team and away team total goal so far
+            home_away_total_goal_sofar = current_league_season_pd.apply(fillWithTotalGoalSoFar, axis=1)
+            goal_so_far_list = np.array(home_away_total_goal_sofar.values.tolist())         # convert to list
+            home_away_total_goal_sofar_pd = pd.DataFrame(goal_so_far_list, columns=["HOME_GOAL_SO_FAR", "AWAY_GOAL_SO_FAR"])    # convert to dataframe
+            current_league_season_pd.insert(loc=5, column="HOME_TOTAL_GOAL_SO_FAR", value=home_away_total_goal_sofar_pd["HOME_GOAL_SO_FAR"]) 
+            current_league_season_pd.insert(loc=6, column="AWAY_TOTAL_GOAL_SO_FAR", value=home_away_total_goal_sofar_pd["AWAY_GOAL_SO_FAR"])     
+
+            # merge with ELO
+            result_elo_pd = current_league_season_pd['Link'].apply(fillWithELO)   
+            elo_list = np.array(result_elo_pd.values.tolist())
+            elo_df = pd.DataFrame(elo_list, columns=["ELO_HOME", "ELO_AWAY"])
+            current_league_season_pd.insert(loc=8, column="ELO_HOME", value=elo_df["ELO_HOME"]) 
+            current_league_season_pd.insert(loc=9, column="ELO_AWAY", value=elo_df["ELO_AWAY"]) 
+
+            # get recent performance
+            home_away_recent_perf = current_league_season_pd.apply(fillWithRecentPerformance, axis=1)
+            perf_list = np.array(home_away_recent_perf.values.tolist())
+            home_away_perf_pd = pd.DataFrame(perf_list, columns=["HOME_LAST_6_GOAL_DIFF", "AWAY_LAST_6_GOAL_DIFF"])
+            current_league_season_pd.insert(loc=7, column="HOME_LAST_6_GOAL_DIFF", value=home_away_perf_pd["HOME_LAST_6_GOAL_DIFF"]) 
+            current_league_season_pd.insert(loc=8, column="AWAY_LAST_6_GOAL_DIFF", value=home_away_perf_pd["AWAY_LAST_6_GOAL_DIFF"]) 
+
+            result_with_goal_sofar_pd = pd.concat([result_with_goal_sofar_pd, current_league_season_pd])
+
+# export to csv
+result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
+```
