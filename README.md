@@ -256,7 +256,7 @@ def findLeagueSeasonTeamRecentPreviousRounds(data, league, season, team, round):
     if rounds is None:
         return None
 
-    previous_matches_pd =  data[(data["League"]==league) & ((data["Home_Team"]==team) | (data["Away_Team"]==team)) & (data["Season"]==season) & ((data["Round"]==rounds[0]) | (data["Round"]==rounds[1]) | (data["Round"]==rounds[2]))]
+    previous_matches_pd =  data[(data["League"]==league) & ((data["Home_Team"]==team) | (data["Away_Team"]==team)) & (data["Season"]==season) & (data["Round"].isin(rounds))]
     recent_perf = 0
     for index, row in previous_matches_pd.iterrows():
         hteam = row['Home_Team']
