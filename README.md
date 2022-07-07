@@ -441,9 +441,9 @@ in the question. A single tailed test looks for "increase" or "decrease" in the 
 So in this case, only 4.85% records of win rate of home team with better or equal recent performance decreased. So it is smaller than the significance level. And H0 will be rejected. 
 
   
+<br />    
+<br />    
   
-  
-
 
 ## Milestone 2 - Feature Engineering
 Apart from the new features I created in milestone 1, I have few more new features created in this milestone namely ELO_HOME, ELO_AWAY, HOME_TOTAL_GOAL_SO_FAR and AWAY_TOTAL_GOAL_SO_FAR. As the heavy nested looping, it is not able to create a big list before creating the new features. So I will calculate the total goal feature league by league. Also, I will try to make use pandas internal loop for better performance. So the apply() function for dataframes will be called to handle each row of the league data. 
@@ -635,9 +635,9 @@ for league in leagues:
 result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
 ```
 
-\
-\
-
+<br />    
+<br />  
+  
 ## Milestone 3 - Upload the data to the database
 
 ...
