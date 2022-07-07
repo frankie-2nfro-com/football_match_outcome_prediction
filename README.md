@@ -440,7 +440,9 @@ in the question. A single tailed test looks for "increase" or "decrease" in the 
 
 So in this case, only 4.85% records of win rate of home team with better or equal recent performance decreased. So it is smaller than the significance level. And H0 will be rejected. 
 
-
+  
+  
+  
 
 
 ## Milestone 2 - Feature Engineering
@@ -632,6 +634,10 @@ for league in leagues:
 # export to csv
 result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
 ```
+
+  
+  
+  
 
 ## Milestone 3 - Upload the data to the database
 
