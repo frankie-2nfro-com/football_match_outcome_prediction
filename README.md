@@ -496,7 +496,7 @@ def getLeagueSeasonTeamBeforeRoundTotalGoal(data, league, season, team, round):
     return (home_total_score + away_total_score)
 
 
-def fillWithTotalGoalSoFar(record):
+def fillWithTotalGoalSoFar(record, data):
     # get home team and away team and round
     league = record['League']
     season = record['Season']
@@ -504,8 +504,8 @@ def fillWithTotalGoalSoFar(record):
     hteam = record['Home_Team']
     ateam = record['Away_Team']
     
-    home_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(current_league_season_pd, league, season, hteam, round)
-    away_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(current_league_season_pd, league, season, ateam, round)
+    home_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(data, league, season, hteam, round)
+    away_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(data, league, season, ateam, round)
 
     return [home_goal_so_far, away_goal_so_far]
 ```
@@ -514,7 +514,7 @@ Also, I will call apply() for the dataframe. So each record will be looped to ca
 
 ```python
 # get home team and away team total goal so far
-home_away_total_goal_sofar = current_league_season_pd.apply(fillWithTotalGoalSoFar, axis=1)
+home_away_total_goal_sofar = current_league_season_pd.apply(fillWithTotalGoalSoFar, data=current_league_season_pd, axis=1)
 goal_so_far_list = np.array(home_away_total_goal_sofar.values.tolist())         # convert to list
 home_away_total_goal_sofar_pd = pd.DataFrame(goal_so_far_list, columns=["HOME_GOAL_SO_FAR", "AWAY_GOAL_SO_FAR"])    # convert to dataframe
 current_league_season_pd.insert(loc=5, column="HOME_TOTAL_GOAL_SO_FAR", value=home_away_total_goal_sofar_pd["HOME_GOAL_SO_FAR"]) 
@@ -554,7 +554,7 @@ def findLeagueSeasonTeamRecentPreviousRounds(data, league, season, team, round):
     return recent_perf
 
 
-def fillWithRecentPerformance(record):
+def fillWithRecentPerformance(record, data):
     # get home team and away team and round
     league = record['League']
     season = record['Season']
@@ -562,8 +562,8 @@ def fillWithRecentPerformance(record):
     hteam = record['Home_Team']
     ateam = record['Away_Team']
     
-    home_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(current_league_season_pd, league, season, hteam, round)
-    away_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(current_league_season_pd, league, season, ateam, round)
+    home_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(data, league, season, hteam, round)
+    away_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(data, league, season, ateam, round)
 
     return [home_team_goal_diff, away_team_goal_diff]
 ```
@@ -572,7 +572,7 @@ Similarly, I make use apply() to loop all the record in dataframe:
 
 ```python
 # get recent performance
-home_away_recent_perf = current_league_season_pd.apply(fillWithRecentPerformance, axis=1)
+home_away_recent_perf = current_league_season_pd.apply(fillWithRecentPerformance, data=current_league_season_pd, axis=1)
 perf_list = np.array(home_away_recent_perf.values.tolist())
 home_away_perf_pd = pd.DataFrame(perf_list, columns=["HOME_LAST_6_GOAL_DIFF", "AWAY_LAST_6_GOAL_DIFF"])
 current_league_season_pd.insert(loc=7, column="HOME_LAST_6_GOAL_DIFF", value=home_away_perf_pd["HOME_LAST_6_GOAL_DIFF"]) 
@@ -607,7 +607,7 @@ for league in leagues:
 
         if len(current_league_season_pd)>0:
             # get home team and away team total goal so far
-            home_away_total_goal_sofar = current_league_season_pd.apply(fillWithTotalGoalSoFar, axis=1)
+            home_away_total_goal_sofar = current_league_season_pd.apply(fillWithTotalGoalSoFar, data=current_league_season_pd, axis=1)
             goal_so_far_list = np.array(home_away_total_goal_sofar.values.tolist())         # convert to list
             home_away_total_goal_sofar_pd = pd.DataFrame(goal_so_far_list, columns=["HOME_GOAL_SO_FAR", "AWAY_GOAL_SO_FAR"])    # convert to dataframe
             current_league_season_pd.insert(loc=5, column="HOME_TOTAL_GOAL_SO_FAR", value=home_away_total_goal_sofar_pd["HOME_GOAL_SO_FAR"]) 
@@ -621,7 +621,7 @@ for league in leagues:
             current_league_season_pd.insert(loc=9, column="ELO_AWAY", value=elo_df["ELO_AWAY"]) 
 
             # get recent performance
-            home_away_recent_perf = current_league_season_pd.apply(fillWithRecentPerformance, axis=1)
+            home_away_recent_perf = current_league_season_pd.apply(fillWithRecentPerformance, data=current_league_season_pd, axis=1)
             perf_list = np.array(home_away_recent_perf.values.tolist())
             home_away_perf_pd = pd.DataFrame(perf_list, columns=["HOME_LAST_6_GOAL_DIFF", "AWAY_LAST_6_GOAL_DIFF"])
             current_league_season_pd.insert(loc=7, column="HOME_LAST_6_GOAL_DIFF", value=home_away_perf_pd["HOME_LAST_6_GOAL_DIFF"]) 
