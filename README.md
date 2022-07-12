@@ -839,3 +839,9 @@ db = Database()
 self.data.to_sql('football_result', db.engine, if_exists='replace')
 db.close()
 ```
+
+<br />    
+<br />  
+  
+## Milestone 4 - Model Training
+
