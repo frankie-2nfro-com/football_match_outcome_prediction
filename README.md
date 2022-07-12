@@ -644,7 +644,7 @@ result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
 I created a postgre instance in AWS for storing the result data.  
 
 ### Pipeline 
-I create a pipeline.py script to create a class handle all tasks of data I did in the previous milestones. 
+I created a pipeline.py script with a class to handle all tasks of data I did in the previous milestones. 
 
 ```python
 import re
