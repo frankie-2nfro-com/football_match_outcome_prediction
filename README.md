@@ -1,6 +1,6 @@
 # AiCore Project #3 - Football Match Outcome Prediction
 
-## Milestone 1 - EDA and Data Cleaning
+## Milestone 2 - EDA and Data Cleaning
 In this project, I start with three data source files namely Result csv for several football leagues, Matches information csv and Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures. Although the data in this stage is not rich enough, it could be a very good starting for learning the process of understanding data in order to get a best results. I will try to understand the data with some descriptive statistics.
 
 ### Data source files
@@ -445,7 +445,11 @@ So in this case, only 4.85% records of win rate of home team with better or equa
 <br />    
   
 
-## Milestone 2 - Feature Engineering
+
+
+
+
+## Milestone 3 - Feature Engineering
 Apart from the new features I created in milestone 1, I have few more new features created in this milestone namely ELO_HOME, ELO_AWAY, HOME_TOTAL_GOAL_SO_FAR and AWAY_TOTAL_GOAL_SO_FAR. As the heavy nested looping, it is not able to create a big list before creating the new features. So I will calculate the total goal feature league by league. Also, I will try to make use pandas internal loop for better performance. So the apply() function for dataframes will be called to handle each row of the league data. 
 
 To pipeline the whole process, I created a notebook file as pipeline.ipynb. So that I can be easier to check result step by step. When the process has been proved well running, I can put all logic to a python file and run as a whole. 
@@ -637,8 +641,13 @@ result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
 
 <br />    
 <br />  
+
+
+
+
+
   
-## Milestone 3 - Upload the data to the database
+## Milestone 4 - Upload the data to the database
 
 ### Setup AWS postgreSQL RDS 
 I created a postgre instance in AWS for storing the result data.  
@@ -843,5 +852,9 @@ db.close()
 <br />    
 <br />  
   
-## Milestone 4 - Model Training
+  
+  
+  
+  
+## Milestone 5 - Model Training
 
