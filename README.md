@@ -1473,7 +1473,17 @@ Accuracy for test: 53.471%
 
 ```
 
-(Select Random Forests, But overfitting, need tune and improve)
+Random Forests seems to have a quite good result. But it should be overfitting. So I think I need to add some regularisation to fix and improve the model. Firstly I will try to visualize the decision tree of the forest by the follows code:
+
+```python 
+# Extract the small tree
+tree_small = model.estimators_[3]
+    
+# Save the tree as a png image
+export_graphviz(tree_small, out_file = 'small_tree_' + league + '.dot', feature_names = ["ELO_DIFF","RECENT_PERF_DIFF","HOME_AWAY_GOAL_DIFF"], rounded = True, precision = 1)
+(graph, ) = pydot.graph_from_dot_file('small_tree_' + league + '.dot')
+graph.write_png('small_tree_' + league + '.png');
+```
 
 And the complete code for this task can be found in [model_m5_t3.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3.ipynb)
 
