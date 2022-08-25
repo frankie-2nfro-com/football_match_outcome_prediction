@@ -1492,5 +1492,26 @@ And here is the picture:
 
 ![Visualized tree for random forests model](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/small_tree.png?raw=true)
 
+Try to set n_estimators to 10 and max_depth to 4:
+
+```python
+model = RandomForestClassifier(n_estimators=10, max_depth = 4)
+model.fit(X_train, Y_train)
+result = model.score(X_train, Y_train) 
+print("Accuracy for train: %.3f%%" % (result*100.0))
+result = model.score(X_test, Y_test) 
+print("Accuracy for test: %.3f%%" % (result*100.0))
+print()
+```
+
+![Visualized tree for random forests model](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/small_tree_re.png?raw=true)
+
+
 And the complete code for this task can be found in [model_m5_t3.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3.ipynb)
+
+Actually the tree is too complicated. I will try to set max_depth to 3 and test the model again:
+
+```python
+
+```
 
