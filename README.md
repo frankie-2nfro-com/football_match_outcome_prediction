@@ -1097,7 +1097,381 @@ And the complete code for this task can be found in [model_m5_t2.ipynb](https://
 
 ### Train and tune other models
 
-...
+For trying to know performance of other models, I create this function to test different models one by one:
+
+```python
+def tryModels(X, y):
+    test_size = 0.3
+    seed = 42
+    X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=test_size, random_state=seed)
+
+    # Model creation
+    print("LogisticRegression")
+    model = LogisticRegression() 
+    model.fit(X_train, Y_train)
+    result = model.score(X_train, Y_train) 
+    print("Accuracy for train: %.3f%%" % (result*100.0))
+    result = model.score(X_test, Y_test) 
+    print("Accuracy for test: %.3f%%" % (result*100.0))
+    print()
+
+    # KNN 
+    print("KNN")
+    knn = KNeighborsClassifier(n_neighbors=15)
+    knn.fit(X_train, Y_train)
+    result = knn.score(X_train, Y_train) 
+    print("Accuracy for train: %.3f%%" % (result*100.0))
+    result = knn.score(X_test, Y_test) 
+    print("Accuracy for test: %.3f%%" % (result*100.0))
+    print()
+
+    # decision trees  
+    print("decision trees")
+    clf = DecisionTreeClassifier()
+    clf.fit(X_train, Y_train)
+    result = clf.score(X_train, Y_train) 
+    print("Accuracy for train: %.3f%%" % (result*100.0))
+    result = clf.score(X_test, Y_test) 
+    print("Accuracy for test: %.3f%%" % (result*100.0))
+    print()
+
+    # random forests
+    print("random forests")
+    model = RandomForestClassifier()
+    model.fit(X_train, Y_train)
+    result = model.score(X_train, Y_train) 
+    print("Accuracy for train: %.3f%%" % (result*100.0))
+    result = model.score(X_test, Y_test) 
+    print("Accuracy for test: %.3f%%" % (result*100.0))
+    print()
+```
+
+And also I would loop data by diffent league to cross check which data set would have better performance for different models:
+
+```python
+# load all directory as league name list
+dir = "./Results"
+leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
+
+# loop to open csv
+result_with_goal_sofar_pd = pd.DataFrame()
+for league in leagues:
+    model_pd = getLeagueData(full_pd, league)
+    model_pd = model_pd.dropna()
+
+    if (model_pd.shape[0]==0):
+        continue
+
+    elo_diff_pd = model_pd.apply(get_ELO_diff, axis=1)
+    model_pd.drop('Elo_home', inplace=True, axis=1)
+    model_pd.drop('Elo_away', inplace=True, axis=1)
+    model_pd.insert(loc=5, column="ELO_DIFF", value=elo_diff_pd.astype('Int64')) 
+    
+    recent_perf_diff_pd = model_pd.apply(get_recent_goal_diff_diff, axis=1)
+    model_pd.drop('HOME_LASTEST_GOAL_DIFF', inplace=True, axis=1)
+    model_pd.drop('AWAY_LASTEST_GOAL_DIFF', inplace=True, axis=1)
+    model_pd.insert(loc=6, column="RECENT_PERF_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
+
+    goal_diff_pd = model_pd.apply(get_home_away_total_goal_diff, axis=1)
+    model_pd.drop('HOMETEAM_HOME_GOAL_SO_FAR', inplace=True, axis=1)
+    model_pd.drop('HOMETEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
+    model_pd.drop('AWAYTEAM_HOME_GOAL_SO_FAR', inplace=True, axis=1)
+    model_pd.drop('AWAYTEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
+    model_pd.insert(loc=7, column="HOME_AWAY_GOAL_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
+
+    # delete no value column
+    model_pd.drop('League', inplace=True, axis=1)
+    model_pd.drop('Season', inplace=True, axis=1)
+    model_pd.drop('Round', inplace=True, axis=1)
+    model_pd.drop('Home_Team', inplace=True, axis=1)
+    model_pd.drop('Away_Team', inplace=True, axis=1)
+
+    array = model_pd.values
+    X = array[:,0:(array.shape[1]-1)].astype('int')
+    y = array[:,(array.shape[1]-1)].astype('int')
+
+    # Scaler
+    scaler = MinMaxScaler(feature_range=(0, 8))
+    rescaledX = scaler.fit_transform(X)
+
+    # summarize transformed data
+    set_printoptions(precision=3)
+
+    # Or Standardize
+    #scaler = StandardScaler().fit(X)
+    #rescaledX = scaler.transform(X)
+
+    print()
+    print()
+    print(league)
+    print("-------------------------------------")
+    tryModels(rescaledX, y)
+```
+
+And the result is as follows:
+
+```python
+
+
+championship
+-------------------------------------
+LogisticRegression
+Accuracy for train: 55.962%
+Accuracy for test: 57.025%
+
+KNN
+Accuracy for train: 60.897%
+Accuracy for test: 54.111%
+
+decision trees
+Accuracy for train: 71.186%
+Accuracy for test: 54.036%
+
+random forests
+Accuracy for train: 71.186%
+Accuracy for test: 54.858%
+
+
+
+primeira_liga
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.117%
+Accuracy for test: 62.669%
+
+KNN
+Accuracy for train: 67.468%
+Accuracy for test: 62.137%
+
+decision trees
+Accuracy for train: 70.398%
+Accuracy for test: 60.213%
+
+random forests
+Accuracy for train: 70.398%
+Accuracy for test: 60.008%
+
+
+
+ligue_1
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.556%
+Accuracy for test: 58.078%
+
+KNN
+Accuracy for train: 63.293%
+Accuracy for test: 57.530%
+
+decision trees
+Accuracy for train: 66.528%
+Accuracy for test: 56.337%
+
+random forests
+Accuracy for train: 66.528%
+Accuracy for test: 55.563%
+
+
+
+segunda_division
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.805%
+Accuracy for test: 56.740%
+
+KNN
+Accuracy for train: 59.673%
+Accuracy for test: 53.793%
+
+decision trees
+Accuracy for train: 62.573%
+Accuracy for test: 52.281%
+
+random forests
+Accuracy for train: 62.562%
+Accuracy for test: 51.896%
+
+
+
+2_liga
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.986%
+Accuracy for test: 57.154%
+
+KNN
+Accuracy for train: 62.009%
+Accuracy for test: 53.924%
+
+decision trees
+Accuracy for train: 66.983%
+Accuracy for test: 54.713%
+
+random forests
+Accuracy for train: 66.983%
+Accuracy for test: 54.337%
+
+
+
+serie_a
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.120%
+Accuracy for test: 63.587%
+
+KNN
+Accuracy for train: 67.083%
+Accuracy for test: 60.908%
+
+decision trees
+Accuracy for train: 69.945%
+Accuracy for test: 59.084%
+
+random forests
+Accuracy for train: 69.945%
+Accuracy for test: 58.075%
+
+
+
+bundesliga
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.661%
+Accuracy for test: 60.805%
+
+KNN
+Accuracy for train: 63.824%
+Accuracy for test: 57.787%
+
+decision trees
+Accuracy for train: 68.120%
+Accuracy for test: 55.551%
+
+random forests
+Accuracy for train: 68.120%
+Accuracy for test: 55.775%
+
+
+
+primera_division
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.193%
+Accuracy for test: 60.372%
+
+KNN
+Accuracy for train: 64.462%
+Accuracy for test: 59.722%
+
+decision trees
+Accuracy for train: 67.338%
+Accuracy for test: 57.329%
+
+random forests
+Accuracy for train: 67.325%
+Accuracy for test: 57.417%
+
+
+
+ligue_2
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.143%
+Accuracy for test: 55.854%
+
+KNN
+Accuracy for train: 60.959%
+Accuracy for test: 53.448%
+
+decision trees
+Accuracy for train: 64.673%
+Accuracy for test: 53.288%
+
+random forests
+Accuracy for train: 64.673%
+Accuracy for test: 53.208%
+
+
+
+premier_league
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.322%
+Accuracy for test: 61.471%
+
+KNN
+Accuracy for train: 65.374%
+Accuracy for test: 59.370%
+
+decision trees
+Accuracy for train: 68.126%
+Accuracy for test: 57.151%
+
+random forests
+Accuracy for train: 68.114%
+Accuracy for test: 57.764%
+
+
+
+eredivisie
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.248%
+Accuracy for test: 64.947%
+
+KNN
+Accuracy for train: 68.442%
+Accuracy for test: 63.267%
+
+decision trees
+Accuracy for train: 71.709%
+Accuracy for test: 60.805%
+
+random forests
+Accuracy for train: 71.709%
+Accuracy for test: 60.844%
+
+
+
+segunda_liga
+-------------------------------------
+LogisticRegression
+Accuracy for train: 92.715%
+Accuracy for test: 93.846%
+
+KNN
+Accuracy for train: 90.728%
+Accuracy for test: 96.923%
+
+decision trees
+Accuracy for train: 100.000%
+Accuracy for test: 93.846%
+
+random forests
+Accuracy for train: 100.000%
+Accuracy for test: 93.846%
+
+
+
+serie_b
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.848%
+Accuracy for test: 57.238%
+
+KNN
+Accuracy for train: 60.138%
+Accuracy for test: 54.552%
+
+decision trees
+Accuracy for train: 63.636%
+Accuracy for test: 53.052%
+
+random forests
+Accuracy for train: 63.621%
+Accuracy for test: 53.471%
+
+```
 
 And the complete code for this task can be found in [model_m5_t3.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3.ipynb)
 
