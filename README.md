@@ -1,6 +1,17 @@
 # AiCore Project #3 - Football Match Outcome Prediction
 
-## Milestone 1 - EDA and Data Cleaning
+## Milestone 1 - Setup the environment
+In this project, we'll use GitHub to track changes to our code and save them online in a GitHub repo. 
+
+
+<br />    
+<br />  
+
+
+
+
+
+## Milestone 2 - EDA and Data Cleaning
 In this project, I start with three data source files namely Result csv for several football leagues, Matches information csv and Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures. Although the data in this stage is not rich enough, it could be a very good starting for learning the process of understanding data in order to get a best results. I will try to understand the data with some descriptive statistics.
 
 ### Data source files
@@ -445,7 +456,11 @@ So in this case, only 4.85% records of win rate of home team with better or equa
 <br />    
   
 
-## Milestone 2 - Feature Engineering
+
+
+
+
+## Milestone 3 - Feature Engineering
 Apart from the new features I created in milestone 1, I have few more new features created in this milestone namely ELO_HOME, ELO_AWAY, HOME_TOTAL_GOAL_SO_FAR and AWAY_TOTAL_GOAL_SO_FAR. As the heavy nested looping, it is not able to create a big list before creating the new features. So I will calculate the total goal feature league by league. Also, I will try to make use pandas internal loop for better performance. So the apply() function for dataframes will be called to handle each row of the league data. 
 
 To pipeline the whole process, I created a notebook file as pipeline.ipynb. So that I can be easier to check result step by step. When the process has been proved well running, I can put all logic to a python file and run as a whole. 
@@ -637,8 +652,13 @@ result_with_goal_sofar_pd.to_csv('cleaned_dataset.csv', index=False)
 
 <br />    
 <br />  
+
+
+
+
+
   
-## Milestone 3 - Upload the data to the database
+## Milestone 4 - Upload the data to the database
 
 ### Setup AWS postgreSQL RDS 
 I created a postgre instance in AWS for storing the result data.  
@@ -843,5 +863,109 @@ db.close()
 <br />    
 <br />  
   
-## Milestone 4 - Model Training
+  
+  
+  
+  
+## Milestone 5 - Model Training
+
+### Train a simple model to obtain a baseline score
+The full dataframe has been saved in a local csv file. So for training a simple model, I read the full set of data to a dataframe:
+
+```python
+full_pd = pd.read_csv("cleaned_dataset.csv")
+full_pd
+```
+
+And here is the function to filter data for the baseline model:
+```python
+# functions to filter different league
+def getLeagueData(data, league, season=None):
+    if season is None:
+        league_pd =  data[(data["League"]==league)]
+    else:
+        league_pd =  data[(data["League"]==league) & (data["Season"]==season)]
+    return league_pd
+    
+model_pd = getLeagueData(full_pd, "serie_b", 2011)
+```
+
+Some fields in the dataset is not useful for the model, and so I drop those columns from the dataframe:
+
+```python
+# delete no value column
+model_pd.drop('League', inplace=True, axis=1)
+model_pd.drop('Season', inplace=True, axis=1)
+model_pd.drop('Round', inplace=True, axis=1)
+model_pd.drop('Home_Team', inplace=True, axis=1)
+model_pd.drop('Away_Team', inplace=True, axis=1)
+model_pd.drop('Home_Score', inplace=True, axis=1)
+model_pd.drop('Away_Score', inplace=True, axis=1)
+```
+
+[image of data]
+
+After finalize the data, It's time to prepare features and result for training my supervised machine learning model:
+
+```python
+array = model_pd.values
+
+array([[53., 58.,  1., ..., -1.,  1.,  1.],
+       [57., 62.,  4., ...,  2., -1.,  0.],
+       [64., 52.,  2., ...,  1., -3.,  1.],
+       ...,
+       [54., 58., 24., ..., -1.,  1.,  1.],
+       [55., 64., 31., ..., -1.,  4.,  1.],
+       [59., 54., 25., ..., -1., -2.,  1.]])
+```
+       
+```python
+X = array[:,0:8].astype('int')
+y = array[:,8].astype('int')
+```
+
+Before start fitting data to the model, it is better to rescale the data for model input:
+
+```python
+# Scaler
+from sklearn.preprocessing import MinMaxScaler
+from numpy import set_printoptions
+
+scaler = MinMaxScaler(feature_range=(0, 8))
+rescaledX = scaler.fit_transform(X)
+
+# summarize transformed data
+set_printoptions(precision=3)
+```
+
+I will only simple use a logistic regression for the baseline model:
+```python
+test_size = 0.3
+seed = 7
+X_train, X_test, Y_train, Y_test = train_test_split(rescaledX, y, test_size=test_size, random_state=seed)
+
+model = LogisticRegression() 
+model.fit(X_train, Y_train)
+```
+
+And the accuracy result is as follows:
+
+```python
+result = model.score(X_train, Y_train) 
+print("Accuracy for train: %.3f%%" % (result*100.0))
+
+result = model.score(X_test, Y_test) 
+print("Accuracy for test: %.3f%%" % (result*100.0))
+```
+
+Accuracy for train: 47.333%
+Accuracy for test: 42.636%
+
+And then I saved the baseline model:
+
+```python
+from joblib import dump, load
+dump(model, 'baseline.joblib')
+```
+
 
