@@ -959,6 +959,7 @@ print("Accuracy for test: %.3f%%" % (result*100.0))
 ```
 
 Accuracy for train: 47.333%
+
 Accuracy for test: 42.636%
 
 And then I saved the baseline model:
