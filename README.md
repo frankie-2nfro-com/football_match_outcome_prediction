@@ -976,9 +976,10 @@ And the complete code for this task can be found in [model_m5_t1.ipynb](https://
 
 In previous task, I tried to use all features of my data namely Elo_home, Elo_away, HOMETEAM_HOME_GOAL_SO_FAR, HOMETEAM_AWAY_GOAL_SO_FAR, AWAYTEAM_HOME_GOAL_SO_FAR, AWAYTEAM_AWAY_GOAL_SO_FAR, HOME_LASTEST_GOAL_DIFF, AWAY_LASTEST_GOAL_DIFF and Result. And the baseline score is:
 
+```python
 Accuracy for train: 47.333%
-
 Accuracy for test: 42.636%
+```
 
 In this task, I will try to take a look at the weights of the features and see which ones are important. Remove those that have low weights and check again the performance.
 
