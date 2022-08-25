@@ -1085,6 +1085,12 @@ Accuracy for train: 58.000%
 Accuracy for test: 48.837%
 ```
 
+And finally I save the modal as follows:
+
+```python
+from joblib import dump, load
+dump(model, 'baseline_t2.joblib')
+```
+
 And the complete code for this task can be found in [model_m5_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t2.ipynb)
 
-And 
