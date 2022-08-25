@@ -974,6 +974,72 @@ And the complete code for this task can be found in [model_m5_t1.ipynb](https://
 
 ### Perform feature selection
 
-...
+In previous task, I tried to use all features of my data namely Elo_home, Elo_away, HOMETEAM_HOME_GOAL_SO_FAR, HOMETEAM_AWAY_GOAL_SO_FAR, AWAYTEAM_HOME_GOAL_SO_FAR, AWAYTEAM_AWAY_GOAL_SO_FAR, HOME_LASTEST_GOAL_DIFF, AWAY_LASTEST_GOAL_DIFF and Result. And the baseline score is:
+
+Accuracy for train: 47.333%
+Accuracy for test: 42.636%
+
+In this task, I will try to take a look at the weights of the features and see which ones are important. Remove those that have low weights and check again the performance.
+
+Elo_home and Elo_away are the estimated team strength for both teams. I will try to use the different of them as a new feature called ELO_DIFF. The function is as follows:
+
+```python
+def get_ELO_diff(record):
+    hscore = record['Elo_home']
+    ascore = record['Elo_away']
+    return (hscore - ascore)
+```
+
+HOME_LASTEST_GOAL_DIFF and AWAY_LASTEST_GOAL_DIFF are the goal different of both teams for their latest 3 games. I will try to use the different of them as a feature called RECENT_PERF_DIFF. The function is as follows:
+
+```python
+def get_recent_goal_diff_diff(record):
+    hscore = record['HOME_LASTEST_GOAL_DIFF']
+    ascore = record['AWAY_LASTEST_GOAL_DIFF']
+    return hscore - ascore
+```
+
+HOMETEAM_HOME_GOAL_SO_FAR, HOMETEAM_AWAY_GOAL_SO_FAR, AWAYTEAM_HOME_GOAL_SO_FAR and AWAYTEAM_AWAY_GOAL_SO_FAR are the so far home and away goals for both team. So HOMETEAM_HOME_GOAL_SO_FAR is more valid for home team; and AWAYTEAM_AWAY_GOAL_SO_FAR is more valid for away team. So I will drop HOMETEAM_AWAY_GOAL_SO_FAR and  AWAYTEAM_HOME_GOAL_SO_FAR featues. And I will try to use the different of them as a feature called HOME_AWAY_GOAL_DIFF. . The function is as follows:
+
+```python
+def get_home_away_total_goal_diff(record):
+    hgoal = record['HOMETEAM_HOME_GOAL_SO_FAR']
+    agoal = record['AWAYTEAM_AWAY_GOAL_SO_FAR']
+    return hgoal - agoal
+```
+
+To make those changes to the dataframe:
+
+```python
+model_pd = model_pd.dropna()
+
+elo_diff_pd = model_pd.apply(get_ELO_diff, axis=1)
+model_pd.drop('Elo_home', inplace=True, axis=1)
+model_pd.drop('Elo_away', inplace=True, axis=1)
+model_pd.insert(loc=5, column="ELO_DIFF", value=elo_diff_pd.astype('Int64')) 
+
+recent_perf_diff_pd = model_pd.apply(get_recent_goal_diff_diff, axis=1)
+model_pd.drop('HOME_LASTEST_GOAL_DIFF', inplace=True, axis=1)
+model_pd.drop('AWAY_LASTEST_GOAL_DIFF', inplace=True, axis=1)
+model_pd.insert(loc=6, column="RECENT_PERF_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
+
+goal_diff_pd = model_pd.apply(get_home_away_total_goal_diff, axis=1)
+model_pd.drop('HOMETEAM_HOME_GOAL_SO_FAR', inplace=True, axis=1)
+model_pd.drop('HOMETEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
+model_pd.drop('AWAYTEAM_HOME_GOAL_SO_FAR', inplace=True, axis=1)
+model_pd.drop('AWAYTEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
+model_pd.insert(loc=7, column="HOME_AWAY_GOAL_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
+
+# delete no value column
+model_pd.drop('League', inplace=True, axis=1)
+model_pd.drop('Season', inplace=True, axis=1)
+model_pd.drop('Round', inplace=True, axis=1)
+model_pd.drop('Home_Team', inplace=True, axis=1)
+model_pd.drop('Away_Team', inplace=True, axis=1)
+```
+
+And the dataframe becomes:
+
+![Task 2 Model Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M5T2_data.png?raw=true)
 
 And the complete code for this task can be found in [model_m5_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t2.ipynb)
