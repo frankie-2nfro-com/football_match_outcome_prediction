@@ -1001,7 +1001,7 @@ def get_recent_goal_diff_diff(record):
     return hscore - ascore
 ```
 
-HOMETEAM_HOME_GOAL_SO_FAR, HOMETEAM_AWAY_GOAL_SO_FAR, AWAYTEAM_HOME_GOAL_SO_FAR and AWAYTEAM_AWAY_GOAL_SO_FAR are the so far home and away goals for both team. So HOMETEAM_HOME_GOAL_SO_FAR is more valid for home team; and AWAYTEAM_AWAY_GOAL_SO_FAR is more valid for away team. So I will drop HOMETEAM_AWAY_GOAL_SO_FAR and  AWAYTEAM_HOME_GOAL_SO_FAR featues. And I will try to use the different of them as a feature called HOME_AWAY_GOAL_DIFF. . The function is as follows:
+HOMETEAM_HOME_GOAL_SO_FAR, HOMETEAM_AWAY_GOAL_SO_FAR, AWAYTEAM_HOME_GOAL_SO_FAR and AWAYTEAM_AWAY_GOAL_SO_FAR are the so far home and away goals for both teams. So HOMETEAM_HOME_GOAL_SO_FAR is more valid for home team; and AWAYTEAM_AWAY_GOAL_SO_FAR is more valid for away team. So I will drop HOMETEAM_AWAY_GOAL_SO_FAR and  AWAYTEAM_HOME_GOAL_SO_FAR featues. And I will try to use the different of them as a feature called HOME_AWAY_GOAL_DIFF. The function is as follows:
 
 ```python
 def get_home_away_total_goal_diff(record):
