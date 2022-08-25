@@ -869,3 +869,103 @@ db.close()
   
 ## Milestone 5 - Model Training
 
+### Train a simple model to obtain a baseline score
+The full dataframe has been saved in a local csv file. So for training a simple model, I read the full set of data to a dataframe:
+
+```python
+full_pd = pd.read_csv("cleaned_dataset.csv")
+full_pd
+```
+
+And here is the function to filter data for the baseline model:
+```python
+# functions to filter different league
+def getLeagueData(data, league, season=None):
+    if season is None:
+        league_pd =  data[(data["League"]==league)]
+    else:
+        league_pd =  data[(data["League"]==league) & (data["Season"]==season)]
+    return league_pd
+    
+model_pd = getLeagueData(full_pd, "serie_b", 2011)
+```
+
+Some fields in the dataset is not useful for the model, and so I drop those columns from the dataframe:
+
+```python
+# delete no value column
+model_pd.drop('League', inplace=True, axis=1)
+model_pd.drop('Season', inplace=True, axis=1)
+model_pd.drop('Round', inplace=True, axis=1)
+model_pd.drop('Home_Team', inplace=True, axis=1)
+model_pd.drop('Away_Team', inplace=True, axis=1)
+model_pd.drop('Home_Score', inplace=True, axis=1)
+model_pd.drop('Away_Score', inplace=True, axis=1)
+```
+
+[image of data]
+
+After finalize the data, It's time to prepare features and result for training my supervised machine learning model:
+
+```python
+array = model_pd.values
+```
+
+array([[53., 58.,  1., ..., -1.,  1.,  1.],
+       [57., 62.,  4., ...,  2., -1.,  0.],
+       [64., 52.,  2., ...,  1., -3.,  1.],
+       ...,
+       [54., 58., 24., ..., -1.,  1.,  1.],
+       [55., 64., 31., ..., -1.,  4.,  1.],
+       [59., 54., 25., ..., -1., -2.,  1.]])
+       
+```python
+X = array[:,0:8].astype('int')
+y = array[:,8].astype('int')
+```
+
+Before start fitting data to the model, it is better to rescale the data for model input:
+
+```python
+# Scaler
+from sklearn.preprocessing import MinMaxScaler
+from numpy import set_printoptions
+
+scaler = MinMaxScaler(feature_range=(0, 8))
+rescaledX = scaler.fit_transform(X)
+
+# summarize transformed data
+set_printoptions(precision=3)
+```
+
+I will only simple use a logistic regression for the baseline model:
+```python
+test_size = 0.3
+seed = 7
+X_train, X_test, Y_train, Y_test = train_test_split(rescaledX, y, test_size=test_size, random_state=seed)
+
+model = LogisticRegression() 
+model.fit(X_train, Y_train)
+```
+
+And the accuracy result is as follows:
+
+```python
+result = model.score(X_train, Y_train) 
+print("Accuracy for train: %.3f%%" % (result*100.0))
+
+result = model.score(X_test, Y_test) 
+print("Accuracy for test: %.3f%%" % (result*100.0))
+```
+
+Accuracy for train: 47.333%
+Accuracy for test: 42.636%
+
+And then I saved the baseline model:
+
+```python
+from joblib import dump, load
+dump(model, 'baseline.joblib')
+```
+
+
