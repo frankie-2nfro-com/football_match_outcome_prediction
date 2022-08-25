@@ -1094,3 +1094,10 @@ dump(model, 'baseline_t2.joblib')
 
 And the complete code for this task can be found in [model_m5_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t2.ipynb)
 
+
+### Train and tune other models
+
+...
+
+And the complete code for this task can be found in [model_m5_t3.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3.ipynb)
+
