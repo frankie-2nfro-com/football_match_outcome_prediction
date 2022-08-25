@@ -969,5 +969,5 @@ from joblib import dump, load
 dump(model, 'baseline.joblib')
 ```
 
-And the complete code for this task can be found in model_m5_t1.ipynb
+And the complete code for this task can be found in [model_m5_t1.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t1.ipynb)
 
