@@ -909,7 +909,6 @@ After finalize the data, It's time to prepare features and result for training m
 
 ```python
 array = model_pd.values
-```
 
 array([[53., 58.,  1., ..., -1.,  1.,  1.],
        [57., 62.,  4., ...,  2., -1.,  0.],
@@ -918,6 +917,7 @@ array([[53., 58.,  1., ..., -1.,  1.,  1.],
        [54., 58., 24., ..., -1.,  1.,  1.],
        [55., 64., 31., ..., -1.,  4.,  1.],
        [59., 54., 25., ..., -1., -2.,  1.]])
+```
        
 ```python
 X = array[:,0:8].astype('int')
