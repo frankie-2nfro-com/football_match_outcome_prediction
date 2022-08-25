@@ -903,7 +903,7 @@ model_pd.drop('Home_Score', inplace=True, axis=1)
 model_pd.drop('Away_Score', inplace=True, axis=1)
 ```
 
-[image of data]
+![Baseline Model Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M5T1_data.png?raw=true)
 
 After finalize the data, It's time to prepare features and result for training my supervised machine learning model:
 
@@ -959,6 +959,7 @@ print("Accuracy for test: %.3f%%" % (result*100.0))
 ```
 
 Accuracy for train: 47.333%
+
 Accuracy for test: 42.636%
 
 And then I saved the baseline model:
