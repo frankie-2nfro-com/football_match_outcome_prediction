@@ -1587,7 +1587,7 @@ And the complete code for this task can be found in [model_explained.ipynb](http
 
 ### Scrape data of matches that haven't taken place for making predictions
 
-All data for predition is in the folder "Predict". And here is the code for saving the whole data into a single csv (results_for_prediction.csv)
+All data for predition is in the folder called "Predict". And here is the code for saving the whole data into a single csv (results_for_prediction.csv)
 
 ```python
 # ...
