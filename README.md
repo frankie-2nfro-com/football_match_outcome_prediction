@@ -1095,6 +1095,7 @@ dump(model, 'baseline_t2.joblib')
 And the complete code for this task can be found in [model_m5_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t2.ipynb)
 
 <br /> 
+
 ### Train and tune other models
 
 For trying to know performance of other models, I create this function to test different models one by one:
@@ -1521,6 +1522,7 @@ The overfitting issue seems reduced.
 And the complete code for this task can be found in [model_m5_t3.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3.ipynb)
 
 <br /> 
+
 ### Iteratively train the model with different subsets of the data
 
 ...
