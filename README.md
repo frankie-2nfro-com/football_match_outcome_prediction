@@ -1574,3 +1574,17 @@ Accuracy for test: 100.000%
 ```
 
 And the complete code for this task can be found in [model_explained.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_explained.ipynb)
+
+
+<br />    
+<br />  
+
+
+
+
+
+## Milestone 6 - Infference
+
+### Scrape data of matches that haven't taken place for making predictions
+
+...
