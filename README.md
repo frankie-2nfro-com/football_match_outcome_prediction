@@ -972,6 +972,7 @@ dump(model, 'baseline.joblib')
 And the complete code for this task can be found in [model_m5_t1.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t1.ipynb)
 
 <br /> 
+
 ### Perform feature selection
 
 In previous task, I tried to use all features of my data namely Elo_home, Elo_away, HOMETEAM_HOME_GOAL_SO_FAR, HOMETEAM_AWAY_GOAL_SO_FAR, AWAYTEAM_HOME_GOAL_SO_FAR, AWAYTEAM_AWAY_GOAL_SO_FAR, HOME_LASTEST_GOAL_DIFF, AWAY_LASTEST_GOAL_DIFF and Result. And the baseline score is:
