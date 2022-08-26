@@ -1526,9 +1526,9 @@ And the complete code for this task can be found in [model_m5_t3.ipynb](https://
 
 ### Iteratively train the model with different subsets of the data
 
-In the dataset, some data is quite old and may influence the representative of the current football data. But if just removing too many old datawill also leave us with fewer data points. So I will try to find a balance by trying how much data we could remove by observe the score. 
+In the dataset, some data is quite old and may influence the representative of the current football data. But if just removing too much old data will also leave us with fewer data points. So I will try to find a balance by testing how much data we could remove by observing the scores. 
 
-To cut out old data, I make this function:
+For removing old data, I make this function:
 
 ```python
 def getLeagueData(data, league, seasonFrom=None):
