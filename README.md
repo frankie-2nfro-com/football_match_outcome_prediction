@@ -1526,6 +1526,51 @@ And the complete code for this task can be found in [model_m5_t3.ipynb](https://
 
 ### Iteratively train the model with different subsets of the data
 
-...
+In the dataset, some data is quite old and may influence the representative of the current football data. But if just removing too many old datawill also leave us with fewer data points. So I will try to find a balance by trying how much data we could remove by observe the score. 
+
+To cut out old data, I make this function:
+
+```python
+def getLeagueData(data, league, seasonFrom=None):
+    if seasonFrom is None:
+        league_pd =  data[(data["League"]==league)]
+    else:
+        league_pd =  data[(data["League"]==league) & (data["Season"]>=seasonFrom)]
+    return league_pd
+```
+
+So I try datasets from 1990, 1995, 2000, 2005, 2010, 2015 to the latest record. And if take the highest score league for random forests, the result is as follows:
+
+```python
+segunda_liga (from 1990)
+-------------------------------------
+Accuracy for train: 98.013%
+Accuracy for test: 95.385%
+
+segunda_liga (from 1995)
+-------------------------------------
+Accuracy for train: 98.675%
+Accuracy for test: 93.846%
+
+segunda_liga (from 2000)
+-------------------------------------
+Accuracy for train: 98.675%
+Accuracy for test: 93.846%
+
+segunda_liga (from 2005)
+-------------------------------------
+Accuracy for train: 98.675%
+Accuracy for test: 93.846%
+
+segunda_liga (from 2010)
+-------------------------------------
+Accuracy for train: 97.351%
+Accuracy for test: 95.385%
+
+segunda_liga (from 2015)
+-------------------------------------
+Accuracy for train: 100.000%
+Accuracy for test: 100.000%
+```
 
 And the complete code for this task can be found in [model_explained.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_explained.ipynb)
