@@ -1,0 +1,253 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,B. Mönchengladbach,Bayern München,1-1,https://www.besoccer.com/match/borussia-monchengla/bayern-munchen/202215543,2022,1,bundesliga
+1,Wolfsburg,VfL Bochum,1-0,https://www.besoccer.com/match/wolfsburg/bochum/202215545,2022,1,bundesliga
+2,Union Berlin,B. Leverkusen,1-1,https://www.besoccer.com/match/1-fc-union-berlin/bayer-leverkusen/202215546,2022,1,bundesliga
+3,Stuttgart,Greuther Fürth,5-1,https://www.besoccer.com/match/stuttgart/greuther-furth/202215547,2022,1,bundesliga
+4,FC Augsburg,Hoffenheim,0-4,https://www.besoccer.com/match/fc-augsburg/tsg-1899-hoffenheim/202215549,2022,1,bundesliga
+5,Arminia Bielefeld,SC Freiburg,0-0,https://www.besoccer.com/match/arminia-bielefeld/sc-freiburg/202215550,2022,1,bundesliga
+6,B. Dortmund,Eintracht Frankfurt,5-2,https://www.besoccer.com/match/borussia-dortmund/eintracht-frankfurt/202215544,2022,1,bundesliga
+7,Mainz 05,RB Leipzig,1-0,https://www.besoccer.com/match/mainz-amat/rb-leipzig/202215548,2022,1,bundesliga
+8,Köln,Hertha BSC,3-1,https://www.besoccer.com/match/1-fc-koln/hertha-bsc/202215551,2022,1,bundesliga
+9,RB Leipzig,Stuttgart,4-0,https://www.besoccer.com/match/rb-leipzig/stuttgart/202215553,2022,2,bundesliga
+10,Eintracht Frankfurt,FC Augsburg,0-0,https://www.besoccer.com/match/eintracht-frankfurt/fc-augsburg/202215554,2022,2,bundesliga
+11,SC Freiburg,B. Dortmund,2-1,https://www.besoccer.com/match/sc-freiburg/borussia-dortmund/202215556,2022,2,bundesliga
+12,Hertha BSC,Wolfsburg,1-2,https://www.besoccer.com/match/hertha-bsc/wolfsburg/202215558,2022,2,bundesliga
+13,VfL Bochum,Mainz 05,2-0,https://www.besoccer.com/match/bochum/mainz-amat/202215559,2022,2,bundesliga
+14,Greuther Fürth,Arminia Bielefeld,1-1,https://www.besoccer.com/match/greuther-furth/arminia-bielefeld/202215560,2022,2,bundesliga
+15,B. Leverkusen,B. Mönchengladbach,4-0,https://www.besoccer.com/match/bayer-leverkusen/borussia-monchengla/202215555,2022,2,bundesliga
+16,Hoffenheim,Union Berlin,2-2,https://www.besoccer.com/match/tsg-1899-hoffenheim/1-fc-union-berlin/202215557,2022,2,bundesliga
+17,Bayern München,Köln,3-2,https://www.besoccer.com/match/bayern-munchen/1-fc-koln/202215552,2022,2,bundesliga
+18,B. Dortmund,Hoffenheim,3-2,https://www.besoccer.com/match/borussia-dortmund/tsg-1899-hoffenheim/202215562,2022,3,bundesliga
+19,Stuttgart,SC Freiburg,2-3,https://www.besoccer.com/match/stuttgart/sc-freiburg/202215565,2022,3,bundesliga
+20,Mainz 05,Greuther Fürth,3-0,https://www.besoccer.com/match/mainz-amat/greuther-furth/202215566,2022,3,bundesliga
+21,FC Augsburg,B. Leverkusen,1-4,https://www.besoccer.com/match/fc-augsburg/bayer-leverkusen/202215567,2022,3,bundesliga
+22,Arminia Bielefeld,Eintracht Frankfurt,1-1,https://www.besoccer.com/match/arminia-bielefeld/eintracht-frankfurt/202215568,2022,3,bundesliga
+23,Köln,VfL Bochum,2-1,https://www.besoccer.com/match/1-fc-koln/bochum/202215569,2022,3,bundesliga
+24,Bayern München,Hertha BSC,5-0,https://www.besoccer.com/match/bayern-munchen/hertha-bsc/202215561,2022,3,bundesliga
+25,Union Berlin,B. Mönchengladbach,2-1,https://www.besoccer.com/match/1-fc-union-berlin/borussia-monchengla/202215564,2022,3,bundesliga
+26,Wolfsburg,RB Leipzig,1-0,https://www.besoccer.com/match/wolfsburg/rb-leipzig/202215563,2022,3,bundesliga
+27,B. Leverkusen,B. Dortmund,3-4,https://www.besoccer.com/match/bayer-leverkusen/borussia-dortmund/202215572,2022,4,bundesliga
+28,Union Berlin,FC Augsburg,0-0,https://www.besoccer.com/match/1-fc-union-berlin/fc-augsburg/202215573,2022,4,bundesliga
+29,SC Freiburg,Köln,1-1,https://www.besoccer.com/match/sc-freiburg/1-fc-koln/202215575,2022,4,bundesliga
+30,Hoffenheim,Mainz 05,0-2,https://www.besoccer.com/match/tsg-1899-hoffenheim/mainz-amat/202215576,2022,4,bundesliga
+31,Greuther Fürth,Wolfsburg,0-2,https://www.besoccer.com/match/greuther-furth/wolfsburg/202215578,2022,4,bundesliga
+32,RB Leipzig,Bayern München,1-4,https://www.besoccer.com/match/rb-leipzig/bayern-munchen/202215570,2022,4,bundesliga
+33,Eintracht Frankfurt,Stuttgart,1-1,https://www.besoccer.com/match/eintracht-frankfurt/stuttgart/202215571,2022,4,bundesliga
+34,VfL Bochum,Hertha BSC,1-3,https://www.besoccer.com/match/bochum/hertha-bsc/202215577,2022,4,bundesliga
+35,B. Mönchengladbach,Arminia Bielefeld,3-1,https://www.besoccer.com/match/borussia-monchengla/arminia-bielefeld/202215574,2022,4,bundesliga
+36,Hertha BSC,Greuther Fürth,2-1,https://www.besoccer.com/match/hertha-bsc/greuther-furth/202215585,2022,5,bundesliga
+37,Bayern München,VfL Bochum,7-0,https://www.besoccer.com/match/bayern-munchen/bochum/202215579,2022,5,bundesliga
+38,Mainz 05,SC Freiburg,0-0,https://www.besoccer.com/match/mainz-amat/sc-freiburg/202215583,2022,5,bundesliga
+39,FC Augsburg,B. Mönchengladbach,1-0,https://www.besoccer.com/match/fc-augsburg/borussia-monchengla/202215584,2022,5,bundesliga
+40,Arminia Bielefeld,Hoffenheim,0-0,https://www.besoccer.com/match/arminia-bielefeld/tsg-1899-hoffenheim/202215586,2022,5,bundesliga
+41,Köln,RB Leipzig,1-1,https://www.besoccer.com/match/1-fc-koln/rb-leipzig/202215587,2022,5,bundesliga
+42,Stuttgart,B. Leverkusen,1-3,https://www.besoccer.com/match/stuttgart/bayer-leverkusen/202215582,2022,5,bundesliga
+43,B. Dortmund,Union Berlin,4-2,https://www.besoccer.com/match/borussia-dortmund/1-fc-union-berlin/202215580,2022,5,bundesliga
+44,Wolfsburg,Eintracht Frankfurt,1-1,https://www.besoccer.com/match/wolfsburg/eintracht-frankfurt/202215581,2022,5,bundesliga
+45,Greuther Fürth,Bayern München,1-3,https://www.besoccer.com/match/greuther-furth/bayern-munchen/202215596,2022,6,bundesliga
+46,RB Leipzig,Hertha BSC,6-0,https://www.besoccer.com/match/rb-leipzig/hertha-bsc/202215588,2022,6,bundesliga
+47,Eintracht Frankfurt,Köln,1-1,https://www.besoccer.com/match/eintracht-frankfurt/1-fc-koln/202215589,2022,6,bundesliga
+48,B. Leverkusen,Mainz 05,1-0,https://www.besoccer.com/match/bayer-leverkusen/mainz-amat/202215590,2022,6,bundesliga
+49,Union Berlin,Arminia Bielefeld,1-0,https://www.besoccer.com/match/1-fc-union-berlin/arminia-bielefeld/202215591,2022,6,bundesliga
+50,Hoffenheim,Wolfsburg,3-1,https://www.besoccer.com/match/tsg-1899-hoffenheim/wolfsburg/202215594,2022,6,bundesliga
+51,B. Mönchengladbach,B. Dortmund,1-0,https://www.besoccer.com/match/borussia-monchengla/borussia-dortmund/202215592,2022,6,bundesliga
+52,VfL Bochum,Stuttgart,0-0,https://www.besoccer.com/match/bochum/stuttgart/202215595,2022,6,bundesliga
+53,SC Freiburg,FC Augsburg,3-0,https://www.besoccer.com/match/sc-freiburg/fc-augsburg/202215593,2022,6,bundesliga
+54,Köln,Greuther Fürth,3-1,https://www.besoccer.com/match/1-fc-koln/greuther-furth/202215605,2022,7,bundesliga
+55,B. Dortmund,FC Augsburg,2-1,https://www.besoccer.com/match/borussia-dortmund/fc-augsburg/202215599,2022,7,bundesliga
+56,Wolfsburg,B. Mönchengladbach,1-3,https://www.besoccer.com/match/wolfsburg/borussia-monchengla/202215600,2022,7,bundesliga
+57,Stuttgart,Hoffenheim,3-1,https://www.besoccer.com/match/stuttgart/tsg-1899-hoffenheim/202215601,2022,7,bundesliga
+58,Hertha BSC,SC Freiburg,1-2,https://www.besoccer.com/match/hertha-bsc/sc-freiburg/202215603,2022,7,bundesliga
+59,RB Leipzig,VfL Bochum,3-0,https://www.besoccer.com/match/rb-leipzig/bochum/202215598,2022,7,bundesliga
+60,Mainz 05,Union Berlin,1-2,https://www.besoccer.com/match/mainz-amat/1-fc-union-berlin/202215602,2022,7,bundesliga
+61,Bayern München,Eintracht Frankfurt,1-2,https://www.besoccer.com/match/bayern-munchen/eintracht-frankfurt/202215597,2022,7,bundesliga
+62,Arminia Bielefeld,B. Leverkusen,0-4,https://www.besoccer.com/match/arminia-bielefeld/bayer-leverkusen/202215604,2022,7,bundesliga
+63,Hoffenheim,Köln,5-0,https://www.besoccer.com/match/tsg-1899-hoffenheim/1-fc-koln/202215612,2022,8,bundesliga
+64,B. Dortmund,Mainz 05,3-1,https://www.besoccer.com/match/borussia-dortmund/mainz-amat/202215606,2022,8,bundesliga
+65,Eintracht Frankfurt,Hertha BSC,1-2,https://www.besoccer.com/match/eintracht-frankfurt/hertha-bsc/202215607,2022,8,bundesliga
+66,Union Berlin,Wolfsburg,2-0,https://www.besoccer.com/match/1-fc-union-berlin/wolfsburg/202215609,2022,8,bundesliga
+67,SC Freiburg,RB Leipzig,1-1,https://www.besoccer.com/match/sc-freiburg/rb-leipzig/202215611,2022,8,bundesliga
+68,Greuther Fürth,VfL Bochum,0-1,https://www.besoccer.com/match/greuther-furth/bochum/202215614,2022,8,bundesliga
+69,B. Mönchengladbach,Stuttgart,1-1,https://www.besoccer.com/match/borussia-monchengla/stuttgart/202215610,2022,8,bundesliga
+70,B. Leverkusen,Bayern München,1-5,https://www.besoccer.com/match/bayer-leverkusen/bayern-munchen/202215608,2022,8,bundesliga
+71,FC Augsburg,Arminia Bielefeld,1-1,https://www.besoccer.com/match/fc-augsburg/arminia-bielefeld/202215613,2022,8,bundesliga
+72,Mainz 05,FC Augsburg,4-1,https://www.besoccer.com/match/mainz-amat/fc-augsburg/202215619,2022,9,bundesliga
+73,Bayern München,Hoffenheim,4-0,https://www.besoccer.com/match/bayern-munchen/tsg-1899-hoffenheim/202215615,2022,9,bundesliga
+74,RB Leipzig,Greuther Fürth,4-1,https://www.besoccer.com/match/rb-leipzig/greuther-furth/202215616,2022,9,bundesliga
+75,Wolfsburg,SC Freiburg,0-2,https://www.besoccer.com/match/wolfsburg/sc-freiburg/202215617,2022,9,bundesliga
+76,Arminia Bielefeld,B. Dortmund,1-3,https://www.besoccer.com/match/arminia-bielefeld/borussia-dortmund/202215621,2022,9,bundesliga
+77,Hertha BSC,B. Mönchengladbach,1-0,https://www.besoccer.com/match/hertha-bsc/borussia-monchengla/202215620,2022,9,bundesliga
+78,Köln,B. Leverkusen,2-2,https://www.besoccer.com/match/1-fc-koln/bayer-leverkusen/202215622,2022,9,bundesliga
+79,Stuttgart,Union Berlin,1-1,https://www.besoccer.com/match/stuttgart/1-fc-union-berlin/202215618,2022,9,bundesliga
+80,VfL Bochum,Eintracht Frankfurt,2-0,https://www.besoccer.com/match/bochum/eintracht-frankfurt/202215623,2022,9,bundesliga
+81,Hoffenheim,Hertha BSC,2-0,https://www.besoccer.com/match/tsg-1899-hoffenheim/hertha-bsc/202215630,2022,10,bundesliga
+82,B. Dortmund,Köln,2-0,https://www.besoccer.com/match/borussia-dortmund/1-fc-koln/202215624,2022,10,bundesliga
+83,B. Leverkusen,Wolfsburg,0-2,https://www.besoccer.com/match/bayer-leverkusen/wolfsburg/202215626,2022,10,bundesliga
+84,Union Berlin,Bayern München,2-5,https://www.besoccer.com/match/1-fc-union-berlin/bayern-munchen/202215627,2022,10,bundesliga
+85,SC Freiburg,Greuther Fürth,3-1,https://www.besoccer.com/match/sc-freiburg/greuther-furth/202215629,2022,10,bundesliga
+86,Arminia Bielefeld,Mainz 05,1-2,https://www.besoccer.com/match/arminia-bielefeld/mainz-amat/202215632,2022,10,bundesliga
+87,Eintracht Frankfurt,RB Leipzig,1-1,https://www.besoccer.com/match/eintracht-frankfurt/rb-leipzig/202215625,2022,10,bundesliga
+88,FC Augsburg,Stuttgart,4-1,https://www.besoccer.com/match/fc-augsburg/stuttgart/202215631,2022,10,bundesliga
+89,B. Mönchengladbach,VfL Bochum,2-1,https://www.besoccer.com/match/borussia-monchengla/bochum/202215628,2022,10,bundesliga
+90,Mainz 05,B. Mönchengladbach,1-1,https://www.besoccer.com/match/mainz-amat/borussia-monchengla/202215637,2022,11,bundesliga
+91,Bayern München,SC Freiburg,2-1,https://www.besoccer.com/match/bayern-munchen/sc-freiburg/202215633,2022,11,bundesliga
+92,Wolfsburg,FC Augsburg,1-0,https://www.besoccer.com/match/wolfsburg/fc-augsburg/202215635,2022,11,bundesliga
+93,Stuttgart,Arminia Bielefeld,0-1,https://www.besoccer.com/match/stuttgart/arminia-bielefeld/202215636,2022,11,bundesliga
+94,VfL Bochum,Hoffenheim,2-0,https://www.besoccer.com/match/bochum/tsg-1899-hoffenheim/202215640,2022,11,bundesliga
+95,RB Leipzig,B. Dortmund,2-1,https://www.besoccer.com/match/rb-leipzig/borussia-dortmund/202215634,2022,11,bundesliga
+96,Hertha BSC,B. Leverkusen,1-1,https://www.besoccer.com/match/hertha-bsc/bayer-leverkusen/202215638,2022,11,bundesliga
+97,Köln,Union Berlin,2-2,https://www.besoccer.com/match/1-fc-koln/1-fc-union-berlin/202215639,2022,11,bundesliga
+98,Greuther Fürth,Eintracht Frankfurt,1-2,https://www.besoccer.com/match/greuther-furth/eintracht-frankfurt/202215641,2022,11,bundesliga
+99,FC Augsburg,Bayern München,2-1,https://www.besoccer.com/match/fc-augsburg/bayern-munchen/202215649,2022,12,bundesliga
+100,B. Dortmund,Stuttgart,2-1,https://www.besoccer.com/match/borussia-dortmund/stuttgart/202215642,2022,12,bundesliga
+101,B. Leverkusen,VfL Bochum,1-0,https://www.besoccer.com/match/bayer-leverkusen/bochum/202215643,2022,12,bundesliga
+102,B. Mönchengladbach,Greuther Fürth,4-0,https://www.besoccer.com/match/borussia-monchengla/greuther-furth/202215645,2022,12,bundesliga
+103,Hoffenheim,RB Leipzig,2-0,https://www.besoccer.com/match/tsg-1899-hoffenheim/rb-leipzig/202215647,2022,12,bundesliga
+104,Arminia Bielefeld,Wolfsburg,2-2,https://www.besoccer.com/match/arminia-bielefeld/wolfsburg/202215650,2022,12,bundesliga
+105,Union Berlin,Hertha BSC,2-0,https://www.besoccer.com/match/1-fc-union-berlin/hertha-bsc/202215644,2022,12,bundesliga
+106,SC Freiburg,Eintracht Frankfurt,0-2,https://www.besoccer.com/match/sc-freiburg/eintracht-frankfurt/202215646,2022,12,bundesliga
+107,Mainz 05,Köln,1-1,https://www.besoccer.com/match/mainz-amat/1-fc-koln/202215648,2022,12,bundesliga
+108,Stuttgart,Mainz 05,2-1,https://www.besoccer.com/match/stuttgart/mainz-amat/202215655,2022,13,bundesliga
+109,Wolfsburg,B. Dortmund,1-3,https://www.besoccer.com/match/wolfsburg/borussia-dortmund/202215653,2022,13,bundesliga
+110,Hertha BSC,FC Augsburg,1-1,https://www.besoccer.com/match/hertha-bsc/fc-augsburg/202215656,2022,13,bundesliga
+111,Köln,B. Mönchengladbach,4-1,https://www.besoccer.com/match/1-fc-koln/borussia-monchengla/202215657,2022,13,bundesliga
+112,VfL Bochum,SC Freiburg,2-1,https://www.besoccer.com/match/bochum/sc-freiburg/202215658,2022,13,bundesliga
+113,Greuther Fürth,Hoffenheim,3-6,https://www.besoccer.com/match/greuther-furth/tsg-1899-hoffenheim/202215659,2022,13,bundesliga
+114,Bayern München,Arminia Bielefeld,1-0,https://www.besoccer.com/match/bayern-munchen/arminia-bielefeld/202215651,2022,13,bundesliga
+115,Eintracht Frankfurt,Union Berlin,2-1,https://www.besoccer.com/match/eintracht-frankfurt/1-fc-union-berlin/202215654,2022,13,bundesliga
+116,RB Leipzig,B. Leverkusen,1-3,https://www.besoccer.com/match/rb-leipzig/bayer-leverkusen/202215652,2022,13,bundesliga
+117,Union Berlin,RB Leipzig,2-1,https://www.besoccer.com/match/1-fc-union-berlin/rb-leipzig/202215662,2022,14,bundesliga
+118,B. Leverkusen,Greuther Fürth,7-1,https://www.besoccer.com/match/bayer-leverkusen/greuther-furth/202215661,2022,14,bundesliga
+119,Hoffenheim,Eintracht Frankfurt,3-2,https://www.besoccer.com/match/tsg-1899-hoffenheim/eintracht-frankfurt/202215665,2022,14,bundesliga
+120,Mainz 05,Wolfsburg,3-0,https://www.besoccer.com/match/mainz-amat/wolfsburg/202215666,2022,14,bundesliga
+121,FC Augsburg,VfL Bochum,2-3,https://www.besoccer.com/match/fc-augsburg/bochum/202215667,2022,14,bundesliga
+122,Arminia Bielefeld,Köln,1-1,https://www.besoccer.com/match/arminia-bielefeld/1-fc-koln/202215668,2022,14,bundesliga
+123,B. Dortmund,Bayern München,2-3,https://www.besoccer.com/match/borussia-dortmund/bayern-munchen/202215660,2022,14,bundesliga
+124,Stuttgart,Hertha BSC,2-2,https://www.besoccer.com/match/stuttgart/hertha-bsc/202215664,2022,14,bundesliga
+125,B. Mönchengladbach,SC Freiburg,0-6,https://www.besoccer.com/match/borussia-monchengla/sc-freiburg/202215663,2022,14,bundesliga
+126,Köln,FC Augsburg,0-2,https://www.besoccer.com/match/1-fc-koln/fc-augsburg/202215675,2022,15,bundesliga
+127,Bayern München,Mainz 05,2-1,https://www.besoccer.com/match/bayern-munchen/mainz-amat/202215669,2022,15,bundesliga
+128,RB Leipzig,B. Mönchengladbach,4-1,https://www.besoccer.com/match/rb-leipzig/borussia-monchengla/202215670,2022,15,bundesliga
+129,SC Freiburg,Hoffenheim,1-2,https://www.besoccer.com/match/sc-freiburg/tsg-1899-hoffenheim/202215673,2022,15,bundesliga
+130,Hertha BSC,Arminia Bielefeld,2-0,https://www.besoccer.com/match/hertha-bsc/arminia-bielefeld/202215674,2022,15,bundesliga
+131,VfL Bochum,B. Dortmund,1-1,https://www.besoccer.com/match/bochum/borussia-dortmund/202215676,2022,15,bundesliga
+132,Wolfsburg,Stuttgart,0-2,https://www.besoccer.com/match/wolfsburg/stuttgart/202215671,2022,15,bundesliga
+133,Greuther Fürth,Union Berlin,1-0,https://www.besoccer.com/match/greuther-furth/1-fc-union-berlin/202215677,2022,15,bundesliga
+134,Eintracht Frankfurt,B. Leverkusen,5-2,https://www.besoccer.com/match/eintracht-frankfurt/bayer-leverkusen/202215672,2022,15,bundesliga
+135,Stuttgart,Bayern München,0-5,https://www.besoccer.com/match/stuttgart/bayern-munchen/202215683,2022,16,bundesliga
+136,Wolfsburg,Köln,2-3,https://www.besoccer.com/match/wolfsburg/1-fc-koln/202215679,2022,16,bundesliga
+137,Mainz 05,Hertha BSC,4-0,https://www.besoccer.com/match/mainz-amat/hertha-bsc/202215684,2022,16,bundesliga
+138,Arminia Bielefeld,VfL Bochum,2-0,https://www.besoccer.com/match/arminia-bielefeld/bochum/202215686,2022,16,bundesliga
+139,B. Mönchengladbach,Eintracht Frankfurt,2-3,https://www.besoccer.com/match/borussia-monchengla/eintracht-frankfurt/202215682,2022,16,bundesliga
+140,B. Dortmund,Greuther Fürth,3-0,https://www.besoccer.com/match/borussia-dortmund/greuther-furth/202215678,2022,16,bundesliga
+141,B. Leverkusen,Hoffenheim,2-2,https://www.besoccer.com/match/bayer-leverkusen/tsg-1899-hoffenheim/202215680,2022,16,bundesliga
+142,Union Berlin,SC Freiburg,0-0,https://www.besoccer.com/match/1-fc-union-berlin/sc-freiburg/202215681,2022,16,bundesliga
+143,FC Augsburg,RB Leipzig,1-1,https://www.besoccer.com/match/fc-augsburg/rb-leipzig/202215685,2022,16,bundesliga
+144,Bayern München,Wolfsburg,4-0,https://www.besoccer.com/match/bayern-munchen/wolfsburg/202215687,2022,17,bundesliga
+145,RB Leipzig,Arminia Bielefeld,0-2,https://www.besoccer.com/match/rb-leipzig/arminia-bielefeld/202215688,2022,17,bundesliga
+146,Eintracht Frankfurt,Mainz 05,1-0,https://www.besoccer.com/match/eintracht-frankfurt/mainz-amat/202215689,2022,17,bundesliga
+147,Hoffenheim,B. Mönchengladbach,1-1,https://www.besoccer.com/match/tsg-1899-hoffenheim/borussia-monchengla/202215691,2022,17,bundesliga
+148,VfL Bochum,Union Berlin,0-1,https://www.besoccer.com/match/bochum/1-fc-union-berlin/202215694,2022,17,bundesliga
+149,Greuther Fürth,FC Augsburg,0-0,https://www.besoccer.com/match/greuther-furth/fc-augsburg/202215695,2022,17,bundesliga
+150,Hertha BSC,B. Dortmund,3-2,https://www.besoccer.com/match/hertha-bsc/borussia-dortmund/202215692,2022,17,bundesliga
+151,SC Freiburg,B. Leverkusen,2-1,https://www.besoccer.com/match/sc-freiburg/bayer-leverkusen/202215690,2022,17,bundesliga
+152,Köln,Stuttgart,1-0,https://www.besoccer.com/match/1-fc-koln/stuttgart/202215693,2022,17,bundesliga
+153,Bayern München,B. Mönchengladbach,1-2,https://www.besoccer.com/match/bayern-munchen/borussia-monchengla/202215696,2022,18,bundesliga
+154,B. Leverkusen,Union Berlin,2-2,https://www.besoccer.com/match/bayer-leverkusen/1-fc-union-berlin/202215699,2022,18,bundesliga
+155,Greuther Fürth,Stuttgart,0-0,https://www.besoccer.com/match/greuther-furth/stuttgart/202215700,2022,18,bundesliga
+156,RB Leipzig,Mainz 05,4-1,https://www.besoccer.com/match/rb-leipzig/mainz-amat/202215701,2022,18,bundesliga
+157,Hoffenheim,FC Augsburg,3-1,https://www.besoccer.com/match/tsg-1899-hoffenheim/fc-augsburg/202215702,2022,18,bundesliga
+158,SC Freiburg,Arminia Bielefeld,2-2,https://www.besoccer.com/match/sc-freiburg/arminia-bielefeld/202215703,2022,18,bundesliga
+159,Eintracht Frankfurt,B. Dortmund,2-3,https://www.besoccer.com/match/eintracht-frankfurt/borussia-dortmund/202215697,2022,18,bundesliga
+160,Hertha BSC,Köln,1-3,https://www.besoccer.com/match/hertha-bsc/1-fc-koln/202215704,2022,18,bundesliga
+161,VfL Bochum,Wolfsburg,1-0,https://www.besoccer.com/match/bochum/wolfsburg/202215698,2022,18,bundesliga
+162,B. Dortmund,SC Freiburg,5-1,https://www.besoccer.com/match/borussia-dortmund/sc-freiburg/202215709,2022,19,bundesliga
+163,Köln,Bayern München,0-4,https://www.besoccer.com/match/1-fc-koln/bayern-munchen/202215705,2022,19,bundesliga
+164,Stuttgart,RB Leipzig,0-2,https://www.besoccer.com/match/stuttgart/rb-leipzig/202215706,2022,19,bundesliga
+165,Union Berlin,Hoffenheim,2-1,https://www.besoccer.com/match/1-fc-union-berlin/tsg-1899-hoffenheim/202215710,2022,19,bundesliga
+166,Wolfsburg,Hertha BSC,0-0,https://www.besoccer.com/match/wolfsburg/hertha-bsc/202215711,2022,19,bundesliga
+167,Mainz 05,VfL Bochum,1-0,https://www.besoccer.com/match/mainz-amat/bochum/202215712,2022,19,bundesliga
+168,B. Mönchengladbach,B. Leverkusen,1-2,https://www.besoccer.com/match/borussia-monchengla/bayer-leverkusen/202215708,2022,19,bundesliga
+169,FC Augsburg,Eintracht Frankfurt,1-1,https://www.besoccer.com/match/fc-augsburg/eintracht-frankfurt/202215707,2022,19,bundesliga
+170,Arminia Bielefeld,Greuther Fürth,2-2,https://www.besoccer.com/match/arminia-bielefeld/greuther-furth/202215713,2022,19,bundesliga
+171,Eintracht Frankfurt,Arminia Bielefeld,0-2,https://www.besoccer.com/match/eintracht-frankfurt/arminia-bielefeld/202215721,2022,20,bundesliga
+172,Hoffenheim,B. Dortmund,2-3,https://www.besoccer.com/match/tsg-1899-hoffenheim/borussia-dortmund/202215715,2022,20,bundesliga
+173,B. Mönchengladbach,Union Berlin,1-2,https://www.besoccer.com/match/borussia-monchengla/1-fc-union-berlin/202215717,2022,20,bundesliga
+174,SC Freiburg,Stuttgart,2-0,https://www.besoccer.com/match/sc-freiburg/stuttgart/202215718,2022,20,bundesliga
+175,Greuther Fürth,Mainz 05,2-1,https://www.besoccer.com/match/greuther-furth/mainz-amat/202215719,2022,20,bundesliga
+176,B. Leverkusen,FC Augsburg,5-1,https://www.besoccer.com/match/bayer-leverkusen/fc-augsburg/202215720,2022,20,bundesliga
+177,VfL Bochum,Köln,2-2,https://www.besoccer.com/match/bochum/1-fc-koln/202215722,2022,20,bundesliga
+178,RB Leipzig,Wolfsburg,2-0,https://www.besoccer.com/match/rb-leipzig/wolfsburg/202215716,2022,20,bundesliga
+179,Hertha BSC,Bayern München,1-4,https://www.besoccer.com/match/hertha-bsc/bayern-munchen/202215714,2022,20,bundesliga
+180,Hertha BSC,VfL Bochum,1-1,https://www.besoccer.com/match/hertha-bsc/bochum/202215730,2022,21,bundesliga
+181,Stuttgart,Eintracht Frankfurt,2-3,https://www.besoccer.com/match/stuttgart/eintracht-frankfurt/202215724,2022,21,bundesliga
+182,FC Augsburg,Union Berlin,2-0,https://www.besoccer.com/match/fc-augsburg/1-fc-union-berlin/202215726,2022,21,bundesliga
+183,Arminia Bielefeld,B. Mönchengladbach,1-1,https://www.besoccer.com/match/arminia-bielefeld/borussia-monchengla/202215727,2022,21,bundesliga
+184,Köln,SC Freiburg,1-0,https://www.besoccer.com/match/1-fc-koln/sc-freiburg/202215728,2022,21,bundesliga
+185,Mainz 05,Hoffenheim,2-0,https://www.besoccer.com/match/mainz-amat/tsg-1899-hoffenheim/202215729,2022,21,bundesliga
+186,Bayern München,RB Leipzig,3-2,https://www.besoccer.com/match/bayern-munchen/rb-leipzig/202215723,2022,21,bundesliga
+187,B. Dortmund,B. Leverkusen,2-5,https://www.besoccer.com/match/borussia-dortmund/bayer-leverkusen/202215725,2022,21,bundesliga
+188,Wolfsburg,Greuther Fürth,4-1,https://www.besoccer.com/match/wolfsburg/greuther-furth/202215731,2022,21,bundesliga
+189,RB Leipzig,Köln,3-1,https://www.besoccer.com/match/rb-leipzig/1-fc-koln/202215740,2022,22,bundesliga
+190,VfL Bochum,Bayern München,4-2,https://www.besoccer.com/match/bochum/bayern-munchen/202215732,2022,22,bundesliga
+191,Eintracht Frankfurt,Wolfsburg,0-2,https://www.besoccer.com/match/eintracht-frankfurt/wolfsburg/202215734,2022,22,bundesliga
+192,SC Freiburg,Mainz 05,1-1,https://www.besoccer.com/match/sc-freiburg/mainz-amat/202215736,2022,22,bundesliga
+193,B. Mönchengladbach,FC Augsburg,3-2,https://www.besoccer.com/match/borussia-monchengla/fc-augsburg/202215737,2022,22,bundesliga
+194,Greuther Fürth,Hertha BSC,2-1,https://www.besoccer.com/match/greuther-furth/hertha-bsc/202215738,2022,22,bundesliga
+195,B. Leverkusen,Stuttgart,4-2,https://www.besoccer.com/match/bayer-leverkusen/stuttgart/202215735,2022,22,bundesliga
+196,Union Berlin,B. Dortmund,0-3,https://www.besoccer.com/match/1-fc-union-berlin/borussia-dortmund/202215733,2022,22,bundesliga
+197,Hoffenheim,Arminia Bielefeld,2-0,https://www.besoccer.com/match/tsg-1899-hoffenheim/arminia-bielefeld/202215739,2022,22,bundesliga
+198,Mainz 05,B. Leverkusen,3-2,https://www.besoccer.com/match/mainz-amat/bayer-leverkusen/202215743,2022,23,bundesliga
+199,Arminia Bielefeld,Union Berlin,1-0,https://www.besoccer.com/match/arminia-bielefeld/1-fc-union-berlin/202215744,2022,23,bundesliga
+200,FC Augsburg,SC Freiburg,1-2,https://www.besoccer.com/match/fc-augsburg/sc-freiburg/202215746,2022,23,bundesliga
+201,Wolfsburg,Hoffenheim,1-2,https://www.besoccer.com/match/wolfsburg/tsg-1899-hoffenheim/202215747,2022,23,bundesliga
+202,Stuttgart,VfL Bochum,1-1,https://www.besoccer.com/match/stuttgart/bochum/202215748,2022,23,bundesliga
+203,Köln,Eintracht Frankfurt,1-0,https://www.besoccer.com/match/1-fc-koln/eintracht-frankfurt/202215742,2022,23,bundesliga
+204,Bayern München,Greuther Fürth,4-1,https://www.besoccer.com/match/bayern-munchen/greuther-furth/202215749,2022,23,bundesliga
+205,B. Dortmund,B. Mönchengladbach,6-0,https://www.besoccer.com/match/borussia-dortmund/borussia-monchengla/202215745,2022,23,bundesliga
+206,Hertha BSC,RB Leipzig,1-6,https://www.besoccer.com/match/hertha-bsc/rb-leipzig/202215741,2022,23,bundesliga
+207,Hoffenheim,Stuttgart,2-1,https://www.besoccer.com/match/tsg-1899-hoffenheim/stuttgart/202215754,2022,24,bundesliga
+208,B. Mönchengladbach,Wolfsburg,2-2,https://www.besoccer.com/match/borussia-monchengla/wolfsburg/202215753,2022,24,bundesliga
+209,Union Berlin,Mainz 05,3-1,https://www.besoccer.com/match/1-fc-union-berlin/mainz-amat/202215755,2022,24,bundesliga
+210,SC Freiburg,Hertha BSC,3-0,https://www.besoccer.com/match/sc-freiburg/hertha-bsc/202215756,2022,24,bundesliga
+211,B. Leverkusen,Arminia Bielefeld,3-0,https://www.besoccer.com/match/bayer-leverkusen/arminia-bielefeld/202215757,2022,24,bundesliga
+212,Greuther Fürth,Köln,1-1,https://www.besoccer.com/match/greuther-furth/1-fc-koln/202215758,2022,24,bundesliga
+213,Eintracht Frankfurt,Bayern München,0-1,https://www.besoccer.com/match/eintracht-frankfurt/bayern-munchen/202215750,2022,24,bundesliga
+214,VfL Bochum,RB Leipzig,0-1,https://www.besoccer.com/match/bochum/rb-leipzig/202215751,2022,24,bundesliga
+215,FC Augsburg,B. Dortmund,1-1,https://www.besoccer.com/match/fc-augsburg/borussia-dortmund/202215752,2022,24,bundesliga
+216,Arminia Bielefeld,FC Augsburg,0-1,https://www.besoccer.com/match/arminia-bielefeld/fc-augsburg/202215766,2022,25,bundesliga
+217,Hertha BSC,Eintracht Frankfurt,1-4,https://www.besoccer.com/match/hertha-bsc/eintracht-frankfurt/202215760,2022,25,bundesliga
+218,Bayern München,B. Leverkusen,1-1,https://www.besoccer.com/match/bayern-munchen/bayer-leverkusen/202215761,2022,25,bundesliga
+219,Wolfsburg,Union Berlin,1-0,https://www.besoccer.com/match/wolfsburg/1-fc-union-berlin/202215762,2022,25,bundesliga
+220,RB Leipzig,SC Freiburg,1-1,https://www.besoccer.com/match/rb-leipzig/sc-freiburg/202215764,2022,25,bundesliga
+221,VfL Bochum,Greuther Fürth,2-1,https://www.besoccer.com/match/bochum/greuther-furth/202215767,2022,25,bundesliga
+222,Stuttgart,B. Mönchengladbach,3-2,https://www.besoccer.com/match/stuttgart/borussia-monchengla/202215763,2022,25,bundesliga
+223,Köln,Hoffenheim,0-1,https://www.besoccer.com/match/1-fc-koln/tsg-1899-hoffenheim/202215765,2022,25,bundesliga
+224,Mainz 05,B. Dortmund,0-1,https://www.besoccer.com/match/mainz-amat/borussia-dortmund/202215759,2022,25,bundesliga
+225,Hoffenheim,Bayern München,1-1,https://www.besoccer.com/match/tsg-1899-hoffenheim/bayern-munchen/202215768,2022,26,bundesliga
+226,SC Freiburg,Wolfsburg,3-2,https://www.besoccer.com/match/sc-freiburg/wolfsburg/202215770,2022,26,bundesliga
+227,Union Berlin,Stuttgart,1-1,https://www.besoccer.com/match/1-fc-union-berlin/stuttgart/202215771,2022,26,bundesliga
+228,B. Mönchengladbach,Hertha BSC,2-0,https://www.besoccer.com/match/borussia-monchengla/hertha-bsc/202215773,2022,26,bundesliga
+229,B. Leverkusen,Köln,0-1,https://www.besoccer.com/match/bayer-leverkusen/1-fc-koln/202215775,2022,26,bundesliga
+230,B. Dortmund,Arminia Bielefeld,1-0,https://www.besoccer.com/match/borussia-dortmund/arminia-bielefeld/202215774,2022,26,bundesliga
+231,Eintracht Frankfurt,VfL Bochum,2-1,https://www.besoccer.com/match/eintracht-frankfurt/bochum/202215776,2022,26,bundesliga
+232,Greuther Fürth,RB Leipzig,1-6,https://www.besoccer.com/match/greuther-furth/rb-leipzig/202215769,2022,26,bundesliga
+233,FC Augsburg,Mainz 05,2-1,https://www.besoccer.com/match/fc-augsburg/mainz-amat/202215772,2022,26,bundesliga
+234,VfL Bochum,B. Mönchengladbach,0-2,https://www.besoccer.com/match/bochum/borussia-monchengla/202215781,2022,27,bundesliga
+235,Greuther Fürth,SC Freiburg,0-0,https://www.besoccer.com/match/greuther-furth/sc-freiburg/202215782,2022,27,bundesliga
+236,Hertha BSC,Hoffenheim,3-0,https://www.besoccer.com/match/hertha-bsc/tsg-1899-hoffenheim/202215783,2022,27,bundesliga
+237,Stuttgart,FC Augsburg,3-2,https://www.besoccer.com/match/stuttgart/fc-augsburg/202215784,2022,27,bundesliga
+238,Mainz 05,Arminia Bielefeld,4-0,https://www.besoccer.com/match/mainz-amat/arminia-bielefeld/202215785,2022,27,bundesliga
+239,Bayern München,Union Berlin,4-0,https://www.besoccer.com/match/bayern-munchen/1-fc-union-berlin/202215780,2022,27,bundesliga
+240,RB Leipzig,Eintracht Frankfurt,0-0,https://www.besoccer.com/match/rb-leipzig/eintracht-frankfurt/202215778,2022,27,bundesliga
+241,Wolfsburg,B. Leverkusen,0-2,https://www.besoccer.com/match/wolfsburg/bayer-leverkusen/202215779,2022,27,bundesliga
+242,Köln,B. Dortmund,1-1,https://www.besoccer.com/match/1-fc-koln/borussia-dortmund/202215777,2022,27,bundesliga
+243,Union Berlin,Köln,1-0,https://www.besoccer.com/match/1-fc-union-berlin/1-fc-koln/202215792,2022,28,bundesliga
+244,SC Freiburg,Bayern München,1-4,https://www.besoccer.com/match/sc-freiburg/bayern-munchen/202215786,2022,28,bundesliga
+245,Arminia Bielefeld,Stuttgart,1-1,https://www.besoccer.com/match/arminia-bielefeld/stuttgart/202215789,2022,28,bundesliga
+246,B. Leverkusen,Hertha BSC,2-1,https://www.besoccer.com/match/bayer-leverkusen/hertha-bsc/202215791,2022,28,bundesliga
+247,Hoffenheim,VfL Bochum,1-2,https://www.besoccer.com/match/tsg-1899-hoffenheim/bochum/202215793,2022,28,bundesliga
+248,Eintracht Frankfurt,Greuther Fürth,0-0,https://www.besoccer.com/match/eintracht-frankfurt/greuther-furth/202215794,2022,28,bundesliga
+249,B. Dortmund,RB Leipzig,1-4,https://www.besoccer.com/match/borussia-dortmund/rb-leipzig/202215787,2022,28,bundesliga
+250,FC Augsburg,Wolfsburg,3-0,https://www.besoccer.com/match/fc-augsburg/wolfsburg/202215788,2022,28,bundesliga
+251,B. Mönchengladbach,Mainz 05,1-1,https://www.besoccer.com/match/borussia-monchengla/mainz-amat/202215790,2022,28,bundesliga

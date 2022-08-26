@@ -1,0 +1,375 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,Huesca,Eibar,2-0,https://www.besoccer.com/match/huesca/eibar/202221135,2022,1,segunda_division
+1,Real Zaragoza,UD Ibiza,0-0,https://www.besoccer.com/match/real-zaragoza/ibiza-eivissa/202221147,2022,1,segunda_division
+2,R. Sociedad B,Leganés,1-0,https://www.besoccer.com/match/real-sociedad-b/leganes/202221142,2022,1,segunda_division
+3,Girona,SD Amorebieta,2-0,https://www.besoccer.com/match/girona-fc/amorebieta/202221134,2022,1,segunda_division
+4,Ponferradina,Alcorcón,1-0,https://www.besoccer.com/match/ponferradina-sd/ad-alcorcon/202221141,2022,1,segunda_division
+5,Real Sporting,Burgos,1-0,https://www.besoccer.com/match/sporting-gijon/burgos-cf/202221143,2022,1,segunda_division
+6,Real Oviedo,Lugo,2-2,https://www.besoccer.com/match/real-oviedo/lugo/202221138,2022,1,segunda_division
+7,Fuenlabrada,Tenerife,1-2,https://www.besoccer.com/match/fuenlabrada/tenerife/202221133,2022,1,segunda_division
+8,Las Palmas,Real Valladolid,1-1,https://www.besoccer.com/match/ud-palmas/valladolid/202221136,2022,1,segunda_division
+9,Málaga,Mirandés,0-0,https://www.besoccer.com/match/malaga/mirandes/202221137,2022,1,segunda_division
+10,FC Cartagena,Almería,1-3,https://www.besoccer.com/match/cartagena/almeria/202221132,2022,1,segunda_division
+11,Real Valladolid,Real Zaragoza,2-0,https://www.besoccer.com/match/valladolid/real-zaragoza/202221167,2022,2,segunda_division
+12,Almería,Real Oviedo,2-1,https://www.besoccer.com/match/almeria/real-oviedo/202221152,2022,2,segunda_division
+13,Lugo,R. Sociedad B,0-0,https://www.besoccer.com/match/lugo/real-sociedad-b/202221161,2022,2,segunda_division
+14,Tenerife,Real Sporting,0-0,https://www.besoccer.com/match/tenerife/sporting-gijon/202221165,2022,2,segunda_division
+15,Alcorcón,Fuenlabrada,0-2,https://www.besoccer.com/match/ad-alcorcon/fuenlabrada/202221140,2022,2,segunda_division
+16,UD Ibiza,Málaga,2-2,https://www.besoccer.com/match/ibiza-eivissa/malaga/202221158,2022,2,segunda_division
+17,Eibar,Ponferradina,0-1,https://www.besoccer.com/match/eibar/ponferradina-sd/202221148,2022,2,segunda_division
+18,Girona,Las Palmas,0-0,https://www.besoccer.com/match/girona-fc/ud-palmas/202221155,2022,2,segunda_division
+19,Huesca,FC Cartagena,2-0,https://www.besoccer.com/match/huesca/cartagena/202221156,2022,2,segunda_division
+20,Mirandés,SD Amorebieta,2-0,https://www.besoccer.com/match/mirandes/amorebieta/202221163,2022,2,segunda_division
+21,Leganés,Burgos,0-0,https://www.besoccer.com/match/leganes/burgos-cf/202221159,2022,2,segunda_division
+22,Las Palmas,Huesca,2-1,https://www.besoccer.com/match/ud-palmas/huesca/202221177,2022,3,segunda_division
+23,Málaga,Alcorcón,1-0,https://www.besoccer.com/match/malaga/ad-alcorcon/202221181,2022,3,segunda_division
+24,Real Sporting,Mirandés,2-1,https://www.besoccer.com/match/sporting-gijon/mirandes/202221191,2022,3,segunda_division
+25,Leganés,UD Ibiza,1-2,https://www.besoccer.com/match/leganes/ibiza-eivissa/202221176,2022,3,segunda_division
+26,Real Oviedo,Tenerife,0-0,https://www.besoccer.com/match/real-oviedo/tenerife/202221183,2022,3,segunda_division
+27,Ponferradina,Girona,2-1,https://www.besoccer.com/match/ponferradina-sd/girona-fc/202221185,2022,3,segunda_division
+28,SD Amorebieta,Almería,2-1,https://www.besoccer.com/match/amorebieta/almeria/202221171,2022,3,segunda_division
+29,Lugo,Real Valladolid,0-2,https://www.besoccer.com/match/lugo/valladolid/202221180,2022,3,segunda_division
+30,R. Sociedad B,Fuenlabrada,0-0,https://www.besoccer.com/match/real-sociedad-b/fuenlabrada/202221187,2022,3,segunda_division
+31,Burgos,Eibar,0-1,https://www.besoccer.com/match/burgos-cf/eibar/202221175,2022,3,segunda_division
+32,Real Zaragoza,FC Cartagena,0-1,https://www.besoccer.com/match/real-zaragoza/cartagena/202221189,2022,3,segunda_division
+33,Girona,Real Sporting,1-2,https://www.besoccer.com/match/girona-fc/sporting-gijon/202221192,2022,4,segunda_division
+34,Eibar,Leganés,1-1,https://www.besoccer.com/match/eibar/leganes/202221188,2022,4,segunda_division
+35,FC Cartagena,R. Sociedad B,1-0,https://www.besoccer.com/match/cartagena/real-sociedad-b/202221184,2022,4,segunda_division
+36,Tenerife,Ponferradina,2-0,https://www.besoccer.com/match/tenerife/ponferradina-sd/202221206,2022,4,segunda_division
+37,Almería,Málaga,2-0,https://www.besoccer.com/match/almeria/malaga/202221173,2022,4,segunda_division
+38,Fuenlabrada,Lugo,1-1,https://www.besoccer.com/match/fuenlabrada/lugo/202221190,2022,4,segunda_division
+39,Burgos,Real Valladolid,3-0,https://www.besoccer.com/match/burgos-cf/valladolid/202221179,2022,4,segunda_division
+40,UD Ibiza,SD Amorebieta,1-1,https://www.besoccer.com/match/ibiza-eivissa/amorebieta/202221198,2022,4,segunda_division
+41,Alcorcón,Real Zaragoza,1-2,https://www.besoccer.com/match/ad-alcorcon/real-zaragoza/202221170,2022,4,segunda_division
+42,Mirandés,Las Palmas,4-2,https://www.besoccer.com/match/mirandes/ud-palmas/202221201,2022,4,segunda_division
+43,Huesca,Real Oviedo,1-2,https://www.besoccer.com/match/huesca/real-oviedo/202221194,2022,4,segunda_division
+44,Real Sporting,Leganés,2-1,https://www.besoccer.com/match/sporting-gijon/leganes/202221210,2022,5,segunda_division
+45,R. Sociedad B,Eibar,2-3,https://www.besoccer.com/match/real-sociedad-b/eibar/202221208,2022,5,segunda_division
+46,SD Amorebieta,Burgos,2-2,https://www.besoccer.com/match/amorebieta/burgos-cf/202221196,2022,5,segunda_division
+47,Las Palmas,UD Ibiza,1-1,https://www.besoccer.com/match/ud-palmas/ibiza-eivissa/202221199,2022,5,segunda_division
+48,Mirandés,Alcorcón,1-3,https://www.besoccer.com/match/mirandes/ad-alcorcon/202221203,2022,5,segunda_division
+49,Real Oviedo,FC Cartagena,2-0,https://www.besoccer.com/match/real-oviedo/cartagena/202221205,2022,5,segunda_division
+50,Real Valladolid,Tenerife,0-2,https://www.besoccer.com/match/valladolid/tenerife/202221211,2022,5,segunda_division
+51,Ponferradina,Almería,1-0,https://www.besoccer.com/match/ponferradina-sd/almeria/202221207,2022,5,segunda_division
+52,Fuenlabrada,Real Zaragoza,1-1,https://www.besoccer.com/match/fuenlabrada/real-zaragoza/202221197,2022,5,segunda_division
+53,Málaga,Girona,2-0,https://www.besoccer.com/match/malaga/girona-fc/202221202,2022,5,segunda_division
+54,Lugo,Huesca,3-2,https://www.besoccer.com/match/lugo/huesca/202221200,2022,5,segunda_division
+55,Alcorcón,Almería,0-4,https://www.besoccer.com/match/ad-alcorcon/almeria/202221213,2022,6,segunda_division
+56,UD Ibiza,Real Oviedo,1-1,https://www.besoccer.com/match/ibiza-eivissa/real-oviedo/202221231,2022,6,segunda_division
+57,Leganés,SD Amorebieta,1-0,https://www.besoccer.com/match/leganes/amorebieta/202221237,2022,6,segunda_division
+58,Real Zaragoza,R. Sociedad B,1-1,https://www.besoccer.com/match/real-zaragoza/real-sociedad-b/202221246,2022,6,segunda_division
+59,Girona,Real Valladolid,1-0,https://www.besoccer.com/match/girona-fc/valladolid/202221223,2022,6,segunda_division
+60,FC Cartagena,Lugo,2-1,https://www.besoccer.com/match/cartagena/lugo/202221217,2022,6,segunda_division
+61,Huesca,Fuenlabrada,0-0,https://www.besoccer.com/match/huesca/fuenlabrada/202221227,2022,6,segunda_division
+62,Ponferradina,Málaga,4-0,https://www.besoccer.com/match/ponferradina-sd/malaga/202221239,2022,6,segunda_division
+63,Eibar,Real Sporting,3-2,https://www.besoccer.com/match/eibar/sporting-gijon/202221221,2022,6,segunda_division
+64,Tenerife,Mirandés,1-2,https://www.besoccer.com/match/tenerife/mirandes/202221242,2022,6,segunda_division
+65,Burgos,Las Palmas,0-0,https://www.besoccer.com/match/burgos-cf/ud-palmas/202221215,2022,6,segunda_division
+66,R. Sociedad B,Huesca,0-2,https://www.besoccer.com/match/real-sociedad-b/huesca/202221233,2022,7,segunda_division
+67,Almería,Tenerife,3-1,https://www.besoccer.com/match/almeria/tenerife/202221219,2022,7,segunda_division
+68,UD Ibiza,Burgos,2-0,https://www.besoccer.com/match/ibiza-eivissa/burgos-cf/202221224,2022,7,segunda_division
+69,SD Amorebieta,Eibar,1-1,https://www.besoccer.com/match/amorebieta/eibar/202221220,2022,7,segunda_division
+70,Las Palmas,Ponferradina,2-1,https://www.besoccer.com/match/ud-palmas/ponferradina-sd/202221225,2022,7,segunda_division
+71,Mirandés,Leganés,1-2,https://www.besoccer.com/match/mirandes/leganes/202221229,2022,7,segunda_division
+72,Real Sporting,Málaga,2-1,https://www.besoccer.com/match/sporting-gijon/malaga/202221234,2022,7,segunda_division
+73,Real Oviedo,Girona,0-0,https://www.besoccer.com/match/real-oviedo/girona-fc/202221232,2022,7,segunda_division
+74,Lugo,Real Zaragoza,1-1,https://www.besoccer.com/match/lugo/real-zaragoza/202221228,2022,7,segunda_division
+75,Real Valladolid,Alcorcón,2-0,https://www.besoccer.com/match/valladolid/ad-alcorcon/202221235,2022,7,segunda_division
+76,Fuenlabrada,FC Cartagena,2-1,https://www.besoccer.com/match/fuenlabrada/cartagena/202221222,2022,7,segunda_division
+77,Ponferradina,Real Valladolid,2-2,https://www.besoccer.com/match/ponferradina-sd/valladolid/202221285,2022,8,segunda_division
+78,SD Amorebieta,Real Sporting,1-1,https://www.besoccer.com/match/amorebieta/sporting-gijon/202221258,2022,8,segunda_division
+79,Huesca,Tenerife,1-2,https://www.besoccer.com/match/huesca/tenerife/202221271,2022,8,segunda_division
+80,Real Zaragoza,Real Oviedo,0-0,https://www.besoccer.com/match/real-zaragoza/real-oviedo/202221287,2022,8,segunda_division
+81,Alcorcón,R. Sociedad B,1-4,https://www.besoccer.com/match/ad-alcorcon/real-sociedad-b/202221254,2022,8,segunda_division
+82,Eibar,UD Ibiza,3-1,https://www.besoccer.com/match/eibar/ibiza-eivissa/202221262,2022,8,segunda_division
+83,Málaga,Fuenlabrada,1-0,https://www.besoccer.com/match/malaga/fuenlabrada/202221282,2022,8,segunda_division
+84,Burgos,Mirandés,1-0,https://www.besoccer.com/match/burgos-cf/mirandes/202221260,2022,8,segunda_division
+85,Las Palmas,FC Cartagena,4-1,https://www.besoccer.com/match/ud-palmas/cartagena/202221278,2022,8,segunda_division
+86,Leganés,Lugo,1-1,https://www.besoccer.com/match/leganes/lugo/202221275,2022,8,segunda_division
+87,Girona,Almería,1-2,https://www.besoccer.com/match/girona-fc/almeria/202221267,2022,8,segunda_division
+88,Real Valladolid,Málaga,1-1,https://www.besoccer.com/match/valladolid/malaga/202221255,2022,9,segunda_division
+89,Lugo,Girona,1-0,https://www.besoccer.com/match/lugo/girona-fc/202221248,2022,9,segunda_division
+90,Mirandés,Eibar,3-3,https://www.besoccer.com/match/mirandes/eibar/202221249,2022,9,segunda_division
+91,Almería,Las Palmas,1-1,https://www.besoccer.com/match/almeria/ud-palmas/202221243,2022,9,segunda_division
+92,Real Oviedo,Real Sporting,1-1,https://www.besoccer.com/match/real-oviedo/sporting-gijon/202221251,2022,9,segunda_division
+93,R. Sociedad B,Ponferradina,1-1,https://www.besoccer.com/match/real-sociedad-b/ponferradina-sd/202221252,2022,9,segunda_division
+94,FC Cartagena,UD Ibiza,5-1,https://www.besoccer.com/match/cartagena/ibiza-eivissa/202221244,2022,9,segunda_division
+95,Alcorcón,Burgos,1-0,https://www.besoccer.com/match/ad-alcorcon/burgos-cf/202221241,2022,9,segunda_division
+96,Fuenlabrada,Leganés,2-1,https://www.besoccer.com/match/fuenlabrada/leganes/202221247,2022,9,segunda_division
+97,Tenerife,SD Amorebieta,2-1,https://www.besoccer.com/match/tenerife/amorebieta/202221253,2022,9,segunda_division
+98,Real Zaragoza,Huesca,0-0,https://www.besoccer.com/match/real-zaragoza/huesca/202221257,2022,9,segunda_division
+99,Eibar,Almería,1-0,https://www.besoccer.com/match/eibar/almeria/202221302,2022,10,segunda_division
+100,SD Amorebieta,FC Cartagena,2-3,https://www.besoccer.com/match/amorebieta/cartagena/202221294,2022,10,segunda_division
+101,Girona,Huesca,1-3,https://www.besoccer.com/match/girona-fc/huesca/202221305,2022,10,segunda_division
+102,Las Palmas,Tenerife,2-1,https://www.besoccer.com/match/ud-palmas/tenerife/202221322,2022,10,segunda_division
+103,Málaga,Real Zaragoza,1-1,https://www.besoccer.com/match/malaga/real-zaragoza/202221324,2022,10,segunda_division
+104,Real Sporting,Alcorcón,1-0,https://www.besoccer.com/match/sporting-gijon/ad-alcorcon/202221332,2022,10,segunda_division
+105,UD Ibiza,Mirandés,0-2,https://www.besoccer.com/match/ibiza-eivissa/mirandes/202221308,2022,10,segunda_division
+106,Leganés,Real Valladolid,0-2,https://www.besoccer.com/match/leganes/valladolid/202221312,2022,10,segunda_division
+107,Burgos,Lugo,1-1,https://www.besoccer.com/match/burgos-cf/lugo/202221298,2022,10,segunda_division
+108,R. Sociedad B,Real Oviedo,1-1,https://www.besoccer.com/match/real-sociedad-b/real-oviedo/202221329,2022,10,segunda_division
+109,Ponferradina,Fuenlabrada,0-0,https://www.besoccer.com/match/ponferradina-sd/fuenlabrada/202221325,2022,10,segunda_division
+110,FC Cartagena,Real Sporting,1-0,https://www.besoccer.com/match/cartagena/sporting-gijon/202221284,2022,11,segunda_division
+111,Huesca,Málaga,0-0,https://www.besoccer.com/match/huesca/malaga/202221270,2022,11,segunda_division
+112,Tenerife,Eibar,0-1,https://www.besoccer.com/match/tenerife/eibar/202221277,2022,11,segunda_division
+113,Fuenlabrada,SD Amorebieta,0-0,https://www.besoccer.com/match/fuenlabrada/amorebieta/202221268,2022,11,segunda_division
+114,Real Valladolid,UD Ibiza,1-1,https://www.besoccer.com/match/valladolid/ibiza-eivissa/202221280,2022,11,segunda_division
+115,Alcorcón,Leganés,3-3,https://www.besoccer.com/match/ad-alcorcon/leganes/202221263,2022,11,segunda_division
+116,Lugo,Las Palmas,2-0,https://www.besoccer.com/match/lugo/ud-palmas/202221272,2022,11,segunda_division
+117,Almería,R. Sociedad B,3-1,https://www.besoccer.com/match/almeria/real-sociedad-b/202221265,2022,11,segunda_division
+118,Real Zaragoza,Ponferradina,1-1,https://www.besoccer.com/match/real-zaragoza/ponferradina-sd/202221281,2022,11,segunda_division
+119,Mirandés,Girona,1-2,https://www.besoccer.com/match/mirandes/girona-fc/202221273,2022,11,segunda_division
+120,Real Oviedo,Burgos,1-3,https://www.besoccer.com/match/real-oviedo/burgos-cf/202221276,2022,11,segunda_division
+121,Eibar,FC Cartagena,2-1,https://www.besoccer.com/match/eibar/cartagena/202221345,2022,12,segunda_division
+122,UD Ibiza,Fuenlabrada,3-1,https://www.besoccer.com/match/ibiza-eivissa/fuenlabrada/202221353,2022,12,segunda_division
+123,Real Sporting,Real Valladolid,1-2,https://www.besoccer.com/match/sporting-gijon/valladolid/202221373,2022,12,segunda_division
+124,Málaga,Lugo,1-0,https://www.besoccer.com/match/malaga/lugo/202221364,2022,12,segunda_division
+125,Leganés,Tenerife,1-2,https://www.besoccer.com/match/leganes/tenerife/202221357,2022,12,segunda_division
+126,SD Amorebieta,R. Sociedad B,1-2,https://www.besoccer.com/match/amorebieta/real-sociedad-b/202221341,2022,12,segunda_division
+127,Mirandés,Almería,1-4,https://www.besoccer.com/match/mirandes/almeria/202221367,2022,12,segunda_division
+128,Burgos,Huesca,3-1,https://www.besoccer.com/match/burgos-cf/huesca/202221343,2022,12,segunda_division
+129,Ponferradina,Real Oviedo,1-2,https://www.besoccer.com/match/ponferradina-sd/real-oviedo/202221370,2022,12,segunda_division
+130,Las Palmas,Alcorcón,3-0,https://www.besoccer.com/match/ud-palmas/ad-alcorcon/202221360,2022,12,segunda_division
+131,Girona,Real Zaragoza,1-1,https://www.besoccer.com/match/girona-fc/real-zaragoza/202221350,2022,12,segunda_division
+132,Almería,Leganés,1-0,https://www.besoccer.com/match/almeria/leganes/202221290,2022,13,segunda_division
+133,R. Sociedad B,Las Palmas,0-1,https://www.besoccer.com/match/real-sociedad-b/ud-palmas/202221300,2022,13,segunda_division
+134,Huesca,SD Amorebieta,1-1,https://www.besoccer.com/match/huesca/amorebieta/202221295,2022,13,segunda_division
+135,Lugo,Real Sporting,1-1,https://www.besoccer.com/match/lugo/sporting-gijon/202221296,2022,13,segunda_division
+136,FC Cartagena,Ponferradina,0-1,https://www.besoccer.com/match/cartagena/ponferradina-sd/202221291,2022,13,segunda_division
+137,Fuenlabrada,Girona,1-2,https://www.besoccer.com/match/fuenlabrada/girona-fc/202221293,2022,13,segunda_division
+138,Real Oviedo,Málaga,2-1,https://www.besoccer.com/match/real-oviedo/malaga/202221297,2022,13,segunda_division
+139,Real Valladolid,Eibar,2-0,https://www.besoccer.com/match/valladolid/eibar/202221304,2022,13,segunda_division
+140,Real Zaragoza,Mirandés,1-1,https://www.besoccer.com/match/real-zaragoza/mirandes/202221306,2022,13,segunda_division
+141,Alcorcón,UD Ibiza,0-2,https://www.besoccer.com/match/ad-alcorcon/ibiza-eivissa/202221289,2022,13,segunda_division
+142,Tenerife,Burgos,4-0,https://www.besoccer.com/match/tenerife/burgos-cf/202221301,2022,13,segunda_division
+143,Real Sporting,Almería,0-1,https://www.besoccer.com/match/sporting-gijon/almeria/202221417,2022,14,segunda_division
+144,Ponferradina,Huesca,1-1,https://www.besoccer.com/match/ponferradina-sd/huesca/202221416,2022,14,segunda_division
+145,Leganés,FC Cartagena,1-1,https://www.besoccer.com/match/leganes/cartagena/202221396,2022,14,segunda_division
+146,SD Amorebieta,Real Valladolid,4-1,https://www.besoccer.com/match/amorebieta/valladolid/202221386,2022,14,segunda_division
+147,Mirandés,Lugo,3-2,https://www.besoccer.com/match/mirandes/lugo/202221413,2022,14,segunda_division
+148,Eibar,Real Oviedo,1-0,https://www.besoccer.com/match/eibar/real-oviedo/202221392,2022,14,segunda_division
+149,Las Palmas,Fuenlabrada,2-1,https://www.besoccer.com/match/ud-palmas/fuenlabrada/202221400,2022,14,segunda_division
+150,Burgos,Real Zaragoza,0-1,https://www.besoccer.com/match/burgos-cf/real-zaragoza/202221390,2022,14,segunda_division
+151,Girona,Alcorcón,3-1,https://www.besoccer.com/match/girona-fc/ad-alcorcon/202221393,2022,14,segunda_division
+152,UD Ibiza,Tenerife,0-0,https://www.besoccer.com/match/ibiza-eivissa/tenerife/202221394,2022,14,segunda_division
+153,Málaga,R. Sociedad B,2-1,https://www.besoccer.com/match/malaga/real-sociedad-b/202221403,2022,14,segunda_division
+154,Huesca,Leganés,0-2,https://www.besoccer.com/match/huesca/leganes/202221315,2022,15,segunda_division
+155,Lugo,Ponferradina,1-2,https://www.besoccer.com/match/lugo/ponferradina-sd/202221316,2022,15,segunda_division
+156,Real Oviedo,Las Palmas,1-1,https://www.besoccer.com/match/real-oviedo/ud-palmas/202221317,2022,15,segunda_division
+157,Real Valladolid,Mirandés,3-1,https://www.besoccer.com/match/valladolid/mirandes/202221321,2022,15,segunda_division
+158,Fuenlabrada,Eibar,0-0,https://www.besoccer.com/match/fuenlabrada/eibar/202221314,2022,15,segunda_division
+159,Alcorcón,SD Amorebieta,2-2,https://www.besoccer.com/match/ad-alcorcon/amorebieta/202221309,2022,15,segunda_division
+160,Real Zaragoza,Real Sporting,2-0,https://www.besoccer.com/match/real-zaragoza/sporting-gijon/202221323,2022,15,segunda_division
+161,Almería,Burgos,2-0,https://www.besoccer.com/match/almeria/burgos-cf/202221311,2022,15,segunda_division
+162,FC Cartagena,Málaga,3-1,https://www.besoccer.com/match/cartagena/malaga/202221313,2022,15,segunda_division
+163,R. Sociedad B,UD Ibiza,0-1,https://www.besoccer.com/match/real-sociedad-b/ibiza-eivissa/202221318,2022,15,segunda_division
+164,Tenerife,Girona,2-1,https://www.besoccer.com/match/tenerife/girona-fc/202221319,2022,15,segunda_division
+165,Real Sporting,R. Sociedad B,0-1,https://www.besoccer.com/match/sporting-gijon/real-sociedad-b/202221461,2022,16,segunda_division
+166,Real Valladolid,Fuenlabrada,3-0,https://www.besoccer.com/match/valladolid/fuenlabrada/202221463,2022,16,segunda_division
+167,Mirandés,Huesca,0-1,https://www.besoccer.com/match/mirandes/huesca/202221458,2022,16,segunda_division
+168,Eibar,Alcorcón,2-1,https://www.besoccer.com/match/eibar/ad-alcorcon/202221436,2022,16,segunda_division
+169,Las Palmas,Real Zaragoza,2-3,https://www.besoccer.com/match/ud-palmas/real-zaragoza/202221450,2022,16,segunda_division
+170,SD Amorebieta,Lugo,1-3,https://www.besoccer.com/match/amorebieta/lugo/202221431,2022,16,segunda_division
+171,Girona,FC Cartagena,2-0,https://www.besoccer.com/match/girona-fc/cartagena/202221438,2022,16,segunda_division
+172,UD Ibiza,Almería,0-1,https://www.besoccer.com/match/ibiza-eivissa/almeria/202221442,2022,16,segunda_division
+173,Burgos,Ponferradina,1-0,https://www.besoccer.com/match/burgos-cf/ponferradina-sd/202221433,2022,16,segunda_division
+174,Leganés,Real Oviedo,0-0,https://www.besoccer.com/match/leganes/real-oviedo/202221446,2022,16,segunda_division
+175,Málaga,Tenerife,1-0,https://www.besoccer.com/match/malaga/tenerife/202221454,2022,16,segunda_division
+176,Fuenlabrada,Mirandés,1-1,https://www.besoccer.com/match/fuenlabrada/mirandes/202221330,2022,17,segunda_division
+177,Real Oviedo,SD Amorebieta,2-0,https://www.besoccer.com/match/real-oviedo/amorebieta/202221335,2022,17,segunda_division
+178,Málaga,Las Palmas,2-1,https://www.besoccer.com/match/malaga/ud-palmas/202221334,2022,17,segunda_division
+179,Almería,Real Valladolid,3-1,https://www.besoccer.com/match/almeria/valladolid/202221326,2022,17,segunda_division
+180,FC Cartagena,Burgos,1-0,https://www.besoccer.com/match/cartagena/burgos-cf/202221328,2022,17,segunda_division
+181,Lugo,Eibar,2-2,https://www.besoccer.com/match/lugo/eibar/202221333,2022,17,segunda_division
+182,Huesca,UD Ibiza,0-0,https://www.besoccer.com/match/huesca/ibiza-eivissa/202221331,2022,17,segunda_division
+183,Tenerife,Alcorcón,1-0,https://www.besoccer.com/match/tenerife/ad-alcorcon/202221339,2022,17,segunda_division
+184,Ponferradina,Real Sporting,4-1,https://www.besoccer.com/match/ponferradina-sd/sporting-gijon/202221336,2022,17,segunda_division
+185,R. Sociedad B,Girona,1-2,https://www.besoccer.com/match/real-sociedad-b/girona-fc/202221337,2022,17,segunda_division
+186,Real Zaragoza,Leganés,0-2,https://www.besoccer.com/match/real-zaragoza/leganes/202221340,2022,17,segunda_division
+187,Alcorcón,Lugo,1-1,https://www.besoccer.com/match/ad-alcorcon/lugo/202221470,2022,18,segunda_division
+188,Mirandés,Real Oviedo,1-1,https://www.besoccer.com/match/mirandes/real-oviedo/202221494,2022,18,segunda_division
+189,Burgos,Málaga,3-0,https://www.besoccer.com/match/burgos-cf/malaga/202221483,2022,18,segunda_division
+190,Almería,Huesca,0-0,https://www.besoccer.com/match/almeria/huesca/202221474,2022,18,segunda_division
+191,Real Sporting,Fuenlabrada,1-1,https://www.besoccer.com/match/sporting-gijon/fuenlabrada/202221498,2022,18,segunda_division
+192,Real Valladolid,FC Cartagena,2-0,https://www.besoccer.com/match/valladolid/cartagena/202221506,2022,18,segunda_division
+193,Leganés,Las Palmas,4-1,https://www.besoccer.com/match/leganes/ud-palmas/202221491,2022,18,segunda_division
+194,SD Amorebieta,Real Zaragoza,1-1,https://www.besoccer.com/match/amorebieta/real-zaragoza/202221476,2022,18,segunda_division
+195,UD Ibiza,Ponferradina,0-1,https://www.besoccer.com/match/ibiza-eivissa/ponferradina-sd/202221489,2022,18,segunda_division
+196,Tenerife,R. Sociedad B,2-0,https://www.besoccer.com/match/tenerife/real-sociedad-b/202221502,2022,18,segunda_division
+197,Eibar,Girona,4-2,https://www.besoccer.com/match/eibar/girona-fc/202221485,2022,18,segunda_division
+198,Huesca,Real Valladolid,3-2,https://www.besoccer.com/match/huesca/valladolid/202221352,2022,19,segunda_division
+199,Fuenlabrada,Almería,1-1,https://www.besoccer.com/match/fuenlabrada/almeria/202221348,2022,19,segunda_division
+200,Ponferradina,Mirandés,2-1,https://www.besoccer.com/match/ponferradina-sd/mirandes/202221363,2022,19,segunda_division
+201,Málaga,SD Amorebieta,1-2,https://www.besoccer.com/match/malaga/amorebieta/202221358,2022,19,segunda_division
+202,Lugo,UD Ibiza,0-0,https://www.besoccer.com/match/lugo/ibiza-eivissa/202221356,2022,19,segunda_division
+203,R. Sociedad B,Burgos,0-1,https://www.besoccer.com/match/real-sociedad-b/burgos-cf/202221365,2022,19,segunda_division
+204,Real Oviedo,Alcorcón,3-1,https://www.besoccer.com/match/real-oviedo/ad-alcorcon/202221369,2022,19,segunda_division
+205,Las Palmas,Real Sporting,1-0,https://www.besoccer.com/match/ud-palmas/sporting-gijon/202221354,2022,19,segunda_division
+206,Real Zaragoza,Eibar,1-0,https://www.besoccer.com/match/real-zaragoza/eibar/202221366,2022,19,segunda_division
+207,FC Cartagena,Tenerife,1-1,https://www.besoccer.com/match/cartagena/tenerife/202221346,2022,19,segunda_division
+208,Girona,Leganés,3-0,https://www.besoccer.com/match/girona-fc/leganes/202221349,2022,19,segunda_division
+209,Real Sporting,Huesca,1-1,https://www.besoccer.com/match/sporting-gijon/huesca/202221508,2022,20,segunda_division
+210,Burgos,Fuenlabrada,2-0,https://www.besoccer.com/match/burgos-cf/fuenlabrada/202221499,2022,20,segunda_division
+211,UD Ibiza,Girona,1-1,https://www.besoccer.com/match/ibiza-eivissa/girona-fc/202221503,2022,20,segunda_division
+212,Almería,Real Zaragoza,3-0,https://www.besoccer.com/match/almeria/real-zaragoza/202221495,2022,20,segunda_division
+213,Eibar,Málaga,2-2,https://www.besoccer.com/match/eibar/malaga/202221500,2022,20,segunda_division
+214,Tenerife,Lugo,1-1,https://www.besoccer.com/match/tenerife/lugo/202221509,2022,20,segunda_division
+215,Leganés,Ponferradina,1-1,https://www.besoccer.com/match/leganes/ponferradina-sd/202221504,2022,20,segunda_division
+216,Real Valladolid,Real Oviedo,2-1,https://www.besoccer.com/match/valladolid/real-oviedo/202221511,2022,20,segunda_division
+217,Alcorcón,FC Cartagena,1-1,https://www.besoccer.com/match/ad-alcorcon/cartagena/202221492,2022,20,segunda_division
+218,SD Amorebieta,Las Palmas,1-1,https://www.besoccer.com/match/amorebieta/ud-palmas/202221496,2022,20,segunda_division
+219,Mirandés,R. Sociedad B,2-0,https://www.besoccer.com/match/mirandes/real-sociedad-b/202221507,2022,20,segunda_division
+220,Girona,Burgos,3-1,https://www.besoccer.com/match/girona-fc/burgos-cf/202221376,2022,21,segunda_division
+221,UD Ibiza,Real Sporting,0-2,https://www.besoccer.com/match/ibiza-eivissa/sporting-gijon/202221379,2022,21,segunda_division
+222,Málaga,Leganés,0-2,https://www.besoccer.com/match/malaga/leganes/202221383,2022,21,segunda_division
+223,Las Palmas,Eibar,0-1,https://www.besoccer.com/match/ud-palmas/eibar/202221380,2022,21,segunda_division
+224,Fuenlabrada,Real Oviedo,0-0,https://www.besoccer.com/match/fuenlabrada/real-oviedo/202221375,2022,21,segunda_division
+225,Ponferradina,SD Amorebieta,1-1,https://www.besoccer.com/match/ponferradina-sd/amorebieta/202221385,2022,21,segunda_division
+226,Real Zaragoza,Tenerife,0-2,https://www.besoccer.com/match/real-zaragoza/tenerife/202221389,2022,21,segunda_division
+227,FC Cartagena,Mirandés,3-0,https://www.besoccer.com/match/cartagena/mirandes/202221374,2022,21,segunda_division
+228,Huesca,Alcorcón,0-0,https://www.besoccer.com/match/huesca/ad-alcorcon/202221378,2022,21,segunda_division
+229,R. Sociedad B,Real Valladolid,0-2,https://www.besoccer.com/match/real-sociedad-b/valladolid/202221387,2022,21,segunda_division
+230,Lugo,Almería,2-1,https://www.besoccer.com/match/lugo/almeria/202221382,2022,21,segunda_division
+231,Real Oviedo,Ponferradina,2-0,https://www.besoccer.com/match/real-oviedo/ponferradina-sd/202221477,2022,22,segunda_division
+232,Burgos,SD Amorebieta,2-2,https://www.besoccer.com/match/burgos-cf/amorebieta/202221468,2022,22,segunda_division
+233,Eibar,R. Sociedad B,3-2,https://www.besoccer.com/match/eibar/real-sociedad-b/202221469,2022,22,segunda_division
+234,Real Valladolid,Leganés,1-0,https://www.besoccer.com/match/valladolid/leganes/202221480,2022,22,segunda_division
+235,Almería,FC Cartagena,0-1,https://www.besoccer.com/match/almeria/cartagena/202221482,2022,22,segunda_division
+236,Real Sporting,Lugo,1-1,https://www.besoccer.com/match/sporting-gijon/lugo/202221487,2022,22,segunda_division
+237,Huesca,Girona,0-1,https://www.besoccer.com/match/huesca/girona-fc/202221473,2022,22,segunda_division
+238,Mirandés,Real Zaragoza,2-0,https://www.besoccer.com/match/mirandes/real-zaragoza/202221475,2022,22,segunda_division
+239,Fuenlabrada,UD Ibiza,1-2,https://www.besoccer.com/match/fuenlabrada/ibiza-eivissa/202221472,2022,22,segunda_division
+240,Tenerife,Las Palmas,0-1,https://www.besoccer.com/match/tenerife/ud-palmas/202221479,2022,22,segunda_division
+241,Alcorcón,Málaga,0-1,https://www.besoccer.com/match/ad-alcorcon/malaga/202221465,2022,22,segunda_division
+242,SD Amorebieta,Tenerife,1-1,https://www.besoccer.com/match/amorebieta/tenerife/202221397,2022,23,segunda_division
+243,FC Cartagena,Huesca,0-3,https://www.besoccer.com/match/cartagena/huesca/202221399,2022,23,segunda_division
+244,UD Ibiza,Alcorcón,6-2,https://www.besoccer.com/match/ibiza-eivissa/ad-alcorcon/202221404,2022,23,segunda_division
+245,Real Valladolid,Burgos,1-0,https://www.besoccer.com/match/valladolid/burgos-cf/202221412,2022,23,segunda_division
+246,Leganés,R. Sociedad B,1-1,https://www.besoccer.com/match/leganes/real-sociedad-b/202221405,2022,23,segunda_division
+247,Girona,Fuenlabrada,2-1,https://www.besoccer.com/match/girona-fc/fuenlabrada/202221402,2022,23,segunda_division
+248,Lugo,Mirandés,2-1,https://www.besoccer.com/match/lugo/mirandes/202221407,2022,23,segunda_division
+249,Málaga,Real Sporting,2-2,https://www.besoccer.com/match/malaga/sporting-gijon/202221409,2022,23,segunda_division
+250,Ponferradina,Real Zaragoza,0-0,https://www.besoccer.com/match/ponferradina-sd/real-zaragoza/202221411,2022,23,segunda_division
+251,Las Palmas,Almería,1-1,https://www.besoccer.com/match/ud-palmas/almeria/202221406,2022,23,segunda_division
+252,Real Oviedo,Eibar,1-1,https://www.besoccer.com/match/real-oviedo/eibar/202221410,2022,23,segunda_division
+253,Tenerife,Real Oviedo,4-0,https://www.besoccer.com/match/tenerife/real-oviedo/202221456,2022,24,segunda_division
+254,Real Zaragoza,Real Valladolid,0-0,https://www.besoccer.com/match/real-zaragoza/valladolid/202221459,2022,24,segunda_division
+255,Fuenlabrada,Las Palmas,3-2,https://www.besoccer.com/match/fuenlabrada/ud-palmas/202221445,2022,24,segunda_division
+256,Málaga,UD Ibiza,0-5,https://www.besoccer.com/match/malaga/ibiza-eivissa/202221451,2022,24,segunda_division
+257,Burgos,Leganés,4-0,https://www.besoccer.com/match/burgos-cf/leganes/202221444,2022,24,segunda_division
+258,Real Sporting,SD Amorebieta,2-1,https://www.besoccer.com/match/sporting-gijon/amorebieta/202221455,2022,24,segunda_division
+259,Girona,Lugo,1-1,https://www.besoccer.com/match/girona-fc/lugo/202221448,2022,24,segunda_division
+260,Huesca,Ponferradina,1-2,https://www.besoccer.com/match/huesca/ponferradina-sd/202221449,2022,24,segunda_division
+261,Alcorcón,Mirandés,0-0,https://www.besoccer.com/match/ad-alcorcon/mirandes/202221440,2022,24,segunda_division
+262,Almería,Eibar,0-2,https://www.besoccer.com/match/almeria/eibar/202221441,2022,24,segunda_division
+263,R. Sociedad B,FC Cartagena,1-2,https://www.besoccer.com/match/real-sociedad-b/cartagena/202221452,2022,24,segunda_division
+264,Real Valladolid,Real Sporting,1-0,https://www.besoccer.com/match/valladolid/sporting-gijon/202221435,2022,25,segunda_division
+265,SD Amorebieta,Girona,1-0,https://www.besoccer.com/match/amorebieta/girona-fc/202221418,2022,25,segunda_division
+266,Eibar,Huesca,2-1,https://www.besoccer.com/match/eibar/huesca/202221421,2022,25,segunda_division
+267,Lugo,Burgos,1-0,https://www.besoccer.com/match/lugo/burgos-cf/202221426,2022,25,segunda_division
+268,Real Oviedo,Almería,2-0,https://www.besoccer.com/match/real-oviedo/almeria/202221432,2022,25,segunda_division
+269,Leganés,Alcorcón,1-0,https://www.besoccer.com/match/leganes/ad-alcorcon/202221424,2022,25,segunda_division
+270,FC Cartagena,Fuenlabrada,3-0,https://www.besoccer.com/match/cartagena/fuenlabrada/202221419,2022,25,segunda_division
+271,Las Palmas,R. Sociedad B,0-0,https://www.besoccer.com/match/ud-palmas/real-sociedad-b/202221425,2022,25,segunda_division
+272,Mirandés,Málaga,3-0,https://www.besoccer.com/match/mirandes/malaga/202221429,2022,25,segunda_division
+273,Ponferradina,Tenerife,1-2,https://www.besoccer.com/match/ponferradina-sd/tenerife/202221434,2022,25,segunda_division
+274,UD Ibiza,Real Zaragoza,2-2,https://www.besoccer.com/match/ibiza-eivissa/real-zaragoza/202221422,2022,25,segunda_division
+275,Almería,UD Ibiza,2-0,https://www.besoccer.com/match/almeria/ibiza-eivissa/202221523,2022,26,segunda_division
+276,Burgos,Alcorcón,3-1,https://www.besoccer.com/match/burgos-cf/ad-alcorcon/202221531,2022,26,segunda_division
+277,R. Sociedad B,Lugo,1-1,https://www.besoccer.com/match/real-sociedad-b/lugo/202221546,2022,26,segunda_division
+278,Real Zaragoza,Málaga,1-1,https://www.besoccer.com/match/real-zaragoza/malaga/202221554,2022,26,segunda_division
+279,Girona,Ponferradina,3-0,https://www.besoccer.com/match/girona-fc/ponferradina-sd/202221542,2022,26,segunda_division
+280,Real Sporting,Eibar,0-1,https://www.besoccer.com/match/sporting-gijon/eibar/202221549,2022,26,segunda_division
+281,SD Amorebieta,Real Oviedo,1-1,https://www.besoccer.com/match/amorebieta/real-oviedo/202221528,2022,26,segunda_division
+282,Fuenlabrada,Real Valladolid,0-0,https://www.besoccer.com/match/fuenlabrada/valladolid/202221538,2022,26,segunda_division
+283,FC Cartagena,Las Palmas,0-2,https://www.besoccer.com/match/cartagena/ud-palmas/202221534,2022,26,segunda_division
+284,Huesca,Mirandés,4-0,https://www.besoccer.com/match/huesca/mirandes/202221544,2022,26,segunda_division
+285,Tenerife,Leganés,0-0,https://www.besoccer.com/match/tenerife/leganes/202221551,2022,26,segunda_division
+286,Leganés,Real Zaragoza,2-1,https://www.besoccer.com/match/leganes/real-zaragoza/202221527,2022,27,segunda_division
+287,Mirandés,Real Sporting,0-3,https://www.besoccer.com/match/mirandes/sporting-gijon/202221536,2022,27,segunda_division
+288,UD Ibiza,FC Cartagena,2-1,https://www.besoccer.com/match/ibiza-eivissa/cartagena/202221526,2022,27,segunda_division
+289,Real Valladolid,Girona,2-2,https://www.besoccer.com/match/valladolid/girona-fc/202221541,2022,27,segunda_division
+290,Málaga,Almería,0-1,https://www.besoccer.com/match/malaga/almeria/202221533,2022,27,segunda_division
+291,Eibar,Fuenlabrada,0-0,https://www.besoccer.com/match/eibar/fuenlabrada/202221547,2022,27,segunda_division
+292,Real Oviedo,Huesca,3-3,https://www.besoccer.com/match/real-oviedo/huesca/202221537,2022,27,segunda_division
+293,Alcorcón,Tenerife,0-2,https://www.besoccer.com/match/ad-alcorcon/tenerife/202221522,2022,27,segunda_division
+294,Lugo,SD Amorebieta,1-1,https://www.besoccer.com/match/lugo/amorebieta/202221532,2022,27,segunda_division
+295,Las Palmas,Burgos,0-2,https://www.besoccer.com/match/ud-palmas/burgos-cf/202221529,2022,27,segunda_division
+296,Ponferradina,R. Sociedad B,3-2,https://www.besoccer.com/match/ponferradina-sd/real-sociedad-b/202221540,2022,27,segunda_division
+297,FC Cartagena,Real Valladolid,2-3,https://www.besoccer.com/match/cartagena/valladolid/202221573,2022,28,segunda_division
+298,Real Zaragoza,Las Palmas,2-1,https://www.besoccer.com/match/real-zaragoza/ud-palmas/202221598,2022,28,segunda_division
+299,Girona,Eibar,0-1,https://www.besoccer.com/match/girona-fc/eibar/202221579,2022,28,segunda_division
+300,Tenerife,UD Ibiza,2-0,https://www.besoccer.com/match/tenerife/ibiza-eivissa/202221595,2022,28,segunda_division
+301,R. Sociedad B,Málaga,2-0,https://www.besoccer.com/match/real-sociedad-b/malaga/202221586,2022,28,segunda_division
+302,Fuenlabrada,Alcorcón,2-2,https://www.besoccer.com/match/fuenlabrada/ad-alcorcon/202221575,2022,28,segunda_division
+303,Burgos,Real Oviedo,0-1,https://www.besoccer.com/match/burgos-cf/real-oviedo/202221572,2022,28,segunda_division
+304,Huesca,Lugo,1-0,https://www.besoccer.com/match/huesca/lugo/202221582,2022,28,segunda_division
+305,Real Sporting,Ponferradina,2-3,https://www.besoccer.com/match/sporting-gijon/ponferradina-sd/202221590,2022,28,segunda_division
+306,Almería,Mirandés,2-1,https://www.besoccer.com/match/almeria/mirandes/202221565,2022,28,segunda_division
+307,SD Amorebieta,Leganés,1-3,https://www.besoccer.com/match/amorebieta/leganes/202221569,2022,28,segunda_division
+308,Almería,Fuenlabrada,3-1,https://www.besoccer.com/match/almeria/fuenlabrada/202221555,2022,29,segunda_division
+309,UD Ibiza,Huesca,2-1,https://www.besoccer.com/match/ibiza-eivissa/huesca/202221557,2022,29,segunda_division
+310,Mirandés,Tenerife,2-1,https://www.besoccer.com/match/mirandes/tenerife/202221564,2022,29,segunda_division
+311,Real Oviedo,R. Sociedad B,0-1,https://www.besoccer.com/match/real-oviedo/real-sociedad-b/202221566,2022,29,segunda_division
+312,Las Palmas,Lugo,2-2,https://www.besoccer.com/match/ud-palmas/lugo/202221561,2022,29,segunda_division
+313,Eibar,Burgos,2-0,https://www.besoccer.com/match/eibar/burgos-cf/202221556,2022,29,segunda_division
+314,Real Sporting,Real Zaragoza,1-2,https://www.besoccer.com/match/sporting-gijon/real-zaragoza/202221567,2022,29,segunda_division
+315,Leganés,Girona,1-1,https://www.besoccer.com/match/leganes/girona-fc/202221559,2022,29,segunda_division
+316,Real Valladolid,SD Amorebieta,5-1,https://www.besoccer.com/match/valladolid/amorebieta/202221570,2022,29,segunda_division
+317,Alcorcón,Ponferradina,2-2,https://www.besoccer.com/match/ad-alcorcon/ponferradina-sd/202221552,2022,29,segunda_division
+318,Málaga,FC Cartagena,1-1,https://www.besoccer.com/match/malaga/cartagena/202221562,2022,29,segunda_division
+319,Real Zaragoza,Almería,2-0,https://www.besoccer.com/match/real-zaragoza/almeria/202221597,2022,30,segunda_division
+320,Fuenlabrada,Burgos,1-2,https://www.besoccer.com/match/fuenlabrada/burgos-cf/202221581,2022,30,segunda_division
+321,Huesca,Las Palmas,0-0,https://www.besoccer.com/match/huesca/ud-palmas/202221585,2022,30,segunda_division
+322,Tenerife,Real Valladolid,1-4,https://www.besoccer.com/match/tenerife/valladolid/202221594,2022,30,segunda_division
+323,Lugo,Alcorcón,1-0,https://www.besoccer.com/match/lugo/ad-alcorcon/202221589,2022,30,segunda_division
+324,Ponferradina,UD Ibiza,1-1,https://www.besoccer.com/match/ponferradina-sd/ibiza-eivissa/202221591,2022,30,segunda_division
+325,SD Amorebieta,Málaga,1-2,https://www.besoccer.com/match/amorebieta/malaga/202221576,2022,30,segunda_division
+326,FC Cartagena,Eibar,4-1,https://www.besoccer.com/match/cartagena/eibar/202221578,2022,30,segunda_division
+327,Leganés,Mirandés,2-0,https://www.besoccer.com/match/leganes/mirandes/202221587,2022,30,segunda_division
+328,Girona,Real Oviedo,2-1,https://www.besoccer.com/match/girona-fc/real-oviedo/202221584,2022,30,segunda_division
+329,R. Sociedad B,Real Sporting,2-1,https://www.besoccer.com/match/real-sociedad-b/sporting-gijon/202221593,2022,30,segunda_division
+330,Real Zaragoza,Fuenlabrada,2-1,https://www.besoccer.com/match/real-zaragoza/fuenlabrada/202221600,2022,31,segunda_division
+331,UD Ibiza,Leganés,1-1,https://www.besoccer.com/match/ibiza-eivissa/leganes/202221580,2022,31,segunda_division
+332,Mirandés,FC Cartagena,2-1,https://www.besoccer.com/match/mirandes/cartagena/202221592,2022,31,segunda_division
+333,Almería,Lugo,3-3,https://www.besoccer.com/match/almeria/lugo/202221571,2022,31,segunda_division
+334,Las Palmas,Girona,1-3,https://www.besoccer.com/match/ud-palmas/girona-fc/202221583,2022,31,segunda_division
+335,Málaga,Ponferradina,0-0,https://www.besoccer.com/match/malaga/ponferradina-sd/202221588,2022,31,segunda_division
+336,Burgos,R. Sociedad B,0-0,https://www.besoccer.com/match/burgos-cf/real-sociedad-b/202221574,2022,31,segunda_division
+337,Eibar,SD Amorebieta,1-0,https://www.besoccer.com/match/eibar/amorebieta/202221577,2022,31,segunda_division
+338,Real Sporting,Tenerife,1-2,https://www.besoccer.com/match/sporting-gijon/tenerife/202221599,2022,31,segunda_division
+339,Alcorcón,Huesca,1-0,https://www.besoccer.com/match/ad-alcorcon/huesca/202221568,2022,31,segunda_division
+340,Real Oviedo,Real Valladolid,3-0,https://www.besoccer.com/match/real-oviedo/valladolid/202221596,2022,31,segunda_division
+341,Huesca,Burgos,1-0,https://www.besoccer.com/match/huesca/burgos-cf/202221545,2022,32,segunda_division
+342,R. Sociedad B,Mirandés,1-3,https://www.besoccer.com/match/real-sociedad-b/mirandes/202221558,2022,32,segunda_division
+343,FC Cartagena,Real Zaragoza,3-0,https://www.besoccer.com/match/cartagena/real-zaragoza/202221535,2022,32,segunda_division
+344,Fuenlabrada,Málaga,1-0,https://www.besoccer.com/match/fuenlabrada/malaga/202221539,2022,32,segunda_division
+345,Lugo,Real Oviedo,1-1,https://www.besoccer.com/match/lugo/real-oviedo/202221550,2022,32,segunda_division
+346,Real Valladolid,Las Palmas,0-1,https://www.besoccer.com/match/valladolid/ud-palmas/202221563,2022,32,segunda_division
+347,Girona,UD Ibiza,5-1,https://www.besoccer.com/match/girona-fc/ibiza-eivissa/202221543,2022,32,segunda_division
+348,SD Amorebieta,Alcorcón,0-0,https://www.besoccer.com/match/amorebieta/ad-alcorcon/202221530,2022,32,segunda_division
+349,Ponferradina,Eibar,2-2,https://www.besoccer.com/match/ponferradina-sd/eibar/202221553,2022,32,segunda_division
+350,Leganés,Real Sporting,1-1,https://www.besoccer.com/match/leganes/sporting-gijon/202221548,2022,32,segunda_division
+351,Tenerife,Almería,0-1,https://www.besoccer.com/match/tenerife/almeria/202221560,2022,32,segunda_division
+352,Real Zaragoza,SD Amorebieta,1-1,https://www.besoccer.com/match/real-zaragoza/amorebieta/202221525,2022,33,segunda_division
+353,UD Ibiza,R. Sociedad B,2-2,https://www.besoccer.com/match/ibiza-eivissa/real-sociedad-b/202221516,2022,33,segunda_division
+354,Eibar,Lugo,1-0,https://www.besoccer.com/match/eibar/lugo/202221515,2022,33,segunda_division
+355,Real Sporting,FC Cartagena,4-1,https://www.besoccer.com/match/sporting-gijon/cartagena/202221521,2022,33,segunda_division
+356,Real Oviedo,Fuenlabrada,3-0,https://www.besoccer.com/match/real-oviedo/fuenlabrada/202221520,2022,33,segunda_division
+357,Mirandés,Ponferradina,3-1,https://www.besoccer.com/match/mirandes/ponferradina-sd/202221519,2022,33,segunda_division
+358,Burgos,Tenerife,1-0,https://www.besoccer.com/match/burgos-cf/tenerife/202221514,2022,33,segunda_division
+359,Alcorcón,Real Valladolid,1-2,https://www.besoccer.com/match/ad-alcorcon/valladolid/202221512,2022,33,segunda_division
+360,Málaga,Huesca,0-2,https://www.besoccer.com/match/malaga/huesca/202221518,2022,33,segunda_division
+361,Almería,Girona,0-1,https://www.besoccer.com/match/almeria/girona-fc/202221513,2022,33,segunda_division
+362,Las Palmas,Leganés,4-2,https://www.besoccer.com/match/ud-palmas/leganes/202221517,2022,33,segunda_division
+363,Girona,Málaga,1-0,https://www.besoccer.com/match/girona-fc/malaga/202221486,2022,34,segunda_division
+364,R. Sociedad B,Alcorcón,2-4,https://www.besoccer.com/match/real-sociedad-b/ad-alcorcon/202221501,2022,34,segunda_division
+365,Real Valladolid,Lugo,4-1,https://www.besoccer.com/match/valladolid/lugo/202221510,2022,34,segunda_division
+366,SD Amorebieta,UD Ibiza,3-1,https://www.besoccer.com/match/amorebieta/ibiza-eivissa/202221478,2022,34,segunda_division
+367,Tenerife,Real Zaragoza,1-1,https://www.besoccer.com/match/tenerife/real-zaragoza/202221505,2022,34,segunda_division
+368,FC Cartagena,Real Oviedo,1-2,https://www.besoccer.com/match/cartagena/real-oviedo/202221484,2022,34,segunda_division
+369,Burgos,Real Sporting,0-0,https://www.besoccer.com/match/burgos-cf/sporting-gijon/202221481,2022,34,segunda_division
+370,Ponferradina,Las Palmas,1-2,https://www.besoccer.com/match/ponferradina-sd/ud-palmas/202221497,2022,34,segunda_division
+371,Eibar,Mirandés,1-1,https://www.besoccer.com/match/eibar/mirandes/202221488,2022,34,segunda_division
+372,Huesca,Almería,1-1,https://www.besoccer.com/match/huesca/almeria/202221490,2022,34,segunda_division
+373,Leganés,Fuenlabrada,3-2,https://www.besoccer.com/match/leganes/fuenlabrada/202221493,2022,34,segunda_division

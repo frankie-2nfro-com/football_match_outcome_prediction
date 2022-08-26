@@ -1,0 +1,301 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,Valencia,Getafe,1-0,https://www.besoccer.com/match/valencia-cf/getafe/202220744,2022,1,primera_division
+1,Mallorca,Real Betis,1-1,https://www.besoccer.com/match/mallorca/betis/202220740,2022,1,primera_division
+2,Cádiz,Levante,1-1,https://www.besoccer.com/match/cadiz/levante/202220741,2022,1,primera_division
+3,Alavés,Real Madrid,1-4,https://www.besoccer.com/match/alaves/real-madrid/202220737,2022,1,primera_division
+4,Osasuna,Espanyol,0-0,https://www.besoccer.com/match/osasuna/espanyol/202220742,2022,1,primera_division
+5,Celta,Atlético,1-2,https://www.besoccer.com/match/celta/atletico-madrid/202220739,2022,1,primera_division
+6,Barcelona,R. Sociedad,4-2,https://www.besoccer.com/match/barcelona/real-sociedad/202220738,2022,1,primera_division
+7,Sevilla,Rayo Vallecano,3-0,https://www.besoccer.com/match/sevilla/rayo-vallecano/202220743,2022,1,primera_division
+8,Villarreal,Granada,0-0,https://www.besoccer.com/match/villarreal/granada/202220745,2022,1,primera_division
+9,Elche,Athletic,0-0,https://www.besoccer.com/match/elche/athletic-bilbao/202220746,2022,1,primera_division
+10,Real Betis,Cádiz,1-1,https://www.besoccer.com/match/betis/cadiz/202220760,2022,2,primera_division
+11,Alavés,Mallorca,0-1,https://www.besoccer.com/match/alaves/mallorca/202220755,2022,2,primera_division
+12,Granada,Valencia,1-1,https://www.besoccer.com/match/granada/valencia-cf/202220762,2022,2,primera_division
+13,Espanyol,Villarreal,0-0,https://www.besoccer.com/match/espanyol/villarreal/202220763,2022,2,primera_division
+14,Athletic,Barcelona,1-1,https://www.besoccer.com/match/athletic-bilbao/barcelona/202220757,2022,2,primera_division
+15,R. Sociedad,Rayo Vallecano,1-0,https://www.besoccer.com/match/real-sociedad/rayo-vallecano/202220766,2022,2,primera_division
+16,Atlético,Elche,1-0,https://www.besoccer.com/match/atletico-madrid/elche/202220758,2022,2,primera_division
+17,Levante,Real Madrid,3-3,https://www.besoccer.com/match/levante/real-madrid/202220764,2022,2,primera_division
+18,Getafe,Sevilla,0-1,https://www.besoccer.com/match/getafe/sevilla/202220761,2022,2,primera_division
+19,Osasuna,Celta,0-0,https://www.besoccer.com/match/osasuna/celta/202220765,2022,2,primera_division
+20,Mallorca,Espanyol,1-0,https://www.besoccer.com/match/mallorca/espanyol/202220774,2022,3,primera_division
+21,Valencia,Alavés,3-0,https://www.besoccer.com/match/valencia-cf/alaves/202220778,2022,3,primera_division
+22,Celta,Athletic,0-1,https://www.besoccer.com/match/celta/athletic-bilbao/202220773,2022,3,primera_division
+23,R. Sociedad,Levante,1-0,https://www.besoccer.com/match/real-sociedad/levante/202220777,2022,3,primera_division
+24,Elche,Sevilla,1-1,https://www.besoccer.com/match/elche/sevilla/202220781,2022,3,primera_division
+25,Real Betis,Real Madrid,0-1,https://www.besoccer.com/match/betis/real-madrid/202220772,2022,3,primera_division
+26,Barcelona,Getafe,2-1,https://www.besoccer.com/match/barcelona/getafe/202220769,2022,3,primera_division
+27,Cádiz,Osasuna,2-3,https://www.besoccer.com/match/cadiz/osasuna/202220776,2022,3,primera_division
+28,Rayo Vallecano,Granada,4-0,https://www.besoccer.com/match/rayo-vallecano/granada/202220779,2022,3,primera_division
+29,Atlético,Villarreal,2-2,https://www.besoccer.com/match/atletico-madrid/villarreal/202220768,2022,3,primera_division
+30,Levante,Rayo Vallecano,1-1,https://www.besoccer.com/match/levante/rayo-vallecano/202220795,2022,4,primera_division
+31,Athletic,Mallorca,2-0,https://www.besoccer.com/match/athletic-bilbao/mallorca/202220788,2022,4,primera_division
+32,Espanyol,Atlético,1-2,https://www.besoccer.com/match/espanyol/atletico-madrid/202220794,2022,4,primera_division
+33,Osasuna,Valencia,1-4,https://www.besoccer.com/match/osasuna/valencia-cf/202220796,2022,4,primera_division
+34,Cádiz,R. Sociedad,0-2,https://www.besoccer.com/match/cadiz/real-sociedad/202220792,2022,4,primera_division
+35,Real Madrid,Celta,5-2,https://www.besoccer.com/match/real-madrid/celta/202220797,2022,4,primera_division
+36,Getafe,Elche,0-1,https://www.besoccer.com/match/getafe/elche/202220789,2022,4,primera_division
+37,Granada,Real Betis,1-2,https://www.besoccer.com/match/granada/betis/202220793,2022,4,primera_division
+38,Villarreal,Alavés,5-2,https://www.besoccer.com/match/villarreal/alaves/202220799,2022,4,primera_division
+39,Sevilla,Barcelona,1-1,https://www.besoccer.com/match/sevilla/barcelona/202220798,2022,4,primera_division
+40,Celta,Cádiz,1-2,https://www.besoccer.com/match/celta/cadiz/202220804,2022,5,primera_division
+41,Rayo Vallecano,Getafe,3-0,https://www.besoccer.com/match/rayo-vallecano/getafe/202220808,2022,5,primera_division
+42,Atlético,Athletic,0-0,https://www.besoccer.com/match/atletico-madrid/athletic-bilbao/202220801,2022,5,primera_division
+43,Elche,Levante,1-1,https://www.besoccer.com/match/elche/levante/202220809,2022,5,primera_division
+44,Alavés,Osasuna,0-2,https://www.besoccer.com/match/alaves/osasuna/202220800,2022,5,primera_division
+45,Mallorca,Villarreal,0-0,https://www.besoccer.com/match/mallorca/villarreal/202220805,2022,5,primera_division
+46,R. Sociedad,Sevilla,0-0,https://www.besoccer.com/match/real-sociedad/sevilla/202220806,2022,5,primera_division
+47,Real Betis,Espanyol,2-2,https://www.besoccer.com/match/betis/espanyol/202220803,2022,5,primera_division
+48,Valencia,Real Madrid,1-2,https://www.besoccer.com/match/valencia-cf/real-madrid/202220807,2022,5,primera_division
+49,Barcelona,Granada,1-1,https://www.besoccer.com/match/barcelona/granada/202220802,2022,5,primera_division
+50,Getafe,Atlético,1-2,https://www.besoccer.com/match/getafe/atletico-madrid/202220811,2022,6,primera_division
+51,Athletic,Rayo Vallecano,1-2,https://www.besoccer.com/match/athletic-bilbao/rayo-vallecano/202220810,2022,6,primera_division
+52,Levante,Celta,0-2,https://www.besoccer.com/match/levante/celta/202220815,2022,6,primera_division
+53,Espanyol,Alavés,1-0,https://www.besoccer.com/match/espanyol/alaves/202220814,2022,6,primera_division
+54,Sevilla,Valencia,3-1,https://www.besoccer.com/match/sevilla/valencia-cf/202220818,2022,6,primera_division
+55,Real Madrid,Mallorca,6-1,https://www.besoccer.com/match/real-madrid/mallorca/202220817,2022,6,primera_division
+56,Villarreal,Elche,4-1,https://www.besoccer.com/match/villarreal/elche/202220819,2022,6,primera_division
+57,Granada,R. Sociedad,2-3,https://www.besoccer.com/match/granada/real-sociedad/202220813,2022,6,primera_division
+58,Osasuna,Real Betis,1-3,https://www.besoccer.com/match/osasuna/betis/202220816,2022,6,primera_division
+59,Cádiz,Barcelona,0-0,https://www.besoccer.com/match/cadiz/barcelona/202220812,2022,6,primera_division
+60,Alavés,Atlético,1-0,https://www.besoccer.com/match/alaves/atletico-madrid/202220820,2022,7,primera_division
+61,Valencia,Athletic,1-1,https://www.besoccer.com/match/valencia-cf/athletic-bilbao/202220830,2022,7,primera_division
+62,Sevilla,Espanyol,2-0,https://www.besoccer.com/match/sevilla/espanyol/202220829,2022,7,primera_division
+63,Real Madrid,Villarreal,0-0,https://www.besoccer.com/match/real-madrid/villarreal/202220827,2022,7,primera_division
+64,Mallorca,Osasuna,2-3,https://www.besoccer.com/match/mallorca/osasuna/202220826,2022,7,primera_division
+65,Barcelona,Levante,3-0,https://www.besoccer.com/match/barcelona/levante/202220823,2022,7,primera_division
+66,R. Sociedad,Elche,1-0,https://www.besoccer.com/match/real-sociedad/elche/202220828,2022,7,primera_division
+67,Rayo Vallecano,Cádiz,3-1,https://www.besoccer.com/match/rayo-vallecano/cadiz/202220831,2022,7,primera_division
+68,Real Betis,Getafe,2-0,https://www.besoccer.com/match/betis/getafe/202220824,2022,7,primera_division
+69,Celta,Granada,1-0,https://www.besoccer.com/match/celta/granada/202220825,2022,7,primera_division
+70,Athletic,Alavés,1-0,https://www.besoccer.com/match/athletic-bilbao/alaves/202220832,2022,8,primera_division
+71,Osasuna,Rayo Vallecano,1-0,https://www.besoccer.com/match/osasuna/rayo-vallecano/202220839,2022,8,primera_division
+72,Mallorca,Levante,1-0,https://www.besoccer.com/match/mallorca/levante/202220834,2022,8,primera_division
+73,Cádiz,Valencia,0-0,https://www.besoccer.com/match/cadiz/valencia-cf/202220836,2022,8,primera_division
+74,Atlético,Barcelona,2-0,https://www.besoccer.com/match/atletico-madrid/barcelona/202220833,2022,8,primera_division
+75,Elche,Celta,1-0,https://www.besoccer.com/match/elche/celta/202220841,2022,8,primera_division
+76,Espanyol,Real Madrid,2-1,https://www.besoccer.com/match/espanyol/real-madrid/202220838,2022,8,primera_division
+77,Getafe,R. Sociedad,1-1,https://www.besoccer.com/match/getafe/real-sociedad/202220835,2022,8,primera_division
+78,Villarreal,Real Betis,2-0,https://www.besoccer.com/match/villarreal/betis/202220840,2022,8,primera_division
+79,Granada,Sevilla,1-0,https://www.besoccer.com/match/granada/sevilla/202220837,2022,8,primera_division
+80,Levante,Getafe,0-0,https://www.besoccer.com/match/levante/getafe/202220847,2022,9,primera_division
+81,R. Sociedad,Mallorca,1-0,https://www.besoccer.com/match/real-sociedad/mallorca/202220849,2022,9,primera_division
+82,Rayo Vallecano,Elche,2-1,https://www.besoccer.com/match/rayo-vallecano/elche/202220850,2022,9,primera_division
+83,Celta,Sevilla,0-1,https://www.besoccer.com/match/celta/sevilla/202220844,2022,9,primera_division
+84,Villarreal,Osasuna,1-2,https://www.besoccer.com/match/villarreal/osasuna/202220851,2022,9,primera_division
+85,Barcelona,Valencia,3-1,https://www.besoccer.com/match/barcelona/valencia-cf/202220843,2022,9,primera_division
+86,Alavés,Real Betis,0-1,https://www.besoccer.com/match/alaves/betis/202220842,2022,9,primera_division
+87,Espanyol,Cádiz,2-0,https://www.besoccer.com/match/espanyol/cadiz/202220846,2022,9,primera_division
+88,Real Madrid,Athletic,1-0,https://www.besoccer.com/match/real-madrid/athletic-bilbao/202220848,2022,9,primera_division
+89,Granada,Atlético,2-1,https://www.besoccer.com/match/granada/atletico-madrid/202220845,2022,9,primera_division
+90,Osasuna,Granada,1-1,https://www.besoccer.com/match/osasuna/granada/202220857,2022,10,primera_division
+91,Valencia,Mallorca,2-2,https://www.besoccer.com/match/valencia-cf/mallorca/202220859,2022,10,primera_division
+92,Cádiz,Alavés,0-2,https://www.besoccer.com/match/cadiz/alaves/202220856,2022,10,primera_division
+93,Elche,Espanyol,2-2,https://www.besoccer.com/match/elche/espanyol/202220860,2022,10,primera_division
+94,Athletic,Villarreal,2-1,https://www.besoccer.com/match/athletic-bilbao/villarreal/202220852,2022,10,primera_division
+95,Sevilla,Levante,5-3,https://www.besoccer.com/match/sevilla/levante/202220858,2022,10,primera_division
+96,Barcelona,Real Madrid,1-2,https://www.besoccer.com/match/barcelona/real-madrid/202220790,2022,10,primera_division
+97,Real Betis,Rayo Vallecano,3-2,https://www.besoccer.com/match/betis/rayo-vallecano/202220854,2022,10,primera_division
+98,Atlético,R. Sociedad,2-2,https://www.besoccer.com/match/atletico-madrid/real-sociedad/202220853,2022,10,primera_division
+99,Getafe,Celta,0-3,https://www.besoccer.com/match/getafe/celta/202220855,2022,10,primera_division
+100,Alavés,Elche,1-0,https://www.besoccer.com/match/alaves/elche/202220861,2022,11,primera_division
+101,Espanyol,Athletic,1-1,https://www.besoccer.com/match/espanyol/athletic-bilbao/202220866,2022,11,primera_division
+102,Villarreal,Cádiz,3-3,https://www.besoccer.com/match/villarreal/cadiz/202220870,2022,11,primera_division
+103,Mallorca,Sevilla,1-1,https://www.besoccer.com/match/mallorca/sevilla/202220864,2022,11,primera_division
+104,Rayo Vallecano,Barcelona,1-0,https://www.besoccer.com/match/rayo-vallecano/barcelona/202220869,2022,11,primera_division
+105,Real Betis,Valencia,4-1,https://www.besoccer.com/match/betis/valencia-cf/202220862,2022,11,primera_division
+106,Real Madrid,Osasuna,0-0,https://www.besoccer.com/match/real-madrid/osasuna/202220868,2022,11,primera_division
+107,Celta,R. Sociedad,0-2,https://www.besoccer.com/match/celta/real-sociedad/202220863,2022,11,primera_division
+108,Granada,Getafe,1-1,https://www.besoccer.com/match/granada/getafe/202220865,2022,11,primera_division
+109,Levante,Atlético,2-2,https://www.besoccer.com/match/levante/atletico-madrid/202220867,2022,11,primera_division
+110,Elche,Real Madrid,1-2,https://www.besoccer.com/match/elche/real-madrid/202220879,2022,12,primera_division
+111,Sevilla,Osasuna,2-0,https://www.besoccer.com/match/sevilla/osasuna/202220876,2022,12,primera_division
+112,Valencia,Villarreal,2-0,https://www.besoccer.com/match/valencia-cf/villarreal/202220877,2022,12,primera_division
+113,Barcelona,Alavés,1-1,https://www.besoccer.com/match/barcelona/alaves/202220872,2022,12,primera_division
+114,Cádiz,Mallorca,1-1,https://www.besoccer.com/match/cadiz/mallorca/202220874,2022,12,primera_division
+115,Atlético,Real Betis,3-0,https://www.besoccer.com/match/atletico-madrid/betis/202220871,2022,12,primera_division
+116,Getafe,Espanyol,2-1,https://www.besoccer.com/match/getafe/espanyol/202220873,2022,12,primera_division
+117,R. Sociedad,Athletic,1-1,https://www.besoccer.com/match/real-sociedad/athletic-bilbao/202220782,2022,12,primera_division
+118,Rayo Vallecano,Celta,0-0,https://www.besoccer.com/match/rayo-vallecano/celta/202220878,2022,12,primera_division
+119,Levante,Granada,0-3,https://www.besoccer.com/match/levante/granada/202220880,2022,12,primera_division
+120,Athletic,Cádiz,0-1,https://www.besoccer.com/match/athletic-bilbao/cadiz/202220882,2022,13,primera_division
+121,Espanyol,Granada,2-0,https://www.besoccer.com/match/espanyol/granada/202220886,2022,13,primera_division
+122,Celta,Barcelona,3-3,https://www.besoccer.com/match/celta/barcelona/202220883,2022,13,primera_division
+123,Alavés,Levante,2-1,https://www.besoccer.com/match/alaves/levante/202220881,2022,13,primera_division
+124,Real Madrid,Rayo Vallecano,2-1,https://www.besoccer.com/match/real-madrid/rayo-vallecano/202220888,2022,13,primera_division
+125,Villarreal,Getafe,1-0,https://www.besoccer.com/match/villarreal/getafe/202220890,2022,13,primera_division
+126,Valencia,Atlético,3-3,https://www.besoccer.com/match/valencia-cf/atletico-madrid/202220889,2022,13,primera_division
+127,Mallorca,Elche,2-2,https://www.besoccer.com/match/mallorca/elche/202220884,2022,13,primera_division
+128,Osasuna,R. Sociedad,0-2,https://www.besoccer.com/match/osasuna/real-sociedad/202220887,2022,13,primera_division
+129,Real Betis,Sevilla,0-2,https://www.besoccer.com/match/betis/sevilla/202220784,2022,13,primera_division
+130,Levante,Athletic,0-0,https://www.besoccer.com/match/levante/athletic-bilbao/202220895,2022,14,primera_division
+131,Celta,Villarreal,1-1,https://www.besoccer.com/match/celta/villarreal/202220892,2022,14,primera_division
+132,Sevilla,Alavés,2-2,https://www.besoccer.com/match/sevilla/alaves/202220897,2022,14,primera_division
+133,Atlético,Osasuna,1-0,https://www.besoccer.com/match/atletico-madrid/osasuna/202220891,2022,14,primera_division
+134,Barcelona,Espanyol,1-0,https://www.besoccer.com/match/barcelona/espanyol/202220775,2022,14,primera_division
+135,Getafe,Cádiz,4-0,https://www.besoccer.com/match/getafe/cadiz/202220893,2022,14,primera_division
+136,Granada,Real Madrid,1-4,https://www.besoccer.com/match/granada/real-madrid/202220894,2022,14,primera_division
+137,Elche,Real Betis,0-3,https://www.besoccer.com/match/elche/betis/202220899,2022,14,primera_division
+138,R. Sociedad,Valencia,0-0,https://www.besoccer.com/match/real-sociedad/valencia-cf/202220896,2022,14,primera_division
+139,Rayo Vallecano,Mallorca,3-1,https://www.besoccer.com/match/rayo-vallecano/mallorca/202220898,2022,14,primera_division
+140,Athletic,Granada,2-2,https://www.besoccer.com/match/athletic-bilbao/granada/202220901,2022,15,primera_division
+141,Alavés,Celta,1-2,https://www.besoccer.com/match/alaves/celta/202220900,2022,15,primera_division
+142,Valencia,Rayo Vallecano,1-1,https://www.besoccer.com/match/valencia-cf/rayo-vallecano/202220908,2022,15,primera_division
+143,Mallorca,Getafe,0-0,https://www.besoccer.com/match/mallorca/getafe/202220903,2022,15,primera_division
+144,Villarreal,Barcelona,1-3,https://www.besoccer.com/match/villarreal/barcelona/202220910,2022,15,primera_division
+145,Real Betis,Levante,3-1,https://www.besoccer.com/match/betis/levante/202220902,2022,15,primera_division
+146,Espanyol,R. Sociedad,1-0,https://www.besoccer.com/match/espanyol/real-sociedad/202220905,2022,15,primera_division
+147,Cádiz,Atlético,1-4,https://www.besoccer.com/match/cadiz/atletico-madrid/202220904,2022,15,primera_division
+148,Real Madrid,Sevilla,2-1,https://www.besoccer.com/match/real-madrid/sevilla/202220907,2022,15,primera_division
+149,Osasuna,Elche,1-1,https://www.besoccer.com/match/osasuna/elche/202220906,2022,15,primera_division
+150,Granada,Alavés,2-1,https://www.besoccer.com/match/granada/alaves/202220918,2022,16,primera_division
+151,Sevilla,Villarreal,1-0,https://www.besoccer.com/match/sevilla/villarreal/202220923,2022,16,primera_division
+152,Barcelona,Real Betis,0-1,https://www.besoccer.com/match/barcelona/betis/202220913,2022,16,primera_division
+153,Atlético,Mallorca,1-2,https://www.besoccer.com/match/atletico-madrid/mallorca/202220911,2022,16,primera_division
+154,R. Sociedad,Real Madrid,0-2,https://www.besoccer.com/match/real-sociedad/real-madrid/202220921,2022,16,primera_division
+155,Rayo Vallecano,Espanyol,1-0,https://www.besoccer.com/match/rayo-vallecano/espanyol/202220924,2022,16,primera_division
+156,Elche,Cádiz,3-1,https://www.besoccer.com/match/elche/cadiz/202220926,2022,16,primera_division
+157,Levante,Osasuna,0-0,https://www.besoccer.com/match/levante/osasuna/202220919,2022,16,primera_division
+158,Celta,Valencia,1-2,https://www.besoccer.com/match/celta/valencia-cf/202220915,2022,16,primera_division
+159,Getafe,Athletic,0-0,https://www.besoccer.com/match/getafe/athletic-bilbao/202220916,2022,16,primera_division
+160,Mallorca,Celta,0-0,https://www.besoccer.com/match/mallorca/celta/202220933,2022,17,primera_division
+161,Espanyol,Levante,4-3,https://www.besoccer.com/match/espanyol/levante/202220935,2022,17,primera_division
+162,Alavés,Getafe,1-1,https://www.besoccer.com/match/alaves/getafe/202220928,2022,17,primera_division
+163,Valencia,Elche,2-1,https://www.besoccer.com/match/valencia-cf/elche/202220938,2022,17,primera_division
+164,Athletic,Sevilla,0-1,https://www.besoccer.com/match/athletic-bilbao/sevilla/202220930,2022,17,primera_division
+165,Villarreal,Rayo Vallecano,2-0,https://www.besoccer.com/match/villarreal/rayo-vallecano/202220939,2022,17,primera_division
+166,Osasuna,Barcelona,2-2,https://www.besoccer.com/match/osasuna/barcelona/202220936,2022,17,primera_division
+167,Real Betis,R. Sociedad,4-0,https://www.besoccer.com/match/betis/real-sociedad/202220931,2022,17,primera_division
+168,Real Madrid,Atlético,2-0,https://www.besoccer.com/match/real-madrid/atletico-madrid/202220786,2022,17,primera_division
+169,Cádiz,Granada,1-1,https://www.besoccer.com/match/cadiz/granada/202220934,2022,17,primera_division
+170,Celta,Espanyol,3-1,https://www.besoccer.com/match/celta/espanyol/202220942,2022,18,primera_division
+171,Rayo Vallecano,Alavés,2-0,https://www.besoccer.com/match/rayo-vallecano/alaves/202220953,2022,18,primera_division
+172,R. Sociedad,Villarreal,1-3,https://www.besoccer.com/match/real-sociedad/villarreal/202220950,2022,18,primera_division
+173,Barcelona,Elche,3-2,https://www.besoccer.com/match/barcelona/elche/202220941,2022,18,primera_division
+174,Sevilla,Atlético,2-1,https://www.besoccer.com/match/sevilla/atletico-madrid/202220951,2022,18,primera_division
+175,Granada,Mallorca,4-1,https://www.besoccer.com/match/granada/mallorca/202220947,2022,18,primera_division
+176,Athletic,Real Betis,3-2,https://www.besoccer.com/match/athletic-bilbao/betis/202220940,2022,18,primera_division
+177,Getafe,Osasuna,1-0,https://www.besoccer.com/match/getafe/osasuna/202221131,2022,18,primera_division
+178,Real Madrid,Cádiz,0-0,https://www.besoccer.com/match/real-madrid/cadiz/202220948,2022,18,primera_division
+179,Levante,Valencia,3-4,https://www.besoccer.com/match/levante/valencia-cf/202220767,2022,18,primera_division
+180,Valencia,Espanyol,1-2,https://www.besoccer.com/match/valencia-cf/espanyol/202220966,2022,19,primera_division
+181,Getafe,Real Madrid,1-0,https://www.besoccer.com/match/getafe/real-madrid/202220962,2022,19,primera_division
+182,Atlético,Rayo Vallecano,2-0,https://www.besoccer.com/match/atletico-madrid/rayo-vallecano/202220958,2022,19,primera_division
+183,Elche,Granada,0-0,https://www.besoccer.com/match/elche/granada/202220969,2022,19,primera_division
+184,Alavés,R. Sociedad,1-1,https://www.besoccer.com/match/alaves/real-sociedad/202220957,2022,19,primera_division
+185,Real Betis,Celta,0-2,https://www.besoccer.com/match/betis/celta/202220960,2022,19,primera_division
+186,Mallorca,Barcelona,0-1,https://www.besoccer.com/match/mallorca/barcelona/202220961,2022,19,primera_division
+187,Villarreal,Levante,5-0,https://www.besoccer.com/match/villarreal/levante/202220968,2022,19,primera_division
+188,Osasuna,Athletic,1-3,https://www.besoccer.com/match/osasuna/athletic-bilbao/202220965,2022,19,primera_division
+189,Cádiz,Sevilla,0-1,https://www.besoccer.com/match/cadiz/sevilla/202220963,2022,19,primera_division
+190,Levante,Mallorca,2-0,https://www.besoccer.com/match/levante/mallorca/202220973,2022,20,primera_division
+191,R. Sociedad,Celta,1-0,https://www.besoccer.com/match/real-sociedad/celta/202220976,2022,20,primera_division
+192,Granada,Barcelona,1-1,https://www.besoccer.com/match/granada/barcelona/202220971,2022,20,primera_division
+193,Real Madrid,Valencia,4-1,https://www.besoccer.com/match/real-madrid/valencia-cf/202220975,2022,20,primera_division
+194,Rayo Vallecano,Real Betis,1-1,https://www.besoccer.com/match/rayo-vallecano/betis/202220978,2022,20,primera_division
+195,Sevilla,Getafe,1-0,https://www.besoccer.com/match/sevilla/getafe/202220977,2022,20,primera_division
+196,Alavés,Athletic,0-0,https://www.besoccer.com/match/alaves/athletic-bilbao/202220970,2022,20,primera_division
+197,Osasuna,Cádiz,2-0,https://www.besoccer.com/match/osasuna/cadiz/202220974,2022,20,primera_division
+198,Villarreal,Atlético,2-2,https://www.besoccer.com/match/villarreal/atletico-madrid/202220979,2022,20,primera_division
+199,Espanyol,Elche,1-2,https://www.besoccer.com/match/espanyol/elche/202220972,2022,20,primera_division
+200,Athletic,Real Madrid,1-2,https://www.besoccer.com/match/athletic-bilbao/real-madrid/202220999,2022,21,primera_division
+201,Elche,Villarreal,1-0,https://www.besoccer.com/match/elche/villarreal/202220998,2022,21,primera_division
+202,Real Betis,Alavés,4-0,https://www.besoccer.com/match/betis/alaves/202220990,2022,21,primera_division
+203,Cádiz,Espanyol,2-2,https://www.besoccer.com/match/cadiz/espanyol/202220995,2022,21,primera_division
+204,Celta,Osasuna,2-0,https://www.besoccer.com/match/celta/osasuna/202220991,2022,21,primera_division
+205,Valencia,Sevilla,1-1,https://www.besoccer.com/match/valencia-cf/sevilla/202220997,2022,21,primera_division
+206,Getafe,Granada,4-2,https://www.besoccer.com/match/getafe/granada/202220994,2022,21,primera_division
+207,Atlético,Levante,0-1,https://www.besoccer.com/match/atletico-madrid/levante/202220987,2022,21,primera_division
+208,Mallorca,R. Sociedad,0-2,https://www.besoccer.com/match/mallorca/real-sociedad/202220993,2022,21,primera_division
+209,Barcelona,Rayo Vallecano,N/A-N/A,https://www.besoccer.com/match/barcelona/rayo-vallecano/202220989,2022,21,primera_division
+210,Espanyol,Real Betis,1-4,https://www.besoccer.com/match/espanyol/betis/202221006,2022,22,primera_division
+211,Levante,Cádiz,0-2,https://www.besoccer.com/match/levante/cadiz/202221008,2022,22,primera_division
+212,Villarreal,Mallorca,3-0,https://www.besoccer.com/match/villarreal/mallorca/202221015,2022,22,primera_division
+213,Sevilla,Celta,2-2,https://www.besoccer.com/match/sevilla/celta/202221012,2022,22,primera_division
+214,Atlético,Valencia,3-2,https://www.besoccer.com/match/atletico-madrid/valencia-cf/202221003,2022,22,primera_division
+215,Granada,Osasuna,0-2,https://www.besoccer.com/match/granada/osasuna/202221004,2022,22,primera_division
+216,Real Madrid,Elche,2-2,https://www.besoccer.com/match/real-madrid/elche/202221009,2022,22,primera_division
+217,R. Sociedad,Getafe,0-0,https://www.besoccer.com/match/real-sociedad/getafe/202221010,2022,22,primera_division
+218,Rayo Vallecano,Athletic,0-1,https://www.besoccer.com/match/rayo-vallecano/athletic-bilbao/202221014,2022,22,primera_division
+219,Alavés,Barcelona,0-1,https://www.besoccer.com/match/alaves/barcelona/202221001,2022,22,primera_division
+220,Getafe,Levante,3-0,https://www.besoccer.com/match/getafe/levante/202221025,2022,23,primera_division
+221,Elche,Alavés,3-1,https://www.besoccer.com/match/elche/alaves/202221029,2022,23,primera_division
+222,Mallorca,Cádiz,2-1,https://www.besoccer.com/match/mallorca/cadiz/202221023,2022,23,primera_division
+223,Celta,Rayo Vallecano,2-0,https://www.besoccer.com/match/celta/rayo-vallecano/202221022,2022,23,primera_division
+224,Osasuna,Sevilla,0-0,https://www.besoccer.com/match/osasuna/sevilla/202221026,2022,23,primera_division
+225,Valencia,R. Sociedad,0-0,https://www.besoccer.com/match/valencia-cf/real-sociedad/202221028,2022,23,primera_division
+226,Barcelona,Atlético,4-2,https://www.besoccer.com/match/barcelona/atletico-madrid/202221019,2022,23,primera_division
+227,Real Betis,Villarreal,0-2,https://www.besoccer.com/match/betis/villarreal/202221020,2022,23,primera_division
+228,Real Madrid,Granada,1-0,https://www.besoccer.com/match/real-madrid/granada/202221027,2022,23,primera_division
+229,Athletic,Espanyol,2-1,https://www.besoccer.com/match/athletic-bilbao/espanyol/202221018,2022,23,primera_division
+230,Sevilla,Elche,2-0,https://www.besoccer.com/match/sevilla/elche/202221037,2022,24,primera_division
+231,Cádiz,Celta,0-0,https://www.besoccer.com/match/cadiz/celta/202221033,2022,24,primera_division
+232,Villarreal,Real Madrid,0-0,https://www.besoccer.com/match/villarreal/real-madrid/202221040,2022,24,primera_division
+233,Rayo Vallecano,Osasuna,0-3,https://www.besoccer.com/match/rayo-vallecano/osasuna/202221042,2022,24,primera_division
+234,Atlético,Getafe,4-3,https://www.besoccer.com/match/atletico-madrid/getafe/202221046,2022,24,primera_division
+235,Alavés,Valencia,2-1,https://www.besoccer.com/match/alaves/valencia-cf/202221030,2022,24,primera_division
+236,Levante,Real Betis,2-4,https://www.besoccer.com/match/levante/betis/202221034,2022,24,primera_division
+237,R. Sociedad,Granada,2-0,https://www.besoccer.com/match/real-sociedad/granada/202221036,2022,24,primera_division
+238,Espanyol,Barcelona,2-2,https://www.besoccer.com/match/espanyol/barcelona/202220780,2022,24,primera_division
+239,Mallorca,Athletic,3-2,https://www.besoccer.com/match/mallorca/athletic-bilbao/202221031,2022,24,primera_division
+240,Elche,Rayo Vallecano,2-1,https://www.besoccer.com/match/elche/rayo-vallecano/202221058,2022,25,primera_division
+241,Granada,Villarreal,1-4,https://www.besoccer.com/match/granada/villarreal/202221053,2022,25,primera_division
+242,Osasuna,Atlético,0-3,https://www.besoccer.com/match/osasuna/atletico-madrid/202221055,2022,25,primera_division
+243,Cádiz,Getafe,1-1,https://www.besoccer.com/match/cadiz/getafe/202221052,2022,25,primera_division
+244,Real Madrid,Alavés,3-0,https://www.besoccer.com/match/real-madrid/alaves/202221056,2022,25,primera_division
+245,Espanyol,Sevilla,1-1,https://www.besoccer.com/match/espanyol/sevilla/202221054,2022,25,primera_division
+246,Valencia,Barcelona,1-4,https://www.besoccer.com/match/valencia-cf/barcelona/202221063,2022,25,primera_division
+247,Real Betis,Mallorca,2-1,https://www.besoccer.com/match/betis/mallorca/202221059,2022,25,primera_division
+248,Athletic,R. Sociedad,4-0,https://www.besoccer.com/match/athletic-bilbao/real-sociedad/202220783,2022,25,primera_division
+249,Celta,Levante,1-1,https://www.besoccer.com/match/celta/levante/202221051,2022,25,primera_division
+250,Levante,Elche,3-0,https://www.besoccer.com/match/levante/elche/202221077,2022,26,primera_division
+251,Mallorca,Valencia,0-1,https://www.besoccer.com/match/mallorca/valencia-cf/202221074,2022,26,primera_division
+252,Getafe,Alavés,2-2,https://www.besoccer.com/match/getafe/alaves/202221075,2022,26,primera_division
+253,Rayo Vallecano,Real Madrid,0-1,https://www.besoccer.com/match/rayo-vallecano/real-madrid/202221079,2022,26,primera_division
+254,Atlético,Celta,2-0,https://www.besoccer.com/match/atletico-madrid/celta/202221070,2022,26,primera_division
+255,Villarreal,Espanyol,5-1,https://www.besoccer.com/match/villarreal/espanyol/202221080,2022,26,primera_division
+256,Sevilla,Real Betis,2-1,https://www.besoccer.com/match/sevilla/betis/202220785,2022,26,primera_division
+257,R. Sociedad,Osasuna,1-0,https://www.besoccer.com/match/real-sociedad/osasuna/202221078,2022,26,primera_division
+258,Barcelona,Athletic,4-0,https://www.besoccer.com/match/barcelona/athletic-bilbao/202221073,2022,26,primera_division
+259,Granada,Cádiz,0-0,https://www.besoccer.com/match/granada/cadiz/202221076,2022,26,primera_division
+260,Alavés,Sevilla,0-0,https://www.besoccer.com/match/alaves/sevilla/202221089,2022,27,primera_division
+261,Osasuna,Villarreal,1-0,https://www.besoccer.com/match/osasuna/villarreal/202221097,2022,27,primera_division
+262,Espanyol,Getafe,2-0,https://www.besoccer.com/match/espanyol/getafe/202221095,2022,27,primera_division
+263,Valencia,Granada,3-1,https://www.besoccer.com/match/valencia-cf/granada/202221099,2022,27,primera_division
+264,Real Madrid,R. Sociedad,4-1,https://www.besoccer.com/match/real-madrid/real-sociedad/202221098,2022,27,primera_division
+265,Cádiz,Rayo Vallecano,2-0,https://www.besoccer.com/match/cadiz/rayo-vallecano/202221094,2022,27,primera_division
+266,Elche,Barcelona,1-2,https://www.besoccer.com/match/elche/barcelona/202221100,2022,27,primera_division
+267,Celta,Mallorca,4-3,https://www.besoccer.com/match/celta/mallorca/202221093,2022,27,primera_division
+268,Real Betis,Atlético,1-3,https://www.besoccer.com/match/betis/atletico-madrid/202221091,2022,27,primera_division
+269,Athletic,Levante,3-1,https://www.besoccer.com/match/athletic-bilbao/levante/202221090,2022,27,primera_division
+270,Atlético,Cádiz,2-1,https://www.besoccer.com/match/atletico-madrid/cadiz/202221101,2022,28,primera_division
+271,Levante,Espanyol,1-1,https://www.besoccer.com/match/levante/espanyol/202221109,2022,28,primera_division
+272,Granada,Elche,0-1,https://www.besoccer.com/match/granada/elche/202221108,2022,28,primera_division
+273,Villarreal,Celta,1-0,https://www.besoccer.com/match/villarreal/celta/202221113,2022,28,primera_division
+274,Getafe,Valencia,0-0,https://www.besoccer.com/match/getafe/valencia-cf/202221106,2022,28,primera_division
+275,Rayo Vallecano,Sevilla,1-1,https://www.besoccer.com/match/rayo-vallecano/sevilla/202221112,2022,28,primera_division
+276,Real Betis,Athletic,1-0,https://www.besoccer.com/match/betis/athletic-bilbao/202221104,2022,28,primera_division
+277,R. Sociedad,Alavés,1-0,https://www.besoccer.com/match/real-sociedad/alaves/202221110,2022,28,primera_division
+278,Barcelona,Osasuna,4-0,https://www.besoccer.com/match/barcelona/osasuna/202221102,2022,28,primera_division
+279,Mallorca,Real Madrid,0-3,https://www.besoccer.com/match/mallorca/real-madrid/202221105,2022,28,primera_division
+280,Athletic,Getafe,1-1,https://www.besoccer.com/match/athletic-bilbao/getafe/202221118,2022,29,primera_division
+281,Alavés,Granada,2-3,https://www.besoccer.com/match/alaves/granada/202221117,2022,29,primera_division
+282,Elche,Valencia,0-1,https://www.besoccer.com/match/elche/valencia-cf/202221128,2022,29,primera_division
+283,Osasuna,Levante,3-1,https://www.besoccer.com/match/osasuna/levante/202221124,2022,29,primera_division
+284,Rayo Vallecano,Atlético,0-1,https://www.besoccer.com/match/rayo-vallecano/atletico-madrid/202221127,2022,29,primera_division
+285,Espanyol,Mallorca,1-0,https://www.besoccer.com/match/espanyol/mallorca/202221122,2022,29,primera_division
+286,Cádiz,Villarreal,1-0,https://www.besoccer.com/match/cadiz/villarreal/202221121,2022,29,primera_division
+287,Celta,Real Betis,0-0,https://www.besoccer.com/match/celta/betis/202221130,2022,29,primera_division
+288,Sevilla,R. Sociedad,0-0,https://www.besoccer.com/match/sevilla/real-sociedad/202221125,2022,29,primera_division
+289,Real Madrid,Barcelona,0-4,https://www.besoccer.com/match/real-madrid/barcelona/202220791,2022,29,primera_division
+290,Getafe,Mallorca,1-0,https://www.besoccer.com/match/getafe/mallorca/202221116,2022,30,primera_division
+291,Levante,Villarreal,2-0,https://www.besoccer.com/match/levante/villarreal/202221123,2022,30,primera_division
+292,Celta,Real Madrid,1-2,https://www.besoccer.com/match/celta/real-madrid/202221115,2022,30,primera_division
+293,Atlético,Alavés,4-1,https://www.besoccer.com/match/atletico-madrid/alaves/202221107,2022,30,primera_division
+294,Athletic,Elche,2-1,https://www.besoccer.com/match/athletic-bilbao/elche/202221103,2022,30,primera_division
+295,Real Betis,Osasuna,4-1,https://www.besoccer.com/match/betis/osasuna/202221114,2022,30,primera_division
+296,Granada,Rayo Vallecano,2-2,https://www.besoccer.com/match/granada/rayo-vallecano/202221120,2022,30,primera_division
+297,Valencia,Cádiz,0-0,https://www.besoccer.com/match/valencia-cf/cadiz/202221129,2022,30,primera_division
+298,Barcelona,Sevilla,1-0,https://www.besoccer.com/match/barcelona/sevilla/202221111,2022,30,primera_division
+299,R. Sociedad,Espanyol,1-0,https://www.besoccer.com/match/real-sociedad/espanyol/202221126,2022,30,primera_division

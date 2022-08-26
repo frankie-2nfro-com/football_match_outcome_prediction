@@ -1,0 +1,253 @@
+,Home_Team,Away_Team,Result,Link,Season,Round,League
+0,Sporting CP,Vizela,3-0,https://www.besoccer.com/match/sporting-lisbon/vizela/202235044,2022,1,primeira_liga
+1,Arouca,Estoril,0-2,https://www.besoccer.com/match/arouca/estoril/202235052,2022,1,primeira_liga
+2,Moreirense,Benfica,1-2,https://www.besoccer.com/match/moreirense-fc/benfica/202235048,2022,1,primeira_liga
+3,Marítimo,Sporting Braga,0-2,https://www.besoccer.com/match/maritimo/sporting-braga/202235051,2022,1,primeira_liga
+4,Vitória Guimarães,Portimonense,0-1,https://www.besoccer.com/match/vitoria-guimaraes/portimonense/202235047,2022,1,primeira_liga
+5,Tondela,CD Santa Clara,3-0,https://www.besoccer.com/match/tondela/santa-clara/202235050,2022,1,primeira_liga
+6,Porto,Belenenses SAD,2-0,https://www.besoccer.com/match/fc-porto/cf-os-belenenses-ii/202235045,2022,1,primeira_liga
+7,Paços de Ferreira,Famalicão,2-0,https://www.besoccer.com/match/pacos-ferreira/famalicao/202235046,2022,1,primeira_liga
+8,Gil Vicente,Boavista,3-0,https://www.besoccer.com/match/gil-vicente/boavista/202235049,2022,1,primeira_liga
+9,Estoril,Vitória Guimarães,0-0,https://www.besoccer.com/match/estoril/vitoria-guimaraes/202235060,2022,2,primeira_liga
+10,Vizela,Tondela,2-1,https://www.besoccer.com/match/vizela/tondela/202235061,2022,2,primeira_liga
+11,Benfica,Arouca,2-0,https://www.besoccer.com/match/benfica/arouca/202235053,2022,2,primeira_liga
+12,Sporting Braga,Sporting CP,1-2,https://www.besoccer.com/match/sporting-braga/sporting-lisbon/202235054,2022,2,primeira_liga
+13,Portimonense,Gil Vicente,0-1,https://www.besoccer.com/match/portimonense/gil-vicente/202235059,2022,2,primeira_liga
+14,Famalicão,Porto,1-2,https://www.besoccer.com/match/famalicao/fc-porto/202235056,2022,2,primeira_liga
+15,CD Santa Clara,Moreirense,2-2,https://www.besoccer.com/match/santa-clara/moreirense-fc/202235055,2022,2,primeira_liga
+16,Boavista,Paços de Ferreira,3-0,https://www.besoccer.com/match/boavista/pacos-ferreira/202235058,2022,2,primeira_liga
+17,Belenenses SAD,Marítimo,1-2,https://www.besoccer.com/match/cf-os-belenenses-ii/maritimo/202235057,2022,2,primeira_liga
+18,Arouca,Famalicão,2-1,https://www.besoccer.com/match/arouca/famalicao/202235070,2022,3,primeira_liga
+19,Moreirense,Sporting Braga,2-3,https://www.besoccer.com/match/moreirense-fc/sporting-braga/202235065,2022,3,primeira_liga
+20,Gil Vicente,Benfica,0-2,https://www.besoccer.com/match/gil-vicente/benfica/202235066,2022,3,primeira_liga
+21,Sporting CP,Belenenses SAD,2-0,https://www.besoccer.com/match/sporting-lisbon/cf-os-belenenses-ii/202235062,2022,3,primeira_liga
+22,Tondela,Portimonense,0-3,https://www.besoccer.com/match/tondela/portimonense/202235067,2022,3,primeira_liga
+23,Marítimo,Porto,1-1,https://www.besoccer.com/match/maritimo/fc-porto/202235069,2022,3,primeira_liga
+24,Vitória Guimarães,Vizela,4-0,https://www.besoccer.com/match/vitoria-guimaraes/vizela/202235064,2022,3,primeira_liga
+25,Paços de Ferreira,Estoril,1-3,https://www.besoccer.com/match/pacos-ferreira/estoril/202235063,2022,3,primeira_liga
+26,Boavista,CD Santa Clara,2-0,https://www.besoccer.com/match/boavista/santa-clara/202235068,2022,3,primeira_liga
+27,Belenenses SAD,Moreirense,1-1,https://www.besoccer.com/match/cf-os-belenenses-ii/moreirense-fc/202235077,2022,4,primeira_liga
+28,Estoril,Marítimo,2-1,https://www.besoccer.com/match/estoril/maritimo/202235079,2022,4,primeira_liga
+29,Vizela,Boavista,1-1,https://www.besoccer.com/match/vizela/boavista/202235080,2022,4,primeira_liga
+30,Porto,Arouca,3-0,https://www.besoccer.com/match/fc-porto/arouca/202235071,2022,4,primeira_liga
+31,Famalicão,Sporting CP,1-1,https://www.besoccer.com/match/famalicao/sporting-lisbon/202235076,2022,4,primeira_liga
+32,Benfica,Tondela,2-1,https://www.besoccer.com/match/benfica/tondela/202235072,2022,4,primeira_liga
+33,Sporting Braga,Vitória Guimarães,0-0,https://www.besoccer.com/match/sporting-braga/vitoria-guimaraes/202235073,2022,4,primeira_liga
+34,CD Santa Clara,Gil Vicente,1-0,https://www.besoccer.com/match/santa-clara/gil-vicente/202235075,2022,4,primeira_liga
+35,Portimonense,Paços de Ferreira,0-1,https://www.besoccer.com/match/portimonense/pacos-ferreira/202235078,2022,4,primeira_liga
+36,Paços de Ferreira,Sporting Braga,0-0,https://www.besoccer.com/match/pacos-ferreira/sporting-braga/202235082,2022,5,primeira_liga
+37,CD Santa Clara,Benfica,0-5,https://www.besoccer.com/match/santa-clara/benfica/202235083,2022,5,primeira_liga
+38,Sporting CP,Porto,1-1,https://www.besoccer.com/match/sporting-lisbon/fc-porto/202235697,2022,5,primeira_liga
+39,Moreirense,Famalicão,2-2,https://www.besoccer.com/match/moreirense-fc/famalicao/202235085,2022,5,primeira_liga
+40,Gil Vicente,Vizela,2-2,https://www.besoccer.com/match/gil-vicente/vizela/202235086,2022,5,primeira_liga
+41,Boavista,Portimonense,1-1,https://www.besoccer.com/match/boavista/portimonense/202235088,2022,5,primeira_liga
+42,Vitória Guimarães,Belenenses SAD,0-0,https://www.besoccer.com/match/vitoria-guimaraes/cf-os-belenenses-ii/202235084,2022,5,primeira_liga
+43,Marítimo,Arouca,2-2,https://www.besoccer.com/match/maritimo/arouca/202235089,2022,5,primeira_liga
+44,Tondela,Estoril,1-2,https://www.besoccer.com/match/tondela/estoril/202235087,2022,5,primeira_liga
+45,Portimonense,CD Santa Clara,2-1,https://www.besoccer.com/match/portimonense/santa-clara/202235104,2022,6,primeira_liga
+46,Famalicão,Marítimo,0-0,https://www.besoccer.com/match/famalicao/maritimo/202235101,2022,6,primeira_liga
+47,Belenenses SAD,Gil Vicente,1-1,https://www.besoccer.com/match/cf-os-belenenses-ii/gil-vicente/202235102,2022,6,primeira_liga
+48,Arouca,Vitória Guimarães,2-2,https://www.besoccer.com/match/arouca/vitoria-guimaraes/202235114,2022,6,primeira_liga
+49,Vizela,Paços de Ferreira,1-1,https://www.besoccer.com/match/vizela/pacos-ferreira/202235110,2022,6,primeira_liga
+50,Porto,Moreirense,5-0,https://www.besoccer.com/match/fc-porto/moreirense-fc/202235094,2022,6,primeira_liga
+51,Estoril,Sporting CP,0-1,https://www.besoccer.com/match/estoril/sporting-lisbon/202235106,2022,6,primeira_liga
+52,Benfica,Boavista,3-1,https://www.besoccer.com/match/benfica/boavista/202235097,2022,6,primeira_liga
+53,Sporting Braga,Tondela,3-1,https://www.besoccer.com/match/sporting-braga/tondela/202235099,2022,6,primeira_liga
+54,Sporting CP,Marítimo,1-0,https://www.besoccer.com/match/sporting-lisbon/maritimo/202235128,2022,7,primeira_liga
+55,Gil Vicente,Porto,1-2,https://www.besoccer.com/match/gil-vicente/fc-porto/202235143,2022,7,primeira_liga
+56,Moreirense,Arouca,2-1,https://www.besoccer.com/match/moreirense-fc/arouca/202235137,2022,7,primeira_liga
+57,Vitória Guimarães,Benfica,1-3,https://www.besoccer.com/match/vitoria-guimaraes/benfica/202235135,2022,7,primeira_liga
+58,Tondela,Famalicão,3-2,https://www.besoccer.com/match/tondela/famalicao/202235146,2022,7,primeira_liga
+59,CD Santa Clara,Sporting Braga,1-1,https://www.besoccer.com/match/santa-clara/sporting-braga/202235133,2022,7,primeira_liga
+60,Portimonense,Vizela,0-0,https://www.besoccer.com/match/portimonense/vizela/202235149,2022,7,primeira_liga
+61,Paços de Ferreira,Belenenses SAD,2-2,https://www.besoccer.com/match/pacos-ferreira/cf-os-belenenses-ii/202235130,2022,7,primeira_liga
+62,Boavista,Estoril,1-1,https://www.besoccer.com/match/boavista/estoril/202235148,2022,7,primeira_liga
+63,Marítimo,Moreirense,0-0,https://www.besoccer.com/match/maritimo/moreirense-fc/202235163,2022,8,primeira_liga
+64,Famalicão,Vitória Guimarães,1-2,https://www.besoccer.com/match/famalicao/vitoria-guimaraes/202235161,2022,8,primeira_liga
+65,Vizela,CD Santa Clara,1-1,https://www.besoccer.com/match/vizela/santa-clara/202235167,2022,8,primeira_liga
+66,Porto,Paços de Ferreira,2-1,https://www.besoccer.com/match/fc-porto/pacos-ferreira/202235158,2022,8,primeira_liga
+67,Arouca,Sporting CP,1-2,https://www.besoccer.com/match/arouca/sporting-lisbon/202235168,2022,8,primeira_liga
+68,Belenenses SAD,Tondela,0-2,https://www.besoccer.com/match/cf-os-belenenses-ii/tondela/202235162,2022,8,primeira_liga
+69,Benfica,Portimonense,0-1,https://www.besoccer.com/match/benfica/portimonense/202235159,2022,8,primeira_liga
+70,Estoril,Gil Vicente,2-2,https://www.besoccer.com/match/estoril/gil-vicente/202235165,2022,8,primeira_liga
+71,Sporting Braga,Boavista,2-2,https://www.besoccer.com/match/sporting-braga/boavista/202235160,2022,8,primeira_liga
+72,Vitória Guimarães,Marítimo,2-1,https://www.besoccer.com/match/vitoria-guimaraes/maritimo/202235170,2022,9,primeira_liga
+73,CD Santa Clara,Famalicão,0-2,https://www.besoccer.com/match/santa-clara/famalicao/202235169,2022,9,primeira_liga
+74,Tondela,Porto,1-3,https://www.besoccer.com/match/tondela/fc-porto/202235177,2022,9,primeira_liga
+75,Sporting CP,Moreirense,1-0,https://www.besoccer.com/match/sporting-lisbon/moreirense-fc/202235164,2022,9,primeira_liga
+76,Paços de Ferreira,Arouca,0-0,https://www.besoccer.com/match/pacos-ferreira/arouca/202235166,2022,9,primeira_liga
+77,Vizela,Benfica,0-1,https://www.besoccer.com/match/vizela/benfica/202235187,2022,9,primeira_liga
+78,Portimonense,Estoril,0-2,https://www.besoccer.com/match/portimonense/estoril/202235183,2022,9,primeira_liga
+79,Gil Vicente,Sporting Braga,0-1,https://www.besoccer.com/match/gil-vicente/sporting-braga/202235173,2022,9,primeira_liga
+80,Boavista,Belenenses SAD,0-0,https://www.besoccer.com/match/boavista/cf-os-belenenses-ii/202235180,2022,9,primeira_liga
+81,Arouca,Tondela,2-0,https://www.besoccer.com/match/arouca/tondela/202235190,2022,10,primeira_liga
+82,Porto,Boavista,4-1,https://www.besoccer.com/match/fc-porto/boavista/202235175,2022,10,primeira_liga
+83,Estoril,Benfica,1-1,https://www.besoccer.com/match/estoril/benfica/202235188,2022,10,primeira_liga
+84,Sporting CP,Vitória Guimarães,1-0,https://www.besoccer.com/match/sporting-lisbon/vitoria-guimaraes/202235172,2022,10,primeira_liga
+85,Marítimo,Gil Vicente,1-2,https://www.besoccer.com/match/maritimo/gil-vicente/202235186,2022,10,primeira_liga
+86,Belenenses SAD,CD Santa Clara,2-1,https://www.besoccer.com/match/cf-os-belenenses-ii/santa-clara/202235184,2022,10,primeira_liga
+87,Famalicão,Vizela,1-1,https://www.besoccer.com/match/famalicao/vizela/202235182,2022,10,primeira_liga
+88,Sporting Braga,Portimonense,3-0,https://www.besoccer.com/match/sporting-braga/portimonense/202235178,2022,10,primeira_liga
+89,Moreirense,Paços de Ferreira,1-1,https://www.besoccer.com/match/moreirense-fc/pacos-ferreira/202235179,2022,10,primeira_liga
+90,Gil Vicente,Arouca,1-1,https://www.besoccer.com/match/gil-vicente/arouca/202235204,2022,11,primeira_liga
+91,Boavista,Famalicão,2-5,https://www.besoccer.com/match/boavista/famalicao/202235210,2022,11,primeira_liga
+92,Vizela,Estoril,1-1,https://www.besoccer.com/match/vizela/estoril/202235216,2022,11,primeira_liga
+93,Portimonense,Belenenses SAD,2-0,https://www.besoccer.com/match/portimonense/cf-os-belenenses-ii/202235214,2022,11,primeira_liga
+94,Vitória Guimarães,Moreirense,2-1,https://www.besoccer.com/match/vitoria-guimaraes/moreirense-fc/202235201,2022,11,primeira_liga
+95,Tondela,Marítimo,4-2,https://www.besoccer.com/match/tondela/maritimo/202235206,2022,11,primeira_liga
+96,CD Santa Clara,Porto,0-3,https://www.besoccer.com/match/santa-clara/fc-porto/202235197,2022,11,primeira_liga
+97,Paços de Ferreira,Sporting CP,0-2,https://www.besoccer.com/match/pacos-ferreira/sporting-lisbon/202235194,2022,11,primeira_liga
+98,Benfica,Sporting Braga,6-1,https://www.besoccer.com/match/benfica/sporting-braga/202235192,2022,11,primeira_liga
+99,Moreirense,Gil Vicente,2-2,https://www.besoccer.com/match/moreirense-fc/gil-vicente/202235202,2022,12,primeira_liga
+100,Famalicão,Portimonense,0-3,https://www.besoccer.com/match/famalicao/portimonense/202235205,2022,12,primeira_liga
+101,Arouca,Boavista,2-1,https://www.besoccer.com/match/arouca/boavista/202235213,2022,12,primeira_liga
+102,Belenenses SAD,Benfica,0-7,https://www.besoccer.com/match/cf-os-belenenses-ii/benfica/202235208,2022,12,primeira_liga
+103,Marítimo,Paços de Ferreira,2-0,https://www.besoccer.com/match/maritimo/pacos-ferreira/202235209,2022,12,primeira_liga
+104,Sporting CP,Tondela,2-0,https://www.besoccer.com/match/sporting-lisbon/tondela/202235196,2022,12,primeira_liga
+105,Porto,Vitória Guimarães,2-1,https://www.besoccer.com/match/fc-porto/vitoria-guimaraes/202235198,2022,12,primeira_liga
+106,Estoril,CD Santa Clara,2-2,https://www.besoccer.com/match/estoril/santa-clara/202235211,2022,12,primeira_liga
+107,Sporting Braga,Vizela,4-1,https://www.besoccer.com/match/sporting-braga/vizela/202235199,2022,12,primeira_liga
+108,Portimonense,Porto,0-3,https://www.besoccer.com/match/portimonense/fc-porto/202235237,2022,13,primeira_liga
+109,Benfica,Sporting CP,1-3,https://www.besoccer.com/match/benfica/sporting-lisbon/202235231,2022,13,primeira_liga
+110,Boavista,Marítimo,1-1,https://www.besoccer.com/match/boavista/maritimo/202235236,2022,13,primeira_liga
+111,Paços de Ferreira,Vitória Guimarães,1-2,https://www.besoccer.com/match/pacos-ferreira/vitoria-guimaraes/202235233,2022,13,primeira_liga
+112,CD Santa Clara,Arouca,2-1,https://www.besoccer.com/match/santa-clara/arouca/202235230,2022,13,primeira_liga
+113,Gil Vicente,Famalicão,4-0,https://www.besoccer.com/match/gil-vicente/famalicao/202235234,2022,13,primeira_liga
+114,Sporting Braga,Estoril,2-0,https://www.besoccer.com/match/sporting-braga/estoril/202235232,2022,13,primeira_liga
+115,Vizela,Belenenses SAD,2-0,https://www.besoccer.com/match/vizela/cf-os-belenenses-ii/202235238,2022,13,primeira_liga
+116,Tondela,Moreirense,2-1,https://www.besoccer.com/match/tondela/moreirense-fc/202235235,2022,13,primeira_liga
+117,Paços de Ferreira,Gil Vicente,0-1,https://www.besoccer.com/match/pacos-ferreira/gil-vicente/202235241,2022,14,primeira_liga
+118,Marítimo,CD Santa Clara,4-1,https://www.besoccer.com/match/maritimo/santa-clara/202235246,2022,14,primeira_liga
+119,Vitória Guimarães,Tondela,5-2,https://www.besoccer.com/match/vitoria-guimaraes/tondela/202235242,2022,14,primeira_liga
+120,Sporting CP,Boavista,2-0,https://www.besoccer.com/match/sporting-lisbon/boavista/202235239,2022,14,primeira_liga
+121,Moreirense,Portimonense,0-1,https://www.besoccer.com/match/moreirense-fc/portimonense/202235243,2022,14,primeira_liga
+122,Belenenses SAD,Estoril,0-1,https://www.besoccer.com/match/cf-os-belenenses-ii/estoril/202235245,2022,14,primeira_liga
+123,Famalicão,Benfica,1-4,https://www.besoccer.com/match/famalicao/benfica/202235244,2022,14,primeira_liga
+124,Porto,Sporting Braga,1-0,https://www.besoccer.com/match/fc-porto/sporting-braga/202235240,2022,14,primeira_liga
+125,Arouca,Vizela,1-4,https://www.besoccer.com/match/arouca/vizela/202235247,2022,14,primeira_liga
+126,CD Santa Clara,Vitória Guimarães,1-0,https://www.besoccer.com/match/santa-clara/vitoria-guimaraes/202235248,2022,15,primeira_liga
+127,Estoril,Famalicão,2-2,https://www.besoccer.com/match/estoril/famalicao/202235255,2022,15,primeira_liga
+128,Tondela,Paços de Ferreira,0-1,https://www.besoccer.com/match/tondela/pacos-ferreira/202235252,2022,15,primeira_liga
+129,Portimonense,Arouca,1-1,https://www.besoccer.com/match/portimonense/arouca/202235254,2022,15,primeira_liga
+130,Gil Vicente,Sporting CP,0-3,https://www.besoccer.com/match/gil-vicente/sporting-lisbon/202235251,2022,15,primeira_liga
+131,Benfica,Marítimo,7-1,https://www.besoccer.com/match/benfica/maritimo/202235249,2022,15,primeira_liga
+132,Boavista,Moreirense,1-0,https://www.besoccer.com/match/boavista/moreirense-fc/202235253,2022,15,primeira_liga
+133,Vizela,Porto,0-4,https://www.besoccer.com/match/vizela/fc-porto/202235256,2022,15,primeira_liga
+134,Sporting Braga,Belenenses SAD,1-0,https://www.besoccer.com/match/sporting-braga/cf-os-belenenses-ii/202235250,2022,15,primeira_liga
+135,Tondela,Gil Vicente,0-3,https://www.besoccer.com/match/tondela/gil-vicente/202235263,2022,16,primeira_liga
+136,Marítimo,Vizela,2-0,https://www.besoccer.com/match/maritimo/vizela/202235264,2022,16,primeira_liga
+137,Moreirense,Estoril,1-0,https://www.besoccer.com/match/moreirense-fc/estoril/202235261,2022,16,primeira_liga
+138,Vitória Guimarães,Boavista,1-1,https://www.besoccer.com/match/vitoria-guimaraes/boavista/202235260,2022,16,primeira_liga
+139,Sporting CP,Portimonense,3-2,https://www.besoccer.com/match/sporting-lisbon/portimonense/202235257,2022,16,primeira_liga
+140,Paços de Ferreira,CD Santa Clara,2-1,https://www.besoccer.com/match/pacos-ferreira/santa-clara/202235259,2022,16,primeira_liga
+141,Arouca,Sporting Braga,0-6,https://www.besoccer.com/match/arouca/sporting-braga/202235265,2022,16,primeira_liga
+142,Porto,Benfica,3-1,https://www.besoccer.com/match/fc-porto/benfica/202235258,2022,16,primeira_liga
+143,Famalicão,Belenenses SAD,1-0,https://www.besoccer.com/match/famalicao/cf-os-belenenses-ii/202235262,2022,16,primeira_liga
+144,CD Santa Clara,Sporting CP,3-2,https://www.besoccer.com/match/santa-clara/sporting-lisbon/202235266,2022,17,primeira_liga
+145,Vizela,Moreirense,0-1,https://www.besoccer.com/match/vizela/moreirense-fc/202235274,2022,17,primeira_liga
+146,Estoril,Porto,2-3,https://www.besoccer.com/match/estoril/fc-porto/202235273,2022,17,primeira_liga
+147,Boavista,Tondela,1-1,https://www.besoccer.com/match/boavista/tondela/202235271,2022,17,primeira_liga
+148,Portimonense,Marítimo,1-2,https://www.besoccer.com/match/portimonense/maritimo/202235272,2022,17,primeira_liga
+149,Benfica,Paços de Ferreira,2-0,https://www.besoccer.com/match/benfica/pacos-ferreira/202235267,2022,17,primeira_liga
+150,Sporting Braga,Famalicão,2-2,https://www.besoccer.com/match/sporting-braga/famalicao/202235268,2022,17,primeira_liga
+151,Belenenses SAD,Arouca,2-1,https://www.besoccer.com/match/cf-os-belenenses-ii/arouca/202235269,2022,17,primeira_liga
+152,Gil Vicente,Vitória Guimarães,3-2,https://www.besoccer.com/match/gil-vicente/vitoria-guimaraes/202235270,2022,17,primeira_liga
+153,Boavista,Gil Vicente,1-1,https://www.besoccer.com/match/boavista/gil-vicente/202235280,2022,18,primeira_liga
+154,Benfica,Moreirense,1-1,https://www.besoccer.com/match/benfica/moreirense-fc/202235279,2022,18,primeira_liga
+155,Sporting Braga,Marítimo,0-1,https://www.besoccer.com/match/sporting-braga/maritimo/202235282,2022,18,primeira_liga
+156,CD Santa Clara,Tondela,2-2,https://www.besoccer.com/match/santa-clara/tondela/202235281,2022,18,primeira_liga
+157,Vizela,Sporting CP,0-2,https://www.besoccer.com/match/vizela/sporting-lisbon/202235275,2022,18,primeira_liga
+158,Famalicão,Paços de Ferreira,0-0,https://www.besoccer.com/match/famalicao/pacos-ferreira/202235277,2022,18,primeira_liga
+159,Belenenses SAD,Porto,1-4,https://www.besoccer.com/match/cf-os-belenenses-ii/fc-porto/202235276,2022,18,primeira_liga
+160,Portimonense,Vitória Guimarães,1-1,https://www.besoccer.com/match/portimonense/vitoria-guimaraes/202235278,2022,18,primeira_liga
+161,Estoril,Arouca,1-2,https://www.besoccer.com/match/estoril/arouca/202235283,2022,18,primeira_liga
+162,Arouca,Benfica,0-2,https://www.besoccer.com/match/arouca/benfica/202235284,2022,19,primeira_liga
+163,Paços de Ferreira,Boavista,1-1,https://www.besoccer.com/match/pacos-ferreira/boavista/202235289,2022,19,primeira_liga
+164,Moreirense,CD Santa Clara,0-2,https://www.besoccer.com/match/moreirense-fc/santa-clara/202235286,2022,19,primeira_liga
+165,Tondela,Vizela,2-3,https://www.besoccer.com/match/tondela/vizela/202235292,2022,19,primeira_liga
+166,Sporting CP,Sporting Braga,1-2,https://www.besoccer.com/match/sporting-lisbon/sporting-braga/202235285,2022,19,primeira_liga
+167,Marítimo,Belenenses SAD,1-1,https://www.besoccer.com/match/maritimo/cf-os-belenenses-ii/202235288,2022,19,primeira_liga
+168,Vitória Guimarães,Estoril,3-1,https://www.besoccer.com/match/vitoria-guimaraes/estoril/202235291,2022,19,primeira_liga
+169,Gil Vicente,Portimonense,1-0,https://www.besoccer.com/match/gil-vicente/portimonense/202235290,2022,19,primeira_liga
+170,Porto,Famalicão,3-1,https://www.besoccer.com/match/fc-porto/famalicao/202235287,2022,19,primeira_liga
+171,Vizela,Vitória Guimarães,3-2,https://www.besoccer.com/match/vizela/vitoria-guimaraes/202235295,2022,20,primeira_liga
+172,Portimonense,Tondela,1-2,https://www.besoccer.com/match/portimonense/tondela/202235298,2022,20,primeira_liga
+173,Sporting Braga,Moreirense,2-0,https://www.besoccer.com/match/sporting-braga/moreirense-fc/202235296,2022,20,primeira_liga
+174,Porto,Marítimo,2-1,https://www.besoccer.com/match/fc-porto/maritimo/202235300,2022,20,primeira_liga
+175,Estoril,Paços de Ferreira,0-0,https://www.besoccer.com/match/estoril/pacos-ferreira/202235294,2022,20,primeira_liga
+176,Famalicão,Arouca,0-0,https://www.besoccer.com/match/famalicao/arouca/202235301,2022,20,primeira_liga
+177,CD Santa Clara,Boavista,2-1,https://www.besoccer.com/match/santa-clara/boavista/202235299,2022,20,primeira_liga
+178,Benfica,Gil Vicente,1-2,https://www.besoccer.com/match/benfica/gil-vicente/202235297,2022,20,primeira_liga
+179,Belenenses SAD,Sporting CP,1-4,https://www.besoccer.com/match/cf-os-belenenses-ii/sporting-lisbon/202235293,2022,20,primeira_liga
+180,Marítimo,Estoril,0-0,https://www.besoccer.com/match/maritimo/estoril/202235309,2022,21,primeira_liga
+181,Paços de Ferreira,Portimonense,1-1,https://www.besoccer.com/match/pacos-ferreira/portimonense/202235308,2022,21,primeira_liga
+182,Vitória Guimarães,Sporting Braga,2-1,https://www.besoccer.com/match/vitoria-guimaraes/sporting-braga/202235304,2022,21,primeira_liga
+183,Gil Vicente,CD Santa Clara,2-2,https://www.besoccer.com/match/gil-vicente/santa-clara/202235305,2022,21,primeira_liga
+184,Boavista,Vizela,2-2,https://www.besoccer.com/match/boavista/vizela/202235310,2022,21,primeira_liga
+185,Arouca,Porto,0-2,https://www.besoccer.com/match/arouca/fc-porto/202235302,2022,21,primeira_liga
+186,Sporting CP,Famalicão,2-0,https://www.besoccer.com/match/sporting-lisbon/famalicao/202235306,2022,21,primeira_liga
+187,Tondela,Benfica,1-3,https://www.besoccer.com/match/tondela/benfica/202235303,2022,21,primeira_liga
+188,Moreirense,Belenenses SAD,4-1,https://www.besoccer.com/match/moreirense-fc/cf-os-belenenses-ii/202235307,2022,21,primeira_liga
+189,Porto,Sporting CP,2-2,https://www.besoccer.com/match/fc-porto/sporting-lisbon/202235311,2022,22,primeira_liga
+190,Sporting Braga,Paços de Ferreira,2-1,https://www.besoccer.com/match/sporting-braga/pacos-ferreira/202235312,2022,22,primeira_liga
+191,Benfica,CD Santa Clara,2-1,https://www.besoccer.com/match/benfica/santa-clara/202235313,2022,22,primeira_liga
+192,Portimonense,Boavista,1-1,https://www.besoccer.com/match/portimonense/boavista/202235318,2022,22,primeira_liga
+193,Estoril,Tondela,1-0,https://www.besoccer.com/match/estoril/tondela/202235317,2022,22,primeira_liga
+194,Famalicão,Moreirense,5-0,https://www.besoccer.com/match/famalicao/moreirense-fc/202235315,2022,22,primeira_liga
+195,Belenenses SAD,Vitória Guimarães,1-0,https://www.besoccer.com/match/cf-os-belenenses-ii/vitoria-guimaraes/202235314,2022,22,primeira_liga
+196,Vizela,Gil Vicente,0-1,https://www.besoccer.com/match/vizela/gil-vicente/202235316,2022,22,primeira_liga
+197,Arouca,Marítimo,0-3,https://www.besoccer.com/match/arouca/maritimo/202235319,2022,22,primeira_liga
+198,Boavista,Benfica,2-2,https://www.besoccer.com/match/boavista/benfica/202235321,2022,23,primeira_liga
+199,Gil Vicente,Belenenses SAD,2-0,https://www.besoccer.com/match/gil-vicente/cf-os-belenenses-ii/202235324,2022,23,primeira_liga
+200,Paços de Ferreira,Vizela,2-1,https://www.besoccer.com/match/pacos-ferreira/vizela/202235327,2022,23,primeira_liga
+201,Vitória Guimarães,Arouca,1-3,https://www.besoccer.com/match/vitoria-guimaraes/arouca/202235328,2022,23,primeira_liga
+202,Marítimo,Famalicão,0-1,https://www.besoccer.com/match/maritimo/famalicao/202235323,2022,23,primeira_liga
+203,Sporting CP,Estoril,3-0,https://www.besoccer.com/match/sporting-lisbon/estoril/202235326,2022,23,primeira_liga
+204,Moreirense,Porto,0-1,https://www.besoccer.com/match/moreirense-fc/fc-porto/202235320,2022,23,primeira_liga
+205,Tondela,Sporting Braga,0-1,https://www.besoccer.com/match/tondela/sporting-braga/202235322,2022,23,primeira_liga
+206,CD Santa Clara,Portimonense,1-1,https://www.besoccer.com/match/santa-clara/portimonense/202235325,2022,23,primeira_liga
+207,Belenenses SAD,Paços de Ferreira,0-2,https://www.besoccer.com/match/cf-os-belenenses-ii/pacos-ferreira/202235330,2022,24,primeira_liga
+208,Famalicão,Tondela,2-1,https://www.besoccer.com/match/famalicao/tondela/202235335,2022,24,primeira_liga
+209,Marítimo,Sporting CP,1-1,https://www.besoccer.com/match/maritimo/sporting-lisbon/202235329,2022,24,primeira_liga
+210,Arouca,Moreirense,1-1,https://www.besoccer.com/match/arouca/moreirense-fc/202235333,2022,24,primeira_liga
+211,Vizela,Portimonense,1-1,https://www.besoccer.com/match/vizela/portimonense/202235337,2022,24,primeira_liga
+212,Benfica,Vitória Guimarães,3-0,https://www.besoccer.com/match/benfica/vitoria-guimaraes/202235332,2022,24,primeira_liga
+213,Estoril,Boavista,2-3,https://www.besoccer.com/match/estoril/boavista/202235336,2022,24,primeira_liga
+214,Porto,Gil Vicente,1-1,https://www.besoccer.com/match/fc-porto/gil-vicente/202235334,2022,24,primeira_liga
+215,Sporting Braga,CD Santa Clara,0-0,https://www.besoccer.com/match/sporting-braga/santa-clara/202235331,2022,24,primeira_liga
+216,Gil Vicente,Estoril,0-0,https://www.besoccer.com/match/gil-vicente/estoril/202235345,2022,25,primeira_liga
+217,Boavista,Sporting Braga,1-1,https://www.besoccer.com/match/boavista/sporting-braga/202235340,2022,25,primeira_liga
+218,Portimonense,Benfica,1-2,https://www.besoccer.com/match/portimonense/benfica/202235339,2022,25,primeira_liga
+219,Sporting CP,Arouca,2-0,https://www.besoccer.com/match/sporting-lisbon/arouca/202235348,2022,25,primeira_liga
+220,Moreirense,Marítimo,0-1,https://www.besoccer.com/match/moreirense-fc/maritimo/202235343,2022,25,primeira_liga
+221,Paços de Ferreira,Porto,2-4,https://www.besoccer.com/match/pacos-ferreira/fc-porto/202235338,2022,25,primeira_liga
+222,Vitória Guimarães,Famalicão,2-1,https://www.besoccer.com/match/vitoria-guimaraes/famalicao/202235341,2022,25,primeira_liga
+223,CD Santa Clara,Vizela,3-1,https://www.besoccer.com/match/santa-clara/vizela/202235347,2022,25,primeira_liga
+224,Tondela,Belenenses SAD,1-1,https://www.besoccer.com/match/tondela/cf-os-belenenses-ii/202235342,2022,25,primeira_liga
+225,Benfica,Vizela,1-1,https://www.besoccer.com/match/benfica/vizela/202235362,2022,26,primeira_liga
+226,Famalicão,CD Santa Clara,0-0,https://www.besoccer.com/match/famalicao/santa-clara/202235349,2022,26,primeira_liga
+227,Estoril,Portimonense,2-0,https://www.besoccer.com/match/estoril/portimonense/202235359,2022,26,primeira_liga
+228,Arouca,Paços de Ferreira,0-1,https://www.besoccer.com/match/arouca/pacos-ferreira/202235346,2022,26,primeira_liga
+229,Belenenses SAD,Boavista,0-0,https://www.besoccer.com/match/cf-os-belenenses-ii/boavista/202235357,2022,26,primeira_liga
+230,Marítimo,Vitória Guimarães,0-1,https://www.besoccer.com/match/maritimo/vitoria-guimaraes/202235350,2022,26,primeira_liga
+231,Porto,Tondela,4-0,https://www.besoccer.com/match/fc-porto/tondela/202235354,2022,26,primeira_liga
+232,Sporting Braga,Gil Vicente,0-1,https://www.besoccer.com/match/sporting-braga/gil-vicente/202235352,2022,26,primeira_liga
+233,Moreirense,Sporting CP,0-2,https://www.besoccer.com/match/moreirense-fc/sporting-lisbon/202235344,2022,26,primeira_liga
+234,Vizela,Famalicão,1-1,https://www.besoccer.com/match/vizela/famalicao/202235358,2022,27,primeira_liga
+235,Tondela,Arouca,2-2,https://www.besoccer.com/match/tondela/arouca/202235364,2022,27,primeira_liga
+236,CD Santa Clara,Belenenses SAD,0-0,https://www.besoccer.com/match/santa-clara/cf-os-belenenses-ii/202235360,2022,27,primeira_liga
+237,Vitória Guimarães,Sporting CP,1-3,https://www.besoccer.com/match/vitoria-guimaraes/sporting-lisbon/202235351,2022,27,primeira_liga
+238,Paços de Ferreira,Moreirense,2-1,https://www.besoccer.com/match/pacos-ferreira/moreirense-fc/202235356,2022,27,primeira_liga
+239,Gil Vicente,Marítimo,1-1,https://www.besoccer.com/match/gil-vicente/maritimo/202235361,2022,27,primeira_liga
+240,Benfica,Estoril,2-1,https://www.besoccer.com/match/benfica/estoril/202235363,2022,27,primeira_liga
+241,Portimonense,Sporting Braga,1-2,https://www.besoccer.com/match/portimonense/sporting-braga/202235355,2022,27,primeira_liga
+242,Boavista,Porto,0-1,https://www.besoccer.com/match/boavista/fc-porto/202235353,2022,27,primeira_liga
+243,Sporting Braga,Benfica,3-2,https://www.besoccer.com/match/sporting-braga/benfica/202235365,2022,28,primeira_liga
+244,Belenenses SAD,Portimonense,2-0,https://www.besoccer.com/match/cf-os-belenenses-ii/portimonense/202235381,2022,28,primeira_liga
+245,Arouca,Gil Vicente,2-1,https://www.besoccer.com/match/arouca/gil-vicente/202235373,2022,28,primeira_liga
+246,Estoril,Vizela,1-2,https://www.besoccer.com/match/estoril/vizela/202235382,2022,28,primeira_liga
+247,Famalicão,Boavista,1-2,https://www.besoccer.com/match/famalicao/boavista/202235378,2022,28,primeira_liga
+248,Marítimo,Tondela,1-3,https://www.besoccer.com/match/maritimo/tondela/202235375,2022,28,primeira_liga
+249,Moreirense,Vitória Guimarães,0-1,https://www.besoccer.com/match/moreirense-fc/vitoria-guimaraes/202235371,2022,28,primeira_liga
+250,Sporting CP,Paços de Ferreira,2-0,https://www.besoccer.com/match/sporting-lisbon/pacos-ferreira/202235366,2022,28,primeira_liga
+251,Porto,CD Santa Clara,3-0,https://www.besoccer.com/match/fc-porto/santa-clara/202235368,2022,28,primeira_liga
