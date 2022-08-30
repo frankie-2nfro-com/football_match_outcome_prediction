@@ -1912,3 +1912,7 @@ And the complete code for this task can be found in [model_results.ipynb](https:
 ### Project conclusion
 
 ...
+
+- the conclusions you have drawn from the models performance and 
+- how you would improve the model/data
+- Go back over your entire documentation to make sure everything is clear, concise and reads well
