@@ -1902,7 +1902,7 @@ team_predict_pd.insert(loc=4, column="PREDICTION", value=prediction_pd["PREDICTI
 
 ![Predict result Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/T6T3_result.png?raw=true)
 
-By checking the actual result, the correct predict is only 5/9. 
+By checking the actual result, the correct predict is only 5/9 (56%). 
 
 ```python
 ELO_DIFF,RECENT_PERF_DIFF,HOME_AWAY_GOAL_DIFF,Link,PREDICTION,CORRECT
