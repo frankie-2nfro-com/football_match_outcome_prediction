@@ -1870,5 +1870,14 @@ And finally, saving the predict data to csv:
 predict_pd.to_csv('to_predict.csv', index=False)
 ```
 
-
 And the complete code for this task can be found in [predict_m6_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/predict_m6_t2.ipynb)
+
+
+
+<br /> 
+
+### Use the model to predict the results of the next matches
+
+...
+
+And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
