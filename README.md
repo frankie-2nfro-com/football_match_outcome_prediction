@@ -1904,6 +1904,19 @@ team_predict_pd.insert(loc=4, column="PREDICTION", value=prediction_pd["PREDICTI
 
 By checking the actual result, the correct predict is only 5/9. 
 
+```python
+ELO_DIFF,RECENT_PERF_DIFF,HOME_AWAY_GOAL_DIFF,Link,PREDICTION,CORRECT
+2,-5,-5,https://www.besoccer.com/match/penafiel/varzim/202235614,1,TRUE
+-1,-6,-6,https://www.besoccer.com/match/casa-pia/farense/202235608,0,FALSE
+-21,-5,-5,https://www.besoccer.com/match/mafra/chaves/202235611,0,TRUE
+6,-1,-1,https://www.besoccer.com/match/benfica-ii/cf-estrela-de-amadora/202235615,1,FALSE
+-6,4,4,https://www.besoccer.com/match/vilafranquense/academico-viseu/202235613,1,TRUE
+-6,8,8,https://www.besoccer.com/match/sporting-covilha/academica/202235609,1,TRUE
+-3,-5,-5,https://www.besoccer.com/match/nacional/rio-ave/202235607,0,FALSE
+-10,-5,-5,https://www.besoccer.com/match/porto-ii/feirense/202235610,0,FALSE
+-8,-3,-3,https://www.besoccer.com/match/trofense/leixoes/202235612,0,TRUE
+```
+
 And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
 
 
