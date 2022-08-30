@@ -1900,7 +1900,7 @@ prediction_pd = pd.DataFrame(prediction, columns=["PREDICTION"])
 team_predict_pd.insert(loc=4, column="PREDICTION", value=prediction_pd["PREDICTION"].astype('Int64')) 
 ```
 
-![Predict result Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M6T3_result.png?raw=true)
+![Predict result Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/T6T3_result.png?raw=true)
 
 
 And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
