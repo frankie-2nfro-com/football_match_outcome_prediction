@@ -1587,7 +1587,7 @@ And the complete code for this task can be found in [model_explained.ipynb](http
 
 ### Scrape data of matches that haven't taken place for making predictions
 
-All data for predition is in the folder called "Predict". And here is the code for saving the whole data into a single csv (results_for_prediction.csv)
+All data for predition is in the folder called "Predict". And here is the code for loading the data and combine with the pkl files:
 
 ```python
 # load all directory as league name list
@@ -1622,9 +1622,52 @@ for league in leagues:
 
             current_league_season_pd = current_league_season_pd.merge(elo_df, left_on='Link', right_on='link')
 
-            result_with_goal_sofar_pd = pd.concat([result_with_goal_sofar_pd, current_league_season_pd])
+            result_with_goal_sofar_pd = pd.concat([result_with_goal_sofar_pd, current_league_season_pd])  
 ```
 
-...
+After that, trying to drop all NaN and remove columns:
+
+```python
+full_pd = result_with_goal_sofar_pd.dropna()
+
+# delete no value column
+full_pd.drop('Result', inplace=True, axis=1)
+full_pd.drop('Link', inplace=True, axis=1)
+full_pd.drop('link', inplace=True, axis=1)
+```
+
+And creating the result column:
+
+```python
+# find who win H:Home A:Away D:Draw
+def get_result(record):
+    hscore = record['Home_Score']
+    ascore = record['Away_Score']
+    if hscore is pd.NA or ascore is pd.NA:
+        return pd.NA
+    if hscore>ascore:
+        return 1
+    else:
+        return 0
+
+result_pd = full_pd.apply(get_result, axis=1)
+
+full_pd.insert(loc=len(full_pd.columns), column="Result", value=result_pd.astype('Int64')) 
+
+# reorder dataframe column
+full_pd.insert(0, 'League', full_pd.pop('League'))
+full_pd.insert(1, 'Season', full_pd.pop('Season'))
+full_pd.insert(2, 'Round', full_pd.pop('Round'))
+full_pd.insert(3, 'Home_Team', full_pd.pop('Home_Team'))
+full_pd.insert(4, 'Away_Team', full_pd.pop('Away_Team'))
+```
+
+![Current season leage Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M6T1_data.png?raw=true)
+
+And finally saving the dataframe to csv:
+
+```python
+full_pd.to_csv('results_for_prediction.csv', index=False)
+```
 
 And the complete code for this task can be found in [predict_m6_t1.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/predict_m6_t1.ipynb)
