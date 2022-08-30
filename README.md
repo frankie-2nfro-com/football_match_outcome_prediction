@@ -1677,5 +1677,198 @@ And the complete code for this task can be found in [predict_m6_t1.ipynb](https:
 
 ### Use the pipeline you created to clean the scraped data
 
+Also, firstly trying to loop the league folder to load the predict dataframe and combine with the pkl files:
+
+```python
+# functions to filter different league
+def getLeagueData(data, league, season=None):
+    if season is None:
+        league_pd =  data[(data["League"]==league)]
+    else:
+        league_pd =  data[(data["League"]==league) & (data["Season"]==season)]
+    return league_pd
+    
+def getLeagueSeasonTeamBeforeRoundTotalGoal(data, team, round):
+    # determine home or away and get the score 
+    # get home game of the team
+    home_pd = data[(data["Home_Team"]==team) & (data["Round"]<round)]
+    home_total_score = home_pd['Home_Score'].astype('Int64').sum()
+
+    # get away game of the team
+    away_pd = data[(data["Away_Team"]==team) & (data["Round"]<round)]
+    away_total_score = home_pd['Away_Score'].astype('Int64').sum()
+
+    # calculate total goals
+    return home_total_score, away_total_score
+
+
+def fillWithTotalGoalSoFar(record, data):
+    # get home team and away team and round
+    round = record['Round']
+    hteam = record['Home_Team']
+    ateam = record['Away_Team']
+    
+    hometeam_home_goal_so_far, hometeam_away_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(data, hteam, round)
+    awayteam_home_goal_so_far, awayteam_away_goal_so_far = getLeagueSeasonTeamBeforeRoundTotalGoal(data, ateam, round)
+
+    return [hometeam_home_goal_so_far, hometeam_away_goal_so_far, awayteam_home_goal_so_far, awayteam_away_goal_so_far]
+    
+
+def findRecentPreviousRounds(currentRound, limit):
+    if currentRound<=limit:
+        return None
+    else:
+        r = []
+        for l in range(limit):
+            r.append(currentRound - (limit-l))
+        return r
+
+
+def findLeagueSeasonTeamRecentPreviousRounds(data, team, round):
+    rounds = findRecentPreviousRounds(round, RECENT_PREFORMANCE_MATCH_COUNT)         # can change for optimization
+    if rounds is None:
+        return None
+
+    previous_matches_pd =  data[((data["Home_Team"]==team) | (data["Away_Team"]==team)) & (data["Round"].isin(rounds))]
+    recent_perf = 0
+    for index, row in previous_matches_pd.iterrows():
+        hteam = row['Home_Team']
+        ateam = row['Away_Team']
+        if hteam==team:
+            recent_perf = recent_perf + (row['Home_Score']-row['Away_Score'])
+        else:
+            recent_perf = recent_perf + (row['Away_Score']-row['Home_Score'])
+
+    return recent_perf
+
+
+def fillWithRecentPerformance(record, data):
+    # get home team and away team and round
+    round = record['Round']
+    hteam = record['Home_Team']
+    ateam = record['Away_Team']
+    
+    home_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(data, hteam, round)
+    away_team_goal_diff = findLeagueSeasonTeamRecentPreviousRounds(data, ateam, round)
+
+    return [home_team_goal_diff, away_team_goal_diff]
+    
+    
+def get_ELO_diff(record):
+    hscore = record['Elo_home']
+    ascore = record['Elo_away']
+    return (hscore - ascore)
+    
+    
+def get_recent_goal_diff_diff(record):
+    hscore = record['HOME_LASTEST_GOAL_DIFF']
+    ascore = record['AWAY_LASTEST_GOAL_DIFF']
+    return hscore - ascore
+    
+    
+def get_home_away_total_goal_diff(record):
+    hgoal = record['HOMETEAM_HOME_GOAL_SO_FAR']
+    agoal = record['AWAYTEAM_AWAY_GOAL_SO_FAR']
+    return hgoal - agoal
+    
+    
+# load all directory as league name list
+dir = "./Predict/To_Predict/"
+leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
+
+prediction_result_pd = pd.read_csv("results_for_prediction.csv")
+
+# loop to open csv
+predict_pd = pd.DataFrame()
+for league in leagues:
+    league_folder = os.path.join(dir, league)
+
+    csv_file_for_league = [os.path.join(league_folder, name) for name in os.listdir(league_folder) if name.endswith('.csv')]
+    pkl_file_for_league = [os.path.join(league_folder, name) for name in os.listdir(league_folder) if name.endswith('.pkl')]
+
+
+    if len(csv_file_for_league)==1 and len(pkl_file_for_league)==1:
+        csv_filename = csv_file_for_league[0]
+        pkl_filename = pkl_file_for_league[0]
+
+        # ,Home_Team,Away_Team,Link,Season,Round,League
+        current_league_predict_pd = pd.read_csv(csv_filename, skiprows=[0], names=["Home_Team", "Away_Team", "Link", "Season", "Round", "League"])
+
+        if len(current_league_predict_pd)>0:
+            # load pickle and read content
+            d = pickle.load(open(pkl_filename, 'rb'))
+            elo_key_df = pd.DataFrame(d.keys(), columns=["link"])
+            elo_val_df = pd.DataFrame.from_dict(d.values())
+            elo_df = elo_key_df.join(elo_val_df)
+
+            current_league_predict_pd = current_league_predict_pd.merge(elo_df, left_on='Link', right_on='link')
+
+            # get this season data
+            current_season_result = getLeagueData(prediction_result_pd, league)
+
+            goal_so_far = current_league_predict_pd.apply(fillWithTotalGoalSoFar, data=current_season_result, axis=1)
+            goal_so_far_list = np.array(goal_so_far.values.tolist()) 
+            goal_so_far_pd = pd.DataFrame(goal_so_far_list, columns=["HOMETEAM_HOME_GOAL_SO_FAR", "HOMETEAM_AWAY_GOAL_SO_FAR", "AWAYTEAM_HOME_GOAL_SO_FAR", "AWAYTEAM_AWAY_GOAL_SO_FAR"])    # convert to dataframe
+            current_league_predict_pd.insert(loc=7, column="HOMETEAM_HOME_GOAL_SO_FAR", value=goal_so_far_pd["HOMETEAM_HOME_GOAL_SO_FAR"].astype('Int64')) 
+            current_league_predict_pd.insert(loc=8, column="HOMETEAM_AWAY_GOAL_SO_FAR", value=goal_so_far_pd["HOMETEAM_AWAY_GOAL_SO_FAR"].astype('Int64')) 
+            current_league_predict_pd.insert(loc=9, column="AWAYTEAM_HOME_GOAL_SO_FAR", value=goal_so_far_pd["AWAYTEAM_HOME_GOAL_SO_FAR"].astype('Int64'))     
+            current_league_predict_pd.insert(loc=10, column="AWAYTEAM_AWAY_GOAL_SO_FAR", value=goal_so_far_pd["AWAYTEAM_AWAY_GOAL_SO_FAR"].astype('Int64'))            
+
+            recent_perform = current_league_predict_pd.apply(fillWithRecentPerformance, data=current_season_result, axis=1)
+            perf_list = np.array(recent_perform.values.tolist())
+            home_away_perf_pd = pd.DataFrame(perf_list, columns=["HOME_LASTEST_GOAL_DIFF", "AWAY_LASTEST_GOAL_DIFF"])
+            current_league_predict_pd.insert(loc=11, column="HOME_LASTEST_GOAL_DIFF", value=home_away_perf_pd["HOME_LASTEST_GOAL_DIFF"].astype('Int64')) 
+            current_league_predict_pd.insert(loc=12, column="AWAY_LASTEST_GOAL_DIFF", value=home_away_perf_pd["AWAY_LASTEST_GOAL_DIFF"].astype('Int64'))   
+
+            predict_pd = pd.concat([predict_pd, current_league_predict_pd])
+	    
+	    
+predict_pd.drop('link', inplace=True, axis=1)
+
+# reorder dataframe column
+predict_pd.insert(0, 'League', predict_pd.pop('League'))
+predict_pd.insert(1, 'Season', predict_pd.pop('Season'))
+predict_pd.insert(2, 'Round', predict_pd.pop('Round'))
+predict_pd.insert(3, 'Home_Team', predict_pd.pop('Home_Team'))
+predict_pd.insert(4, 'Away_Team', predict_pd.pop('Away_Team'))
+predict_pd.insert(5, 'Elo_home', predict_pd.pop('Elo_home').astype('int'))
+predict_pd.insert(6, 'Elo_away', predict_pd.pop('Elo_away').astype('int'))
+predict_pd.insert(13, 'Link', predict_pd.pop('Link'))
+
+
+elo_diff_pd = predict_pd.apply(get_ELO_diff, axis=1)
+predict_pd.drop('Elo_home', inplace=True, axis=1)
+predict_pd.drop('Elo_away', inplace=True, axis=1)
+predict_pd.insert(loc=5, column="ELO_DIFF", value=elo_diff_pd.astype('Int64')) 
+        
+recent_perf_diff_pd = predict_pd.apply(get_recent_goal_diff_diff, axis=1)
+predict_pd.drop('HOME_LASTEST_GOAL_DIFF', inplace=True, axis=1)
+predict_pd.drop('AWAY_LASTEST_GOAL_DIFF', inplace=True, axis=1)
+predict_pd.insert(loc=6, column="RECENT_PERF_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
+
+goal_diff_pd = predict_pd.apply(get_home_away_total_goal_diff, axis=1)
+predict_pd.drop('HOMETEAM_HOME_GOAL_SO_FAR', inplace=True, axis=1)
+predict_pd.drop('HOMETEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
+predict_pd.drop('AWAYTEAM_HOME_GOAL_SO_FAR', inplace=True, axis=1)
+predict_pd.drop('AWAYTEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
+predict_pd.insert(loc=7, column="HOME_AWAY_GOAL_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
+
+# delete no value column
+predict_pd.drop('League', inplace=True, axis=1)
+predict_pd.drop('Season', inplace=True, axis=1)
+predict_pd.drop('Round', inplace=True, axis=1)
+predict_pd.drop('Home_Team', inplace=True, axis=1)
+predict_pd.drop('Away_Team', inplace=True, axis=1)
+
+```
+
+![Predict record Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M6T2_data.png?raw=true)
+
+And finally, saving the predict data to csv:
+
+```python
+predict_pd.to_csv('to_predict.csv', index=False)
+```
+
 
 And the complete code for this task can be found in [predict_m6_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/predict_m6_t2.ipynb)
