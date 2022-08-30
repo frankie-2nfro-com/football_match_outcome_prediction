@@ -1671,3 +1671,11 @@ full_pd.to_csv('results_for_prediction.csv', index=False)
 ```
 
 And the complete code for this task can be found in [predict_m6_t1.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/predict_m6_t1.ipynb)
+
+
+<br /> 
+
+### Use the pipeline you created to clean the scraped data
+
+
+And the complete code for this task can be found in [predict_m6_t2.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/predict_m6_t2.ipynb)
