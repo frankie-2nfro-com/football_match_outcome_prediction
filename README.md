@@ -1924,8 +1924,12 @@ And the complete code for this task can be found in [model_results.ipynb](https:
 
 ### Project conclusion
 
+If I want to draw the conclusion of the model performance, I think I should should all the matrix against models and dataset. And here is the results:
+
 ...
 
-- the conclusions you have drawn from the models performance and 
-- how you would improve the model/data
-- Go back over your entire documentation to make sure everything is clear, concise and reads well
+I think the features of the data is not rich enough to determine the winning of the football game. To improve the models, I think I need to spend more time to get more useful features as the new inputs. After that, it would be worth to tune the hyperparameters and trying different subset of data. 
+
+In this project, I go through the process to implement a data science pipeline that predicts the outcome of a football match. Although the outcome is not good enough as the final product quality, I think it is a good experience for me to work as a data scientist. 
+
+(Go back over your entire documentation to make sure everything is clear, concise and reads well)
