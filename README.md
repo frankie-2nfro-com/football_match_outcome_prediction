@@ -1878,7 +1878,30 @@ And the complete code for this task can be found in [predict_m6_t2.ipynb](https:
 
 ### Use the model to predict the results of the next matches
 
-...
+Trying to predict for segunda_liga because of getting high score by previous milestone. Take the data from 2015 to train the model as randomforest_segunda_liga_from2015.joblib. 
+
+```python
+model = joblib.load('randomforest_segunda_liga_from2015.joblib')
+```
+
+The score for the trained model is as follows:
+
+```python
+Accuracy for train: 79.585%
+Accuracy for test: 79.200%
+```
+
+And after predict, I got the result as follows:
+
+```python
+prediction = model.predict(rescaledX)
+prediction_pd = pd.DataFrame(prediction, columns=["PREDICTION"])
+
+team_predict_pd.insert(loc=4, column="PREDICTION", value=prediction_pd["PREDICTION"].astype('Int64')) 
+```
+
+![Predict result Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M6T3_result.png?raw=true)
+
 
 And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
 
