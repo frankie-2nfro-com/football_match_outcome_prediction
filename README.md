@@ -1881,3 +1881,11 @@ And the complete code for this task can be found in [predict_m6_t2.ipynb](https:
 ...
 
 And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
+
+
+
+<br /> 
+
+### Project conclusion
+
+...
