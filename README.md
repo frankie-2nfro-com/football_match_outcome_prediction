@@ -1590,7 +1590,39 @@ And the complete code for this task can be found in [model_explained.ipynb](http
 All data for predition is in the folder called "Predict". And here is the code for saving the whole data into a single csv (results_for_prediction.csv)
 
 ```python
-# ...
+# load all directory as league name list
+dir = "./Predict/Results/"
+leagues = [name for name in os.listdir(dir) if os.path.isdir(os.path.join(dir, name))]
+
+# loop to open csv
+result_with_goal_sofar_pd = pd.DataFrame()
+for league in leagues:
+    league_folder = os.path.join(dir, league)
+
+    csv_file_for_league = [os.path.join(league_folder, name) for name in os.listdir(league_folder) if name.endswith('.csv')]
+    pkl_file_for_league = [os.path.join(league_folder, name) for name in os.listdir(league_folder) if name.endswith('.pkl')]
+
+    if len(csv_file_for_league)==1 and len(pkl_file_for_league)==1:
+        csv_filename = csv_file_for_league[0]
+        pkl_filename = pkl_file_for_league[0]
+
+        current_league_season_pd = pd.read_csv(csv_filename, skiprows=[0], names=["Home_Team", "Away_Team", "Result", "Link", "Season", "Round", "League"])
+
+        # Divide result into home_score and away_score
+        df_score =  current_league_season_pd['Result'].str.extract(r'(\d)-(\d)')
+        current_league_season_pd.insert(loc=3, column="Home_Score", value=df_score[0].astype('Int64'))     # use Int64 as it support NaN
+        current_league_season_pd.insert(loc=4, column="Away_Score", value=df_score[1].astype('Int64')) 
+
+        if len(current_league_season_pd)>0:
+            # load pickle and read content
+            d = pickle.load(open(pkl_filename, 'rb'))
+            elo_key_df = pd.DataFrame(d.keys(), columns=["link"])
+            elo_val_df = pd.DataFrame.from_dict(d.values())
+            elo_df = elo_key_df.join(elo_val_df)
+
+            current_league_season_pd = current_league_season_pd.merge(elo_df, left_on='Link', right_on='link')
+
+            result_with_goal_sofar_pd = pd.concat([result_with_goal_sofar_pd, current_league_season_pd])
 ```
 
 ...
