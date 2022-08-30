@@ -1902,9 +1902,9 @@ team_predict_pd.insert(loc=4, column="PREDICTION", value=prediction_pd["PREDICTI
 
 ![Predict result Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/T6T3_result.png?raw=true)
 
+By checking the actual result, the correct predict is only 5/9. 
 
 And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
-
 
 
 <br /> 
