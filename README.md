@@ -1528,6 +1528,52 @@ The overfitting issue seems reduced.
 
 And the complete code for this task can be found in [model_m5_t3.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3.ipynb)
 
+Another way to evaluate different model performance by cross_val_score. I create a function as follows:
+
+```python
+def evaluateModels(X, y):
+    seed = 7
+    test_size = 0.3
+    seed = 42
+    X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=test_size, random_state=seed)
+
+    # Spot-Check Algorithms
+    models = []
+    models.append(('LR', LogisticRegression(solver='liblinear', multi_class='ovr'))) 
+    models.append(('LDA', LinearDiscriminantAnalysis()))
+    models.append(('KNN', KNeighborsClassifier()))
+    models.append(('CART', DecisionTreeClassifier()))
+    models.append(('NB', GaussianNB()))
+    models.append(('SVM', SVC(gamma='auto')))
+    models.append(('DT', DecisionTreeClassifier()))
+    models.append(('RF', RandomForestClassifier()))
+
+    # evaluate each model in turn
+    results = []
+    names = []
+    for name, model in models:
+        kfold = KFold(n_splits=10, random_state=seed, shuffle=True)
+        cv_results = cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy') 
+        results.append(cv_results)
+        names.append(name)
+        msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
+        print(msg)
+
+    # Compare Algorithms
+    fig = plt.figure() 
+    fig.suptitle('Algorithm Comparison') 
+    ax = fig.add_subplot(111) 
+    plt.boxplot(results) 
+    ax.set_xticklabels(names) 
+    plt.show()
+```
+
+Comparison for primeira_liga:
+
+![model comparison](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/m5_t3b_primeira_liga.png?raw=true)
+
+And the complete code for this task can be found in [model_m5_t3b.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3b.ipynb)
+
 <br /> 
 
 ### Iteratively train the model with different subsets of the data
