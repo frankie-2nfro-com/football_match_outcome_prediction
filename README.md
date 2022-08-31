@@ -1,13 +1,14 @@
 # AiCore Project #3 - Football Match Outcome Prediction
 Sports betting corporations try to give accurate predictions of the outcome of upcoming matches. It's important to understand the data and the prediction model to get accurate predictions. This is an implementation of a data science pipeline that predicts the outcome of a football match.
 
+<br />    
+<br />  
+
 ## Milestone 1 - Setup the environment
 In this project, we'll use this GitHub to track changes to our code. 
 
 <br />    
 <br />  
-
-
 
 ## Milestone 2 - EDA and Data Cleaning
 I start with three data source files namely Result csv for several football leagues, Matches information csv and Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures. Although the data in this stage is not rich enough, it could be a very good starting for learning the process of understanding data in order to get a best results. I will try to understand the data with some descriptive statistics.
