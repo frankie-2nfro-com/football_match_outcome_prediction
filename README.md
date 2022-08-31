@@ -1943,9 +1943,1900 @@ And the complete code for this task can be found in [model_results.ipynb](https:
 
 ### Project conclusion
 
-If I want to draw the conclusion of the model performance, I think I should should all the matrix against models and dataset. And here is the results:
+If I want to draw the conclusion of the model performance, I think I should show all the matrix against models and dataset. And here is the results:
 
-...
+```python
+championship
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.989%
+Accuracy for test: 55.714%
+Accuracy for predict: 75.000%
+
+KNN
+Accuracy for train: 61.657%
+Accuracy for test: 53.605%
+Accuracy for predict: 66.667%
+
+decision trees
+Accuracy for train: 71.141%
+Accuracy for test: 54.490%
+Accuracy for predict: 41.667%
+
+random forests
+Accuracy for train: 58.652%
+Accuracy for test: 56.122%
+Accuracy for predict: 66.667%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.772%
+Accuracy for test: 57.610%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 63.847%
+Accuracy for test: 51.635%
+Accuracy for predict: 75.000%
+
+decision trees
+Accuracy for train: 73.852%
+Accuracy for test: 51.297%
+Accuracy for predict: 33.333%
+
+random forests
+Accuracy for train: 59.691%
+Accuracy for test: 57.610%
+Accuracy for predict: 66.667%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.772%
+Accuracy for test: 57.610%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 63.847%
+Accuracy for test: 51.635%
+Accuracy for predict: 75.000%
+
+decision trees
+Accuracy for train: 73.852%
+Accuracy for test: 50.958%
+Accuracy for predict: 33.333%
+
+random forests
+Accuracy for train: 59.691%
+Accuracy for test: 55.806%
+Accuracy for predict: 83.333%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.256%
+Accuracy for test: 56.343%
+Accuracy for predict: 75.000%
+
+KNN
+Accuracy for train: 66.026%
+Accuracy for test: 58.209%
+Accuracy for predict: 58.333%
+
+decision trees
+Accuracy for train: 84.936%
+Accuracy for test: 50.746%
+Accuracy for predict: 58.333%
+
+random forests
+Accuracy for train: 62.821%
+Accuracy for test: 54.104%
+Accuracy for predict: 75.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.256%
+Accuracy for test: 56.343%
+Accuracy for predict: 75.000%
+
+KNN
+Accuracy for train: 66.026%
+Accuracy for test: 58.209%
+Accuracy for predict: 58.333%
+
+decision trees
+Accuracy for train: 84.936%
+Accuracy for test: 50.746%
+Accuracy for predict: 58.333%
+
+random forests
+Accuracy for train: 64.583%
+Accuracy for test: 52.985%
+Accuracy for predict: 58.333%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.256%
+Accuracy for test: 56.343%
+Accuracy for predict: 75.000%
+
+KNN
+Accuracy for train: 66.026%
+Accuracy for test: 58.209%
+Accuracy for predict: 58.333%
+
+decision trees
+Accuracy for train: 84.936%
+Accuracy for test: 50.746%
+Accuracy for predict: 58.333%
+
+random forests
+Accuracy for train: 66.667%
+Accuracy for test: 56.343%
+Accuracy for predict: 75.000%
+
+eerste_divisie
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.347%
+Accuracy for test: 59.770%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.842%
+Accuracy for test: 60.920%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 93.564%
+Accuracy for test: 47.126%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 73.762%
+Accuracy for test: 59.770%
+Accuracy for predict: 60.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.347%
+Accuracy for test: 59.770%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.842%
+Accuracy for test: 60.920%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 93.564%
+Accuracy for test: 48.276%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 72.772%
+Accuracy for test: 56.322%
+Accuracy for predict: 70.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.347%
+Accuracy for test: 59.770%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.842%
+Accuracy for test: 60.920%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 93.564%
+Accuracy for test: 45.977%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 70.792%
+Accuracy for test: 56.322%
+Accuracy for predict: 50.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.347%
+Accuracy for test: 59.770%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.842%
+Accuracy for test: 60.920%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 93.564%
+Accuracy for test: 48.276%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 72.277%
+Accuracy for test: 56.322%
+Accuracy for predict: 60.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.347%
+Accuracy for test: 59.770%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.842%
+Accuracy for test: 60.920%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 93.564%
+Accuracy for test: 45.977%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 75.743%
+Accuracy for test: 54.023%
+Accuracy for predict: 60.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.347%
+Accuracy for test: 59.770%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.842%
+Accuracy for test: 60.920%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 93.564%
+Accuracy for test: 48.276%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 73.267%
+Accuracy for test: 58.621%
+Accuracy for predict: 40.000%
+
+primeira_liga
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.695%
+Accuracy for test: 63.481%
+Accuracy for predict: 88.889%
+
+KNN
+Accuracy for train: 66.957%
+Accuracy for test: 62.286%
+Accuracy for predict: 88.889%
+
+decision trees
+Accuracy for train: 70.441%
+Accuracy for test: 59.100%
+Accuracy for predict: 55.556%
+
+random forests
+Accuracy for train: 64.054%
+Accuracy for test: 62.923%
+Accuracy for predict: 88.889%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.617%
+Accuracy for test: 63.206%
+Accuracy for predict: 88.889%
+
+KNN
+Accuracy for train: 68.571%
+Accuracy for test: 60.550%
+Accuracy for predict: 88.889%
+
+decision trees
+Accuracy for train: 72.112%
+Accuracy for test: 58.522%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 65.052%
+Accuracy for test: 62.096%
+Accuracy for predict: 88.889%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.790%
+Accuracy for test: 64.467%
+Accuracy for predict: 88.889%
+
+KNN
+Accuracy for train: 68.993%
+Accuracy for test: 62.107%
+Accuracy for predict: 88.889%
+
+decision trees
+Accuracy for train: 74.261%
+Accuracy for test: 58.232%
+Accuracy for predict: 88.889%
+
+random forests
+Accuracy for train: 64.997%
+Accuracy for test: 64.104%
+Accuracy for predict: 88.889%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.159%
+Accuracy for test: 66.085%
+Accuracy for predict: 88.889%
+
+KNN
+Accuracy for train: 69.453%
+Accuracy for test: 62.898%
+Accuracy for predict: 88.889%
+
+decision trees
+Accuracy for train: 75.895%
+Accuracy for test: 60.698%
+Accuracy for predict: 77.778%
+
+random forests
+Accuracy for train: 66.428%
+Accuracy for test: 66.009%
+Accuracy for predict: 77.778%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.861%
+Accuracy for test: 66.318%
+Accuracy for predict: 88.889%
+
+KNN
+Accuracy for train: 69.372%
+Accuracy for test: 63.912%
+Accuracy for predict: 88.889%
+
+decision trees
+Accuracy for train: 79.103%
+Accuracy for test: 57.113%
+Accuracy for predict: 55.556%
+
+random forests
+Accuracy for train: 68.744%
+Accuracy for test: 64.331%
+Accuracy for predict: 88.889%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 67.707%
+Accuracy for test: 64.082%
+Accuracy for predict: 88.889%
+
+KNN
+Accuracy for train: 70.760%
+Accuracy for test: 62.342%
+Accuracy for predict: 55.556%
+
+decision trees
+Accuracy for train: 81.886%
+Accuracy for test: 57.911%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 69.810%
+Accuracy for test: 66.456%
+Accuracy for predict: 66.667%
+
+ligue_1
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.428%
+Accuracy for test: 58.611%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 63.217%
+Accuracy for test: 58.077%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 66.370%
+Accuracy for test: 56.034%
+Accuracy for predict: 70.000%
+
+random forests
+Accuracy for train: 60.900%
+Accuracy for test: 59.082%
+Accuracy for predict: 40.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.168%
+Accuracy for test: 59.196%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 64.017%
+Accuracy for test: 54.490%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 67.401%
+Accuracy for test: 53.295%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 60.214%
+Accuracy for test: 58.364%
+Accuracy for predict: 50.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.166%
+Accuracy for test: 59.280%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 64.096%
+Accuracy for test: 55.287%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 68.836%
+Accuracy for test: 53.927%
+Accuracy for predict: 60.000%
+
+random forests
+Accuracy for train: 60.918%
+Accuracy for test: 59.412%
+Accuracy for predict: 60.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.023%
+Accuracy for test: 61.221%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.103%
+Accuracy for test: 57.371%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 70.314%
+Accuracy for test: 56.491%
+Accuracy for predict: 70.000%
+
+random forests
+Accuracy for train: 62.014%
+Accuracy for test: 60.121%
+Accuracy for predict: 60.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 62.268%
+Accuracy for test: 61.640%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 66.015%
+Accuracy for test: 57.927%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 73.607%
+Accuracy for test: 54.602%
+Accuracy for predict: 60.000%
+
+random forests
+Accuracy for train: 62.832%
+Accuracy for test: 58.469%
+Accuracy for predict: 60.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 62.312%
+Accuracy for test: 63.802%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 67.169%
+Accuracy for test: 60.286%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 77.554%
+Accuracy for test: 52.734%
+Accuracy for predict: 70.000%
+
+random forests
+Accuracy for train: 63.149%
+Accuracy for test: 62.760%
+Accuracy for predict: 50.000%
+
+segunda_division
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.765%
+Accuracy for test: 57.018%
+Accuracy for predict: 63.636%
+
+KNN
+Accuracy for train: 59.473%
+Accuracy for test: 53.497%
+Accuracy for predict: 54.545%
+
+decision trees
+Accuracy for train: 62.139%
+Accuracy for test: 52.473%
+Accuracy for predict: 45.455%
+
+random forests
+Accuracy for train: 56.444%
+Accuracy for test: 57.068%
+Accuracy for predict: 54.545%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.632%
+Accuracy for test: 57.200%
+Accuracy for predict: 63.636%
+
+KNN
+Accuracy for train: 59.147%
+Accuracy for test: 54.642%
+Accuracy for predict: 54.545%
+
+decision trees
+Accuracy for train: 62.917%
+Accuracy for test: 53.981%
+Accuracy for predict: 54.545%
+
+random forests
+Accuracy for train: 57.903%
+Accuracy for test: 56.970%
+Accuracy for predict: 54.545%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.343%
+Accuracy for test: 58.032%
+Accuracy for predict: 63.636%
+
+KNN
+Accuracy for train: 60.115%
+Accuracy for test: 53.457%
+Accuracy for predict: 54.545%
+
+decision trees
+Accuracy for train: 63.654%
+Accuracy for test: 53.904%
+Accuracy for predict: 63.636%
+
+random forests
+Accuracy for train: 57.284%
+Accuracy for test: 56.450%
+Accuracy for predict: 54.545%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.386%
+Accuracy for test: 56.537%
+Accuracy for predict: 63.636%
+
+KNN
+Accuracy for train: 60.360%
+Accuracy for test: 53.975%
+Accuracy for predict: 54.545%
+
+decision trees
+Accuracy for train: 64.167%
+Accuracy for test: 53.048%
+Accuracy for predict: 45.455%
+
+random forests
+Accuracy for train: 57.708%
+Accuracy for test: 56.051%
+Accuracy for predict: 63.636%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.761%
+Accuracy for test: 59.074%
+Accuracy for predict: 63.636%
+
+KNN
+Accuracy for train: 61.260%
+Accuracy for test: 53.210%
+Accuracy for predict: 63.636%
+
+decision trees
+Accuracy for train: 66.578%
+Accuracy for test: 51.296%
+Accuracy for predict: 63.636%
+
+random forests
+Accuracy for train: 56.576%
+Accuracy for test: 59.074%
+Accuracy for predict: 54.545%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.795%
+Accuracy for test: 57.830%
+Accuracy for predict: 63.636%
+
+KNN
+Accuracy for train: 61.616%
+Accuracy for test: 53.531%
+Accuracy for predict: 63.636%
+
+decision trees
+Accuracy for train: 68.379%
+Accuracy for test: 53.634%
+Accuracy for predict: 45.455%
+
+random forests
+Accuracy for train: 59.376%
+Accuracy for test: 56.499%
+Accuracy for predict: 54.545%
+
+2_liga
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.221%
+Accuracy for test: 57.253%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 62.119%
+Accuracy for test: 54.103%
+Accuracy for predict: 55.556%
+
+decision trees
+Accuracy for train: 67.033%
+Accuracy for test: 53.846%
+Accuracy for predict: 55.556%
+
+random forests
+Accuracy for train: 58.257%
+Accuracy for test: 57.143%
+Accuracy for predict: 44.444%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.874%
+Accuracy for test: 57.547%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 62.726%
+Accuracy for test: 54.537%
+Accuracy for predict: 66.667%
+
+decision trees
+Accuracy for train: 68.521%
+Accuracy for test: 54.268%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 58.568%
+Accuracy for test: 58.266%
+Accuracy for predict: 55.556%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.359%
+Accuracy for test: 59.513%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 63.268%
+Accuracy for test: 56.139%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 70.097%
+Accuracy for test: 53.485%
+Accuracy for predict: 55.556%
+
+random forests
+Accuracy for train: 59.640%
+Accuracy for test: 58.850%
+Accuracy for predict: 44.444%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.716%
+Accuracy for test: 58.315%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 61.678%
+Accuracy for test: 56.515%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 70.349%
+Accuracy for test: 57.091%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 59.889%
+Accuracy for test: 58.747%
+Accuracy for predict: 55.556%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.910%
+Accuracy for test: 57.441%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 62.912%
+Accuracy for test: 54.313%
+Accuracy for predict: 66.667%
+
+decision trees
+Accuracy for train: 71.899%
+Accuracy for test: 54.123%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 59.414%
+Accuracy for test: 58.199%
+Accuracy for predict: 55.556%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.732%
+Accuracy for test: 57.862%
+Accuracy for predict: 66.667%
+
+KNN
+Accuracy for train: 62.171%
+Accuracy for test: 57.075%
+Accuracy for predict: 33.333%
+
+decision trees
+Accuracy for train: 75.725%
+Accuracy for test: 50.000%
+Accuracy for predict: 55.556%
+
+random forests
+Accuracy for train: 61.430%
+Accuracy for test: 59.119%
+Accuracy for predict: 33.333%
+
+serie_a
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.818%
+Accuracy for test: 64.522%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 66.688%
+Accuracy for test: 62.002%
+Accuracy for predict: 30.000%
+
+decision trees
+Accuracy for train: 69.736%
+Accuracy for test: 59.970%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 63.786%
+Accuracy for test: 64.597%
+Accuracy for predict: 50.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.224%
+Accuracy for test: 64.882%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 66.922%
+Accuracy for test: 61.803%
+Accuracy for predict: 30.000%
+
+decision trees
+Accuracy for train: 70.748%
+Accuracy for test: 58.992%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 63.918%
+Accuracy for test: 64.971%
+Accuracy for predict: 30.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.452%
+Accuracy for test: 62.959%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 68.691%
+Accuracy for test: 59.391%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 72.807%
+Accuracy for test: 55.561%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 66.262%
+Accuracy for test: 62.329%
+Accuracy for predict: 30.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.573%
+Accuracy for test: 63.197%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 68.138%
+Accuracy for test: 62.047%
+Accuracy for predict: 30.000%
+
+decision trees
+Accuracy for train: 72.676%
+Accuracy for test: 58.999%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 66.510%
+Accuracy for test: 63.485%
+Accuracy for predict: 30.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.593%
+Accuracy for test: 64.822%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 68.195%
+Accuracy for test: 61.486%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 74.341%
+Accuracy for test: 57.089%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 66.309%
+Accuracy for test: 63.381%
+Accuracy for predict: 40.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 68.162%
+Accuracy for test: 67.884%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 71.730%
+Accuracy for test: 67.003%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 80.108%
+Accuracy for test: 60.831%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 69.027%
+Accuracy for test: 67.884%
+Accuracy for predict: 40.000%
+
+bundesliga
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.913%
+Accuracy for test: 59.942%
+Accuracy for predict: 33.333%
+
+KNN
+Accuracy for train: 64.403%
+Accuracy for test: 56.743%
+Accuracy for predict: 22.222%
+
+decision trees
+Accuracy for train: 68.469%
+Accuracy for test: 54.962%
+Accuracy for predict: 33.333%
+
+random forests
+Accuracy for train: 60.508%
+Accuracy for test: 60.233%
+Accuracy for predict: 33.333%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 60.682%
+Accuracy for test: 61.678%
+Accuracy for predict: 33.333%
+
+KNN
+Accuracy for train: 64.522%
+Accuracy for test: 58.780%
+Accuracy for predict: 22.222%
+
+decision trees
+Accuracy for train: 69.177%
+Accuracy for test: 55.061%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 60.924%
+Accuracy for test: 60.640%
+Accuracy for predict: 44.444%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.345%
+Accuracy for test: 61.226%
+Accuracy for predict: 33.333%
+
+KNN
+Accuracy for train: 64.878%
+Accuracy for test: 59.799%
+Accuracy for predict: 33.333%
+
+decision trees
+Accuracy for train: 70.245%
+Accuracy for test: 58.109%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 61.707%
+Accuracy for test: 60.750%
+Accuracy for predict: 33.333%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 62.140%
+Accuracy for test: 62.237%
+Accuracy for predict: 33.333%
+
+KNN
+Accuracy for train: 65.630%
+Accuracy for test: 59.119%
+Accuracy for predict: 22.222%
+
+decision trees
+Accuracy for train: 73.103%
+Accuracy for test: 56.068%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 63.303%
+Accuracy for test: 61.966%
+Accuracy for predict: 33.333%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.662%
+Accuracy for test: 60.890%
+Accuracy for predict: 33.333%
+
+KNN
+Accuracy for train: 65.976%
+Accuracy for test: 56.818%
+Accuracy for predict: 22.222%
+
+decision trees
+Accuracy for train: 76.533%
+Accuracy for test: 55.492%
+Accuracy for predict: 33.333%
+
+random forests
+Accuracy for train: 64.718%
+Accuracy for test: 60.227%
+Accuracy for predict: 44.444%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.978%
+Accuracy for test: 62.069%
+Accuracy for predict: 33.333%
+
+KNN
+Accuracy for train: 65.478%
+Accuracy for test: 60.188%
+Accuracy for predict: 33.333%
+
+decision trees
+Accuracy for train: 81.023%
+Accuracy for test: 51.411%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 63.257%
+Accuracy for test: 63.166%
+Accuracy for predict: 22.222%
+
+primera_division
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.037%
+Accuracy for test: 61.201%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 64.501%
+Accuracy for test: 58.920%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 67.211%
+Accuracy for test: 56.467%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 61.668%
+Accuracy for test: 61.259%
+Accuracy for predict: 40.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.514%
+Accuracy for test: 60.565%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 64.781%
+Accuracy for test: 58.421%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 68.237%
+Accuracy for test: 56.448%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 62.112%
+Accuracy for test: 60.565%
+Accuracy for predict: 40.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 61.311%
+Accuracy for test: 62.400%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 65.731%
+Accuracy for test: 59.823%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 69.535%
+Accuracy for test: 56.063%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 62.380%
+Accuracy for test: 62.526%
+Accuracy for predict: 40.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 62.942%
+Accuracy for test: 63.626%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 67.365%
+Accuracy for test: 60.478%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 72.742%
+Accuracy for test: 55.917%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 63.920%
+Accuracy for test: 63.029%
+Accuracy for predict: 50.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.637%
+Accuracy for test: 64.085%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 69.000%
+Accuracy for test: 60.972%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 76.262%
+Accuracy for test: 57.479%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 65.093%
+Accuracy for test: 63.857%
+Accuracy for predict: 50.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.035%
+Accuracy for test: 62.374%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 69.068%
+Accuracy for test: 63.384%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 80.119%
+Accuracy for test: 58.586%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 67.822%
+Accuracy for test: 63.510%
+Accuracy for predict: 50.000%
+
+ligue_2
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.026%
+Accuracy for test: 56.439%
+Accuracy for predict: 70.000%
+
+KNN
+Accuracy for train: 61.051%
+Accuracy for test: 53.103%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 64.294%
+Accuracy for test: 53.530%
+Accuracy for predict: 60.000%
+
+random forests
+Accuracy for train: 57.276%
+Accuracy for test: 55.198%
+Accuracy for predict: 70.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.026%
+Accuracy for test: 56.439%
+Accuracy for predict: 70.000%
+
+KNN
+Accuracy for train: 61.051%
+Accuracy for test: 53.103%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 64.294%
+Accuracy for test: 53.569%
+Accuracy for predict: 70.000%
+
+random forests
+Accuracy for train: 56.877%
+Accuracy for test: 55.004%
+Accuracy for predict: 70.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.219%
+Accuracy for test: 57.161%
+Accuracy for predict: 70.000%
+
+KNN
+Accuracy for train: 60.800%
+Accuracy for test: 55.030%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 64.620%
+Accuracy for test: 54.774%
+Accuracy for predict: 70.000%
+
+random forests
+Accuracy for train: 57.548%
+Accuracy for test: 56.735%
+Accuracy for predict: 70.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.534%
+Accuracy for test: 56.398%
+Accuracy for predict: 70.000%
+
+KNN
+Accuracy for train: 62.044%
+Accuracy for test: 53.926%
+Accuracy for predict: 80.000%
+
+decision trees
+Accuracy for train: 66.729%
+Accuracy for test: 52.444%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 58.300%
+Accuracy for test: 55.794%
+Accuracy for predict: 80.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.611%
+Accuracy for test: 57.253%
+Accuracy for predict: 70.000%
+
+KNN
+Accuracy for train: 62.277%
+Accuracy for test: 53.858%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 68.266%
+Accuracy for test: 53.009%
+Accuracy for predict: 70.000%
+
+random forests
+Accuracy for train: 58.504%
+Accuracy for test: 57.793%
+Accuracy for predict: 70.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 59.043%
+Accuracy for test: 57.847%
+Accuracy for predict: 80.000%
+
+KNN
+Accuracy for train: 61.937%
+Accuracy for test: 53.696%
+Accuracy for predict: 70.000%
+
+decision trees
+Accuracy for train: 72.565%
+Accuracy for test: 52.789%
+Accuracy for predict: 60.000%
+
+random forests
+Accuracy for train: 60.601%
+Accuracy for test: 56.550%
+Accuracy for predict: 70.000%
+
+premier_league
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.309%
+Accuracy for test: 61.833%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 64.815%
+Accuracy for test: 59.292%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 67.715%
+Accuracy for test: 57.465%
+Accuracy for predict: 60.000%
+
+random forests
+Accuracy for train: 63.517%
+Accuracy for test: 62.204%
+Accuracy for predict: 40.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.914%
+Accuracy for test: 64.155%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 66.185%
+Accuracy for test: 60.853%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 69.208%
+Accuracy for test: 58.927%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 64.047%
+Accuracy for test: 64.052%
+Accuracy for predict: 40.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.261%
+Accuracy for test: 64.970%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 67.769%
+Accuracy for test: 61.323%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 71.478%
+Accuracy for test: 57.930%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 64.679%
+Accuracy for test: 62.892%
+Accuracy for predict: 50.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.599%
+Accuracy for test: 63.612%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 67.984%
+Accuracy for test: 62.139%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 73.223%
+Accuracy for test: 58.429%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 66.183%
+Accuracy for test: 63.284%
+Accuracy for predict: 40.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 64.977%
+Accuracy for test: 65.446%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 67.462%
+Accuracy for test: 62.395%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 75.278%
+Accuracy for test: 60.031%
+Accuracy for predict: 80.000%
+
+random forests
+Accuracy for train: 65.795%
+Accuracy for test: 64.683%
+Accuracy for predict: 40.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 63.221%
+Accuracy for test: 67.766%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 67.301%
+Accuracy for test: 64.975%
+Accuracy for predict: 40.000%
+
+decision trees
+Accuracy for train: 78.455%
+Accuracy for test: 58.249%
+Accuracy for predict: 40.000%
+
+random forests
+Accuracy for train: 63.765%
+Accuracy for test: 68.147%
+Accuracy for predict: 20.000%
+
+eredivisie
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.308%
+Accuracy for test: 64.623%
+Accuracy for predict: 77.778%
+
+KNN
+Accuracy for train: 68.772%
+Accuracy for test: 63.442%
+Accuracy for predict: 66.667%
+
+decision trees
+Accuracy for train: 71.825%
+Accuracy for test: 60.967%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 66.814%
+Accuracy for test: 63.861%
+Accuracy for predict: 66.667%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.324%
+Accuracy for test: 66.667%
+Accuracy for predict: 77.778%
+
+KNN
+Accuracy for train: 69.023%
+Accuracy for test: 63.134%
+Accuracy for predict: 77.778%
+
+decision trees
+Accuracy for train: 72.674%
+Accuracy for test: 60.824%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 67.042%
+Accuracy for test: 66.304%
+Accuracy for predict: 77.778%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.523%
+Accuracy for test: 66.350%
+Accuracy for predict: 77.778%
+
+KNN
+Accuracy for train: 68.584%
+Accuracy for test: 64.114%
+Accuracy for predict: 66.667%
+
+decision trees
+Accuracy for train: 73.448%
+Accuracy for test: 60.816%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 67.098%
+Accuracy for test: 65.791%
+Accuracy for predict: 77.778%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 65.676%
+Accuracy for test: 66.813%
+Accuracy for predict: 77.778%
+
+KNN
+Accuracy for train: 68.461%
+Accuracy for test: 63.384%
+Accuracy for predict: 77.778%
+
+decision trees
+Accuracy for train: 75.469%
+Accuracy for test: 58.862%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 66.020%
+Accuracy for test: 66.667%
+Accuracy for predict: 66.667%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 66.501%
+Accuracy for test: 64.961%
+Accuracy for predict: 77.778%
+
+KNN
+Accuracy for train: 68.696%
+Accuracy for test: 62.741%
+Accuracy for predict: 77.778%
+
+decision trees
+Accuracy for train: 77.350%
+Accuracy for test: 57.336%
+Accuracy for predict: 66.667%
+
+random forests
+Accuracy for train: 67.453%
+Accuracy for test: 65.444%
+Accuracy for predict: 66.667%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 67.408%
+Accuracy for test: 64.019%
+Accuracy for predict: 77.778%
+
+KNN
+Accuracy for train: 69.562%
+Accuracy for test: 63.695%
+Accuracy for predict: 77.778%
+
+decision trees
+Accuracy for train: 82.488%
+Accuracy for test: 56.078%
+Accuracy for predict: 55.556%
+
+random forests
+Accuracy for train: 69.145%
+Accuracy for test: 64.019%
+Accuracy for predict: 77.778%
+
+segunda_liga
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 76.299%
+Accuracy for test: 73.684%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 78.896%
+Accuracy for test: 75.188%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 95.779%
+Accuracy for test: 73.684%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 81.818%
+Accuracy for test: 71.429%
+Accuracy for predict: 33.333%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 76.299%
+Accuracy for test: 73.684%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 78.896%
+Accuracy for test: 75.188%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 95.779%
+Accuracy for test: 73.684%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 79.221%
+Accuracy for test: 75.940%
+Accuracy for predict: 55.556%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 76.299%
+Accuracy for test: 73.684%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 78.896%
+Accuracy for test: 75.188%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 95.779%
+Accuracy for test: 73.684%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 80.844%
+Accuracy for test: 70.677%
+Accuracy for predict: 33.333%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 76.299%
+Accuracy for test: 73.684%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 78.896%
+Accuracy for test: 75.188%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 95.779%
+Accuracy for test: 73.684%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 82.143%
+Accuracy for test: 72.180%
+Accuracy for predict: 33.333%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 76.299%
+Accuracy for test: 73.684%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 78.896%
+Accuracy for test: 75.188%
+Accuracy for predict: 44.444%
+
+decision trees
+Accuracy for train: 95.779%
+Accuracy for test: 73.684%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 80.195%
+Accuracy for test: 74.436%
+Accuracy for predict: 33.333%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 76.471%
+Accuracy for test: 74.400%
+Accuracy for predict: 55.556%
+
+KNN
+Accuracy for train: 78.201%
+Accuracy for test: 72.800%
+Accuracy for predict: 55.556%
+
+decision trees
+Accuracy for train: 95.848%
+Accuracy for test: 68.800%
+Accuracy for predict: 44.444%
+
+random forests
+Accuracy for train: 81.661%
+Accuracy for test: 76.800%
+Accuracy for predict: 33.333%
+
+serie_b
+****************
+
+from 1990
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.923%
+Accuracy for test: 57.583%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 60.900%
+Accuracy for test: 54.232%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 63.730%
+Accuracy for test: 53.893%
+Accuracy for predict: 80.000%
+
+random forests
+Accuracy for train: 57.242%
+Accuracy for test: 56.838%
+Accuracy for predict: 50.000%
+
+from 1995
+-------------------------------------
+LogisticRegression
+Accuracy for train: 56.923%
+Accuracy for test: 57.583%
+Accuracy for predict: 50.000%
+
+KNN
+Accuracy for train: 60.900%
+Accuracy for test: 54.232%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 63.730%
+Accuracy for test: 53.927%
+Accuracy for predict: 80.000%
+
+random forests
+Accuracy for train: 57.518%
+Accuracy for test: 56.330%
+Accuracy for predict: 50.000%
+
+from 2000
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.368%
+Accuracy for test: 57.711%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 61.462%
+Accuracy for test: 55.135%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 64.468%
+Accuracy for test: 55.135%
+Accuracy for predict: 90.000%
+
+random forests
+Accuracy for train: 58.164%
+Accuracy for test: 57.294%
+Accuracy for predict: 80.000%
+
+from 2005
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.465%
+Accuracy for test: 56.520%
+Accuracy for predict: 40.000%
+
+KNN
+Accuracy for train: 62.283%
+Accuracy for test: 53.857%
+Accuracy for predict: 50.000%
+
+decision trees
+Accuracy for train: 66.378%
+Accuracy for test: 54.040%
+Accuracy for predict: 90.000%
+
+random forests
+Accuracy for train: 58.661%
+Accuracy for test: 56.841%
+Accuracy for predict: 40.000%
+
+from 2010
+-------------------------------------
+LogisticRegression
+Accuracy for train: 58.033%
+Accuracy for test: 58.279%
+Accuracy for predict: 60.000%
+
+KNN
+Accuracy for train: 63.090%
+Accuracy for test: 54.954%
+Accuracy for predict: 70.000%
+
+decision trees
+Accuracy for train: 69.209%
+Accuracy for test: 52.673%
+Accuracy for predict: 80.000%
+
+random forests
+Accuracy for train: 58.983%
+Accuracy for test: 57.432%
+Accuracy for predict: 80.000%
+
+from 2015
+-------------------------------------
+LogisticRegression
+Accuracy for train: 57.679%
+Accuracy for test: 58.810%
+Accuracy for predict: 60.000%
+
+KNN
+Accuracy for train: 61.724%
+Accuracy for test: 54.770%
+Accuracy for predict: 60.000%
+
+decision trees
+Accuracy for train: 71.016%
+Accuracy for test: 54.433%
+Accuracy for predict: 50.000%
+
+random forests
+Accuracy for train: 58.883%
+Accuracy for test: 57.688%
+Accuracy for predict: 60.000%
+
+```
 
 I think the features of the data is not rich enough to determine the winning of the football game. To improve the models, I think I need to spend more time to get more useful features as the new inputs. After that, it would be worth to tune the hyperparameters and trying different subset of data. 
 
