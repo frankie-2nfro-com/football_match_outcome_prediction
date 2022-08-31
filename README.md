@@ -1932,4 +1932,6 @@ I think the features of the data is not rich enough to determine the winning of 
 
 In this project, I go through the process to implement a data science pipeline that predicts the outcome of a football match. Although the outcome is not good enough as the final product quality, I think it is a good experience for me to work as a data scientist. 
 
+The complete code for this task can be found in [model_results_conclusion.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results_conclusion.ipynb)
+
 (Go back over your entire documentation to make sure everything is clear, concise and reads well)
