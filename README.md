@@ -11,7 +11,7 @@ In this project, we'll use this GitHub to track changes to our code.
 <br />  
 
 ## Milestone 2 - EDA and Data Cleaning
-I start with three data source files including 1)Result csv for several football leagues, 2)Matches information csv and 3)Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures. Although the data in this stage is not rich enough, it could be a very good starting for learning the process of understanding data in order to get a best results. I will try to understand the data with some descriptive statistics.
+I start with three data source files including 1)Result csv for several football leagues, 2)Matches information csv and 3)Team information csv. And in this milestone, I will try to experience the EDA and clean up procedures. Although the data in this stage is not rich enough, it could be a very good starting for learning the process of understanding data in order to get a best result. I will try to understand the data with some descriptive statistics.
 
 ### Data source files
 #### 1) Football.zip
