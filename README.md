@@ -1943,7 +1943,7 @@ And the complete code for this task can be found in [model_results.ipynb](https:
 
 ### Project conclusion
 
-If I want to draw the conclusion of the model performance, I think I should show all the matrix against models and dataset. And here is the results:
+If I want to draw the conclusion of the model performance, I think I should show all the matrix against models and dataset. And here is the results for primeira_liga which performs quite good in prediction:
 
 ![1990_primeira_liga_result](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/primeira_liga_1990.png?raw=true)
 ![1995_primeira_liga_result](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/primeira_liga_1995.png?raw=true)
