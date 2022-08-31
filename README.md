@@ -1570,7 +1570,7 @@ def evaluateModels(X, y):
 
 Comparison for primeira_liga:
 
-![model comparison](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/m5_t3b_primeira_liga.png?raw=true)
+![model comparison](https://raw.githubusercontent.com/frankie-2nfro-com/football_match_outcome_prediction/main/Screens/m5_t3b_primeira_liga.png?raw=true)
 
 And the complete code for this task can be found in [model_m5_t3b.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_m5_t3b.ipynb)
 
