@@ -1952,7 +1952,7 @@ If I want to draw the conclusion of the model performance, I think I should show
 ![2010_primeira_liga_result](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/primeira_liga_2010.png?raw=true)
 ![2015_primeira_liga_result](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/primeira_liga_2015.png?raw=true)
 
-The complete result for each league and season dataset be found in [predict_result.txt](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/predict_result.txt)
+However, some leagues perform badly like premier league. The complete result for each league and season dataset be found in [predict_result.txt](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/predict_result.txt)
 
 I think the features of the data is not rich enough to determine the winning of the football game. To improve the models, I think I need to spend more time to get more useful features as the new inputs. After that, it would be worth to tune the hyperparameters and trying different subset of data. 
 
