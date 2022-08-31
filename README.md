@@ -1854,11 +1854,11 @@ predict_pd.drop('AWAYTEAM_AWAY_GOAL_SO_FAR', inplace=True, axis=1)
 predict_pd.insert(loc=7, column="HOME_AWAY_GOAL_DIFF", value=recent_perf_diff_pd.astype('Int64')) 
 
 # delete no value column
-predict_pd.drop('League', inplace=True, axis=1)
 predict_pd.drop('Season', inplace=True, axis=1)
 predict_pd.drop('Round', inplace=True, axis=1)
 predict_pd.drop('Home_Team', inplace=True, axis=1)
 predict_pd.drop('Away_Team', inplace=True, axis=1)
+predict_pd.insert(4, 'League', predict_pd.pop('League'))        # need this field for filter
 
 ```
 
