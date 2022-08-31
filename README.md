@@ -1954,10 +1954,12 @@ If I want to draw the conclusion of the model performance, I think I should show
 
 However, some leagues perform badly like premier league. The complete result for each league and season dataset be found in [predict_result.txt](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/reports/predict_result.txt)
 
+The complete code for this task can be found in [model_results_conclusion.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results_conclusion.ipynb)
+
 I think the features of the data is not rich enough to determine the winning of the football game. To improve the models, I think I need to spend more time to get more useful features as the new inputs. After that, it would be worth to tune the hyperparameters and trying different subset of data. 
 
 In this project, I go through the process to implement a data science pipeline that predicts the outcome of a football match. Although the outcome is not good enough as the final product quality, I think it is a good experience for me to work as a data scientist. 
 
-The complete code for this task can be found in [model_results_conclusion.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results_conclusion.ipynb)
+
 
 (Go back over your entire documentation to make sure everything is clear, concise and reads well)
