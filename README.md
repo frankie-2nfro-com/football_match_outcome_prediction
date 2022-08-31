@@ -1862,7 +1862,7 @@ predict_pd.insert(4, 'League', predict_pd.pop('League'))        # need this fiel
 
 ```
 
-![Predict record Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M6T2_data.png?raw=true)
+![Predict record Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/M6T2_data_u.png?raw=true)
 
 And finally, saving the predict data to csv:
 
