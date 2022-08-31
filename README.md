@@ -1081,6 +1081,13 @@ print("Accuracy for test: %.3f%%" % (result*100.0))
 And the result is as follows:
 
 ```python
+Before feature selection:
+Accuracy for train: 47.333%
+Accuracy for test: 42.636%
+```
+
+```python
+After feature selection
 Accuracy for train: 58.000%
 Accuracy for test: 48.837%
 ```
