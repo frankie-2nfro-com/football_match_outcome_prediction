@@ -1884,7 +1884,7 @@ And the complete code for this task can be found in [predict_m6_t2.ipynb](https:
 
 ### Use the model to predict the results of the next matches
 
-Trying to predict for segunda_liga because of getting high score by previous milestone. Take the data from 2015 to train the model as randomforest_segunda_liga_from2015.joblib. 
+Trying to predict for segunda_liga because of getting high score by previous milestone. Take the data (previous all season data + current season finished matches) from 2015 to train the model as randomforest_segunda_liga_from2015.joblib. 
 
 ```python
 model = joblib.load('./models/randomforest_segunda_liga_from2015.joblib')
@@ -1893,8 +1893,8 @@ model = joblib.load('./models/randomforest_segunda_liga_from2015.joblib')
 The score for the trained model is as follows:
 
 ```python
-Accuracy for train: 79.585%
-Accuracy for test: 79.200%
+Accuracy for train: 69.742%
+Accuracy for test: 67.089%
 ```
 
 And after predict, I got the result as follows:
