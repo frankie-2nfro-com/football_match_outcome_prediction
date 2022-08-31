@@ -1881,7 +1881,7 @@ And the complete code for this task can be found in [predict_m6_t2.ipynb](https:
 Trying to predict for segunda_liga because of getting high score by previous milestone. Take the data from 2015 to train the model as randomforest_segunda_liga_from2015.joblib. 
 
 ```python
-model = joblib.load('randomforest_segunda_liga_from2015.joblib')
+model = joblib.load('./models/randomforest_segunda_liga_from2015.joblib')
 ```
 
 The score for the trained model is as follows:
