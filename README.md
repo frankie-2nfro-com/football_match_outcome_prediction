@@ -1902,19 +1902,38 @@ team_predict_pd.insert(loc=4, column="PREDICTION", value=prediction_pd["PREDICTI
 
 ![Predict result Dataframe](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/Screens/T6T3_result.png?raw=true)
 
-By checking the actual result, the correct predict is only 5/9 (56%). 
+By checking the actual result, I need to simple scraper to get the match result by the link:
 
 ```python
-ELO_DIFF,RECENT_PERF_DIFF,HOME_AWAY_GOAL_DIFF,Link,PREDICTION,CORRECT
-2,-5,-5,https://www.besoccer.com/match/penafiel/varzim/202235614,1,TRUE
--1,-6,-6,https://www.besoccer.com/match/casa-pia/farense/202235608,0,FALSE
--21,-5,-5,https://www.besoccer.com/match/mafra/chaves/202235611,0,TRUE
-6,-1,-1,https://www.besoccer.com/match/benfica-ii/cf-estrela-de-amadora/202235615,1,FALSE
--6,4,4,https://www.besoccer.com/match/vilafranquense/academico-viseu/202235613,1,TRUE
--6,8,8,https://www.besoccer.com/match/sporting-covilha/academica/202235609,1,TRUE
--3,-5,-5,https://www.besoccer.com/match/nacional/rio-ave/202235607,0,FALSE
--10,-5,-5,https://www.besoccer.com/match/porto-ii/feirense/202235610,0,FALSE
--8,-3,-3,https://www.besoccer.com/match/trofense/leixoes/202235612,0,TRUE
+def getMatchHomeWin(record):
+    url = record["Link"]
+    r = requests.get(url)
+    x = re.findall(r'<span class="r1">(.*?)</span> - <span class="r2">(.*?)</span>', r.text)
+    if (int(x[0][0]) > int(x[0][1])):
+        return 1
+    else:
+        return 0
+	
+homewin_pd = predict_pd.apply(getMatchHomeWin, axis=1)
+
+homewin_list = np.array(homewin_pd.values.tolist())
+home_win_flag_pd = pd.DataFrame(homewin_list, columns=["HOME_WIN"])
+predict_pd.insert(loc=4, column="HOME_WIN", value=home_win_flag_pd["HOME_WIN"].astype('Int64')) 
+```
+
+The correct predict is only 5/9 (56%). 
+
+```python
+ELO_DIFF,RECENT_PERF_DIFF,HOME_AWAY_GOAL_DIFF,Link,PREDICTION,HOME_WIN
+2,-5,-5,https://www.besoccer.com/match/penafiel/varzim/202235614,1,1
+-1,-6,-6,https://www.besoccer.com/match/casa-pia/farense/202235608,0,0
+-21,-5,-5,https://www.besoccer.com/match/mafra/chaves/202235611,0,1
+6,-1,-1,https://www.besoccer.com/match/benfica-ii/cf-estrela-de-amadora/202235615,1,0
+-6,4,4,https://www.besoccer.com/match/vilafranquense/academico-viseu/202235613,1,1
+-6,8,8,https://www.besoccer.com/match/sporting-covilha/academica/202235609,1,1
+-3,-5,-5,https://www.besoccer.com/match/nacional/rio-ave/202235607,0,0
+-10,-5,-5,https://www.besoccer.com/match/porto-ii/feirense/202235610,0,0
+-8,-3,-3,https://www.besoccer.com/match/trofense/leixoes/202235612,0,1
 ```
 
 And the complete code for this task can be found in [model_results.ipynb](https://github.com/frankie-2nfro-com/football_match_outcome_prediction/blob/main/model_results.ipynb)
