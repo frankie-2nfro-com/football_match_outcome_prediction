@@ -1960,6 +1960,3 @@ I think the features of the data is not rich enough to determine the winning of 
 
 In this project, I go through the process to implement a data science pipeline that predicts the outcome of a football match. Although the outcome is not good enough as the final product quality, I think it is a good experience for me to work as a data scientist. 
 
-
-
-(Go back over your entire documentation to make sure everything is clear, concise and reads well)
